@@ -1,6 +1,27 @@
+function renderToday(data){
+  const section=document.querySelector('#today');
+  const today=data.today;
+  if(!today || !/^\d{4}-\d{2}-\d{2}$/.test(today.date))return;
+  // Compare calendar dates in the viewer's own timezone. Never display yesterday's plan.
+  const now=new Date();const localDate=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
+  if(today.date!==localDate)return;
+  section.hidden=false;
+  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');appendText(head,'span','today-date',today.label||today.date);section.appendChild(head);
+  if(today.note)appendText(section,'p','today-note',today.note);
+  const list=$('div','today-list');const known=new Set(['pending','in_progress','done','partial','missed']);
+  for(const item of (today.items||[])){
+    const status=known.has(item.status)?item.status:'pending';const card=$('details','day-item');
+    const summary=$('summary','day-summary');const title=$('div','day-title');appendText(title,'span','day-label',item.label);appendText(title,'span','day-status '+status,status.replace('_',' '));summary.appendChild(title);appendText(summary,'span','day-window',item.window||'');card.appendChild(summary);
+    const body=$('div','day-body');appendText(body,'p','day-target',item.target||'');if(item.progress_text)appendText(body,'p','day-progress',item.progress_text);
+    const impacts=$('div','impacts');const done=$('p','impact-done');appendText(done,'strong','','Finish: ');done.appendChild(document.createTextNode(item.impact_done||''));impacts.appendChild(done);
+    const skipped=$('p','impact-skipped');appendText(skipped,'strong','','Skip: ');skipped.appendChild(document.createTextNode(item.impact_skipped||''));impacts.appendChild(skipped);body.appendChild(impacts);card.appendChild(body);list.appendChild(card);
+  }
+  section.appendChild(list);
+}
 const $ = (tag, cls, text) => { const el = document.createElement(tag); if(cls) el.className=cls; if(text!==undefined) el.textContent=text; return el; };
 const appendText=(el,tag,cls,text)=>el.appendChild($(tag,cls,text));
 function render(data){
+  renderToday(data);
   document.title=data.title;
   document.querySelector('#title').textContent=data.title;
   document.querySelector('#fresh').textContent=`Updated ${data.updatedLabel}`;
