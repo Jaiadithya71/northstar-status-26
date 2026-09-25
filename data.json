@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T18:08:00+05:30",
-  "updatedLabel": "25 Sep 2026, 6:08 PM IST",
+  "updatedAt": "2026-09-25T18:57:00+05:30",
+  "updatedLabel": "25 Sep 2026, 6:57 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -107,5 +107,30 @@
       ]
     }
   ],
-  "footer": "A snapshot, not a live feed. Updated manually when plans change."
+  "footer": "A snapshot, not a live feed. Updated manually when plans change.",
+  "today": {
+    "date": "2026-09-25",
+    "label": "Friday, 25 Sep",
+    "note": "Only the rest of tonight. Stop at 10:15 PM.",
+    "items": [
+      {
+        "label": "Full-syllabus vocab skim",
+        "window": "Tonight · by 10:15 PM",
+        "target": "Skim the complete 4Q list, mark unknown words cold, then drill that set. Report the unknown count.",
+        "status": "pending",
+        "progress_text": "Unknown count not reported yet.",
+        "impact_done": "Tomorrow’s drills start from a real gap list.",
+        "impact_skipped": "The high-weight vocab gap that pulled today’s mocks down remains unmeasured."
+      },
+      {
+        "label": "Japanese_Practice push",
+        "window": "Tonight · before stop",
+        "target": "Push the pending app changes if the vocab pass leaves time.",
+        "status": "pending",
+        "progress_text": "Push not confirmed; Vercel storage may block a deploy.",
+        "impact_done": "Class tests in the app become usable for final revision.",
+        "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped."
+      }
+    ]
+  }
 }
