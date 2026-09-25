@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T17:40:00+05:30",
-  "updatedLabel": "25 Sep 2026, 5:40 PM IST",
+  "updatedAt": "2026-09-25T17:59:00+05:30",
+  "updatedLabel": "25 Sep 2026, 5:59 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -39,9 +39,9 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "Paper bot running · +₹979.80 net P&L · 5 open positions (25 Sep snapshot). Dev tab removed.",
+          "status": "Paper bot running · +₹979.80 net P&L · 5 open positions (25 Sep snapshot). Code repo is private; Dev tab removed.",
           "state": "active",
-          "next": "Intern QA and backtest audit.",
+          "next": "Intern QA and backtest audit; grant scoped collaborator access when ready.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot"
         },
