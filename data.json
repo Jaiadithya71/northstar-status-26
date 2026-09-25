@@ -125,13 +125,13 @@
         "label": "Full 4Q vocab cold skim",
         "window": "19:15-21:10 IST",
         "target": "Cover the full list, mark unknown meanings cold, report lesson coverage and unknown count by 21:45.",
-        "status": "partial",
+        "status": "in_progress",
         "progress_text": "Started at 19:17 IST; lesson coverage and unknown count due by 21:45.",
         "impact_done": "Turns today's high-weight vocabulary misses into a finite review set before Sunday's exam.",
         "impact_skipped": "The words he couldn't understand on today's two ~104 mocks remain unidentified, so tomorrow's review has no target.",
         "id": "vocab-skim",
         "source": "agent",
-        "checked_at": "2026-09-25T14:00:04.033Z"
+        "checked_at": "2026-09-25T14:00:05.808Z"
       },
       {
         "label": "Japanese_Practice push",
