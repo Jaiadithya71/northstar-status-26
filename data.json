@@ -144,18 +144,6 @@
         "id": "japanese-push",
         "source": "agent",
         "checked_at": "2026-09-25T14:02:49.372Z"
-      },
-      {
-        "id": "065b70f1-a7be-4e15-a42d-6c508c3ffeba",
-        "label": "Temporary verification task",
-        "window": "Added by you",
-        "target": "",
-        "status": "pending",
-        "source": "user",
-        "progress_text": "",
-        "impact_done": "",
-        "impact_skipped": "",
-        "created_at": "2026-09-25T14:02:49.371Z"
       }
     ]
   },
