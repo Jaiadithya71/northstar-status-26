@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T18:57:00+05:30",
-  "updatedLabel": "25 Sep 2026, 6:57 PM IST",
+  "updatedAt": "2026-09-25T19:02:00+05:30",
+  "updatedLabel": "25 Sep 2026, 7:02 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -130,6 +130,15 @@
         "progress_text": "Push not confirmed; Vercel storage may block a deploy.",
         "impact_done": "Class tests in the app become usable for final revision.",
         "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped."
+      },
+      {
+        "label": "Driving practice",
+        "window": "22:00-23:30",
+        "target": "Do the scheduled Friday driving practice after the 10:15 PM study stop, then wind down by 11:45 PM.",
+        "status": "pending",
+        "progress_text": "Scheduled, not yet confirmed.",
+        "impact_done": "Keeps the Friday driving block intact without taking time from the final study push.",
+        "impact_skipped": "Another driving session slips; make a new slot rather than silently dropping it."
       }
     ]
   }
