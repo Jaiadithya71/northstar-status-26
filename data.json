@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T19:08:00+05:30",
-  "updatedLabel": "25 Sep 2026, 7:08 PM IST",
+  "updatedAt": "2026-09-25T21:47:00+05:30",
+  "updatedLabel": "25 Sep 2026, 9:47 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -126,7 +126,7 @@
         "window": "19:15-21:10 IST",
         "target": "Cover the full list, mark unknown meanings cold, report lesson coverage and unknown count by 21:45.",
         "status": "in_progress",
-        "progress_text": "Started at 19:17 IST; lesson coverage and unknown count due by 21:45.",
+        "progress_text": "Start was stated for 19:17 IST; lesson coverage and unknown-word count were not reported by 21:45. Report requested; result unverified. Do not count as done or missed yet.",
         "impact_done": "Turns today's high-weight vocabulary misses into a finite review set before Sunday's exam.",
         "impact_skipped": "The words he couldn't understand on today's two ~104 mocks remain unidentified, so tomorrow's review has no target.",
         "id": "vocab-skim",
