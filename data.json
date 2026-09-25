@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T19:04:00+05:30",
-  "updatedLabel": "25 Sep 2026, 7:04 PM IST",
+  "updatedAt": "2026-09-25T19:08:00+05:30",
+  "updatedLabel": "25 Sep 2026, 7:08 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
     "dateLabel": "Sun 27 Sep",
     "status": "Exam in 2 days",
-    "next": "Tonight: full vocab skim 7:10-9:10 PM, unknown count by 9:45 PM. Gym canceled; driving at 10 PM. Drill unknowns tomorrow."
+    "next": "Tonight: full vocab skim 7:15-9:10 PM, unknown count by 9:45 PM. Gym and driving canceled; dinner and early sleep after. Drill unknowns tomorrow."
   },
   "groups": [
     {
@@ -111,12 +111,12 @@
   "today": {
     "date": "2026-09-25",
     "label": "Friday, 25 Sep",
-    "note": "Exam prep first. Gym canceled tonight; driving stays at 10 PM.",
+    "note": "Exam prep first. Gym and driving canceled tonight; dinner, then early sleep.",
     "items": [
       {
         "label": "Full-syllabus vocab skim",
-        "window": "19:10-21:10 · count by 21:45",
-        "target": "Full 4Q vocab skim, mark unknown words cold, and report the unknown count by 9:45 PM. Drill the marked set tomorrow.",
+        "window": "19:15-21:10 · count by 21:45",
+        "target": "Full 4Q vocab skim, mark unknown words cold, and report the count by 9:45 PM. Drill that set tomorrow.",
         "status": "pending",
         "progress_text": "Study block set; start/completion not yet confirmed.",
         "impact_done": "Tomorrow’s drills start from a real gap list.",
@@ -124,21 +124,12 @@
       },
       {
         "label": "Japanese_Practice push",
-        "window": "If time after skim · before driving",
-        "target": "Push the pending app changes only after the vocab skim and count; do not displace exam prep or driving.",
+        "window": "Only if time after skim",
+        "target": "Push the pending app changes only if the vocab count is done and there is time before dinner and sleep.",
         "status": "pending",
         "progress_text": "Push not confirmed; Vercel storage may block a deploy.",
         "impact_done": "Class tests in the app become usable for final revision.",
         "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped."
-      },
-      {
-        "label": "Driving practice",
-        "window": "22:00-23:30",
-        "target": "Driving practice 10:00-11:30 PM as planned; wind down and sleep at 11:45 PM.",
-        "status": "pending",
-        "progress_text": "Scheduled, not yet confirmed.",
-        "impact_done": "Keeps the Friday driving block intact without taking time from the final study push.",
-        "impact_skipped": "Another driving session slips; make a new slot rather than silently dropping it."
       }
     ]
   }
