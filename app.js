@@ -6,7 +6,7 @@ function renderToday(data){
   const now=new Date();const localDate=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
   if(today.date!==localDate)return;
   section.hidden=false;
-  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');appendText(head,'span','today-date',today.label||today.date);section.appendChild(head);
+  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');const count=$('span','count today-count');const updateCount=()=>{const n=Math.max(0,Math.ceil((new Date(data.focus.date).getTime()-Date.now())/86400000));count.textContent=n>0?`${n} day${n===1?'':'s'} to exam`:'Exam day / passed';};updateCount();setInterval(updateCount,60000);head.appendChild(count);section.appendChild(head);appendText(section,'p','today-date',today.label||today.date);
   if(today.note)appendText(section,'p','today-note',today.note);
   const list=$('div','today-list');const known=new Set(['pending','in_progress','done','partial','missed']);
   for(const item of (today.items||[])){
