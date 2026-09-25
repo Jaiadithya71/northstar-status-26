@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T17:59:00+05:30",
-  "updatedLabel": "25 Sep 2026, 5:59 PM IST",
+  "updatedAt": "2026-09-25T18:03:00+05:30",
+  "updatedLabel": "25 Sep 2026, 6:03 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -72,8 +72,16 @@
       ]
     },
     {
-      "name": "On hold",
+      "name": "Jobs & later",
       "items": [
+        {
+          "id": "infosys-assessment",
+          "name": "Infosys coding assessment",
+          "status": "Preferred 11 Oct for in-person proctored assessment; seat and venue still to be confirmed.",
+          "state": "waiting",
+          "next": "Watch for final seat/venue confirmation, then attend the 11 Oct assessment. Passing leads to an in-person interview.",
+          "due": "11 Oct"
+        },
         {
           "id": "job-hunt",
           "name": "AI & DS job hunt",
