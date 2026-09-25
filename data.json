@@ -131,7 +131,7 @@
         "impact_skipped": "The words he couldn't understand on today's two ~104 mocks remain unidentified, so tomorrow's review has no target.",
         "id": "vocab-skim",
         "source": "agent",
-        "checked_at": "2026-09-25T14:00:05.808Z"
+        "checked_at": "2026-09-25T14:02:49.372Z"
       },
       {
         "label": "Japanese_Practice push",
@@ -142,7 +142,20 @@
         "impact_done": "Class tests in the app become usable for final revision.",
         "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped.",
         "id": "japanese-push",
-        "source": "agent"
+        "source": "agent",
+        "checked_at": "2026-09-25T14:02:49.372Z"
+      },
+      {
+        "id": "065b70f1-a7be-4e15-a42d-6c508c3ffeba",
+        "label": "Temporary verification task",
+        "window": "Added by you",
+        "target": "",
+        "status": "pending",
+        "source": "user",
+        "progress_text": "",
+        "impact_done": "",
+        "impact_skipped": "",
+        "created_at": "2026-09-25T14:02:49.371Z"
       }
     ]
   },
