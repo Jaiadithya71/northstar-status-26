@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-25T18:03:00+05:30",
-  "updatedLabel": "25 Sep 2026, 6:03 PM IST",
+  "updatedAt": "2026-09-25T18:08:00+05:30",
+  "updatedLabel": "25 Sep 2026, 6:08 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -39,7 +39,7 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "Paper bot running · +₹979.80 net P&L · 5 open positions (25 Sep snapshot). Code repo is private; Dev tab removed.",
+          "status": "Paper trading, 25 Sep EOD · +₹586.29 net realized · 9 trades (5 winners). All positions squared off at 3:15 PM; zero open. Code repo private.",
           "state": "active",
           "next": "Intern QA and backtest audit; grant scoped collaborator access when ready.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
