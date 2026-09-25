@@ -17,10 +17,13 @@ module.exports=async(req,res)=>{res.setHeader('Cache-Control','no-store');res.se
  if(limited(req))return send(429,{error:'Too many attempts. Try later.'});
  const origin=req.headers.origin;if(origin&&origin!==`https://${req.headers.host}`)return send(403,{error:'Invalid origin.'});
  const body=req.body||{};if(!body||typeof body!=='object'||Array.isArray(body))return send(400,{error:'Invalid request.'});if(!pinOK(body.pin))return send(401,{error:'Incorrect PIN.'});
- if(!['status','add'].includes(body.action)||body.date!==istDate())return send(400,{error:'Refresh the current day.'});
- try{const {data,sha}=await current();if(data.today?.date!==istDate())return send(409,{error:'The day plan is not ready yet. Refresh later.'});const items=data.today.items||[];if(items.length>=60&&body.action==='add')return send(400,{error:'Day list is full.'});
-  if(body.action==='status'){if(typeof body.id!=='string')return send(400,{error:'Invalid task ID.'});const item=items.find(x=>x.id===body.id);if(!item||!['pending','in_progress','partial','done','missed'].includes(body.status))return send(400,{error:'Invalid item or status.'});item.status=body.status;item.checked_at=new Date().toISOString()}
-  else {const label=typeof body.label==='string'?body.label.trim():'';if(label.length<1||label.length>120)return send(400,{error:'Task name must be 1-120 characters.'});items.push({id:uuid(),label,window:'Added by you',target:'',status:'pending',source:'user',progress_text:'',impact_done:'',impact_skipped:'',created_at:new Date().toISOString()})}
+ if(body.date!==istDate())return send(400,{error:'Refresh the current day.'});
+ const changes=Array.isArray(body.changes)?body.changes:[{action:body.action,id:body.id,status:body.status,label:body.label}];
+ if(!changes.length||changes.length>30)return send(400,{error:'Send 1-30 changes at a time.'});
+ try{const {data,sha}=await current();if(data.today?.date!==istDate())return send(409,{error:'The day plan is not ready yet. Refresh later.'});const items=data.today.items||[];
+  for(const change of changes){if(change.action==='status'){if(typeof change.id!=='string'||!['pending','in_progress','partial','done','missed'].includes(change.status))return send(400,{error:'Invalid item or status.'});const item=items.find(x=>x.id===change.id);if(!item)return send(409,{error:'The task list changed. Refresh and retry.'});item.status=change.status;item.checked_at=new Date().toISOString()}
+   else if(change.action==='add'){const label=typeof change.label==='string'?change.label.trim():'';if(label.length<1||label.length>120||items.length>=60)return send(400,{error:'Invalid task name or day list full.'});items.push({id:uuid(),label,window:'Added by you',target:'',status:'pending',source:'user',progress_text:'',impact_done:'',impact_skipped:'',created_at:new Date().toISOString()})}
+   else return send(400,{error:'Invalid change.'});}
   data.today.items=items;const r=await fetch(api,{method:'PUT',headers:{...headers(),'Content-Type':'application/json'},body:JSON.stringify({message:`Update My Day ${data.today.date}`,content:Buffer.from(JSON.stringify(data,null,2)+'\n').toString('base64'),sha})});if(r.status===409)return send(409,{error:'Someone updated the list. Refresh and retry.'});if(!r.ok)throw Error(`Repository write failed: ${r.status}`);return send(200,view(data));
  }catch{return send(502,{error:'Could not save the change. Nothing is confirmed; refresh to check.'})}
 };
