@@ -30,6 +30,14 @@
           "next": "Push the pending app changes tonight.",
           "link": "https://japanese-practice-orcin.vercel.app/",
           "linkLabel": "Open app"
+        },
+        {
+          "id": "nitin-client-followup",
+          "name": "Nitin Kumar (AceAI client)",
+          "status": "Pilot re-approach message due Mon 28 Sep.",
+          "state": "waiting",
+          "next": "Prepare the re-approach draft for Jaiadithya to review Sunday evening, then send only after approval.",
+          "due": "28 Sep"
         }
       ]
     },
@@ -114,13 +122,15 @@
     "note": "Exam prep first. Gym and driving canceled tonight; dinner, then early sleep.",
     "items": [
       {
-        "label": "Full-syllabus vocab skim",
-        "window": "19:15-21:10 · count by 21:45",
-        "target": "Full 4Q vocab skim, mark unknown words cold, and report the count by 9:45 PM. Drill that set tomorrow.",
-        "status": "pending",
-        "progress_text": "Study block set; start/completion not yet confirmed.",
-        "impact_done": "Tomorrow’s drills start from a real gap list.",
-        "impact_skipped": "The high-weight vocab gap that pulled today’s mocks down remains unmeasured."
+        "label": "Full 4Q vocab cold skim",
+        "window": "19:15-21:10 IST",
+        "target": "Cover the full list, mark unknown meanings cold, report lesson coverage and unknown count by 21:45.",
+        "status": "in_progress",
+        "progress_text": "Started at 19:17 IST; lesson coverage and unknown count due by 21:45.",
+        "impact_done": "Turns today's high-weight vocabulary misses into a finite review set before Sunday's exam.",
+        "impact_skipped": "The words he couldn't understand on today's two ~104 mocks remain unidentified, so tomorrow's review has no target.",
+        "id": "vocab-skim",
+        "source": "agent"
       },
       {
         "label": "Japanese_Practice push",
@@ -129,8 +139,11 @@
         "status": "pending",
         "progress_text": "Push not confirmed; Vercel storage may block a deploy.",
         "impact_done": "Class tests in the app become usable for final revision.",
-        "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped."
+        "impact_skipped": "App class tests stay unavailable for the final revision; if Vercel storage blocks the push, record that blocker instead of calling it skipped.",
+        "id": "japanese-push",
+        "source": "agent"
       }
     ]
-  }
+  },
+  "archive": []
 }
