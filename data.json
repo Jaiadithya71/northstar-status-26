@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-26T14:07:11+05:30",
-  "updatedLabel": "26 Sep 2026, 2:07 PM IST",
+  "updatedAt": "2026-09-26T14:17:26+05:30",
+  "updatedLabel": "26 Sep 2026, 2:17 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
     "dateLabel": "Sun 27 Sep",
     "status": "Exam tomorrow",
-    "next": "Morning recall and repair results are unreported. Use the 14:00 block for a 50-word cold recall if needed, then targeted vocabulary review; confirm exam logistics and protect sleep."
+    "next": "App review is underway. If accepted, take the offered 50-word weak-zone cold recall, report correct/50, repair misses, then confirm exam logistics and protect sleep."
   },
   "groups": [
     {
@@ -18,7 +18,7 @@
           "name": "NAT-TEST 4Q",
           "status": "Exam tomorrow. Friday vocab coverage remains unverified.",
           "state": "urgent",
-          "next": "Cold recall 09:45, repair vocabulary misses, then choose afternoon study from actual scores; verify exam logistics before packing.",
+          "next": "Use the verified app review as input, then score a 50-word weak-zone cold recall if accepted and repair misses; confirm exam logistics.",
           "detail": "Mocks: Sep 18 91; Sep 24 132, 137; Sep 25 AM 104 (36 / 41 / 27), PM 105 (28 / 41 / 36). Evening total was first reported as 104, but the sections add to 105. Floor 130 · target 150.",
           "due": "27 Sep"
         },
@@ -127,7 +127,7 @@
   "today": {
     "date": "2026-09-26",
     "label": "Saturday, 26 Sep",
-    "note": "NAT-TEST 4Q tomorrow. Morning recall and repair results have not been reported; afternoon plan starts with cold recall and targeted review if needed. Do not count unreported blocks as done or missed.",
+    "note": "NAT-TEST 4Q tomorrow. App data confirms active vocabulary review today. The 50-word cold-recall score and Friday’s exact unknown count are still missing; do not count them as done.",
     "items": [
       {
         "id": "sep26-sleep-check",
@@ -136,7 +136,7 @@
         "window": "07:00 check-in",
         "target": "Report actual sleep and how far Friday’s vocab skim went, including unknown-word count if known. Do not label Friday done or missed from intention alone.",
         "status": "pending",
-        "progress_text": "Awaiting morning response. Friday skim remains unverified.",
+        "progress_text": "He reported sleeping well; Friday skim coverage and exact unknown count remain unreported.",
         "impact_done": "Sets a realistic start and a known list for repair.",
         "impact_skipped": "The plan would assume energy and vocabulary coverage that have not been verified."
       },
@@ -145,9 +145,9 @@
         "source": "agent",
         "label": "50-word cold vocab recall",
         "window": "09:45-10:15 IST",
-        "target": "Recall 50 words cold; target 45/50. Record attempted and correct without hints.",
+        "target": "Complete the offered 50-word weak-zone cold recall if accepted; report correct/50 without hints, then repair misses. No score has been reported yet.",
         "status": "pending",
-        "progress_text": "09:45-10:15 window passed; no attempted/correct score reported. Outcome unverified, not marked missed.",
+        "progress_text": "Pending his answer to the offered weak-zone set. No cold-recall score confirmed.",
         "impact_done": "Measures whether Friday's high-weight meaning gaps are improving before Sunday's exam.",
         "impact_skipped": "His two ~104 mocks remain the only recent evidence."
       },
@@ -156,9 +156,9 @@
         "source": "agent",
         "label": "Repair vocab unknowns",
         "window": "10:15-12:00 IST",
-        "target": "Review all cold-recall misses plus Friday skim unknowns if reported. Record attempted, correct, and remaining; do not assume an unknown list exists yet.",
-        "status": "pending",
-        "progress_text": "10:15-12:00 window passed; no attempted/correct/remaining numbers reported. Outcome unverified.",
+        "target": "Use today’s app review to identify difficult words. After a scored cold-recall set, repair its misses and report attempted/correct/remaining; Friday’s separate unknown count is still missing.",
+        "status": "in_progress",
+        "progress_text": "App Gist confirms 646 distinct items with lastSeen Sep 26 by 14:16 IST, including L44/L45. This confirms active review, not a 50-word score or Friday’s unknown count.",
         "impact_done": "Turns named gaps into retrieval practice.",
         "impact_skipped": "High-weight unknown words stay unaddressed."
       },
@@ -167,11 +167,11 @@
         "source": "agent",
         "label": "Afternoon targeted study",
         "window": "14:00-16:00 IST",
-        "target": "Since morning scores were not reported, use this block for a 50-word cold recall if not already done, then targeted review of its misses and any Friday unknowns actually identified. Choose a timed mock only if rested and recall is measured.",
+        "target": "If he accepts the offered generated 50-word weak-zone set, take it cold, report correct/50, then repair misses. Use the numbers to choose any remaining work; do not infer a score from app activity.",
         "status": "pending",
-        "progress_text": "14:00 block due; no start or morning scores confirmed. Await report.",
-        "impact_done": "Fresh timed evidence before exam day, if a rested mock is appropriate.",
-        "impact_skipped": "Friday's ~104 stays the latest signal."
+        "progress_text": "Weak-zone recall offered; awaiting acceptance and score. App review activity is verified, but this block’s outcome is not.",
+        "impact_done": "Isolates which weak meanings are retrievable now.",
+        "impact_skipped": "A large weak-word pool remains undifferentiated rather than becoming a focused day-before-exam target."
       },
       {
         "id": "sep26-evening-review",
