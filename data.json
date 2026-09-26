@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-26T07:02:23+05:30",
-  "updatedLabel": "26 Sep 2026, 7:02 AM IST",
+  "updatedAt": "2026-09-26T12:25:13+05:30",
+  "updatedLabel": "26 Sep 2026, 12:25 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
@@ -82,6 +82,14 @@
     {
       "name": "Jobs & later",
       "items": [
+        {
+          "id": "japanese-practice-celebration-bug",
+          "name": "Japanese_Practice review completion celebration",
+          "status": "Missing celebration on lesson-review completion screen. Parked until after the Sep 27 exam.",
+          "state": "parked",
+          "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
+          "due": "After 27 Sep"
+        },
         {
           "id": "infosys-assessment",
           "name": "Infosys coding assessment",
