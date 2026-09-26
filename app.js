@@ -1,11 +1,12 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
-const dayLocal=()=>{const n=new Date();return [n.getFullYear(),String(n.getMonth()+1).padStart(2,'0'),String(n.getDate()).padStart(2,'0')].join('-')};
+const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const examCountdown=(deadline)=>{const delta=deadline-Date.now();if(delta<=0)return 'Exam finished';if(dayLocal()===new Date(deadline).toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}))return 'Exam today';const n=Math.ceil(delta/86400000);return `${n} day${n===1?'':'s'} to exam`};
 function renderToday(data){
   const section=document.querySelector('#today');section.replaceChildren();section.hidden=true;
   const today=data.today;if(!today||today.date!==dayLocal())return;
   section.hidden=false;
-  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');const count=$('span','count today-count');const updateCount=()=>{const n=Math.max(0,Math.ceil((new Date(data.focus.date).getTime()-Date.now())/86400000));count.textContent=n>0?`${n} day${n===1?'':'s'} to exam`:'Exam day / passed'};updateCount();head.appendChild(count);section.appendChild(head);
+  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');const count=$('span','count today-count');const updateCount=()=>{count.textContent=examCountdown(new Date(data.focus.date).getTime())};updateCount();head.appendChild(count);section.appendChild(head);
   appendText(section,'p','today-date',today.label||today.date);if(today.note)appendText(section,'p','today-note',today.note);
   const items=today.items||[];const pct=progress(items);const bar=$('div','day-meter');bar.setAttribute('role','progressbar');bar.setAttribute('aria-valuemin','0');bar.setAttribute('aria-valuemax','100');bar.setAttribute('aria-valuenow',String(pct));appendText(bar,'span','meter-fill','').style.width=pct+'%';section.appendChild(bar);appendText(section,'p','day-score',`${pct}% complete · ${items.filter(x=>x.status==='done').length} done · ${items.filter(x=>x.status==='partial').length} partial · ${items.length} tasks`);
   const list=$('div','today-list');const known=new Set(['pending','in_progress','done','partial','missed']);
@@ -44,7 +45,7 @@ function render(data){
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
   appendText(focus,'h2','',data.focus.title); appendText(focus,'p','date',data.focus.dateLabel+' · '+data.focus.status); appendText(focus,'p','',data.focus.next);
   const deadline=new Date(data.focus.date).getTime();
-  function tick(){const delta=deadline-Date.now();counter.textContent=delta>0?`${Math.ceil(delta/86400000)} day${Math.ceil(delta/86400000)===1?'':'s'} to go`:'Exam day / passed';}
+  function tick(){const text=examCountdown(deadline);counter.textContent=text.endsWith('to exam')?text.replace('to exam','to go'):text;}
   tick(); setInterval(tick,60000);
   const groups=document.querySelector('#groups');
   const mobile=window.matchMedia('(max-width:660px)');
