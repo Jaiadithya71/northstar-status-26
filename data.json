@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-26T14:17:26+05:30",
-  "updatedLabel": "26 Sep 2026, 2:17 PM IST",
+  "updatedAt": "2026-09-26T17:34:20+05:30",
+  "updatedLabel": "26 Sep 2026, 5:34 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
     "dateLabel": "Sun 27 Sep",
     "status": "Exam tomorrow",
-    "next": "App review is underway. If accepted, take the offered 50-word weak-zone cold recall, report correct/50, repair misses, then confirm exam logistics and protect sleep."
+    "next": "Vocabulary pass remains in progress. Get a scored 50-word cold recall if he accepts, then repair misses; timed kanji bank and exam logistics remain unverified. Protect sleep."
   },
   "groups": [
     {
@@ -127,7 +127,7 @@
   "today": {
     "date": "2026-09-26",
     "label": "Saturday, 26 Sep",
-    "note": "NAT-TEST 4Q tomorrow. App data confirms active vocabulary review today. The 50-word cold-recall score and Friday’s exact unknown count are still missing; do not count them as done.",
+    "note": "NAT-TEST 4Q tomorrow. App Gist confirms 885 distinct items touched today by 17:32 IST; full syllabus coverage and cold accuracy are still unproven. The 50-word cold gate remains pending, and the kanji timed bank is unreported.",
     "items": [
       {
         "id": "sep26-sleep-check",
@@ -147,7 +147,7 @@
         "window": "09:45-10:15 IST",
         "target": "Complete the offered 50-word weak-zone cold recall if accepted; report correct/50 without hints, then repair misses. No score has been reported yet.",
         "status": "pending",
-        "progress_text": "Pending his answer to the offered weak-zone set. No cold-recall score confirmed.",
+        "progress_text": "50-word cold gate remains pending; no completed set or correct/50 score reported.",
         "impact_done": "Measures whether Friday's high-weight meaning gaps are improving before Sunday's exam.",
         "impact_skipped": "His two ~104 mocks remain the only recent evidence."
       },
@@ -158,7 +158,7 @@
         "window": "10:15-12:00 IST",
         "target": "Use today’s app review to identify difficult words. After a scored cold-recall set, repair its misses and report attempted/correct/remaining; Friday’s separate unknown count is still missing.",
         "status": "in_progress",
-        "progress_text": "App Gist confirms 646 distinct items with lastSeen Sep 26 by 14:16 IST, including L44/L45. This confirms active review, not a 50-word score or Friday’s unknown count.",
+        "progress_text": "Live app Gist: 885 distinct items have lastSeen Sep 26, latest 17:32 IST. Vocabulary review is active; full syllabus coverage and cold accuracy are not proven.",
         "impact_done": "Turns named gaps into retrieval practice.",
         "impact_skipped": "High-weight unknown words stay unaddressed."
       },
@@ -169,7 +169,7 @@
         "window": "14:00-16:00 IST",
         "target": "If he accepts the offered generated 50-word weak-zone set, take it cold, report correct/50, then repair misses. Use the numbers to choose any remaining work; do not infer a score from app activity.",
         "status": "pending",
-        "progress_text": "Weak-zone recall offered; awaiting acceptance and score. App review activity is verified, but this block’s outcome is not.",
+        "progress_text": "App activity has risen to 885 distinct items touched today by 17:32 IST, but the offered weak-zone recall and this block’s scored outcome are unreported.",
         "impact_done": "Isolates which weak meanings are retrievable now.",
         "impact_skipped": "A large weak-word pool remains undifferentiated rather than becoming a focused day-before-exam target."
       },
@@ -180,7 +180,7 @@
         "window": "17:30-19:30 IST",
         "target": "Revisit remaining misses, confirm exam logistics and materials from an authoritative source, then stop broad study.",
         "status": "pending",
-        "progress_text": "Planned; exam time and venue have not been verified here.",
+        "progress_text": "Kanji timed bank has no confirmed start or result. Exam time and venue have not been verified here.",
         "impact_done": "Fewer repeat errors and no morning scramble.",
         "impact_skipped": "Gaps and logistics carry into Sunday."
       }
