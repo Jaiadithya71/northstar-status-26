@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-26T17:34:20+05:30",
-  "updatedLabel": "26 Sep 2026, 5:34 PM IST",
+  "updatedAt": "2026-09-26T18:42:55+05:30",
+  "updatedLabel": "26 Sep 2026, 6:42 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
-    "date": "2026-09-27T00:00:00+05:30",
-    "dateLabel": "Sun 27 Sep",
-    "status": "Exam tomorrow",
-    "next": "Vocabulary pass remains in progress. Get a scored 50-word cold recall if he accepts, then repair misses; timed kanji bank and exam logistics remain unverified. Protect sleep."
+    "date": "2026-09-27T14:00:00+05:30",
+    "dateLabel": "Sun 27 Sep · 14:00-17:05",
+    "status": "Exam tomorrow · second shift",
+    "next": "Tonight: timed kanji 19:00-20:00, pack admit card + ID 20:00, sleep 22:30. Sunday: light N5 refresh 09:45 for 20-30 minutes, N4 weak-zone cold 50 at 11:00-11:30, leave 12:15 for Kodambakkam (arrival target around 13:00, travel not verified). Exam 14:00-17:05 at Meenakshi College, per Jai; check admit card."
   },
   "groups": [
     {
@@ -16,11 +16,11 @@
         {
           "id": "nat-test",
           "name": "NAT-TEST 4Q",
-          "status": "Exam tomorrow. Friday vocab coverage remains unverified.",
+          "status": "Exam tomorrow, 14:00-17:05 at Meenakshi College, Kodambakkam (user-reported).",
           "state": "urgent",
-          "next": "Use the verified app review as input, then score a 50-word weak-zone cold recall if accepted and repair misses; confirm exam logistics.",
+          "next": "N4 L26-L50 range touched in app today; tomorrow light N5 refresh, N4 cold 50 at 11:00, depart 12:15 for user-reported 14:00 exam. Tonight kanji 19:00, pack admit card + ID 20:00, sleep 22:30.",
           "detail": "Mocks: Sep 18 91; Sep 24 132, 137; Sep 25 AM 104 (36 / 41 / 27), PM 105 (28 / 41 / 36). Evening total was first reported as 104, but the sections add to 105. Floor 130 · target 150.",
-          "due": "27 Sep"
+          "due": "27 Sep, 14:00"
         },
         {
           "id": "japanese-practice",
@@ -127,7 +127,7 @@
   "today": {
     "date": "2026-09-26",
     "label": "Saturday, 26 Sep",
-    "note": "NAT-TEST 4Q tomorrow. App Gist confirms 885 distinct items touched today by 17:32 IST; full syllabus coverage and cold accuracy are still unproven. The 50-word cold gate remains pending, and the kanji timed bank is unreported.",
+    "note": "NAT-TEST 4Q tomorrow 14:00-17:05 at Meenakshi College, Kodambakkam, Chennai, per Jai. App Gist confirms all 1,124 tracked N4 L26-L50 items touched today; cold accuracy is still unmeasured. Tonight: kanji at 19:00, pack admit card + ID at 20:00, sleep 22:30. Sunday morning: optional light N5 refresh then N4 weak-zone cold 50 at 11:00.",
     "items": [
       {
         "id": "sep26-sleep-check",
@@ -141,26 +141,15 @@
         "impact_skipped": "The plan would assume energy and vocabulary coverage that have not been verified."
       },
       {
-        "id": "sep26-vocab-recall",
-        "source": "agent",
-        "label": "50-word cold vocab recall",
-        "window": "09:45-10:15 IST",
-        "target": "Complete the offered 50-word weak-zone cold recall if accepted; report correct/50 without hints, then repair misses. No score has been reported yet.",
-        "status": "pending",
-        "progress_text": "50-word cold gate remains pending; no completed set or correct/50 score reported.",
-        "impact_done": "Measures whether Friday's high-weight meaning gaps are improving before Sunday's exam.",
-        "impact_skipped": "His two ~104 mocks remain the only recent evidence."
-      },
-      {
         "id": "sep26-repair-vocab",
         "source": "agent",
-        "label": "Repair vocab unknowns",
-        "window": "10:15-12:00 IST",
-        "target": "Use today’s app review to identify difficult words. After a scored cold-recall set, repair its misses and report attempted/correct/remaining; Friday’s separate unknown count is still missing.",
+        "label": "N4 vocabulary pass",
+        "window": "Through 18:40 IST",
+        "target": "Review all N4 L26-L50 vocabulary and flag weak meanings; tomorrow use a scored N4 weak-zone cold 50 to test retrieval.",
         "status": "in_progress",
-        "progress_text": "Live app Gist: 885 distinct items have lastSeen Sep 26, latest 17:32 IST. Vocabulary review is active; full syllabus coverage and cold accuracy are not proven.",
-        "impact_done": "Turns named gaps into retrieval practice.",
-        "impact_skipped": "High-weight unknown words stay unaddressed."
+        "progress_text": "Gist confirms 1,124 distinct L26-L50 items touched today by 18:38 IST: every tracked item in that N4 range has a Sep 26 lastSeen. Full range touched, but cold accuracy/unknown count unmeasured.",
+        "impact_done": "Covers the tracked N4 vocabulary range before tomorrow’s exam.",
+        "impact_skipped": "Without a cold score, the remaining N4 meaning gaps stay unmeasured."
       },
       {
         "id": "sep26-afternoon-study",
@@ -169,20 +158,42 @@
         "window": "14:00-16:00 IST",
         "target": "If he accepts the offered generated 50-word weak-zone set, take it cold, report correct/50, then repair misses. Use the numbers to choose any remaining work; do not infer a score from app activity.",
         "status": "pending",
-        "progress_text": "App activity has risen to 885 distinct items touched today by 17:32 IST, but the offered weak-zone recall and this block’s scored outcome are unreported.",
+        "progress_text": "N4 L26-L50 pass is supported by app touches, but no separate 50-word cold score or afternoon timed result was reported.",
         "impact_done": "Isolates which weak meanings are retrievable now.",
         "impact_skipped": "A large weak-word pool remains undifferentiated rather than becoming a focused day-before-exam target."
       },
       {
+        "id": "sep26-kanji-timed-evening",
+        "source": "agent",
+        "label": "Timed kanji practice",
+        "window": "19:00-20:00 IST",
+        "target": "Rest until 19:00, then start timed kanji practice and report the score or count. Do not mark started from the plan alone.",
+        "status": "pending",
+        "progress_text": "Jai said he would rest until 19:00 and start kanji; start and result not yet confirmed.",
+        "impact_done": "Gets a timed signal on kanji before exam day.",
+        "impact_skipped": "Kanji performance stays unmeasured."
+      },
+      {
         "id": "sep26-evening-review",
         "source": "agent",
-        "label": "Evening conversion and pack",
-        "window": "17:30-19:30 IST",
-        "target": "Revisit remaining misses, confirm exam logistics and materials from an authoritative source, then stop broad study.",
+        "label": "Pack admit card and ID",
+        "window": "20:00 IST",
+        "target": "Pack admit card, photo ID and exam essentials. Recheck the user-reported exam venue and 14:00 start against the admit card before travel.",
         "status": "pending",
-        "progress_text": "Kanji timed bank has no confirmed start or result. Exam time and venue have not been verified here.",
-        "impact_done": "Fewer repeat errors and no morning scramble.",
-        "impact_skipped": "Gaps and logistics carry into Sunday."
+        "progress_text": "Packing not yet confirmed. Jai reported the second-shift venue and hours; admit card has not been independently checked here.",
+        "impact_done": "Materials and logistics ready before sleep.",
+        "impact_skipped": "Missing materials or a venue mismatch could disrupt exam arrival."
+      },
+      {
+        "id": "sep26-sleep-2230",
+        "source": "agent",
+        "label": "Sleep by 22:30",
+        "window": "22:30 IST",
+        "target": "Stop study and get to sleep by 22:30 for the 14:00 exam tomorrow.",
+        "status": "pending",
+        "progress_text": "Planned, not confirmed.",
+        "impact_done": "Keeps Sunday’s recall and travel from starting exhausted.",
+        "impact_skipped": "Late study may erode sleep before the exam."
       }
     ]
   },
