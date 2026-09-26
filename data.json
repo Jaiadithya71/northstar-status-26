@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-26T12:25:13+05:30",
-  "updatedLabel": "26 Sep 2026, 12:25 PM IST",
+  "updatedAt": "2026-09-26T14:07:11+05:30",
+  "updatedLabel": "26 Sep 2026, 2:07 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T00:00:00+05:30",
     "dateLabel": "Sun 27 Sep",
     "status": "Exam tomorrow",
-    "next": "Today: check actual sleep and Friday skim, then 50-word cold recall (45/50 target), repair misses, set afternoon work from the numbers, and confirm exam logistics before rest."
+    "next": "Morning recall and repair results are unreported. Use the 14:00 block for a 50-word cold recall if needed, then targeted vocabulary review; confirm exam logistics and protect sleep."
   },
   "groups": [
     {
@@ -127,7 +127,7 @@
   "today": {
     "date": "2026-09-26",
     "label": "Saturday, 26 Sep",
-    "note": "NAT-TEST 4Q tomorrow. Friday skim result and last night’s sleep still need his report. Gym, car cleaning, and calls stay optional until exam prep is on track.",
+    "note": "NAT-TEST 4Q tomorrow. Morning recall and repair results have not been reported; afternoon plan starts with cold recall and targeted review if needed. Do not count unreported blocks as done or missed.",
     "items": [
       {
         "id": "sep26-sleep-check",
@@ -147,7 +147,7 @@
         "window": "09:45-10:15 IST",
         "target": "Recall 50 words cold; target 45/50. Record attempted and correct without hints.",
         "status": "pending",
-        "progress_text": "Not started; target is diagnostic, not an achieved score.",
+        "progress_text": "09:45-10:15 window passed; no attempted/correct score reported. Outcome unverified, not marked missed.",
         "impact_done": "Measures whether Friday's high-weight meaning gaps are improving before Sunday's exam.",
         "impact_skipped": "His two ~104 mocks remain the only recent evidence."
       },
@@ -158,7 +158,7 @@
         "window": "10:15-12:00 IST",
         "target": "Review all cold-recall misses plus Friday skim unknowns if reported. Record attempted, correct, and remaining; do not assume an unknown list exists yet.",
         "status": "pending",
-        "progress_text": "Awaiting cold recall and Friday skim coverage.",
+        "progress_text": "10:15-12:00 window passed; no attempted/correct/remaining numbers reported. Outcome unverified.",
         "impact_done": "Turns named gaps into retrieval practice.",
         "impact_skipped": "High-weight unknown words stay unaddressed."
       },
@@ -167,9 +167,9 @@
         "source": "agent",
         "label": "Afternoon targeted study",
         "window": "14:00-16:00 IST",
-        "target": "Set the work from morning numbers. Use a timed mock only if rested; otherwise repair the measured weak area.",
+        "target": "Since morning scores were not reported, use this block for a 50-word cold recall if not already done, then targeted review of its misses and any Friday unknowns actually identified. Choose a timed mock only if rested and recall is measured.",
         "status": "pending",
-        "progress_text": "Plan only; scope waits on the morning report.",
+        "progress_text": "14:00 block due; no start or morning scores confirmed. Await report.",
         "impact_done": "Fresh timed evidence before exam day, if a rested mock is appropriate.",
         "impact_skipped": "Friday's ~104 stays the latest signal."
       },
