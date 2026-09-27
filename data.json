@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-27T18:24:21+05:30",
-  "updatedLabel": "27 Sep 2026, 6:24 PM IST",
+  "updatedAt": "2026-09-28T04:41:31+05:30",
+  "updatedLabel": "28 Sep 2026, 4:41 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -152,115 +152,55 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-09-27",
-    "label": "Sunday, 27 Sep",
-    "note": "NAT-TEST 4Q sitting completed today. Jai says it went okay and estimates a 70% chance of passing, versus his 90% confidence at 5Q (130/180). Official 4Q result/date pending. Admit card PDF and venue letter were checked; cold-50 score, physical ID, actual departure and most earlier block outcomes were not reported. Tonight: recover, then read the Nitin code walkthrough if ready.",
+    "date": "2026-09-28",
+    "label": "Monday, 28 Sep",
+    "dayEnd": "22:15",
+    "dayEndLabel": "weekday wind-down anchor, adjustable",
+    "note": "First weekday after the 4Q sitting. Official result is still pending; do not restart exam-cram pressure. Choose the next focus after rest. Nitin replied with read receipts but no answer Sunday night; prepare from the walkthrough before any call. Normal institute/gym blocks are routine leads, not confirmed attendance today.",
     "items": [
       {
-        "id": "sep27-check-card-id-report",
+        "id": "sep28-postexam-priority",
         "source": "agent",
-        "label": "Admit card, ID and reporting-time check",
-        "window": "09:00-09:20 IST",
-        "target": "Card and venue letter checked; confirm the physical ID was carried and note any actual reporting time if known.",
-        "status": "done",
-        "progress_text": "Jai sent a 4Q admit-card PDF with photo and Sep 27 date. A separate letter he quoted names Meenakshi Sundararajan Engineering College, 363 Arcot Road, Kodambakkam, Chennai 600024. Printed reporting time and physical ID packed were not confirmed.",
-        "impact_done": "Prevents a late or wrong-entrance arrival.",
-        "impact_skipped": "A 14:00 exam start alone does not prove 12:15 departure is safe.",
-        "checked_at": "2026-09-27T12:46:24.314Z"
-      },
-      {
-        "id": "sep27-sleep-energy",
-        "source": "agent",
-        "label": "Sleep and energy check",
-        "window": "09:00 IST",
-        "target": "Check actual overnight sleep and alertness before choosing the amount of morning review; do not infer sleep after the 01:30 hard-stop message.",
-        "status": "done",
-        "progress_text": "Jai said he woke at 05:45 and did some study; overnight sleep duration and alertness were not independently confirmed.",
-        "impact_done": "Keeps morning work proportionate to his alertness.",
-        "impact_skipped": "An unverified sleep assumption could produce a poor exam-day plan.",
-        "checked_at": "2026-09-27T12:46:29.831Z"
-      },
-      {
-        "id": "sep27-n5-light",
-        "source": "agent",
-        "label": "Light N5 refresh",
-        "window": "09:45-10:15 IST, conditional on rest",
-        "target": "Light 20-30 minute N5 L1-L25 refresh only if rested and card logistics are resolved. No emergency full-syllabus skim.",
-        "status": "done",
-        "progress_text": "No separate N5 refresh completion or coverage reported. Do not count it missed from silence.",
-        "impact_done": "Warms up earlier basics without consuming N4 recall time.",
-        "impact_skipped": "N5 basics get less attention, but the N4 gate remains the priority.",
-        "checked_at": "2026-09-27T12:46:34.942Z"
-      },
-      {
-        "id": "sep27-n4-cold50",
-        "source": "agent",
-        "label": "N4 weak-zone cold 50",
-        "window": "09:45-10:15 IST (re-timed before departure)",
-        "target": "Recall 50 N4 L26-L50 weak-zone meanings cold, without hints. Report correct/50; quickly repair misses if time and travel logistics permit.",
-        "status": "done",
-        "progress_text": "No cold-50 correct/50 score reported. Outcome unverified, not labeled failed.",
-        "impact_done": "Tests retrieval of the N4 meanings most likely to fail under pressure.",
-        "impact_skipped": "Full app coverage stays unmeasured for cold accuracy.",
-        "checked_at": "2026-09-27T12:46:39.586Z"
-      },
-      {
-        "id": "sep27-lunch-pack-final",
-        "source": "agent",
-        "label": "Early lunch and final essentials",
-        "window": "Before departure (10:30-11:00 planned)",
-        "target": "Eat early and recheck admit card, photo ID, travel route and centre address; prioritize any earlier reporting deadline printed on the card.",
-        "status": "done",
-        "progress_text": "Admit card was shown by PDF and venue corroborated by Jai’s quoted letter. Photo ID in bag and early lunch not confirmed.",
-        "impact_done": "Reduces avoidable travel and entry problems.",
-        "impact_skipped": "Last-minute logistics could crowd out travel buffer.",
-        "checked_at": "2026-09-27T12:46:44.287Z"
-      },
-      {
-        "id": "sep27-depart",
-        "source": "agent",
-        "label": "Leave for exam venue",
-        "window": "10:30-11:00 IST planned by Jai",
-        "target": "Travel to the confirmed venue address; actual departure and arrival remain unreported, so do not infer route or timing from the plan.",
-        "status": "done",
-        "progress_text": "Jai moved planned departure to 10:30-11:00. Actual departure/arrival, reporting cutoff and transport result were not reported. Venue letter identifies 363 Arcot Road.",
-        "impact_done": "Arrives before the actual reporting deadline with materials in hand.",
-        "impact_skipped": "A late or wrong-location arrival could prevent entry.",
-        "checked_at": "2026-09-27T12:46:46.609Z"
-      },
-      {
-        "id": "sep27-nat-exam",
-        "source": "agent",
-        "label": "NAT-TEST 4Q exam",
-        "window": "14:00-17:05 IST (user-reported)",
-        "target": "Sitting completed at Meenakshi Sundararajan Engineering College, per Jai. Await official result; no pass/fail claim yet.",
-        "status": "done",
-        "progress_text": "Jai confirmed he sat the Sep 27 4Q exam. He said it went okay and estimates a 70% chance of passing, compared with 90% confidence for his 5Q sitting that yielded 130/180. Official 4Q result and publication date unknown.",
-        "impact_done": "Completes the exam sitting.",
-        "impact_skipped": "Missing the reporting cutoff may prevent the sitting.",
-        "checked_at": "2026-09-27T11:59:02.532072+00:00"
-      },
-      {
-        "id": "sep27-nitin-rag-doc-read",
-        "source": "agent",
-        "label": "Read Nitin RAG walkthrough doc",
-        "window": "This evening after recovery, if ready",
-        "target": "Read the detailed private RAG walkthrough doc against the actual repo code before the Nitin outreach or any call. Note what is implemented vs proposed and questions to rehearse. This is prep, not proof that a message was sent or a meeting arranged.",
+        "label": "Choose this week’s post-exam focus",
+        "window": "After rest / morning check-in",
+        "target": "Decide which work gets accountability now: job hunt, AlphaForge/intern oversight, Japanese maintenance, or another priority. Choose cadence before restoring morning pressure.",
         "status": "pending",
-        "progress_text": "The private Google Doc was prepared today; Jai requested its actual code blocks and asked to be told when done. Reading and readiness have not yet been confirmed.",
-        "impact_done": "Can explain his own pipeline honestly in a follow-up call.",
-        "impact_skipped": "Outreach or a call could get ahead of code familiarity."
+        "progress_text": "A morning focus question is queued; Jai has not chosen the priority or cadence yet.",
+        "impact_done": "Keeps today’s work tied to Jai’s chosen priority.",
+        "impact_skipped": "Routine pressure could resume before he has decided what matters after the exam."
       },
       {
-        "id": "sep27-after-exam",
+        "id": "sep28-nitin-walkthrough",
         "source": "agent",
-        "label": "Post-exam recovery and outcome",
-        "window": "After 17:05 IST",
-        "target": "Rest after the sitting. Track the official result when available; keep Jai’s 70% estimate separate from a pass/fail outcome.",
+        "label": "Read Nitin RAG walkthrough before a call",
+        "window": "A focused block when rested, before any call",
+        "target": "Walk through the private doc against the code; write down what is implemented versus proposed and rehearse likely questions.",
         "status": "pending",
-        "progress_text": "Exam completion and Jai’s 70% pass estimate were reported. Rest/recovery is not yet confirmed; official result is pending.",
-        "impact_done": "Separates the real outcome from assumptions and gives him a recovery window.",
-        "impact_skipped": "Without a report, the dashboard cannot distinguish attendance from an unresolved plan."
+        "progress_text": "Reading was not confirmed Sunday. Nitin had seen the re-approach message by Sunday night but had not replied then; a Monday evening reply check is separately planned. This does not mean a call is booked.",
+        "impact_done": "Makes a fast reply or call useful instead of rushed.",
+        "impact_skipped": "A call could arrive before Jai can explain his own pipeline."
+      },
+      {
+        "id": "sep28-weekday-routine",
+        "source": "agent",
+        "label": "Check today’s institute and recovery plan",
+        "window": "Weekday routine: institute 09:00-17:30, if attending",
+        "target": "Confirm whether institute and commute are happening today, then protect meals and sleep after the late Sunday work. Do not treat the 04:45 study start as an obligation today.",
+        "status": "pending",
+        "progress_text": "Weekday institute is the baseline, not an attendance report. Jai was still messaging after midnight; actual sleep and today’s travel are unknown.",
+        "impact_done": "Fits study and work around actual energy and commitments.",
+        "impact_skipped": "Assuming normal attendance or an early wake could build an unusable plan."
+      },
+      {
+        "id": "sep28-gym-winddown",
+        "source": "agent",
+        "label": "Evening gym and wind-down, if feasible",
+        "window": "19:30-20:45 gym; 21:30-22:15 wind-down (routine)",
+        "target": "Use the usual gym anchor if energy and today’s plans allow; dinner and wind-down before the 22:15 sleep target.",
+        "status": "pending",
+        "progress_text": "Routine only; gym, dinner and sleep are not yet confirmed for today.",
+        "impact_done": "Restarts the weekday rhythm without guessing morning readiness.",
+        "impact_skipped": "Late work can erode rest again."
       }
     ]
   },
@@ -366,6 +306,119 @@
           "progress_text": "Planned, not confirmed.",
           "impact_done": "Keeps Sunday’s recall and travel from starting exhausted.",
           "impact_skipped": "Late study may erode sleep before the exam."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "label": "Sunday, 27 Sep",
+      "note": "NAT-TEST 4Q sitting completed today. Jai says it went okay and estimates a 70% chance of passing, versus his 90% confidence at 5Q (130/180). Official 4Q result/date pending. Admit card PDF and venue letter were checked; cold-50 score, physical ID, actual departure and most earlier block outcomes were not reported. Tonight: recover, then read the Nitin code walkthrough if ready.",
+      "items": [
+        {
+          "id": "sep27-check-card-id-report",
+          "source": "agent",
+          "label": "Admit card, ID and reporting-time check",
+          "window": "09:00-09:20 IST",
+          "target": "Card and venue letter checked; confirm the physical ID was carried and note any actual reporting time if known.",
+          "status": "done",
+          "progress_text": "Jai sent a 4Q admit-card PDF with photo and Sep 27 date. A separate letter he quoted names Meenakshi Sundararajan Engineering College, 363 Arcot Road, Kodambakkam, Chennai 600024. Printed reporting time and physical ID packed were not confirmed.",
+          "impact_done": "Prevents a late or wrong-entrance arrival.",
+          "impact_skipped": "A 14:00 exam start alone does not prove 12:15 departure is safe.",
+          "checked_at": "2026-09-27T12:46:24.314Z"
+        },
+        {
+          "id": "sep27-sleep-energy",
+          "source": "agent",
+          "label": "Sleep and energy check",
+          "window": "09:00 IST",
+          "target": "Check actual overnight sleep and alertness before choosing the amount of morning review; do not infer sleep after the 01:30 hard-stop message.",
+          "status": "done",
+          "progress_text": "Jai said he woke at 05:45 and did some study; overnight sleep duration and alertness were not independently confirmed.",
+          "impact_done": "Keeps morning work proportionate to his alertness.",
+          "impact_skipped": "An unverified sleep assumption could produce a poor exam-day plan.",
+          "checked_at": "2026-09-27T12:46:29.831Z"
+        },
+        {
+          "id": "sep27-n5-light",
+          "source": "agent",
+          "label": "Light N5 refresh",
+          "window": "09:45-10:15 IST, conditional on rest",
+          "target": "Light 20-30 minute N5 L1-L25 refresh only if rested and card logistics are resolved. No emergency full-syllabus skim.",
+          "status": "done",
+          "progress_text": "No separate N5 refresh completion or coverage reported. Do not count it missed from silence.",
+          "impact_done": "Warms up earlier basics without consuming N4 recall time.",
+          "impact_skipped": "N5 basics get less attention, but the N4 gate remains the priority.",
+          "checked_at": "2026-09-27T12:46:34.942Z"
+        },
+        {
+          "id": "sep27-n4-cold50",
+          "source": "agent",
+          "label": "N4 weak-zone cold 50",
+          "window": "09:45-10:15 IST (re-timed before departure)",
+          "target": "Recall 50 N4 L26-L50 weak-zone meanings cold, without hints. Report correct/50; quickly repair misses if time and travel logistics permit.",
+          "status": "done",
+          "progress_text": "No cold-50 correct/50 score reported. Outcome unverified, not labeled failed.",
+          "impact_done": "Tests retrieval of the N4 meanings most likely to fail under pressure.",
+          "impact_skipped": "Full app coverage stays unmeasured for cold accuracy.",
+          "checked_at": "2026-09-27T12:46:39.586Z"
+        },
+        {
+          "id": "sep27-lunch-pack-final",
+          "source": "agent",
+          "label": "Early lunch and final essentials",
+          "window": "Before departure (10:30-11:00 planned)",
+          "target": "Eat early and recheck admit card, photo ID, travel route and centre address; prioritize any earlier reporting deadline printed on the card.",
+          "status": "done",
+          "progress_text": "Admit card was shown by PDF and venue corroborated by Jai’s quoted letter. Photo ID in bag and early lunch not confirmed.",
+          "impact_done": "Reduces avoidable travel and entry problems.",
+          "impact_skipped": "Last-minute logistics could crowd out travel buffer.",
+          "checked_at": "2026-09-27T12:46:44.287Z"
+        },
+        {
+          "id": "sep27-depart",
+          "source": "agent",
+          "label": "Leave for exam venue",
+          "window": "10:30-11:00 IST planned by Jai",
+          "target": "Travel to the confirmed venue address; actual departure and arrival remain unreported, so do not infer route or timing from the plan.",
+          "status": "done",
+          "progress_text": "Jai moved planned departure to 10:30-11:00. Actual departure/arrival, reporting cutoff and transport result were not reported. Venue letter identifies 363 Arcot Road.",
+          "impact_done": "Arrives before the actual reporting deadline with materials in hand.",
+          "impact_skipped": "A late or wrong-location arrival could prevent entry.",
+          "checked_at": "2026-09-27T12:46:46.609Z"
+        },
+        {
+          "id": "sep27-nat-exam",
+          "source": "agent",
+          "label": "NAT-TEST 4Q exam",
+          "window": "14:00-17:05 IST (user-reported)",
+          "target": "Sitting completed at Meenakshi Sundararajan Engineering College, per Jai. Await official result; no pass/fail claim yet.",
+          "status": "done",
+          "progress_text": "Jai confirmed he sat the Sep 27 4Q exam. He said it went okay and estimates a 70% chance of passing, compared with 90% confidence for his 5Q sitting that yielded 130/180. Official 4Q result and publication date unknown.",
+          "impact_done": "Completes the exam sitting.",
+          "impact_skipped": "Missing the reporting cutoff may prevent the sitting.",
+          "checked_at": "2026-09-27T11:59:02.532072+00:00"
+        },
+        {
+          "id": "sep27-nitin-rag-doc-read",
+          "source": "agent",
+          "label": "Read Nitin RAG walkthrough doc",
+          "window": "This evening after recovery, if ready",
+          "target": "Read the detailed private RAG walkthrough doc against the actual repo code before the Nitin outreach or any call. Note what is implemented vs proposed and questions to rehearse. This is prep, not proof that a message was sent or a meeting arranged.",
+          "status": "pending",
+          "progress_text": "The private Google Doc was prepared today; Jai requested its actual code blocks and asked to be told when done. Reading and readiness have not yet been confirmed.",
+          "impact_done": "Can explain his own pipeline honestly in a follow-up call.",
+          "impact_skipped": "Outreach or a call could get ahead of code familiarity."
+        },
+        {
+          "id": "sep27-after-exam",
+          "source": "agent",
+          "label": "Post-exam recovery and outcome",
+          "window": "After 17:05 IST",
+          "target": "Rest after the sitting. Track the official result when available; keep Jai’s 70% estimate separate from a pass/fail outcome.",
+          "status": "pending",
+          "progress_text": "Exam completion and Jai’s 70% pass estimate were reported. Rest/recovery is not yet confirmed; official result is pending.",
+          "impact_done": "Separates the real outcome from assumptions and gives him a recovery window.",
+          "impact_skipped": "Without a report, the dashboard cannot distinguish attendance from an unresolved plan."
         }
       ]
     }
