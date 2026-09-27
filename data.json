@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-27T08:51:15+05:30",
-  "updatedLabel": "27 Sep 2026, 8:51 AM IST",
+  "updatedAt": "2026-09-27T08:57:45+05:30",
+  "updatedLabel": "27 Sep 2026, 8:57 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -97,6 +97,15 @@
           "state": "waiting",
           "next": "Explore turning the Japanese_Practice memorization approach into a general app to sell on a platform he builds himself, rather than paying about $2,000/year for the monetization platform he mentioned. Validate the audience, scope and costs after the exam; no product build or purchase started.",
           "detail": "Jai suggested the concept on Sep 27. The $2,000/year figure is his comparison, not an independently checked quote.",
+          "due": "After 27 Sep"
+        },
+        {
+          "id": "post-exam-media-ai-app-research",
+          "name": "Post-exam research: Telegram media bots and AI-made apps",
+          "status": "Research request parked until after the Sep 27 exam.",
+          "state": "waiting",
+          "next": "Understand how Telegram MoviePro-style bots offer downloads of Netflix and Amazon Prime movies/shows, including the rights and legal context. Separately identify AI-generated apps like “goodshot,” how they work, and what reviews and users say. Verify the exact app names when researching.",
+          "detail": "Jai asked to revisit both topics after the exam; no research findings or app identities are asserted here.",
           "due": "After 27 Sep"
         },
         {
