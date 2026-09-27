@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-27T17:29:02+05:30",
-  "updatedLabel": "27 Sep 2026, 5:29 PM IST",
+  "updatedAt": "2026-09-27T18:24:21+05:30",
+  "updatedLabel": "27 Sep 2026, 6:24 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -47,9 +47,9 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "Paper trading, 25 Sep EOD · +₹586.29 net realized · 9 trades (5 winners). All positions squared off at 3:15 PM; zero open. Code repo private.",
+          "status": "Paper bot live after redeploy. Friday’s nine closed trades are restored; paper cash ₹100,586.29, realized +₹586.29, zero open positions (checked Sep 27, 18:24 IST).",
           "state": "active",
-          "next": "Intern QA and backtest audit; grant scoped collaborator access when ready.",
+          "next": "Auto execution is on and live quote access worked Sunday. First Monday trade and GitHub state-sync write remain unproven; verification planned at 09:35 IST.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot"
         },
