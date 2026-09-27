@@ -1,6 +1,12 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
 const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',history:'History'};
+const view=()=>{const q=new URLSearchParams(location.search).get('view');return views[q]?q:'overview'};
+const dayEnd=(date)=>new Date(`${date}T22:00:00+05:30`).getTime(); // Current Sunday routine; planning anchor, not a deadline.
+const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
+function urgency(data){const el=document.querySelector('#urgency');el.replaceChildren();const t=data.today;if(!t||t.date!==dayLocal())return;const active=t.items.filter(i=>!['done','missed'].includes(i.status));const left=appendText(el,'div','urgency-time',duration(dayEnd(t.date)-Date.now()));left.setAttribute('aria-live','off');appendText(el,'p','urgency-context',`Until 22:00 IST (routine, adjustable) · ${active.length} open task${active.length===1?'':'s'} of ${t.items.length}. Statuses reflect saved taps; unreported results stay unverified.`);}
+function navigation(){const nav=document.querySelector('#view-nav');nav.replaceChildren();nav.setAttribute('aria-label','Dashboard pages');for(const [key,label] of Object.entries(views)){const a=$('a','view-link',label);a.href=key==='overview'?'./':`?view=${key}`;if(view()===key)a.setAttribute('aria-current','page');nav.appendChild(a)}}
 const examCountdown=(deadline)=>{const delta=deadline-Date.now();if(delta<=0)return 'Exam finished';if(dayLocal()===new Date(deadline).toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}))return 'Exam today';const n=Math.ceil(delta/86400000);return `${n} day${n===1?'':'s'} to exam`};
 function renderToday(data){
   const section=document.querySelector('#today');section.replaceChildren();section.hidden=true;
@@ -24,22 +30,23 @@ function changeDay(change){
   if(change.action==='status'){const item=currentData.today.items.find(x=>x.id===change.id);if(!item)return;item.status=change.status}
   else if(change.action==='remove'){currentData.today.items=currentData.today.items.filter(x=>x.id!==change.id)}
   else currentData.today.items.push({id:'pending-'+Date.now()+'-'+Math.random(),label:change.label,window:'Added by you',target:'',status:'pending',source:'user'});
-  pending.push(change);renderToday(currentData);document.querySelector('#edit-message').textContent='Saving shortly...';clearTimeout(timer);timer=setTimeout(flushDay,850);
+  pending.push(change);render(currentData);document.querySelector('#edit-message').textContent='Saving shortly...';clearTimeout(timer);timer=setTimeout(flushDay,850);
 }
 async function flushDay(){if(saving||!pending.length)return;saving=true;const changes=pending.splice(0);const msg=document.querySelector('#edit-message');if(msg)msg.textContent='Saving...';
  try{const r=await fetch('/api/day',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({changes,date:dayLocal(),pin:editPIN})});const body=await r.json();if(!r.ok){if(r.status===401)editPIN='';throw Error(body.error||'Save failed')}
   currentData.today=body.today;currentData.archive=body.archive;
   for(const change of pending){if(change.action==='status'){const item=currentData.today.items.find(x=>x.id===change.id);if(item)item.status=change.status}else if(change.action==='remove')currentData.today.items=currentData.today.items.filter(x=>x.id!==change.id);else currentData.today.items.push({id:'pending-'+Math.random(),label:change.label,window:'Added by you',status:'pending',source:'user'})}
-  renderToday(currentData);renderArchive(currentData);document.querySelector('#edit-message').textContent=pending.length?'Saving more changes...':'Saved to server.';
- }catch(err){pending=[];const fresh=await fetch('/api/day',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);if(fresh){currentData.today=fresh.today;currentData.archive=fresh.archive;renderToday(currentData);renderArchive(currentData)}document.querySelector('#edit-message').textContent=err.message+' Changes were not confirmed. Refresh to check before retrying.'
+  render(currentData);document.querySelector('#edit-message').textContent=pending.length?'Saving more changes...':'Saved to server.';
+ }catch(err){pending=[];const fresh=await fetch('/api/day',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);if(fresh){currentData.today=fresh.today;currentData.archive=fresh.archive;render(currentData)}document.querySelector('#edit-message').textContent=err.message+' Changes were not confirmed. Refresh to check before retrying.'
  }finally{saving=false;if(pending.length){clearTimeout(timer);timer=setTimeout(flushDay,850)}}}
 function renderArchive(data){const section=document.querySelector('#archive');section.replaceChildren();const h=$('h2','','Past days');section.appendChild(h);const days=(data.archive||[]);if(!days.length){appendText(section,'p','archive-empty','No past days yet.');return}for(const day of days){const d=$('details','archive-day');const title=$('summary','',`${day.label||day.date} · ${progress(day.items)}% complete`);d.appendChild(title);for(const item of day.items||[])appendText(d,'p','',`${item.status.replace('_',' ')} · ${item.label}`);section.appendChild(d)}}
 const $ = (tag, cls, text) => { const el = document.createElement(tag); if(cls) el.className=cls; if(text!==undefined) el.textContent=text; return el; };
 const appendText=(el,tag,cls,text)=>el.appendChild($(tag,cls,text));
 function render(data){
-  currentData=data;renderToday(data);renderArchive(data);
-  document.title=data.title;
-  document.querySelector('#title').textContent=data.title;
+  currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);
+  const page=view();document.title=`${views[page]} · ${data.title}`;
+  document.querySelector('#title').textContent=page==='overview'?data.title:views[page];
+  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',history:'Past My Day plans as they were saved.'})[page];
   document.querySelector('#fresh').textContent=`Updated ${data.updatedLabel}`;
   const focus=document.querySelector('#focus');
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
@@ -60,6 +67,23 @@ function render(data){
     section.appendChild(grid);groups.appendChild(section);
   }
   mobile.addEventListener('change',e=>cards.forEach(card=>card.open=!e.matches));
+  const overview=document.querySelector('#overview');overview.replaceChildren();
+  if(data.today?.date===dayLocal()){
+    const open=data.today.items.filter(i=>!['done','missed'].includes(i.status));
+    appendText(overview,'h2','','Still open today');
+    if(open.length){for(const item of open.slice(0,3)){const row=$('div','overview-task');appendText(row,'strong','',item.label);appendText(row,'span','',item.window||'');overview.appendChild(row)}}
+    else appendText(overview,'p','muted','No open items in My Day.');
+    const link=$('a','more-link','Open My Day');link.href='?view=today';overview.appendChild(link);
+  }
+  const later=page==='later',projects=page==='projects';
+  document.querySelector('#today').hidden=page!=='today';
+  document.querySelector('#archive').hidden=page!=='history';
+  document.querySelector('#focus').hidden=page!=='overview';
+  overview.hidden=page!=='overview';
+  document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
+  document.querySelector('#groups').hidden=!projects&&!later;
+  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=later?name!=='Jobs & later':projects?name==='Jobs & later':true}
   document.querySelector('#footer').textContent=data.footer;
+  if(['overview','today'].includes(page)&&!window.urgencyTimer)window.urgencyTimer=setInterval(()=>urgency(currentData),60000);
 }
 Promise.all([fetch('data.json',{cache:'no-store'}).then(r=>r.json()),fetch('/api/day',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([data,live])=>{if(live){data.today=live.today;data.archive=live.archive}render(data)}).catch(()=>{document.querySelector('#fresh').textContent='Could not load the latest snapshot. Refresh to try again.'});
