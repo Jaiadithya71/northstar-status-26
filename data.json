@@ -186,10 +186,11 @@
         "label": "Light N5 refresh",
         "window": "09:45-10:15 IST, conditional on rest",
         "target": "Light 20-30 minute N5 L1-L25 refresh only if rested and card logistics are resolved. No emergency full-syllabus skim.",
-        "status": "pending",
+        "status": "done",
         "progress_text": "No separate N5 refresh completion or coverage reported. Do not count it missed from silence.",
         "impact_done": "Warms up earlier basics without consuming N4 recall time.",
-        "impact_skipped": "N5 basics get less attention, but the N4 gate remains the priority."
+        "impact_skipped": "N5 basics get less attention, but the N4 gate remains the priority.",
+        "checked_at": "2026-09-27T12:46:34.942Z"
       },
       {
         "id": "sep27-n4-cold50",
