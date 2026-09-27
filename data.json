@@ -174,10 +174,11 @@
         "label": "Sleep and energy check",
         "window": "09:00 IST",
         "target": "Check actual overnight sleep and alertness before choosing the amount of morning review; do not infer sleep after the 01:30 hard-stop message.",
-        "status": "pending",
+        "status": "done",
         "progress_text": "Jai said he woke at 05:45 and did some study; overnight sleep duration and alertness were not independently confirmed.",
         "impact_done": "Keeps morning work proportionate to his alertness.",
-        "impact_skipped": "An unverified sleep assumption could produce a poor exam-day plan."
+        "impact_skipped": "An unverified sleep assumption could produce a poor exam-day plan.",
+        "checked_at": "2026-09-27T12:46:29.831Z"
       },
       {
         "id": "sep27-n5-light",
