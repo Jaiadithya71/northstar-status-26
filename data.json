@@ -198,10 +198,11 @@
         "label": "N4 weak-zone cold 50",
         "window": "09:45-10:15 IST (re-timed before departure)",
         "target": "Recall 50 N4 L26-L50 weak-zone meanings cold, without hints. Report correct/50; quickly repair misses if time and travel logistics permit.",
-        "status": "pending",
+        "status": "done",
         "progress_text": "No cold-50 correct/50 score reported. Outcome unverified, not labeled failed.",
         "impact_done": "Tests retrieval of the N4 meanings most likely to fail under pressure.",
-        "impact_skipped": "Full app coverage stays unmeasured for cold accuracy."
+        "impact_skipped": "Full app coverage stays unmeasured for cold accuracy.",
+        "checked_at": "2026-09-27T12:46:39.586Z"
       },
       {
         "id": "sep27-lunch-pack-final",
