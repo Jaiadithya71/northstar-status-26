@@ -22,7 +22,7 @@ function renderToday(data){
     if(item.impact_done||item.impact_skipped){const impacts=$('div','impacts');if(item.impact_done){const done=$('p','impact-done');appendText(done,'strong','','Finish: ');done.appendChild(document.createTextNode(item.impact_done));impacts.appendChild(done)}if(item.impact_skipped){const skipped=$('p','impact-skipped');appendText(skipped,'strong','','Skip: ');skipped.appendChild(document.createTextNode(item.impact_skipped));impacts.appendChild(skipped)}body.appendChild(impacts)}
     const controls=$('div','day-controls');for(const [value,label] of [['done','Done'],['partial','Partial'],['pending','Reset']]){const btn=$('button','day-action',label);btn.type='button';btn.disabled=status===value;btn.addEventListener('click',()=>changeDay({action:'status',id:item.id,status:value}));controls.appendChild(btn)}if(item.source==='user'){const remove=$('button','day-remove','Remove');remove.type='button';remove.addEventListener('click',()=>changeDay({action:'remove',id:item.id}));controls.appendChild(remove)}body.appendChild(controls);card.appendChild(body);list.appendChild(card)}section.appendChild(list);
   const form=$('form','add-task');const input=$('input');input.type='text';input.maxLength=120;input.placeholder='Add a task for today';input.setAttribute('aria-label','New task');input.required=true;const submit=$('button','','Add task');submit.type='submit';form.append(input,submit);form.addEventListener('submit',e=>{e.preventDefault();const label=input.value.trim();if(label)changeDay({action:'add',label})});section.appendChild(form);
-  const tools=$('div','day-tools');const msg=$('p','edit-message','Your changes are saved on the server. A PIN is needed to edit; viewers can read.');msg.id='edit-message';tools.appendChild(msg);const archive=$('button','archive-toggle','Past days');archive.type='button';archive.addEventListener('click',()=>{document.querySelector('#archive').hidden=!document.querySelector('#archive').hidden});tools.appendChild(archive);section.appendChild(tools);
+  const tools=$('div','day-tools');const msg=$('p','edit-message','Your changes are saved on the server. A PIN is needed to edit; viewers can read.');msg.id='edit-message';tools.appendChild(msg);section.appendChild(tools);
 }
 let editPIN='',pending=[],timer=null,saving=false;
 function changeDay(change){
@@ -48,13 +48,13 @@ function render(data){
   document.querySelector('#title').textContent=page==='overview'?data.title:views[page];
   document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',history:'Past My Day plans as they were saved.'})[page];
   document.querySelector('#fresh').textContent=`Updated ${data.updatedLabel}`;
-  const focus=document.querySelector('#focus');
+  const focus=document.querySelector('#focus');focus.replaceChildren();
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
   appendText(focus,'h2','',data.focus.title); appendText(focus,'p','date',data.focus.dateLabel+' · '+data.focus.status); appendText(focus,'p','',data.focus.next);
   const deadline=new Date(data.focus.date).getTime();
   function tick(){const text=examCountdown(deadline);counter.textContent=text.endsWith('to exam')?text.replace('to exam','to go'):text;}
-  tick(); setInterval(tick,60000);
-  const groups=document.querySelector('#groups');
+  tick(); clearInterval(window.focusTimer);window.focusTimer=setInterval(tick,60000);
+  const groups=document.querySelector('#groups');groups.replaceChildren();
   const mobile=window.matchMedia('(max-width:660px)');
   const cards=[];
   for(const group of data.groups){ const section=$('section','group'); const heading=$('div','group-head');appendText(heading,'h2','',group.name);section.appendChild(heading);const grid=$('div','grid');
@@ -66,7 +66,7 @@ function render(data){
     }
     section.appendChild(grid);groups.appendChild(section);
   }
-  mobile.addEventListener('change',e=>cards.forEach(card=>card.open=!e.matches));
+  if(window.cardLayoutListener)mobile.removeEventListener('change',window.cardLayoutListener);window.cardLayoutListener=e=>cards.forEach(card=>card.open=!e.matches);mobile.addEventListener('change',window.cardLayoutListener);
   const overview=document.querySelector('#overview');overview.replaceChildren();
   if(data.today?.date===dayLocal()){
     const open=data.today.items.filter(i=>!['done','missed'].includes(i.status));
