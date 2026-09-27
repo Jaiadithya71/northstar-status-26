@@ -210,10 +210,11 @@
         "label": "Early lunch and final essentials",
         "window": "Before departure (10:30-11:00 planned)",
         "target": "Eat early and recheck admit card, photo ID, travel route and centre address; prioritize any earlier reporting deadline printed on the card.",
-        "status": "pending",
+        "status": "done",
         "progress_text": "Admit card was shown by PDF and venue corroborated by Jai’s quoted letter. Photo ID in bag and early lunch not confirmed.",
         "impact_done": "Reduces avoidable travel and entry problems.",
-        "impact_skipped": "Last-minute logistics could crowd out travel buffer."
+        "impact_skipped": "Last-minute logistics could crowd out travel buffer.",
+        "checked_at": "2026-09-27T12:46:44.287Z"
       },
       {
         "id": "sep27-depart",
