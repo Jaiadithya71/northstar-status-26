@@ -162,10 +162,11 @@
         "label": "Admit card, ID and reporting-time check",
         "window": "09:00-09:20 IST",
         "target": "Card and venue letter checked; confirm the physical ID was carried and note any actual reporting time if known.",
-        "status": "pending",
+        "status": "done",
         "progress_text": "Jai sent a 4Q admit-card PDF with photo and Sep 27 date. A separate letter he quoted names Meenakshi Sundararajan Engineering College, 363 Arcot Road, Kodambakkam, Chennai 600024. Printed reporting time and physical ID packed were not confirmed.",
         "impact_done": "Prevents a late or wrong-entrance arrival.",
-        "impact_skipped": "A 14:00 exam start alone does not prove 12:15 departure is safe."
+        "impact_skipped": "A 14:00 exam start alone does not prove 12:15 departure is safe.",
+        "checked_at": "2026-09-27T12:46:24.314Z"
       },
       {
         "id": "sep27-sleep-energy",
