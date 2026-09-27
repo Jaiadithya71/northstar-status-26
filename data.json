@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-27T08:57:45+05:30",
-  "updatedLabel": "27 Sep 2026, 8:57 AM IST",
+  "updatedAt": "2026-09-27T11:43:02+05:30",
+  "updatedLabel": "27 Sep 2026, 11:43 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -106,6 +106,15 @@
           "state": "waiting",
           "next": "Understand how Telegram MoviePro-style bots offer downloads of Netflix and Amazon Prime movies/shows, including the rights and legal context. Separately identify AI-generated apps like “goodshot,” how they work, and what reviews and users say. Verify the exact app names when researching.",
           "detail": "Jai asked to revisit both topics after the exam; no research findings or app identities are asserted here.",
+          "due": "After 27 Sep"
+        },
+        {
+          "id": "read-clm-system-1-deck",
+          "name": "Read CLM “System 1 Returns” deck",
+          "status": "Reading saved for after the Sep 27 exam.",
+          "state": "waiting",
+          "next": "Read the seven-page “System 1 Returns - Why fast non-reasoning models matter again” infographic deck about Contrastive Language Models, credited to Isham Rashik. The PDF was sent in the Sep 27 WhatsApp conversation as CLM-Notes.pdf.",
+          "detail": "Jai asked to be reminded later after sending the PDF; no deck conclusions are stated here.",
           "due": "After 27 Sep"
         },
         {
