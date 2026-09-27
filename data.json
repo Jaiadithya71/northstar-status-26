@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-27T04:41:22+05:30",
-  "updatedLabel": "27 Sep 2026, 4:41 AM IST",
+  "updatedAt": "2026-09-27T08:51:15+05:30",
+  "updatedLabel": "27 Sep 2026, 8:51 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -88,6 +88,15 @@
           "status": "Missing celebration on lesson-review completion screen. Parked until after the Sep 27 exam.",
           "state": "parked",
           "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
+          "due": "After 27 Sep"
+        },
+        {
+          "id": "memorization-product",
+          "name": "Memorization app product idea",
+          "status": "Idea parked until after the Sep 27 exam. Jai found memorizing about 2,000 words manageable; a semester repeats the same kind of work.",
+          "state": "waiting",
+          "next": "Explore turning the Japanese_Practice memorization approach into a general app to sell on a platform he builds himself, rather than paying about $2,000/year for the monetization platform he mentioned. Validate the audience, scope and costs after the exam; no product build or purchase started.",
+          "detail": "Jai suggested the concept on Sep 27. The $2,000/year figure is his comparison, not an independently checked quote.",
           "due": "After 27 Sep"
         },
         {
