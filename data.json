@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T06:47:40+05:30",
-  "updatedLabel": "28 Sep 2026, 6:47 AM IST",
+  "updatedAt": "2026-09-28T07:30:17+05:30",
+  "updatedLabel": "28 Sep 2026, 7:30 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -91,13 +91,20 @@
           "due": "After 27 Sep"
         },
         {
-          "id": "memorization-product",
-          "name": "Memorization app product idea",
-          "status": "Idea parked until after the Sep 27 exam. Jai found memorizing about 2,000 words manageable; a semester repeats the same kind of work.",
+          "id": "sell-japanese-practice",
+          "name": "Sell Japanese_Practice app",
           "state": "waiting",
-          "next": "Explore turning the Japanese_Practice memorization approach into a general app to sell on a platform he builds himself, rather than paying about $2,000/year for the monetization platform he mentioned. Validate the audience, scope and costs after the exam; no product build or purchase started.",
-          "detail": "Jai suggested the concept on Sep 27. The $2,000/year figure is his comparison, not an independently checked quote.",
-          "due": "After 27 Sep"
+          "status": "Separate product idea: productize and sell the existing Japanese_Practice app. Parked post-exam.",
+          "detail": "Jai corrected the earlier combined dashboard item on Sep 28. This is about the app itself, not rebuilding the monetization platform from a YouTube video. No launch, customer, or sales result is claimed.",
+          "next": "Decide what would make Japanese_Practice ready to sell and validate who wants it before planning a launch."
+        },
+        {
+          "id": "side-hustle-platform-rebuild",
+          "name": "Rebuild the Side Hustle video platform",
+          "state": "waiting",
+          "status": "Separate platform idea from a “Side Hustle” YouTube video Jai watched roughly two weeks ago. Parked post-exam.",
+          "detail": "Jai wants to explore rebuilding the monetization platform described in that video instead of paying for it. The roughly $2,000/year figure is Jai’s comparison, not a verified current price. The exact video and platform are not yet identified here. This is not the Japanese_Practice app.",
+          "next": "Identify the exact video/platform and verify its features, terms and current price before scoping a rebuild."
         },
         {
           "id": "post-exam-media-ai-app-research",
