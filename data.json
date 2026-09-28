@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T10:11:50+05:30",
-  "updatedLabel": "28 Sep 2026, 10:11 AM IST",
+  "updatedAt": "2026-09-28T10:16:29+05:30",
+  "updatedLabel": "28 Sep 2026, 10:16 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -189,11 +189,10 @@
         {
           "id": "week-kfc-bucket",
           "name": "KFC bucket",
-          "state": "waiting",
-          "status": "Unwind food idea · anytime this week; not ordered.",
-          "detail": "Jai originally paired a KFC bucket with two Domino’s pizzas. At 10:10 Monday he cancelled Domino’s; KFC stays separate unless he says otherwise. No Wednesday date, offer, price, quantity, or purchase is assumed.",
-          "next": "If he wants it, check current menu, price and timing before ordering.",
-          "due": "Week of 28 Sep-4 Oct"
+          "state": "done",
+          "status": "Done, per Jai at 10:15 Monday.",
+          "detail": "Jai said “KFC done” on Monday, 28 Sep. This records his completion report; no order, amount, branch, delivery or receipt is inferred. Domino’s remains cancelled.",
+          "next": "No follow-up needed."
         },
         {
           "id": "week-sangeetha",
