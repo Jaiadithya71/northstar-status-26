@@ -1,7 +1,7 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
 const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',personal:'Post-exam chilling',history:'History'};
+const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',personal:'Post-exam chilling',history:'History',shorts:'ReelSaga Shorts'};
 const view=()=>{const q=new URLSearchParams(location.search).get('view');return views[q]?q:'overview'};
 const dayEnd=(day)=>new Date(`${day.date}T${day.dayEnd||'22:15'}:00+05:30`).getTime(); // Labeled routine anchor, not a deadline.
 const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
@@ -39,14 +39,24 @@ async function flushDay(){if(saving||!pending.length)return;saving=true;const ch
   render(currentData);document.querySelector('#edit-message').textContent=pending.length?'Saving more changes...':'Saved to server.';
  }catch(err){pending=[];const fresh=await fetch('/api/day',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);if(fresh){currentData.today=fresh.today;currentData.archive=fresh.archive;render(currentData)}document.querySelector('#edit-message').textContent=err.message+' Changes were not confirmed. Refresh to check before retrying.'
  }finally{saving=false;if(pending.length){clearTimeout(timer);timer=setTimeout(flushDay,850)}}}
+function renderShorts(data){
+  const section=document.querySelector('#shorts');section.replaceChildren();const shorts=data.shorts;
+  if(!shorts){appendText(section,'p','shorts-note','No Shorts snapshot is available.');return}
+  appendText(section,'h2','','ReelSaga Shorts');appendText(section,'p','shorts-source',`${shorts.source} · Checked ${shorts.asOf}`);
+  appendText(section,'p','shorts-note',shorts.note);
+  const list=$('div','shorts-grid');for(const video of shorts.videos||[]){const card=$('article','shorts-card');appendText(card,'h3','',video.label);
+    const metrics=$('div','shorts-metrics');for(const [label,value] of [['Views',video.views],['Likes',video.likes],['Comments',video.comments]]){const metric=$('div','shorts-metric');appendText(metric,'span','shorts-value',value===null||value===undefined?'—':String(value));appendText(metric,'span','shorts-label',label);metrics.appendChild(metric)}card.appendChild(metrics);
+    appendText(card,'p','shorts-state',video.visibility);if(video.notice)appendText(card,'p','shorts-notice',video.notice);
+    const links=$('div','shorts-links');for(const [label,url] of [['Watch Short',video.url],['Open Studio',video.studioUrl]]){const a=$('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.appendChild(a)}card.appendChild(links);list.appendChild(card)}section.appendChild(list);
+}
 function renderArchive(data){const section=document.querySelector('#archive');section.replaceChildren();const h=$('h2','','Past days');section.appendChild(h);const days=(data.archive||[]);if(!days.length){appendText(section,'p','archive-empty','No past days yet.');return}for(const day of days){const d=$('details','archive-day');const title=$('summary','',`${day.label||day.date} · ${progress(day.items)}% complete`);d.appendChild(title);for(const item of day.items||[])appendText(d,'p','',`${item.status.replace('_',' ')} · ${item.label}`);section.appendChild(d)}}
 const $ = (tag, cls, text) => { const el = document.createElement(tag); if(cls) el.className=cls; if(text!==undefined) el.textContent=text; return el; };
 const appendText=(el,tag,cls,text)=>el.appendChild($(tag,cls,text));
 function render(data){
-  currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);
+  currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);renderShorts(data);
   const page=view();document.title=`${views[page]} · ${data.title}`;
   document.querySelector('#title').textContent=page==='overview'?data.title:views[page];
-  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and friends to unwind this week. Nothing booked yet.',history:'Past My Day plans as they were saved.'})[page];
+  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and friends to unwind this week. Nothing booked yet.',history:'Past My Day plans as they were saved.',shorts:'Shorts performance, with source and read time.'})[page];
   document.querySelector('#fresh').textContent=`Updated ${data.updatedLabel}`;
   const focus=document.querySelector('#focus');focus.replaceChildren();
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
@@ -78,6 +88,7 @@ function render(data){
   const later=page==='later',projects=page==='projects',personal=page==='personal';
   document.querySelector('#today').hidden=page!=='today';
   document.querySelector('#archive').hidden=page!=='history';
+  document.querySelector('#shorts').hidden=page!=='shorts';
   document.querySelector('#focus').hidden=page!=='overview';
   overview.hidden=page!=='overview';
   document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
