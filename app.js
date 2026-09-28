@@ -1,7 +1,7 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
 const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',personal:'Personal week',history:'History'};
+const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',personal:'Post-exam chilling',history:'History'};
 const view=()=>{const q=new URLSearchParams(location.search).get('view');return views[q]?q:'overview'};
 const dayEnd=(day)=>new Date(`${day.date}T${day.dayEnd||'22:15'}:00+05:30`).getTime(); // Labeled routine anchor, not a deadline.
 const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
@@ -46,7 +46,7 @@ function render(data){
   currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);
   const page=view();document.title=`${views[page]} · ${data.title}`;
   document.querySelector('#title').textContent=page==='overview'?data.title:views[page];
-  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and people for this week. No bookings yet.',history:'Past My Day plans as they were saved.'})[page];
+  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and friends to unwind this week. Nothing booked yet.',history:'Past My Day plans as they were saved.'})[page];
   document.querySelector('#fresh').textContent=`Updated ${data.updatedLabel}`;
   const focus=document.querySelector('#focus');focus.replaceChildren();
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
@@ -82,7 +82,7 @@ function render(data){
   overview.hidden=page!=='overview';
   document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
   document.querySelector('#groups').hidden=!projects&&!later&&!personal;
-  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=personal?name!=='Personal this week':later?name!=='Jobs & later':projects?['Jobs & later','Personal this week'].includes(name):true}
+  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=personal?name!=='Post-exam chilling':later?name!=='Jobs & later':projects?['Jobs & later','Post-exam chilling'].includes(name):true}
   document.querySelector('#footer').textContent=data.footer;
   if(['overview','today'].includes(page)&&!window.urgencyTimer)window.urgencyTimer=setInterval(()=>urgency(currentData),60000);
 }
