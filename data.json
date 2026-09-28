@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T20:18:52+05:30",
-  "updatedLabel": "28 Sep 2026, 8:18 PM IST",
+  "updatedAt": "2026-09-28T22:42:57+05:30",
+  "updatedLabel": "28 Sep 2026, 10:42 PM IST",
   "focus": {
     "title": "Nitin prep tonight",
     "date": "2026-09-28T22:15:00+05:30",
@@ -624,5 +624,36 @@
         }
       ]
     }
-  ]
+  ],
+  "shorts": {
+    "channel": "ReelSaga",
+    "channelId": "UC71kSXnAt6Ipy7KqVVo3mdA",
+    "asOf": "28 Sep 2026, 10:41 PM IST",
+    "source": "YouTube Studio, ReelSaga Shorts list on the 71 account",
+    "note": "Snapshot, not a live feed. Views and comments are from Studio’s Shorts list; likes were not shown there. A zero is a read value, not a promise of immediate analytics processing. Privacy and checks can change after this read.",
+    "videos": [
+      {
+        "id": "vL_qnAh0fiw",
+        "label": "The Blood Pact Game · EP 1",
+        "url": "https://youtube.com/shorts/vL_qnAh0fiw",
+        "studioUrl": "https://studio.youtube.com/video/vL_qnAh0fiw/analytics/tab-overview/period-default",
+        "views": 0,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Private at 10:41 PM",
+        "notice": "Audio copyright claim; not a strike. No footage match observed in this excerpt is not rights clearance."
+      },
+      {
+        "id": "LpfdZKWyQW4",
+        "label": "The Blood Pact Game · EP 2",
+        "url": "https://youtube.com/shorts/LpfdZKWyQW4",
+        "studioUrl": "https://studio.youtube.com/video/LpfdZKWyQW4/analytics/tab-overview/period-default",
+        "views": 0,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Private at 10:41 PM",
+        "notice": "Copyright checks still pending at 10:41 PM; no verdict."
+      }
+    ]
+  }
 }
