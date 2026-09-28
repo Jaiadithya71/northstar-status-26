@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T22:42:57+05:30",
-  "updatedLabel": "28 Sep 2026, 10:42 PM IST",
+  "updatedAt": "2026-09-29T04:41:00+05:30",
+  "updatedLabel": "29 Sep 2026, 04:41 AM IST",
   "focus": {
-    "title": "Nitin prep tonight",
-    "date": "2026-09-28T22:15:00+05:30",
-    "dateLabel": "Mon 28 Sep · tonight",
-    "status": "Read walkthrough + mock Q&A tonight",
-    "next": "Nitin asked Jai to ping him Tuesday after 8 PM. The 90-minute walkthrough read and mock Q&A are still unconfirmed. No exact call time or channel is booked."
+    "title": "Choose Tuesday’s focus",
+    "date": "2026-09-29T22:15:00+05:30",
+    "dateLabel": "Tue 29 Sep · routine day-end",
+    "status": "Post-exam priority and pace not chosen",
+    "next": "Check actual sleep and institute plan, then pick one manageable focus. Nitin’s proposed after-20:00 follow-up remains in Upcoming; no exact call is booked."
   },
   "groups": [
     {
@@ -343,66 +343,44 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-09-28",
-    "label": "Monday, 28 Sep",
+    "date": "2026-09-29",
+    "label": "Tuesday, 29 Sep",
     "dayEnd": "22:15",
     "dayEndLabel": "weekday wind-down anchor, adjustable",
-    "note": "Monday evening snapshot. NAT-TEST 4Q was sat Sunday; result pending. Nitin proposed Tuesday after 20:00 IST, but no exact slot or channel is booked. Tonight’s 90-minute walkthrough read and mock Q&A remain open unless Jai reports completion. DramaCPS, interns and pro_t moved today; do not infer institute or gym attendance.",
+    "note": "Tuesday plan based on Jai’s weekday routine, not proof of attendance or completed study. Late-night ReelSaga work makes actual sleep and morning readiness unknown. NAT-TEST 4Q result is pending. Nitin’s proposed after-20:00 follow-up stays in Upcoming, not My Day; no exact call slot or channel is booked.",
     "items": [
       {
-        "id": "sep28-postexam-priority",
+        "id": "sep29-readiness",
         "source": "agent",
-        "label": "Choose this week’s post-exam focus",
-        "window": "This week · focus not chosen",
-        "target": "Decide which work gets accountability now: job hunt, AlphaForge/intern oversight, Japanese maintenance, or another priority. Choose cadence before restoring morning pressure.",
+        "label": "Check sleep, meals and institute plan",
+        "window": "Morning · before setting today’s pace",
+        "target": "Confirm how much sleep Jai got and whether he is going to institute (usual 09:00-17:30). Plan meals and commute around the real day; do not assume the 04:45 study block happened.",
         "status": "pending",
-        "progress_text": "Current work includes DramaCPS, pro_t, intern oversight, Japanese_Practice and a horoscope idea. Jai has not selected a single priority or cadence for the week.",
-        "impact_done": "Keeps today’s work tied to Jai’s chosen priority.",
-        "impact_skipped": "Routine pressure could resume before he has decided what matters after the exam."
+        "progress_text": "Jai was active around 00:46 and a late-night ReelSaga run continued. Sleep, attendance and any morning study are unconfirmed.",
+        "impact_done": "Prevents an unrealistic timetable after a late night.",
+        "impact_skipped": "Assuming normal attendance or an early start can push work onto a day that cannot hold it."
       },
       {
-        "id": "sep28-nitin-walkthrough",
+        "id": "sep29-focus",
         "source": "agent",
-        "label": "Read Nitin RAG walkthrough before a call",
-        "window": "Tonight · 90 minutes before Tuesday call",
-        "target": "Read the private RAG walkthrough against actual code for 90 minutes before the Tuesday conversation; note implemented versus proposed and rehearse questions. Report when the read is done.",
+        "label": "Choose today’s post-exam focus",
+        "window": "When ready · one priority",
+        "target": "Pick one focus for the day among current work and recovery. Scope it to a manageable next step instead of silently restarting the pre-exam grammar routine.",
         "status": "pending",
-        "progress_text": "Nitin proposed Tuesday after 20:00 IST. Walkthrough read not reported complete.",
-        "impact_done": "Makes a fast reply or call useful instead of rushed.",
-        "impact_skipped": "A call could arrive before Jai can explain his own pipeline."
+        "progress_text": "Jai has not yet chosen a post-exam focus or accountability cadence. DramaCPS/ReelSaga, intern oversight, pro_t and Japanese_Practice are active context, not proof of a decision.",
+        "impact_done": "A clear choice keeps work from competing for the same energy.",
+        "impact_skipped": "The day may fill with reactive work without a chosen priority."
       },
       {
-        "id": "sep28-nitin-mock-qa",
+        "id": "sep29-winddown",
         "source": "agent",
-        "label": "Mock Q&A for Nitin conversation",
-        "window": "Tonight after walkthrough, if ready",
-        "target": "Run a line-by-line practice Q&A on the actual RAG code and walkthrough; correct uncertain claims before the proposed Tuesday call.",
+        "label": "Protect evening recovery if feasible",
+        "window": "Routine: gym 19:30-20:45; wind-down 21:30-22:15",
+        "target": "Use the usual gym anchor only if sleep, meals and actual commitments allow. Keep dinner and a reasonable stop time; adjust after the real day is known.",
         "status": "pending",
-        "progress_text": "Mock Q&A not reported complete. No exact call slot is booked.",
-        "impact_done": "Tests whether the explanation stands up to questions before the call.",
-        "impact_skipped": "Unrehearsed details could turn a short technical call into guesswork."
-      },
-      {
-        "id": "sep28-weekday-routine",
-        "source": "agent",
-        "label": "Check today’s institute and recovery plan",
-        "window": "Weekday routine: institute 09:00-17:30, if attending",
-        "target": "Confirm whether institute and commute are happening today, then protect meals and sleep after the late Sunday work. Do not treat the 04:45 study start as an obligation today.",
-        "status": "pending",
-        "progress_text": "Weekday institute is the baseline, not an attendance report. Jai was still messaging after midnight; actual sleep and today’s travel are unknown.",
-        "impact_done": "Fits study and work around actual energy and commitments.",
-        "impact_skipped": "Assuming normal attendance or an early wake could build an unusable plan."
-      },
-      {
-        "id": "sep28-gym-winddown",
-        "source": "agent",
-        "label": "Evening gym and wind-down, if feasible",
-        "window": "19:30-20:45 gym; 21:30-22:15 wind-down (routine)",
-        "target": "Use the usual gym anchor if energy and today’s plans allow; dinner and wind-down before the 22:15 sleep target.",
-        "status": "pending",
-        "progress_text": "Routine only; gym, dinner and sleep are not yet confirmed for today.",
-        "impact_done": "Restarts the weekday rhythm without guessing morning readiness.",
-        "impact_skipped": "Late work can erode rest again."
+        "progress_text": "Routine only; gym, dinner and sleep for Tuesday are not confirmed.",
+        "impact_done": "Leaves room for rest after the late-night work.",
+        "impact_skipped": "Work may drift into another short night."
       }
     ]
   },
@@ -621,6 +599,70 @@
           "progress_text": "Exam completion and Jai’s 70% pass estimate were reported. Rest/recovery is not yet confirmed; official result is pending.",
           "impact_done": "Separates the real outcome from assumptions and gives him a recovery window.",
           "impact_skipped": "Without a report, the dashboard cannot distinguish attendance from an unresolved plan."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "label": "Monday, 28 Sep",
+      "dayEnd": "22:15",
+      "dayEndLabel": "weekday wind-down anchor, adjustable",
+      "note": "Monday evening snapshot. NAT-TEST 4Q was sat Sunday; result pending. Nitin proposed Tuesday after 20:00 IST, but no exact slot or channel is booked. Tonight’s 90-minute walkthrough read and mock Q&A remain open unless Jai reports completion. DramaCPS, interns and pro_t moved today; do not infer institute or gym attendance.",
+      "items": [
+        {
+          "id": "sep28-postexam-priority",
+          "source": "agent",
+          "label": "Choose this week’s post-exam focus",
+          "window": "This week · focus not chosen",
+          "target": "Decide which work gets accountability now: job hunt, AlphaForge/intern oversight, Japanese maintenance, or another priority. Choose cadence before restoring morning pressure.",
+          "status": "pending",
+          "progress_text": "Current work includes DramaCPS, pro_t, intern oversight, Japanese_Practice and a horoscope idea. Jai has not selected a single priority or cadence for the week.",
+          "impact_done": "Keeps today’s work tied to Jai’s chosen priority.",
+          "impact_skipped": "Routine pressure could resume before he has decided what matters after the exam."
+        },
+        {
+          "id": "sep28-nitin-walkthrough",
+          "source": "agent",
+          "label": "Read Nitin RAG walkthrough before a call",
+          "window": "Tonight · 90 minutes before Tuesday call",
+          "target": "Read the private RAG walkthrough against actual code for 90 minutes before the Tuesday conversation; note implemented versus proposed and rehearse questions. Report when the read is done.",
+          "status": "pending",
+          "progress_text": "Nitin proposed Tuesday after 20:00 IST. Walkthrough read not reported complete.",
+          "impact_done": "Makes a fast reply or call useful instead of rushed.",
+          "impact_skipped": "A call could arrive before Jai can explain his own pipeline."
+        },
+        {
+          "id": "sep28-nitin-mock-qa",
+          "source": "agent",
+          "label": "Mock Q&A for Nitin conversation",
+          "window": "Tonight after walkthrough, if ready",
+          "target": "Run a line-by-line practice Q&A on the actual RAG code and walkthrough; correct uncertain claims before the proposed Tuesday call.",
+          "status": "pending",
+          "progress_text": "Mock Q&A not reported complete. No exact call slot is booked.",
+          "impact_done": "Tests whether the explanation stands up to questions before the call.",
+          "impact_skipped": "Unrehearsed details could turn a short technical call into guesswork."
+        },
+        {
+          "id": "sep28-weekday-routine",
+          "source": "agent",
+          "label": "Check today’s institute and recovery plan",
+          "window": "Weekday routine: institute 09:00-17:30, if attending",
+          "target": "Confirm whether institute and commute are happening today, then protect meals and sleep after the late Sunday work. Do not treat the 04:45 study start as an obligation today.",
+          "status": "pending",
+          "progress_text": "Weekday institute is the baseline, not an attendance report. Jai was still messaging after midnight; actual sleep and today’s travel are unknown.",
+          "impact_done": "Fits study and work around actual energy and commitments.",
+          "impact_skipped": "Assuming normal attendance or an early wake could build an unusable plan."
+        },
+        {
+          "id": "sep28-gym-winddown",
+          "source": "agent",
+          "label": "Evening gym and wind-down, if feasible",
+          "window": "19:30-20:45 gym; 21:30-22:15 wind-down (routine)",
+          "target": "Use the usual gym anchor if energy and today’s plans allow; dinner and wind-down before the 22:15 sleep target.",
+          "status": "pending",
+          "progress_text": "Routine only; gym, dinner and sleep are not yet confirmed for today.",
+          "impact_done": "Restarts the weekday rhythm without guessing morning readiness.",
+          "impact_skipped": "Late work can erode rest again."
         }
       ]
     }
