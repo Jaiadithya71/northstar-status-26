@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T18:56:41+05:30",
-  "updatedLabel": "28 Sep 2026, 6:56 PM IST",
+  "updatedAt": "2026-09-28T20:18:52+05:30",
+  "updatedLabel": "28 Sep 2026, 8:18 PM IST",
   "focus": {
     "title": "Nitin prep tonight",
     "date": "2026-09-28T22:15:00+05:30",
@@ -16,11 +16,13 @@
         {
           "id": "nat-test",
           "name": "NAT-TEST 4Q",
-          "status": "Sep 27 sitting complete; official 4Q result pending. Jai estimates a 70% chance of passing.",
+          "status": "Sep 27 Chennai 4Q sitting complete; official result pending. Daily pass-or-fail watch is active for examinee 26090048240127.",
           "state": "waiting",
-          "next": "Await official result/date. His self-assessment is not a pass/fail outcome.",
-          "detail": "Jai said the exam went okay and estimated 70% chance of passing. His comparison: he had 90% confidence before 5Q and scored 130/180. The 4Q result has not been released or reported.",
-          "due": "Result date unknown"
+          "next": "Daily watch checks the official result listing; report either pass or fail only on a matched published result. Next watch check planned Tue 29 Sep, 17:52 IST.",
+          "detail": "Result QR and examinee details are saved privately in SASTRA Drive. The official result page listed 2026 results only through March at the Sep 28 initial check; no September result or score is established. If a fail is published, Oct 18 is the next 4Q sitting to verify before registration.",
+          "due": "Result date unknown",
+          "link": "https://drive.google.com/file/d/1hNztpM9g1SNxPF9-oJ3VJ_R_DdKG4VhQ/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
+          "linkLabel": "Result details in Drive"
         },
         {
           "id": "japanese-practice",
@@ -42,6 +44,66 @@
       ]
     },
     {
+      "name": "Monday done / in flight",
+      "items": [
+        {
+          "id": "sep28-media-progress",
+          "name": "Media build and test",
+          "state": "active",
+          "status": "ReelSaga channel created; DramaCPS pipeline committed with 15 offline tests reported passing. Two test files rendered; no upload.",
+          "detail": "Rights-clearance mail sent, reply watch active. YouTube Studio reauthentication stopped the private test before upload. There is no screening outcome or public-posting permission.",
+          "next": "Await clearance and resolve the private-test gate; do not infer a successful upload."
+        },
+        {
+          "id": "sep28-applications-admin",
+          "name": "Applications and admin sent",
+          "state": "waiting",
+          "status": "Jaarvis engineer-intern application sent with master resume; resume saved in Drive. Certificate-by-post nudges sent to Ganesan and Jayaprakash.",
+          "detail": "NAT-TEST QR/details saved and daily result watch started. Manaadithya first-task mail sent; his repo invite was revoked as Jai requested. Amit received an availability nudge.",
+          "next": "Watch replies and verify deadlines rather than marking recipient responses done.",
+          "link": "https://drive.google.com/file/d/1hLtKR4xZwWUPAMJhGPwzTQOUxga7pJom/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
+          "linkLabel": "Resume in Drive"
+        },
+        {
+          "id": "sep28-builds-research",
+          "name": "Trading and horoscope work",
+          "state": "active",
+          "status": "pro_t intraday and delivery charge models shipped; paper positions squared off. Horoscope_Ventrue repo is live, with nine books in Drive and OCR extraction running.",
+          "detail": "Stock-Trading main has branch protection, but it is not enforced on the free private-repo plan. OCR outputs still need source-page review. No real trade or astrology result is claimed.",
+          "next": "Check next market session and review OCR when extraction finishes."
+        }
+      ]
+    },
+    {
+      "name": "Tuesday, 29 Sep",
+      "items": [
+        {
+          "id": "sep29-nitin",
+          "name": "Nitin Kumar after 8 PM",
+          "state": "waiting",
+          "status": "Tuesday conversation proposed after 20:00 IST; exact slot and channel not booked.",
+          "detail": "Tonight’s 90-minute walkthrough read and mock Q&A are still pending unless Jai reports them done.",
+          "next": "Jai to ping Nitin after 20:00 IST Tuesday as Nitin requested; confirm actual slot and channel before treating it as a call."
+        },
+        {
+          "id": "sep29-intern-admin",
+          "name": "Intern and campus follow-ups",
+          "state": "waiting",
+          "status": "Amit’s availability/GitHub username reply requested by 18:00 IST; Dean office reply and QCC registration remain open.",
+          "detail": "Manaadithya’s smoke-checklist first task was emailed; his repo access is revoked. QCC Oct 24 selection is not final confirmation.",
+          "next": "Check Amit’s thread at deadline; watch certificate thread, and finish/verify remaining QCC steps."
+        },
+        {
+          "id": "sep29-result-media-ocr",
+          "name": "Result, media and OCR checks",
+          "state": "waiting",
+          "status": "Daily NAT-TEST result check, DramaCPS clearance reply, private-test gate/screening, and astrology OCR review are open.",
+          "detail": "The NAT-TEST watch is scheduled around 17:52 IST. DramaCPS test clips are local only; no upload or YouTube screening outcome yet. OCR extraction is running.",
+          "next": "Verify results directly from each source before changing pass/fail, permission, upload, or extraction status."
+        }
+      ]
+    },
+    {
       "name": "Moving",
       "items": [
         {
@@ -52,23 +114,25 @@
           "next": "Check the live paper book and next market session; keep charge breakdowns and mark freshness visible. Three cosmetic UI issues are separately listed in Later.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot",
-          "detail": "Intraday model and delivery/CNC close-charge model were committed separately. Historical trades were not recalculated. Do not use the morning open-position or cash snapshot as a close-of-day balance; paper figures are not real cash."
+          "detail": "Intraday and delivery/CNC charge models were committed to main Sep 28. Historical trades were not recalculated and options remain uncharged. All positions were reported squared off around 15:15 IST; paper figures are not real cash. Stock-Trading main branch protection was created, but is not enforced on the free private-repo plan."
         },
         {
           "id": "dramacps-youtube-pipeline",
           "name": "DramaCPS YouTube pipeline",
-          "status": "Offline planner, connector, editorial and renderer chain built; tests pass. GCP project and API enabled; OAuth still being set up. No public uploads.",
+          "status": "Local-first pipeline on main, with 15 offline tests reported passing. ReelSaga @ReelSagaShorts channel created; two 42-second private-test videos rendered locally, not uploaded.",
           "state": "active",
-          "detail": "Rights-clearance email sent to DramaCPS at 16:46 IST, reply pending. OAuth branding created but test-user add did not save; no web client or working callback yet. Real footage, hosting and API audit remain gates. The repository was made private by Jai.",
-          "next": "Continue the offline build; get written footage/editing clearance, finish hosted OAuth callback and consent, then satisfy YouTube API audit before public uploads. Hosting cost needs Jai’s approval."
+          "detail": "DramaCPS rights-clearance email sent at 16:46 IST, reply pending. The two ReelShort-branded Blood Pact Game test files came from affiliate Materials links. YouTube Studio identified ReelSaga, then requested reauthentication; no private upload or screening result yet. GCP project/YouTube API enabled, OAuth callback and test-user setup unresolved. Public uploads remain gated on rights and API audit.",
+          "next": "Resolve Studio reauthentication and source rights before any private upload; await DramaCPS written reply. Verify any screening outcome before reporting it; keep public posting disabled."
         },
         {
           "id": "horoscope-next-idea",
           "name": "Horoscope / Indian astrology idea",
-          "status": "Next idea in exploration; public-domain or freely available book research and collection underway.",
+          "status": "Horoscope_Ventrue repo live; nine public-domain/source-checked astrology books saved privately in SASTRA Drive. OCR extraction is running, not yet reviewed.",
           "state": "waiting",
-          "detail": "Jai asked for depth and precision across past, future and effects on people around the subject. This is research, not a validated product or prediction engine.",
-          "next": "Read legitimate source books, assess methods and limitations, then choose a product scope; no launch date."
+          "detail": "The repo tracks per-book coverage, edition and quality caveats. Phaladeepika and Brihat Jataka are first in a roughly 1,800-page extraction queue. Raw OCR is not a verified citation; page images and completeness need checking.",
+          "next": "Let extraction finish, review page-fidelity and coverage, then define an honest product scope without promising predictive precision.",
+          "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+          "linkLabel": "Open repo"
         },
         {
           "id": "agentforge",
@@ -85,15 +149,15 @@
           "name": "Techfest QCC",
           "status": "Registered solo as ZeroLoss · TM-CF33D0885BD. Oct 24 is the selected slot, pending final terms/confirmation.",
           "state": "waiting",
-          "next": "Check Techfest instructions and verify slot selection before committing.",
+          "next": "Tue 29 Sep: check Techfest instructions and complete remaining QCC registration/confirmation steps; do not treat selected Oct 24 slot as fully confirmed.",
           "due": "24 Oct"
         },
         {
           "id": "certificates",
           "name": "Degree certificates",
-          "status": "Speed-post registration confirmed 25 Sep on the read-only form. No tracking number yet.",
+          "status": "Speed-post registration recorded Sep 25. Follow-up nudges to Ganesan and Jayaprakash sent Sep 28; no new office reply or dispatch/tracking confirmed.",
           "state": "waiting",
-          "next": "Watch for dispatch and delivery after graduation."
+          "next": "Tue 29 Sep: watch the existing Dean office thread for reply and any dispatch/tracking details."
         }
       ]
     },
