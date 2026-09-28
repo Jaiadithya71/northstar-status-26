@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T07:36:18+05:30",
-  "updatedLabel": "28 Sep 2026, 7:36 AM IST",
+  "updatedAt": "2026-09-28T09:51:26+05:30",
+  "updatedLabel": "28 Sep 2026, 9:51 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -47,11 +47,12 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "Paper bot live after redeploy. Friday’s nine closed trades are restored; paper cash ₹100,586.29, realized +₹586.29, zero open positions (checked Sep 27, 18:24 IST).",
+          "status": "Monday market-open paper execution verified: Friday’s nine closed trades remain restored; CARTRADE short stopped out today at -₹942.71. At 09:51 IST, live book showed ₹76,600.20 cash, five open positions and ten closed trades; figures move during market hours.",
           "state": "active",
-          "next": "Auto execution is on and live quote access worked Sunday. First Monday trade and GitHub state-sync write remain unproven; verification planned at 09:35 IST.",
+          "next": "Auto execution is on. Real trade/state changes now auto-save to GitHub main; a commit diff and state file matched the live paper book. Keep watching, but do not treat paper P&L as real cash. Cosmetic UI issues are listed separately in Later.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
-          "linkLabel": "Open bot"
+          "linkLabel": "Open bot",
+          "detail": "The Monday 09:50 IST live API and repo-state read matched; this verifies the structural-change sync path, not every future write. Latest observed auto-save commit: https://github.com/Jaiadithya71/Stock-Trading/commit/542186c01dc853408018e9345dd63c4cadb3d9cd"
         },
         {
           "id": "agentforge",
@@ -89,6 +90,30 @@
           "state": "parked",
           "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
           "due": "After 27 Sep"
+        },
+        {
+          "id": "pro-t-market-value-column",
+          "name": "pro_t fixed panel market value",
+          "state": "waiting",
+          "status": "Cosmetic: no market-value column in the fixed Stocks panel.",
+          "detail": "At Monday market open, market value and mark time were visible in the hover card and position-details dialog. Live portfolio data was present and checked.",
+          "next": "Add market value (with mark freshness) to the fixed panel without changing trade logic."
+        },
+        {
+          "id": "pro-t-short-target-label",
+          "name": "pro_t short target gap label",
+          "state": "waiting",
+          "status": "Cosmetic: JYOTICNC short target card reads “+₹87.28” for a price gap.",
+          "detail": "The short target itself was ₹949.20 versus entry ₹1036.48, a ₹87.28 downward move. The plus sign on the card can look like a long-direction gain; position and target data were verified.",
+          "next": "Clarify the target gap label for short positions; preserve the underlying target and P&L."
+        },
+        {
+          "id": "pro-t-trailing-rr-label",
+          "name": "pro_t trailing R:R label",
+          "state": "waiting",
+          "status": "Cosmetic: planned R:R displays “1 : -” after stop-loss trails to breakeven.",
+          "detail": "Observed on JYOTICNC while its stop-loss was breakeven locked. This is a presentation issue; no trading-data correction was established.",
+          "next": "Show a clear breakeven/trailing state rather than a misleading empty planned ratio."
         },
         {
           "id": "sell-japanese-practice",
