@@ -7,12 +7,12 @@ const dayEnd=(day)=>new Date(`${day.date}T${day.dayEnd||'22:15'}:00+05:30`).getT
 const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
 function urgency(data){const el=document.querySelector('#urgency');el.replaceChildren();const t=data.today;if(!t||t.date!==dayLocal())return;const active=t.items.filter(i=>!['done','missed'].includes(i.status));const left=appendText(el,'div','urgency-time',duration(dayEnd(t)-Date.now()));left.setAttribute('aria-live','off');appendText(el,'p','urgency-context',`Until ${t.dayEnd||'22:15'} IST (${t.dayEndLabel||'routine, adjustable'}) · ${active.length} open task${active.length===1?'':'s'} of ${t.items.length}. Statuses reflect saved taps; unreported results stay unverified.`);}
 function navigation(){const nav=document.querySelector('#view-nav');nav.replaceChildren();nav.setAttribute('aria-label','Dashboard pages');for(const [key,label] of Object.entries(views)){const a=$('a','view-link',label);a.href=key==='overview'?'./':`?view=${key}`;if(view()===key)a.setAttribute('aria-current','page');nav.appendChild(a)}}
-const examCountdown=(deadline)=>{const delta=deadline-Date.now();if(delta<=0)return 'Exam finished';if(dayLocal()===new Date(deadline).toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}))return 'Exam today';const n=Math.ceil(delta/86400000);return `${n} day${n===1?'':'s'} to exam`};
+const focusCountdown=(deadline)=>{const delta=deadline-Date.now();if(delta<=0)return 'Time passed';if(dayLocal()===new Date(deadline).toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}))return 'Today';const n=Math.ceil(delta/86400000);return `${n} day${n===1?'':'s'} to go`};
 function renderToday(data){
   const section=document.querySelector('#today');section.replaceChildren();section.hidden=true;
   const today=data.today;if(!today||today.date!==dayLocal())return;
   section.hidden=false;
-  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');const count=$('span','count today-count');const updateCount=()=>{count.textContent=examCountdown(new Date(data.focus.date).getTime())};updateCount();head.appendChild(count);section.appendChild(head);
+  const head=$('div','today-head');appendText(head,'span','focus-label','My Day');const count=$('span','count today-count');const updateCount=()=>{count.textContent=focusCountdown(new Date(data.focus.date).getTime())};updateCount();head.appendChild(count);section.appendChild(head);
   appendText(section,'p','today-date',today.label||today.date);if(today.note)appendText(section,'p','today-note',today.note);
   const items=today.items||[];const pct=progress(items);const bar=$('div','day-meter');bar.setAttribute('role','progressbar');bar.setAttribute('aria-valuemin','0');bar.setAttribute('aria-valuemax','100');bar.setAttribute('aria-valuenow',String(pct));appendText(bar,'span','meter-fill','').style.width=pct+'%';section.appendChild(bar);appendText(section,'p','day-score',`${pct}% complete · ${items.filter(x=>x.status==='done').length} done · ${items.filter(x=>x.status==='partial').length} partial · ${items.length} tasks`);
   const list=$('div','today-list');const known=new Set(['pending','in_progress','done','partial','missed']);
@@ -52,7 +52,7 @@ function render(data){
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
   appendText(focus,'h2','',data.focus.title); appendText(focus,'p','date',data.focus.dateLabel+' · '+data.focus.status); appendText(focus,'p','',data.focus.next);
   const deadline=new Date(data.focus.date).getTime();
-  function tick(){const text=examCountdown(deadline);counter.textContent=text.endsWith('to exam')?text.replace('to exam','to go'):text;}
+  function tick(){counter.textContent=focusCountdown(deadline);}
   tick(); clearInterval(window.focusTimer);window.focusTimer=setInterval(tick,60000);
   const groups=document.querySelector('#groups');groups.replaceChildren();
   const mobile=window.matchMedia('(max-width:660px)');
