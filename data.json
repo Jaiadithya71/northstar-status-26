@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T13:35:16+05:30",
-  "updatedLabel": "28 Sep 2026, 1:35 PM IST",
+  "updatedAt": "2026-09-28T18:54:42+05:30",
+  "updatedLabel": "28 Sep 2026, 6:54 PM IST",
   "focus": {
-    "title": "NAT-TEST 4Q",
-    "date": "2026-09-27T14:00:00+05:30",
-    "dateLabel": "Sun 27 Sep · 14:00-17:05",
-    "status": "Sitting completed · result pending",
-    "next": "Jai sat the 4Q exam and estimates a 70% chance of passing. Official result and release date are unknown. After recovery, read the detailed RAG walkthrough against code before any Nitin outreach or call."
+    "title": "Nitin prep tonight",
+    "date": "2026-09-29T20:00:00+05:30",
+    "dateLabel": "Tue 29 Sep · after 20:00 IST proposed",
+    "status": "Read walkthrough + mock Q&A tonight",
+    "next": "Nitin asked Jai to ping him Tuesday after 8 PM. The 90-minute walkthrough read and mock Q&A are still unconfirmed. No exact call time or channel is booked."
   },
   "groups": [
     {
@@ -25,18 +25,18 @@
         {
           "id": "japanese-practice",
           "name": "Japanese_Practice",
-          "status": "Study app active; progress syncs with Gist.",
+          "status": "Study app active; school pitch deck sent for review. Total counter patch remains with Jai, not verified pushed.",
           "state": "active",
-          "next": "Only revisit the app push if exam prep is on track; no Friday push was confirmed.",
+          "next": "Await pitch review; Jai to apply or confirm the Total counter patch. Verify live product flow and teacher view before offering a school pilot.",
           "link": "https://japanese-practice-orcin.vercel.app/",
           "linkLabel": "Open app"
         },
         {
           "id": "nitin-client-followup",
           "name": "Nitin Kumar (AceAI client)",
-          "status": "Monday morning reply: Nitin proposed Tuesday after 20:00 IST and asked Jai to ping him. Exact slot and call channel are not fixed.",
+          "status": "Nitin suggested Tuesday after 20:00 IST and asked Jai to ping him; exact slot and channel not fixed.",
           "state": "waiting",
-          "next": "Today: read the walkthrough against code for 90 minutes and do a mock Q&A. Tuesday, 29 Sep: Jai pings Nitin around 19:50 IST for a conversation after 20:00; await an exact slot or reply. Do not imply a call is booked.",
+          "next": "Tonight: 90-minute walkthrough read against code and mock Q&A, neither yet confirmed done. Tue 29 Sep: Jai pings Nitin after 20:00 as requested and agrees the actual call slot.",
           "due": "Tue 29 Sep · ping about 19:50 IST; talk after 20:00 if agreed"
         }
       ]
@@ -47,21 +47,38 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "Monday market-open paper execution verified: Friday’s nine closed trades remain restored; CARTRADE short stopped out today at -₹942.71. At 09:51 IST, live book showed ₹76,600.20 cash, five open positions and ten closed trades; figures move during market hours.",
+          "status": "pro_t paper-trading day closed: positions squared off around 15:15 IST. Intraday and delivery/CNC charge models shipped today; options remain uncharged.",
           "state": "active",
-          "next": "Auto execution is on. Real trade/state changes now auto-save to GitHub main; a commit diff and state file matched the live paper book. Keep watching, but do not treat paper P&L as real cash. Cosmetic UI issues are listed separately in Later.",
+          "next": "Check the live paper book and next market session; keep charge breakdowns and mark freshness visible. Three cosmetic UI issues are separately listed in Later.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot",
-          "detail": "The Monday 09:50 IST live API and repo-state read matched; this verifies the structural-change sync path, not every future write. Latest observed auto-save commit: https://github.com/Jaiadithya71/Stock-Trading/commit/542186c01dc853408018e9345dd63c4cadb3d9cd"
+          "detail": "Intraday model and delivery/CNC close-charge model were committed separately. Historical trades were not recalculated. Do not use the morning open-position or cash snapshot as a close-of-day balance; paper figures are not real cash."
+        },
+        {
+          "id": "dramacps-youtube-pipeline",
+          "name": "DramaCPS YouTube pipeline",
+          "status": "Offline planner, connector, editorial and renderer chain built; tests pass. GCP project and API enabled; OAuth still being set up. No public uploads.",
+          "state": "active",
+          "detail": "Rights-clearance email sent to DramaCPS at 16:46 IST, reply pending. OAuth branding created but test-user add did not save; no web client or working callback yet. Real footage, hosting and API audit remain gates. The repository was made private by Jai.",
+          "next": "Continue the offline build; get written footage/editing clearance, finish hosted OAuth callback and consent, then satisfy YouTube API audit before public uploads. Hosting cost needs Jai’s approval."
+        },
+        {
+          "id": "horoscope-next-idea",
+          "name": "Horoscope / Indian astrology idea",
+          "status": "Next idea in exploration; public-domain or freely available book research and collection underway.",
+          "state": "waiting",
+          "detail": "Jai asked for depth and precision across past, future and effects on people around the subject. This is research, not a validated product or prediction engine.",
+          "next": "Read legitimate source books, assess methods and limitations, then choose a product scope; no launch date."
         },
         {
           "id": "agentforge",
           "name": "AgentForge internships",
-          "status": "Two interns onboarded: Manaadithya (quant) and Amit (QA). Assignments and guide sent 25 Sep.",
+          "status": "Manaadithya received the smoke-checklist first task and mail at 18:04; repo access was revoked. Amit was nudged after missing his availability reply.",
           "state": "waiting",
-          "next": "Get availability replies, set deadlines, compare submissions.",
+          "next": "Await Manaadithya’s response/submission without assuming repo access. Amit: availability and GitHub username requested by Tue 29 Sep, 18:00 IST; reassign only after checking the thread and Jai’s decision.",
           "link": "https://agentforge-jai-projects1.vercel.app/",
-          "linkLabel": "Open page"
+          "linkLabel": "Open page",
+          "detail": "Manaadithya had accepted an earlier repo invite before access was removed; the first-task mail says no repo access needed. Amit’s nudge went on the existing email thread."
         },
         {
           "id": "qcc",
@@ -119,9 +136,9 @@
           "id": "sell-japanese-practice",
           "name": "Sell Japanese_Practice app",
           "state": "waiting",
-          "status": "Pitch deck drafted for a Japanese-language school pilot/licensing offer; no school contacted or terms agreed.",
-          "detail": "A 13-slide editable deck exists privately in Jai’s SASTRA Drive. It frames an N5/N4 student cohort pilot and possible school license, with student weak-word revision and teacher progress visibility to validate. Pilot length, seats, price, success criteria, decision maker, support/privacy and renewal terms remain bracketed. The product-flow slide is conceptual: verify it and teacher visibility against the real build before showing the deck externally. No existing school partnership, student results or sale is claimed.",
-          "next": "Jai to set pilot terms; verify actual app flow, teacher progress capability, content provenance and support/privacy before pitching a language school. Deck remains private in SASTRA Drive."
+          "status": "13-slide language-school pilot/licensing pitch deck sent for review; feedback and terms pending.",
+          "detail": "Jai reported sending the pitch deck for review at 18:52 IST. The reviewer and feedback are not established here. Pilot length, seats, price, success criteria, support/privacy and renewal remain bracketed. The product-flow slide is conceptual, and teacher progress visibility must be checked against the real build before external school use. No sale or partnership is established.",
+          "next": "Collect review feedback, settle pilot terms, verify real app flow and teacher capability before a school pitch."
         },
         {
           "id": "side-hustle-platform-rebuild",
@@ -169,10 +186,10 @@
         {
           "id": "gemma",
           "name": "Kaggle Gemma 4",
-          "status": "Parked for the exam.",
-          "state": "parked",
-          "next": "Pick it back up 28 Sep.",
-          "due": "28 Sep"
+          "status": "Kaggle Gemma 4 remains warm, with no start date committed.",
+          "state": "waiting",
+          "next": "Pick a start date only when Jai chooses it; no work is reported complete.",
+          "due": "No start date set"
         },
         {
           "id": "personal-agent",
@@ -266,7 +283,7 @@
     "label": "Monday, 28 Sep",
     "dayEnd": "22:15",
     "dayEndLabel": "weekday wind-down anchor, adjustable",
-    "note": "First weekday after the 4Q sitting. Official result pending; do not restart exam-cram pressure. Nitin replied Monday morning: \"Lets talk tomorrow....after 8pm... ping me\". Prepare with the walkthrough and a mock Q&A today; Jai will ping him Tuesday evening. The call is proposed after 20:00 IST Tuesday, not a fixed slot or completed booking. Institute/gym blocks remain routine leads, not confirmed attendance today.",
+    "note": "Monday evening snapshot. NAT-TEST 4Q was sat Sunday; result pending. Nitin proposed Tuesday after 20:00 IST, but no exact slot or channel is booked. Tonight’s 90-minute walkthrough read and mock Q&A remain open unless Jai reports completion. DramaCPS, interns and pro_t moved today; do not infer institute or gym attendance.",
     "items": [
       {
         "id": "sep28-postexam-priority",
@@ -275,7 +292,7 @@
         "window": "After rest / morning check-in",
         "target": "Decide which work gets accountability now: job hunt, AlphaForge/intern oversight, Japanese maintenance, or another priority. Choose cadence before restoring morning pressure.",
         "status": "pending",
-        "progress_text": "A morning focus question is queued; Jai has not chosen the priority or cadence yet.",
+        "progress_text": "Current work includes DramaCPS, pro_t, intern oversight, Japanese_Practice and a horoscope idea. Jai has not selected a single priority or cadence for the week.",
         "impact_done": "Keeps today’s work tied to Jai’s chosen priority.",
         "impact_skipped": "Routine pressure could resume before he has decided what matters after the exam."
       },
@@ -283,10 +300,10 @@
         "id": "sep28-nitin-walkthrough",
         "source": "agent",
         "label": "Read Nitin RAG walkthrough before a call",
-        "window": "90 min today/tonight, when rested",
+        "window": "Tonight · 90 minutes before Tuesday call",
         "target": "Read the private RAG walkthrough against actual code for 90 minutes before the Tuesday conversation; note implemented versus proposed and rehearse questions. Report when the read is done.",
         "status": "pending",
-        "progress_text": "Nitin replied Monday 06:46: \"Lets talk tomorrow....after 8pm... ping me\". Jai has not reported completing the walkthrough. No exact call slot or channel confirmed.",
+        "progress_text": "Nitin proposed Tuesday after 20:00 IST. Walkthrough read not reported complete.",
         "impact_done": "Makes a fast reply or call useful instead of rushed.",
         "impact_skipped": "A call could arrive before Jai can explain his own pipeline."
       },
@@ -294,10 +311,10 @@
         "id": "sep28-nitin-mock-qa",
         "source": "agent",
         "label": "Mock Q&A for Nitin conversation",
-        "window": "Tonight after the 90-minute doc read, if ready",
+        "window": "Tonight after walkthrough, if ready",
         "target": "Run a line-by-line practice Q&A on the actual RAG code and walkthrough; correct uncertain claims before the proposed Tuesday call.",
         "status": "pending",
-        "progress_text": "Mock is planned by the assistant; Jai has not yet chosen whether tonight or Tuesday before the call, and no practice is confirmed.",
+        "progress_text": "Mock Q&A not reported complete. No exact call slot is booked.",
         "impact_done": "Tests whether the explanation stands up to questions before the call.",
         "impact_skipped": "Unrehearsed details could turn a short technical call into guesswork."
       },
