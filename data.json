@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T10:16:29+05:30",
-  "updatedLabel": "28 Sep 2026, 10:16 AM IST",
+  "updatedAt": "2026-09-28T11:05:47+05:30",
+  "updatedLabel": "28 Sep 2026, 11:05 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -190,8 +190,8 @@
           "id": "week-kfc-bucket",
           "name": "KFC bucket",
           "state": "done",
-          "status": "Done, per Jai at 10:15 Monday.",
-          "detail": "Jai said “KFC done” on Monday, 28 Sep. This records his completion report; no order, amount, branch, delivery or receipt is inferred. Domino’s remains cancelled.",
+          "status": "Done before the Sep 27 exam, per Jai’s correction.",
+          "detail": "Jai clarified Monday at 11:05 that the KFC bucket was a prize he had already got before the exam, not something eaten or ordered Monday. His 10:15 “KFC done” was backfilling that earlier completion. Exact date, branch, amount and order details are unknown. Domino’s remains cancelled.",
           "next": "No follow-up needed."
         },
         {
