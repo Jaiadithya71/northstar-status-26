@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T11:05:47+05:30",
-  "updatedLabel": "28 Sep 2026, 11:05 AM IST",
+  "updatedAt": "2026-09-28T13:35:16+05:30",
+  "updatedLabel": "28 Sep 2026, 1:35 PM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -119,9 +119,9 @@
           "id": "sell-japanese-practice",
           "name": "Sell Japanese_Practice app",
           "state": "waiting",
-          "status": "Separate product idea: productize and sell the existing Japanese_Practice app. Parked post-exam.",
-          "detail": "Jai corrected the earlier combined dashboard item on Sep 28. This is about the app itself, not rebuilding the monetization platform from a YouTube video. No launch, customer, or sales result is claimed.",
-          "next": "Decide what would make Japanese_Practice ready to sell and validate who wants it before planning a launch."
+          "status": "Pitch deck drafted for a Japanese-language school pilot/licensing offer; no school contacted or terms agreed.",
+          "detail": "A 13-slide editable deck exists privately in Jai’s SASTRA Drive. It frames an N5/N4 student cohort pilot and possible school license, with student weak-word revision and teacher progress visibility to validate. Pilot length, seats, price, success criteria, decision maker, support/privacy and renewal terms remain bracketed. The product-flow slide is conceptual: verify it and teacher visibility against the real build before showing the deck externally. No existing school partnership, student results or sale is claimed.",
+          "next": "Jai to set pilot terms; verify actual app flow, teacher progress capability, content provenance and support/privacy before pitching a language school. Deck remains private in SASTRA Drive."
         },
         {
           "id": "side-hustle-platform-rebuild",
