@@ -1,11 +1,11 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T18:54:42+05:30",
-  "updatedLabel": "28 Sep 2026, 6:54 PM IST",
+  "updatedAt": "2026-09-28T18:56:41+05:30",
+  "updatedLabel": "28 Sep 2026, 6:56 PM IST",
   "focus": {
     "title": "Nitin prep tonight",
-    "date": "2026-09-29T20:00:00+05:30",
-    "dateLabel": "Tue 29 Sep · after 20:00 IST proposed",
+    "date": "2026-09-28T22:15:00+05:30",
+    "dateLabel": "Mon 28 Sep · tonight",
     "status": "Read walkthrough + mock Q&A tonight",
     "next": "Nitin asked Jai to ping him Tuesday after 8 PM. The 90-minute walkthrough read and mock Q&A are still unconfirmed. No exact call time or channel is booked."
   },
@@ -289,7 +289,7 @@
         "id": "sep28-postexam-priority",
         "source": "agent",
         "label": "Choose this week’s post-exam focus",
-        "window": "After rest / morning check-in",
+        "window": "This week · focus not chosen",
         "target": "Decide which work gets accountability now: job hunt, AlphaForge/intern oversight, Japanese maintenance, or another priority. Choose cadence before restoring morning pressure.",
         "status": "pending",
         "progress_text": "Current work includes DramaCPS, pro_t, intern oversight, Japanese_Practice and a horoscope idea. Jai has not selected a single priority or cadence for the week.",
