@@ -82,7 +82,7 @@ function render(data){
   overview.hidden=page!=='overview';
   document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
   document.querySelector('#groups').hidden=!projects&&!later&&!personal;
-  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=personal?name!=='Post-exam chilling':later?name!=='Jobs & later':projects?['Jobs & later','Post-exam chilling'].includes(name):true}
+  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=personal?name!=='Post-exam chilling':later?name!=='Jobs & later':projects?['Jobs & later','Post-exam chilling'].includes(name):!['Monday done / in flight','Tuesday, 29 Sep'].includes(name)}
   document.querySelector('#footer').textContent=data.footer;
   if(['overview','today'].includes(page)&&!window.urgencyTimer)window.urgencyTimer=setInterval(()=>urgency(currentData),60000);
 }
