@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T04:43:14+05:30",
-  "updatedLabel": "28 Sep 2026, 4:43 AM IST",
+  "updatedAt": "2026-09-28T06:47:40+05:30",
+  "updatedLabel": "28 Sep 2026, 6:47 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -34,10 +34,10 @@
         {
           "id": "nitin-client-followup",
           "name": "Nitin Kumar (AceAI client)",
-          "status": "Re-approach prep underway after exam; detailed code walkthrough doc prepared, not yet read/confirmed.",
+          "status": "Monday morning reply: Nitin proposed Tuesday after 20:00 IST and asked Jai to ping him. Exact slot and call channel are not fixed.",
           "state": "waiting",
-          "next": "Read the walkthrough against the code tonight, then review the re-approach wording before any send. Do not claim RAG upgrades absent from the repo.",
-          "due": "28 Sep"
+          "next": "Today: read the walkthrough against code for 90 minutes and do a mock Q&A. Tuesday, 29 Sep: Jai pings Nitin around 19:50 IST for a conversation after 20:00; await an exact slot or reply. Do not imply a call is booked.",
+          "due": "Tue 29 Sep · ping about 19:50 IST; talk after 20:00 if agreed"
         }
       ]
     },
@@ -156,7 +156,7 @@
     "label": "Monday, 28 Sep",
     "dayEnd": "22:15",
     "dayEndLabel": "weekday wind-down anchor, adjustable",
-    "note": "First weekday after the 4Q sitting. Official result is still pending; do not restart exam-cram pressure. Choose the next focus after rest. Nitin had read the message but had not answered Sunday night; prepare from the walkthrough before any call. Normal institute/gym blocks are routine leads, not confirmed attendance today.",
+    "note": "First weekday after the 4Q sitting. Official result pending; do not restart exam-cram pressure. Nitin replied Monday morning: \"Lets talk tomorrow....after 8pm... ping me\". Prepare with the walkthrough and a mock Q&A today; Jai will ping him Tuesday evening. The call is proposed after 20:00 IST Tuesday, not a fixed slot or completed booking. Institute/gym blocks remain routine leads, not confirmed attendance today.",
     "items": [
       {
         "id": "sep28-postexam-priority",
@@ -173,12 +173,23 @@
         "id": "sep28-nitin-walkthrough",
         "source": "agent",
         "label": "Read Nitin RAG walkthrough before a call",
-        "window": "A focused block when rested, before any call",
-        "target": "Walk through the private doc against the code; write down what is implemented versus proposed and rehearse likely questions.",
+        "window": "90 min today/tonight, when rested",
+        "target": "Read the private RAG walkthrough against actual code for 90 minutes before the Tuesday conversation; note implemented versus proposed and rehearse questions. Report when the read is done.",
         "status": "pending",
-        "progress_text": "Reading was not confirmed Sunday. Nitin had seen the re-approach message by Sunday night but had not replied then; a Monday evening reply check is separately planned. This does not mean a call is booked.",
+        "progress_text": "Nitin replied Monday 06:46: \"Lets talk tomorrow....after 8pm... ping me\". Jai has not reported completing the walkthrough. No exact call slot or channel confirmed.",
         "impact_done": "Makes a fast reply or call useful instead of rushed.",
         "impact_skipped": "A call could arrive before Jai can explain his own pipeline."
+      },
+      {
+        "id": "sep28-nitin-mock-qa",
+        "source": "agent",
+        "label": "Mock Q&A for Nitin conversation",
+        "window": "Tonight after the 90-minute doc read, if ready",
+        "target": "Run a line-by-line practice Q&A on the actual RAG code and walkthrough; correct uncertain claims before the proposed Tuesday call.",
+        "status": "pending",
+        "progress_text": "Mock is planned by the assistant; Jai has not yet chosen whether tonight or Tuesday before the call, and no practice is confirmed.",
+        "impact_done": "Tests whether the explanation stands up to questions before the call.",
+        "impact_skipped": "Unrehearsed details could turn a short technical call into guesswork."
       },
       {
         "id": "sep28-weekday-routine",
