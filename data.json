@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T09:51:26+05:30",
-  "updatedLabel": "28 Sep 2026, 9:51 AM IST",
+  "updatedAt": "2026-09-28T10:09:48+05:30",
+  "updatedLabel": "28 Sep 2026, 10:09 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -180,6 +180,83 @@
           "status": "Scaffold exists; direction not set.",
           "state": "parked",
           "next": "Choose the first useful workflow after the exam."
+        }
+      ]
+    },
+    {
+      "name": "Personal this week",
+      "items": [
+        {
+          "id": "week-dominos-kfc",
+          "name": "Domino’s Wednesday offer + KFC bucket",
+          "state": "waiting",
+          "status": "Wednesday, 30 Sep · personal food plan, not ordered.",
+          "detail": "Jai wrote: “Eat at dominos - 2 pizza - Wednesday offer + KFC bucket.” Treat this as his food idea, not a confirmed deal, reservation, cart or purchase.",
+          "next": "On Wednesday, check the current offer, prices and whether he still wants both before any order.",
+          "due": "Wed 30 Sep, time not set"
+        },
+        {
+          "id": "week-sangeetha",
+          "name": "Eat at Sangeetha once",
+          "state": "waiting",
+          "status": "Anytime this week · from pocket money.",
+          "detail": "Jai wants one Sangeetha meal. No branch, date, budget amount or order was given.",
+          "next": "Choose a day and branch if he wants to make a plan.",
+          "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "week-movie-nights",
+          "name": "Two movie nights",
+          "state": "waiting",
+          "status": "Weekend · two nights wanted; dates and films not assigned.",
+          "detail": "Jai said “Movie night - 2 (on weekends).” This week’s weekend is Sat 3 and Sun 4 Oct, but he did not pick exact nights, times, venues or people. Blended and Dragon are listed separately below.",
+          "next": "Pick the two weekend nights and films when ready; no tickets or invites exist.",
+          "due": "Weekend 3-4 Oct; slots not set"
+        },
+        {
+          "id": "week-meet-harish",
+          "name": "Meet Harish Narayanan",
+          "state": "waiting",
+          "status": "Anytime this week · not arranged.",
+          "detail": "Personal meet-up idea from Jai’s list; no time, place or outreach yet.",
+          "next": "Choose a time and coordinate with Harish only after Jai asks to arrange it.",
+          "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "week-meet-yuvraj",
+          "name": "Meet Yuvraj",
+          "state": "waiting",
+          "status": "Anytime this week · not arranged.",
+          "detail": "Jai described Yuvraj as opposite his house. No time, place or outreach yet.",
+          "next": "Pick a time and coordinate only after Jai asks to arrange it.",
+          "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "week-meet-abi-aravind",
+          "name": "Meet Abi and Aravind",
+          "state": "waiting",
+          "status": "Anytime this week · not arranged.",
+          "detail": "Jai listed Abi and Aravind together. No time, place or outreach yet.",
+          "next": "Choose whether this is one joint meet-up and arrange only after Jai confirms.",
+          "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "week-watch-blended",
+          "name": "Watch Blended",
+          "state": "waiting",
+          "status": "Movie on Jai’s list · date not set.",
+          "detail": "Not automatically assigned to either of the two weekend movie nights. No platform or ticket checked.",
+          "next": "Choose a viewing time when ready.",
+          "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "week-watch-dragon-2011",
+          "name": "Watch Dragon (2011)",
+          "state": "waiting",
+          "status": "Movie on Jai’s list · date not set.",
+          "detail": "Preserve Jai’s exact title/year; the specific film and availability have not been checked. Not assigned to a weekend movie night yet.",
+          "next": "Verify which “Dragon (2011)” he means before arranging a viewing.",
+          "due": "Week of 28 Sep-4 Oct"
         }
       ]
     }
