@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-28T07:30:17+05:30",
-  "updatedLabel": "28 Sep 2026, 7:30 AM IST",
+  "updatedAt": "2026-09-28T07:36:18+05:30",
+  "updatedLabel": "28 Sep 2026, 7:36 AM IST",
   "focus": {
     "title": "NAT-TEST 4Q",
     "date": "2026-09-27T14:00:00+05:30",
@@ -100,11 +100,13 @@
         },
         {
           "id": "side-hustle-platform-rebuild",
-          "name": "Rebuild the Side Hustle video platform",
+          "name": "Explore rebuilding Monetise-style platform",
           "state": "waiting",
-          "status": "Separate platform idea from a “Side Hustle” YouTube video Jai watched roughly two weeks ago. Parked post-exam.",
-          "detail": "Jai wants to explore rebuilding the monetization platform described in that video instead of paying for it. The roughly $2,000/year figure is Jai’s comparison, not a verified current price. The exact video and platform are not yet identified here. This is not the Japanese_Practice app.",
-          "next": "Identify the exact video/platform and verify its features, terms and current price before scoping a rebuild."
+          "status": "Parked: distinct from selling Japanese_Practice. The target is Iman Gadzhi’s Monetise, pitched through the free Side Hustle Summit.",
+          "detail": "A Sep 14 independent buyer review reports Monetise 2.0 cost $1,995 one-time, not ~$2,000/year. Its predecessor Monetise 1.0 was $999 for twelve months and was replaced in Sept 2025. The same review reports a $995 companion offer and a member-reported ~$2,000 Pro upsell (not published vendor pricing), with optional add-ons potentially taking the bill near $4,000. It says the Summit cart closed Sep 14; the vendor currently shows a waitlist. These are research leads, not a purchase recommendation or verified checkout quote. Review: https://sidehustlesummitreviews.com/monetise-pricing/ ; vendor: https://www.monetise.com/waitlist .",
+          "next": "After current priorities, map what parts of Monetise he means to rebuild; verify features, legal rights, live terms and costs before choosing a scope. This is separate from selling Japanese_Practice.",
+          "link": "https://sidehustlesummitreviews.com/monetise-pricing/",
+          "linkLabel": "Price research"
         },
         {
           "id": "post-exam-media-ai-app-research",
