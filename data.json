@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-29T04:41:00+05:30",
-  "updatedLabel": "29 Sep 2026, 04:41 AM IST",
+  "updatedAt": "2026-09-29T04:45:00+05:30",
+  "updatedLabel": "29 Sep 2026, 04:45 AM IST",
   "focus": {
     "title": "Choose Tuesday’s focus",
     "date": "2026-09-29T22:15:00+05:30",
@@ -670,31 +670,75 @@
   "shorts": {
     "channel": "ReelSaga",
     "channelId": "UC71kSXnAt6Ipy7KqVVo3mdA",
-    "asOf": "28 Sep 2026, 10:41 PM IST",
+    "asOf": "29 Sep 2026, 04:45 AM IST",
     "source": "YouTube Studio, ReelSaga Shorts list on the 71 account",
-    "note": "Snapshot, not a live feed. Views and comments are from Studio’s Shorts list; likes were not shown there. A zero is a read value, not a promise of immediate analytics processing. Privacy and checks can change after this read.",
+    "note": "Snapshot, not a live feed. Views and comments are from Studio’s Shorts list; likes were not shown there. EP2 Parts 2/3 are not listed as uploaded yet. Privacy, notices and counts can change after this read. Older private screening tests are included below, separate from the public split parts.",
     "videos": [
       {
-        "id": "vL_qnAh0fiw",
-        "label": "The Blood Pact Game · EP 1",
-        "url": "https://youtube.com/shorts/vL_qnAh0fiw",
-        "studioUrl": "https://studio.youtube.com/video/vL_qnAh0fiw/analytics/tab-overview/period-default",
+        "id": "f4ezceNKudQ",
+        "label": "The Blood Pact Game · EP 1 Part 1/3",
+        "url": "https://youtube.com/shorts/f4ezceNKudQ",
+        "studioUrl": "https://studio.youtube.com/video/f4ezceNKudQ/analytics/tab-overview/period-default",
+        "views": 2,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Public at 04:45 AM",
+        "notice": ""
+      },
+      {
+        "id": "WUuAwq2HWC4",
+        "label": "The Blood Pact Game · EP 1 Part 2/3",
+        "url": "https://youtube.com/shorts/WUuAwq2HWC4",
+        "studioUrl": "https://studio.youtube.com/video/WUuAwq2HWC4/analytics/tab-overview/period-default",
         "views": 0,
         "likes": null,
         "comments": 0,
-        "visibility": "Private at 10:41 PM",
-        "notice": "Audio copyright claim; not a strike. No footage match observed in this excerpt is not rights clearance."
+        "visibility": "Public at 04:45 AM",
+        "notice": "Other notices shown in Studio; the Shorts list does not specify the claim."
+      },
+      {
+        "id": "rw4OVxHR0uQ",
+        "label": "The Blood Pact Game · EP 1 Part 3/3",
+        "url": "https://youtube.com/shorts/rw4OVxHR0uQ",
+        "studioUrl": "https://studio.youtube.com/video/rw4OVxHR0uQ/analytics/tab-overview/period-default",
+        "views": 0,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Public at 04:45 AM",
+        "notice": ""
+      },
+      {
+        "id": "kA_hIeVtFw0",
+        "label": "The Blood Pact Game · EP 2 Part 1/3",
+        "url": "https://youtube.com/shorts/kA_hIeVtFw0",
+        "studioUrl": "https://studio.youtube.com/video/kA_hIeVtFw0/analytics/tab-overview/period-default",
+        "views": 0,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Public at 04:45 AM",
+        "notice": ""
+      },
+      {
+        "id": "vL_qnAh0fiw",
+        "label": "Older private screening test · EP 1",
+        "url": "https://youtube.com/shorts/vL_qnAh0fiw",
+        "studioUrl": "https://studio.youtube.com/video/vL_qnAh0fiw/analytics/tab-overview/period-default",
+        "views": 3,
+        "likes": null,
+        "comments": 0,
+        "visibility": "Private at 04:45 AM",
+        "notice": "Other notices shown in Studio. This is not the public split-part upload."
       },
       {
         "id": "LpfdZKWyQW4",
-        "label": "The Blood Pact Game · EP 2",
+        "label": "Older private screening test · EP 2",
         "url": "https://youtube.com/shorts/LpfdZKWyQW4",
         "studioUrl": "https://studio.youtube.com/video/LpfdZKWyQW4/analytics/tab-overview/period-default",
-        "views": 0,
+        "views": 1,
         "likes": null,
         "comments": 0,
-        "visibility": "Private at 10:41 PM",
-        "notice": "Copyright checks still pending at 10:41 PM; no verdict."
+        "visibility": "Private at 04:45 AM",
+        "notice": "Copyright checks still displayed as pending. This is not the public split-part upload."
       }
     ]
   }
