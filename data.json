@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-29T04:45:00+05:30",
-  "updatedLabel": "29 Sep 2026, 04:45 AM IST",
+  "updatedAt": "2026-09-29T13:48:00+05:30",
+  "updatedLabel": "29 Sep 2026, 01:48 PM IST",
   "focus": {
     "title": "Choose Tuesday’s focus",
     "date": "2026-09-29T22:15:00+05:30",
@@ -19,10 +19,12 @@
           "status": "Sep 27 Chennai 4Q sitting complete; official result pending. Daily pass-or-fail watch is active for examinee 26090048240127.",
           "state": "waiting",
           "next": "Daily watch checks the official result listing; report either pass or fail only on a matched published result. Next watch check planned Tue 29 Sep, 17:52 IST.",
-          "detail": "Result QR and examinee details are saved privately in SASTRA Drive. The official result page listed 2026 results only through March at the Sep 28 initial check; no September result or score is established. If a fail is published, Oct 18 is the next 4Q sitting to verify before registration.",
+          "detail": "Examinee details and the result QR are saved privately in SASTRA Drive. The official result page listed 2026 results only through March at the Sep 28 initial check; no September result or score is established. If a fail is published, Oct 18 is the next 4Q sitting to verify before registration.",
           "due": "Result date unknown",
-          "link": "https://drive.google.com/file/d/1hNztpM9g1SNxPF9-oJ3VJ_R_DdKG4VhQ/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
-          "linkLabel": "Result details in Drive"
+          "link": "http://www.nat-test.com/contents/result.html",
+          "linkLabel": "Official NAT-TEST results",
+          "secondaryLink": "https://drive.google.com/file/d/1hNztpM9g1SNxPF9-oJ3VJ_R_DdKG4VhQ/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
+          "secondaryLinkLabel": "Saved QR/details"
         },
         {
           "id": "japanese-practice",
