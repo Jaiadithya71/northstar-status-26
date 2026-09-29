@@ -72,7 +72,7 @@ function render(data){
       const summary=$('summary','item-summary');const head=$('div','item-head');appendText(head,'h3','',item.name);appendText(head,'span',`pill ${item.state}`,item.state);summary.appendChild(head);appendText(summary,'p','status',item.status);card.appendChild(summary);
       const content=$('div','item-content');if(item.detail)appendText(content,'p','detail',item.detail);
       const next=$('p','next');appendText(next,'strong','','Next: ');next.appendChild(document.createTextNode(item.next));content.appendChild(next);
-      if(item.due||item.link){const meta=$('div','item-meta');if(item.due)appendText(meta,'span','',item.due);else appendText(meta,'span','','');if(item.link){const a=$('a','',item.linkLabel||'Open');a.href=item.link;a.target='_blank';a.rel='noopener noreferrer';meta.appendChild(a);}content.appendChild(meta);}card.appendChild(content);grid.appendChild(card);
+      if(item.due||item.link||item.secondaryLink){const meta=$('div','item-meta');if(item.due)appendText(meta,'span','',item.due);else appendText(meta,'span','','');for(const [url,label] of [[item.link,item.linkLabel||'Open'],[item.secondaryLink,item.secondaryLinkLabel||'More details']]){if(url){const a=$('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';meta.appendChild(a);}}content.appendChild(meta);}card.appendChild(content);grid.appendChild(card);
     }
     section.appendChild(grid);groups.appendChild(section);
   }
