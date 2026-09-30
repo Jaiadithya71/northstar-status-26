@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:54:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:54 PM IST",
+  "updatedAt": "2026-09-30T18:11:00+05:30",
+  "updatedLabel": "30 Sep 2026, 06:11 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -223,6 +223,19 @@
           "next": "No cleanup follow-up needed. Fundamentals extension remains a separate plan, not built.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Live app"
+        },
+        {
+          "id": "pro-t-paper-swing-route",
+          "name": "pro_t paper swing trading: deployment pending",
+          "state": "active",
+          "status": "Implementation pushed Sep 30: real ONE_DAY daily indicators, paper-only swing-entry route, 15% allocation and 1x delivery margin guard. 181 assertions pass. Live backend verification pending.",
+          "detail": "Daily-data commits bdb6193, cb8984d, 1fd0e2d; paper route def413b; allocation a23d13b; delivery guard f162fdf. Test total: 58 daily-data + 49 fallback-gate + 56 route + 18 delivery-risk. Only BUY_SWING_BREAKOUT fires; shared entry safety guards remain and intraday gets first priority. New route never enters LIVE_BROKER. Fresh completed daily data required; failed/invalid inputs gate. This is code/readback evidence, not a live deployment or order result.",
+          "next": "Resolve Render sign-in and verify exact deployed code/data/route. Do not call swing trading live until confirmed. No new order or settings action implied by this dashboard update.",
+          "due": "Pushed; Render deployment verification pending",
+          "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/def413b057abdb7b53d908b97a9f06edee5d627f",
+          "linkLabel": "Paper swing route",
+          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/f162fdfbbaf101e4e3514e3017b120e33f77a03d",
+          "secondaryLinkLabel": "1x delivery guard"
         }
       ]
     },
@@ -314,8 +327,8 @@
           "name": "pro_t fabricated positional indicator fallbacks",
           "state": "done",
           "status": "Fixed in code and pushed Sep 30: fabricated EMA/high/ATR fallbacks replaced with real-data gates. 49 regression assertions pass; exact backend deployment behavior not yet verified.",
-          "detail": "Gate commit 8e7ff43bdb718e128f92a267c867312bab27745b; test d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530. Missing daily inputs suppress candidates or affected indicator rules; real-price stop/target exits remain active. Current feed lacks explicit daily indicators, so swing entries stay gated. Render was running, but no deployed-commit stamp or direct evaluator route established this exact backend gate live.",
-          "next": "Verify deployed backend gate behavior when evidence is available. Supply a real daily EMA20/EMA50/ATR/high feed before enabling swing entries; no fabricated substitute.",
+          "detail": "Fallback gate commit 8e7ff43bdb718e128f92a267c867312bab27745b; regression test d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530. Real daily EMA20/EMA50/ATR/prior-high inputs are now wired in code from ONE_DAY candles, replacing the earlier missing-feed blocker. Invalid, insufficient or stale daily input still gates candidates; real-price exits remain active. Live backend deployment is still unverified.",
+          "next": "Keep missing/stale-data gates. Verify the deployed daily-input and swing route behavior on Render before claiming it live.",
           "due": "Code fixed; backend live verification pending",
           "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/8e7ff43bdb718e128f92a267c867312bab27745b",
           "linkLabel": "Gate fix",
