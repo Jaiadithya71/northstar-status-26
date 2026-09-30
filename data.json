@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T18:11:00+05:30",
-  "updatedLabel": "30 Sep 2026, 06:11 PM IST",
+  "updatedAt": "2026-09-30T23:15:41+05:30",
+  "updatedLabel": "30 Sep 2026, 11:15 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -451,6 +451,15 @@
           "linkLabel": "Blocked skills step",
           "secondaryLink": "https://outlier.ai/faq",
           "secondaryLinkLabel": "Official support FAQ"
+        },
+        {
+          "id": "internet-scam-injection-defense",
+          "name": "Internet scam / fake-approval defense idea",
+          "state": "parked",
+          "status": "Backlog idea: do something about internet scam and injection threads that disguise instructions as owner-approved requests.",
+          "detail": "Requested Sep 30 after an alert about an alleged email-forwarding request. Actual page reads did not show the claimed passage; no confirmed site incident or forwarding occurred.",
+          "next": "Explore ways to spot and defend against fake-approval instructions and forwarding scams. Scope and approach not chosen.",
+          "due": "Parked; no date set"
         }
       ]
     },
