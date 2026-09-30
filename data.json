@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:15:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:15 PM IST",
+  "updatedAt": "2026-09-30T17:19:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:19 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -191,6 +191,17 @@
           "state": "active",
           "next": "Search for part-time AI-related gigs and verify fit, terms and pay. No search results or new applications claimed by this dashboard update.",
           "detail": "Jai changed the search direction at 17:14 IST. This supersedes the prior 12 LPA floor / 15 LPA aim for the stopped Telegram scanning plan, not proof that other applications or assessments are cancelled. Today's unnamed data annotation application is tracked separately; no paid work or earnings confirmed."
+        },
+        {
+          "id": "aspire-delphi-advisors",
+          "name": "Aspire x Delphi: Build Your Board of Advisors",
+          "state": "waiting",
+          "status": "Registered Sep 30, linked to jaiadithya2020@gmail.com, per the completed registration report. Challenge runs Oct 15-Nov 5.",
+          "detail": "Three-week mentoring challenge; ten winners share a $2,000 prize pool, per the invitation Jai forwarded. Kick-off Oct 15, invite expected by Oct 14. Discord server link comes to personal Gmail; Jai will forward it. Registration is not a prize or challenge completion. Invitation also states free Delphi access for registrants, registration closes Oct 13, and judging uses goal clarity, board relevance, quality of insight and impact on next steps.",
+          "next": "Await the kick-off invite and Discord email. Jai forwards the Discord link when it arrives; prepare the natural-growth customer question and a clear action plan for the challenge. No calendar event or new outreach created.",
+          "due": "Invite by Oct 14; challenge Oct 15-Nov 5",
+          "link": "https://aspire.delphi.ai/",
+          "linkLabel": "Challenge site"
         }
       ]
     },
