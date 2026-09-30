@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:33:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:33 PM IST",
+  "updatedAt": "2026-09-30T17:36:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:36 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -302,10 +302,10 @@
         {
           "id": "pro-t-fabricated-indicator-fallbacks",
           "name": "pro_t fabricated positional indicator fallbacks",
-          "state": "parked",
-          "status": "Parked bug found Sep 30: positionalSignalEngine.js fabricates EMA/high/ATR fallbacks when real data is missing, using LTP multipliers such as 0.978 / 0.952.",
-          "detail": "Violates the real-data-only rule. Reported in the fundamentals-extension review; not fixed by the CA attribution cleanup. No repair or production gating claimed.",
-          "next": "Fix or gate missing-data fallbacks as step one of the planned fundamentals-analysis extension. Require real source data before using these indicators.",
+          "state": "active",
+          "status": "Fix in progress after Jai's Sep 30, 17:33 IST \"Fix it now\": gate fabricated EMA/high/ATR fallbacks in positionalSignalEngine.js.",
+          "detail": "Missing real data currently falls back to LTP multipliers such as 0.978 / 0.952, violating the real-data-only rule. The active fix replaces fabricated fallbacks with hard gates: missing real data means no signal. Separate from the CA attribution cleanup; not yet verified pushed or deployed.",
+          "next": "Finish gating the fabricated fallbacks, test missing-data behavior, then push and verify. Do not mark fixed until the code and result are confirmed; fundamentals extension remains downstream.",
           "due": "Parked; first step before fundamentals extension"
         },
         {
