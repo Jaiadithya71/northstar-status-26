@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:19:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:19 PM IST",
+  "updatedAt": "2026-09-30T17:29:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:29 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -149,6 +149,17 @@
           "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
           "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
           "linkLabel": "Open repo"
+        },
+        {
+          "id": "vedic-astrology-app",
+          "name": "Vedic astrology app",
+          "state": "active",
+          "status": "New active project Sep 30: Jai committed to making it into an app tonight. App-shell build planned around the Horoscope_Ventrue engine.",
+          "detail": "Commitment reported around 17:27 IST. Balaji benchmark / engine source work continues in parallel. An app shell is not a completed strength engine, validated prediction system or deployed product; no build completion or launch is claimed.",
+          "next": "Start tonight's app-shell build around Horoscope_Ventrue while keeping unresolved engine/source gates visible. Track build and deployment results only when verified.",
+          "due": "Tonight, Sep 30; no completion time set",
+          "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+          "linkLabel": "Engine repo"
         },
         {
           "id": "agentforge",
