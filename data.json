@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T07:42:00+05:30",
-  "updatedLabel": "30 Sep 2026, 07:42 AM IST",
+  "updatedAt": "2026-09-30T15:43:00+05:30",
+  "updatedLabel": "30 Sep 2026, 03:43 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -121,18 +121,30 @@
         {
           "id": "dramacps-youtube-pipeline",
           "name": "DramaCPS / ReelSaga: YouTube + Instagram Reels",
-          "status": "YouTube split-part run underway. Studio verified EP1 Parts 1–3 and EP2 Part 1 Public on Sep 29 at 04:45 IST. Instagram Reels expansion chosen; @reelsaga3000 setup in progress.",
+          "status": "In progress. Sep 30 afternoon publisher update: Blood Pact Ep1 complete on YouTube + Instagram (3/3 each); Daddy Ep1 complete (4/4). Daddy Ep2 Parts 1-4 Public, Part 5 saved in Studio checks.",
           "state": "active",
-          "detail": "Jai reported creating @reelsaga3000 on Sep 29; one-time Instagram sign-in and public profile/link plan still need setup and review. DramaCPS public terms allow social-media promotion in general, but campaign-specific terms and clip rights for Instagram remain to check. Affiliate links must remain byte-exact. YouTube backlog and pending checks are tracked by the publisher; this card does not assert an EP10 Part 3 verdict. TikTok is excluded from this plan.",
-          "next": "Finish the pending YouTube checks/backlog without inferring clearance. Verify DramaCPS campaign terms and Instagram clip rights; then finish account sign-in and the profile/link plan before starting Reels alongside YouTube. Do not treat the Reels run as live yet."
+          "detail": "Snapshot from publisher reports through Sep 30, 15:41 IST, not a live upload feed. Duplicate 3-second draft was deleted under Jai's approval. Part 5 is not counted as public. Instagram Reels is now active, superseding the earlier sign-in/setup blocker. Public API publishing remains locked in the separate cloud-uploader item; browser publishing and private canary testing are different flows. TikTok remains excluded.",
+          "next": "Continue the existing Part 5 checks watch and verify its stored verdict before publishing or marking it complete. Keep channel/link and clip-rights checks attached to the publisher workflow."
+        },
+        {
+          "id": "reelsaga-cloud-uploader",
+          "name": "ReelSaga cloud uploader",
+          "state": "active",
+          "status": "In progress: OAuth and GitHub Actions secret set up Sep 30. Read-only gate PASSED; state/stop gate PASSED; one private canary upload PASSED end to end. Public API publishing still locked.",
+          "detail": "Private canary v0ecz1ozokQ was checked in Studio through playback, correct saved metadata and no claims. Encrypted checkpoint and stopped controls readback passed; access_enabled=false and public_publishing_enabled=false. This proves the private upload/checkpoint/stop path, not public publishing. Snapshot from the uploader report at 15:41 IST.",
+          "next": "Finish public API audit, Drive queue and Instagram relay before any public API publishing. Keep public controls locked until separately cleared. No second canary or public upload implied.",
+          "link": "https://github.com/Jaiadithya71/reelsaga-cloud-uploader/actions/runs/36700512294/job/109838597517",
+          "linkLabel": "Successful private canary run",
+          "secondaryLink": "https://youtube.com/shorts/v0ecz1ozokQ",
+          "secondaryLinkLabel": "Private canary (owner only)"
         },
         {
           "id": "horoscope-next-idea",
-          "name": "Horoscope / Indian astrology idea",
-          "status": "Horoscope_Ventrue repo live; nine public-domain/source-checked astrology books saved privately in SASTRA Drive. OCR extraction is running, not yet reviewed.",
-          "state": "waiting",
-          "detail": "The repo tracks per-book coverage, edition and quality caveats. Phaladeepika and Brihat Jataka are first in a roughly 1,800-page extraction queue. Raw OCR is not a verified citation; page images and completeness need checking.",
-          "next": "Let extraction finish, review page-fidelity and coverage, then define an honest product scope without promising predictive precision.",
+          "name": "Horoscope_Ventrue research / strength engine",
+          "status": "In progress. Sep 30 research update: 399 passing tests and about 15 pushes today. Digbala, temporal Kala, lords, Ayana in both schools, BPHS identity chain, 17 precedence scopes and Raman tables verified.",
+          "state": "active",
+          "detail": "Latest reported commit: 8fe26342791929550691b633e7a48ca280b6a25c (15:39 IST). Source-specific conventions remain separate; verified fixtures do not establish arbitrary-date planetary positions or predictive accuracy. The current work has moved beyond raw OCR extraction.",
+          "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
           "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
           "linkLabel": "Open repo"
         },
@@ -160,6 +172,18 @@
           "status": "Speed-post registration recorded Sep 25. Follow-up nudges to Ganesan and Jayaprakash sent Sep 28; no new office reply or dispatch/tracking confirmed.",
           "state": "waiting",
           "next": "Tue 29 Sep: watch the existing Dean office thread for reply and any dispatch/tracking details."
+        },
+        {
+          "id": "outlier-onboarding",
+          "name": "Outlier.ai onboarding",
+          "state": "blocked",
+          "status": "Blocked / user-handling. Profile and phone verified; LinkedIn/GitHub connected. Save skills returns HTTP 403: User not permitted to set skills.",
+          "detail": "Server-side account-permission block, not a completed onboarding. The support bot claimed permanent deactivation; that claim has not been independently confirmed. Jai reported no notice email. Profile/phone verification is not identity ID/selfie verification, and no assessment or paid task completion is claimed. Jai took escalation over manually at 15:27 IST; no further outreach from Instinct.",
+          "next": "Jai handles Help > Contact Support or onboarding@outlier.ai. Await his update or a verified account response before resuming onboarding. Do not mark the account permanently deactivated from the bot claim alone.",
+          "link": "https://app.outlier.ai/onboarding/skill-selection",
+          "linkLabel": "Blocked skills step",
+          "secondaryLink": "https://outlier.ai/faq",
+          "secondaryLinkLabel": "Official support FAQ"
         }
       ]
     },
