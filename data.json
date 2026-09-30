@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T16:29:00+05:30",
-  "updatedLabel": "30 Sep 2026, 04:29 PM IST",
+  "updatedAt": "2026-09-30T17:06:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:06 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -186,6 +186,15 @@
           "linkLabel": "Blocked skills step",
           "secondaryLink": "https://outlier.ai/faq",
           "secondaryLinkLabel": "Official support FAQ"
+        },
+        {
+          "id": "gig-data-annotation-application",
+          "name": "Gig / side-income: data annotation application",
+          "state": "waiting",
+          "status": "Applied to a data annotation website for gig work, per Jai on Sep 30 at 17:05 IST.",
+          "detail": "Website not named. No application receipt, assessment, acceptance, work allocation or earnings reported. This is separate from the known Outlier onboarding blocker; no site identity inferred.",
+          "next": "Await an update from Jai; add the site and any response when known. No follow-up or assessment scheduled.",
+          "due": "Applied Sep 30; response date unknown"
         }
       ]
     },
