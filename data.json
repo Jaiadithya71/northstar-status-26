@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T16:19:00+05:30",
-  "updatedLabel": "30 Sep 2026, 04:19 PM IST",
+  "updatedAt": "2026-09-30T16:28:00+05:30",
+  "updatedLabel": "30 Sep 2026, 04:28 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -116,7 +116,7 @@
           "next": "Review the Sep 30 session and parked operational issues before changing trading logic. Use the committed dated EOD report, not the stale latest-email-summary endpoint, for today's report.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot",
-          "detail": "Sep 30 result was verified from the live paper ledger and committed EOD report, read around 16:16-16:18 IST. Gross loss Rs2,511.31 plus Rs438.89 charges equals net loss Rs2,950.20. These are virtual paper figures, not real cash or a broker statement. Operational warnings and stale report endpoint are parked separately below; they are not proven causes of the trading losses. Intraday and delivery/CNC fee models are shipped; today's nine trades were all intraday.",
+          "detail": "Sep 30 result was verified from the live paper ledger and committed EOD report, read around 16:16-16:18 IST. Gross loss Rs2,511.31 plus Rs438.89 charges equals net loss Rs2,950.20. These are virtual paper figures, not real cash or a broker statement. Operational warnings and stale report endpoint are parked separately below; they are not proven causes of the trading losses. Intraday and delivery/CNC fee models are shipped; today's nine trades were all intraday. Sep 30 safety-state review: circuit breaker fired at 15:16 IST after square-off when daily loss crossed Rs2,000 / 2%, as designed. Eight position-size invariant violations were logged 09:25-09:35 IST for margins above the Rs15,000 cap. These findings do not establish loss causality.",
           "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/blob/main/reports/email_reports/market_close_summary_2026-09-30.md",
           "secondaryLinkLabel": "Sep 30 paper EOD report"
         },
@@ -243,6 +243,33 @@
           "status": "Parked issue found Sep 30: Bank Nifty previous-day candle unavailable at startup; logs report no prior daily candle.",
           "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
           "next": "Check historical candle availability and startup fallback; preserve clear unavailable-data handling.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-missing-daily-insight",
+          "name": "pro_t missing Sep 30 narrative insight",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: reports/daily_insights.md has no Sep 30 entry, although EOD report, archive and ledger were committed.",
+          "detail": "Live file read at 16:27 IST still starts with Sep 29. A committed EOD report is not proof the separate narrative insight was written.",
+          "next": "Check the daily narrative write path and add a source-grounded Sep 30 insight only when the work is assigned. No repair performed.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-pnl-archive-labels",
+          "name": "pro_t archive gross fields contain net sums",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: daily_pnl_archive grossProfit/grossLoss fields contain NET P&L sums, not pre-fee gross.",
+          "detail": "True gross figures must use per-trade grossPnl and charges. Do not read these summary labels as pre-fee performance.",
+          "next": "Correct summary labels/calculation and verify gross, charges and net against per-trade data. No repair performed.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-position-size-invariant",
+          "name": "pro_t position-size invariant violations",
+          "state": "parked",
+          "status": "Sep 30 safety-state finding: eight violations logged 09:25-09:35 IST, with margins above the Rs15,000 cap.",
+          "detail": "Recorded safety-state finding from session-log review. Causality for the trading losses is unproven. Circuit breaker separately fired at 15:16 IST after square-off when the Rs2,000 / 2% daily-loss threshold was crossed, as designed.",
+          "next": "Review sizing and invariant enforcement against exact log/trade evidence before changing logic. No repair or loss-causality conclusion claimed.",
           "due": "Parked; no fix date set"
         },
         {
