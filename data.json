@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T15:43:00+05:30",
-  "updatedLabel": "30 Sep 2026, 03:43 PM IST",
+  "updatedAt": "2026-09-30T16:19:00+05:30",
+  "updatedLabel": "30 Sep 2026, 04:19 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -111,12 +111,14 @@
         {
           "id": "alphaforge",
           "name": "AlphaForge / pro_t",
-          "status": "pro_t paper-trading day closed: positions squared off around 15:15 IST. Intraday and delivery/CNC charge models shipped today; options remain uncharged.",
+          "status": "Sep 30 paper session closed: net -Rs2,950.20; 9 closed intraday trades, 1 win / 8 losses. Ending paper balance Rs95,177.56; no open positions or overnight swings.",
           "state": "active",
-          "next": "Check the live paper book and next market session; keep charge breakdowns and mark freshness visible. Three cosmetic UI issues are separately listed in Later.",
+          "next": "Review the Sep 30 session and parked operational issues before changing trading logic. Use the committed dated EOD report, not the stale latest-email-summary endpoint, for today's report.",
           "link": "https://stock-trading-1-cquo.onrender.com/",
           "linkLabel": "Open bot",
-          "detail": "Intraday and delivery/CNC charge models were committed to main Sep 28. Historical trades were not recalculated and options remain uncharged. All positions were reported squared off around 15:15 IST; paper figures are not real cash. Stock-Trading main branch protection was created, but is not enforced on the free private-repo plan."
+          "detail": "Sep 30 result was verified from the live paper ledger and committed EOD report, read around 16:16-16:18 IST. Gross loss Rs2,511.31 plus Rs438.89 charges equals net loss Rs2,950.20. These are virtual paper figures, not real cash or a broker statement. Operational warnings and stale report endpoint are parked separately below; they are not proven causes of the trading losses. Intraday and delivery/CNC fee models are shipped; today's nine trades were all intraday.",
+          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/blob/main/reports/email_reports/market_close_summary_2026-09-30.md",
+          "secondaryLinkLabel": "Sep 30 paper EOD report"
         },
         {
           "id": "dramacps-youtube-pipeline",
@@ -197,6 +199,51 @@
           "state": "parked",
           "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
           "due": "After 27 Sep"
+        },
+        {
+          "id": "pro-t-stale-eod-summary",
+          "name": "pro_t stale latest EOD endpoint",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: /api/quant/latest-email-summary served Sep 28 as latest although the Sep 30 EOD report is committed.",
+          "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
+          "next": "Fix latest-report selection/cache and verify the endpoint matches the latest committed dated EOD report.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-marketdata-timeouts",
+          "name": "pro_t marketData API timeouts",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: Timeouts reported throughout the Sep 30 session: 10:10, 10:15, 10:30, 11:20-11:28, 12:11-12:34, 13:46, 14:27, 14:37, 14:55 and 14:58 IST.",
+          "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
+          "next": "Inspect upstream timing, retry/backoff and stale-data handling; verify recovery without assuming the timeouts caused today's losses.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-origin-warning",
+          "name": "Stock-Trading missing origin remote",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: Recurring logs: No such remote origin, including the Sep 30 square-off window.",
+          "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
+          "next": "Check runtime repository/remote setup and persistence behavior; distinguish warnings from failed syncs.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-tls-verification",
+          "name": "Stock-Trading TLS verification disabled",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: TLS certificate-verification-disabled warning observed in the logs.",
+          "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
+          "next": "Review TLS configuration and restore certificate verification safely; do not infer compromise from this warning alone.",
+          "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-banknifty-candle",
+          "name": "pro_t Bank Nifty startup candle",
+          "state": "parked",
+          "status": "Parked issue found Sep 30: Bank Nifty previous-day candle unavailable at startup; logs report no prior daily candle.",
+          "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
+          "next": "Check historical candle availability and startup fallback; preserve clear unavailable-data handling.",
+          "due": "Parked; no fix date set"
         },
         {
           "id": "pro-t-market-value-column",
