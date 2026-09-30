@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T23:15:41+05:30",
-  "updatedLabel": "30 Sep 2026, 11:15 PM IST",
+  "updatedAt": "2026-10-01T04:41:46+05:30",
+  "updatedLabel": "01 Oct 2026, 04:41 AM IST",
   "focus": {
-    "title": "Choose Wednesday’s focus",
-    "date": "2026-09-30T22:15:00+05:30",
-    "dateLabel": "Wed 30 Sep · routine day-end",
-    "status": "Pace and priority unconfirmed",
-    "next": "Check sleep and institute plan, then choose one actionable post-exam block. ReelSaga Studio checks and Instagram sign-in are separately tracked blockers."
+    "title": "Choose Thursday’s focus",
+    "date": "2026-10-01T22:15:00+05:30",
+    "dateLabel": "Thu 1 Oct · routine day-end",
+    "status": "Sleep, pace and priority unconfirmed",
+    "next": "Check actual rest and institute plan, choose one bounded work block, and protect food and wind-down."
   },
   "groups": [
     {
@@ -542,44 +542,44 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-09-30",
-    "label": "Wednesday, 30 Sep",
+    "date": "2026-10-01",
+    "label": "Thursday, 1 Oct",
     "dayEnd": "22:15",
     "dayEndLabel": "weekday wind-down anchor, adjustable",
-    "note": "Wednesday plan starts from the weekday routine but does not assume institute attendance, early study, or a rested morning. NAT-TEST 4Q result remains unverified. ReelSaga YouTube EP10 Part 3 is waiting on Studio checks; Instagram account sign-in is blocked on the newly saved credentials, not a posted Reel. Nitin follow-up remains in Upcoming until actual contact is grounded.",
+    "note": "Thursday plan uses the weekday routine without assuming an early study block, institute attendance or enough sleep. Post-exam pace remains unconfirmed. Ongoing publication and backend verification stay in their existing workflows. Nitin follow-up and the Japanese_Practice celebration bug remain outside My Day.",
     "items": [
       {
-        "id": "sep30-readiness",
+        "id": "oct01-readiness",
         "source": "agent",
-        "label": "Set today’s pace from real sleep and institute plan",
-        "window": "Morning · before choosing a work block",
-        "target": "Check how much rest Jai got and whether he is going to institute (usual 09:00-17:30). Eat and shape the day around actual energy; do not count a 04:45 grammar block as done or required.",
+        "label": "Set Thursday’s pace from sleep and institute plan",
+        "window": "Morning · before a work block",
+        "target": "Check actual sleep and whether institute is on today (usual weekday 09:00-17:30). Eat and plan the commute around the real start; the 04:50 grammar block is a routine reference, not assumed work.",
         "status": "pending",
-        "progress_text": "Tuesday My Day was left pending. Sleep and Wednesday attendance are not reported.",
-        "impact_done": "Keeps the day realistic after continued late-night work.",
-        "impact_skipped": "An assumed normal day can crowd out meals and rest."
+        "progress_text": "Late-night work continued into Oct 1. Sleep, attendance and morning study are unconfirmed.",
+        "impact_done": "Keeps the day usable after a late night.",
+        "impact_skipped": "An assumed early start can crowd out rest and meals."
       },
       {
-        "id": "sep30-one-focus",
+        "id": "oct01-one-block",
         "source": "agent",
-        "label": "Choose one grounded post-exam focus",
-        "window": "When ready · one manageable block",
-        "target": "Pick a single priority for today from live work, then define the next bounded action and an honest stop point. Keep ReelSaga’s pending copyright check and Instagram sign-in blocker distinct from work Jai can do now.",
+        "label": "Choose one manageable post-exam work block",
+        "window": "When rested · one priority with a stop point",
+        "target": "Choose a current priority and one bounded action. Leave ReelSaga publication and pro_t deployment follow-up with their existing workflows; do not turn their unfinished work into personal tasks by default.",
         "status": "pending",
-        "progress_text": "The dashboard still lacks a user-chosen post-exam cadence or single priority. YouTube EP10 P3 checking and Instagram login issue are reported blockers, not tasks marked complete.",
-        "impact_done": "Makes progress on an actionable priority without pretending blocked uploads moved.",
-        "impact_skipped": "Reactive work can consume another day without a chosen outcome."
+        "progress_text": "No new Thursday priority or post-exam study cadence has been confirmed. The Sep 27 exam sitting is complete; the official result is still recorded as pending.",
+        "impact_done": "Gives the day a clear outcome without duplicating ongoing work.",
+        "impact_skipped": "Reactive updates can consume the available energy."
       },
       {
-        "id": "sep30-recovery",
+        "id": "oct01-recovery",
         "source": "agent",
-        "label": "Protect food and wind-down",
+        "label": "Keep food and evening recovery in the plan",
         "window": "Routine: gym 19:30-20:45 if feasible; wind-down 21:30-22:15",
-        "target": "Use gym only if energy and commitments allow. Leave time for dinner and a stop point rather than automatically extending the late-night run.",
+        "target": "Fit gym to actual sleep and commitments. Keep dinner and a firm work stop; use the weekday routine as an adjustable anchor, not proof of attendance.",
         "status": "pending",
-        "progress_text": "Gym, meals and sleep for Wednesday are not confirmed; routine times are an anchor, not attendance evidence.",
-        "impact_done": "Supports recovery while the next work decisions settle.",
-        "impact_skipped": "Another late night may make tomorrow’s plan less usable."
+        "progress_text": "No Thursday gym, meals or wind-down outcome is confirmed.",
+        "impact_done": "Leaves room for recovery and a more workable Friday.",
+        "impact_skipped": "Another open-ended late night can weaken the next day."
       }
     ]
   },
@@ -904,6 +904,48 @@
           "progress_text": "Routine only; gym, dinner and sleep for Tuesday are not confirmed.",
           "impact_done": "Leaves room for rest after the late-night work.",
           "impact_skipped": "Work may drift into another short night."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "label": "Wednesday, 30 Sep",
+      "dayEnd": "22:15",
+      "dayEndLabel": "weekday wind-down anchor, adjustable",
+      "note": "Wednesday plan starts from the weekday routine but does not assume institute attendance, early study, or a rested morning. NAT-TEST 4Q result remains unverified. ReelSaga YouTube EP10 Part 3 is waiting on Studio checks; Instagram account sign-in is blocked on the newly saved credentials, not a posted Reel. Nitin follow-up remains in Upcoming until actual contact is grounded.",
+      "items": [
+        {
+          "id": "sep30-readiness",
+          "source": "agent",
+          "label": "Set today’s pace from real sleep and institute plan",
+          "window": "Morning · before choosing a work block",
+          "target": "Check how much rest Jai got and whether he is going to institute (usual 09:00-17:30). Eat and shape the day around actual energy; do not count a 04:45 grammar block as done or required.",
+          "status": "pending",
+          "progress_text": "Tuesday My Day was left pending. Sleep and Wednesday attendance are not reported.",
+          "impact_done": "Keeps the day realistic after continued late-night work.",
+          "impact_skipped": "An assumed normal day can crowd out meals and rest."
+        },
+        {
+          "id": "sep30-one-focus",
+          "source": "agent",
+          "label": "Choose one grounded post-exam focus",
+          "window": "When ready · one manageable block",
+          "target": "Pick a single priority for today from live work, then define the next bounded action and an honest stop point. Keep ReelSaga’s pending copyright check and Instagram sign-in blocker distinct from work Jai can do now.",
+          "status": "pending",
+          "progress_text": "The dashboard still lacks a user-chosen post-exam cadence or single priority. YouTube EP10 P3 checking and Instagram login issue are reported blockers, not tasks marked complete.",
+          "impact_done": "Makes progress on an actionable priority without pretending blocked uploads moved.",
+          "impact_skipped": "Reactive work can consume another day without a chosen outcome."
+        },
+        {
+          "id": "sep30-recovery",
+          "source": "agent",
+          "label": "Protect food and wind-down",
+          "window": "Routine: gym 19:30-20:45 if feasible; wind-down 21:30-22:15",
+          "target": "Use gym only if energy and commitments allow. Leave time for dinner and a stop point rather than automatically extending the late-night run.",
+          "status": "pending",
+          "progress_text": "Gym, meals and sleep for Wednesday are not confirmed; routine times are an anchor, not attendance evidence.",
+          "impact_done": "Supports recovery while the next work decisions settle.",
+          "impact_skipped": "Another late night may make tomorrow’s plan less usable."
         }
       ]
     }
