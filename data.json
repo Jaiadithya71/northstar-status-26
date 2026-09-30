@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T04:41:00+05:30",
-  "updatedLabel": "30 Sep 2026, 04:41 AM IST",
+  "updatedAt": "2026-09-30T07:42:00+05:30",
+  "updatedLabel": "30 Sep 2026, 07:42 AM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -254,8 +254,30 @@
           "name": "Kaggle Gemma 4",
           "status": "Kaggle Gemma 4 remains warm, with no start date committed.",
           "state": "waiting",
-          "next": "Pick a start date only when Jai chooses it; no work is reported complete.",
+          "next": "Review alongside Nebius and Amazon this weekend if time permits; choose a start date only when Jai is ready. No work is reported complete.",
           "due": "No start date set"
+        },
+        {
+          "id": "nebius-nvidia-hackathon",
+          "name": "Nebius x NVIDIA Global AI Hackathon",
+          "state": "parked",
+          "status": "Top pick for optional weekend review alongside Kaggle Gemma 4. $50,000 cash prize pool; no registration or build started.",
+          "due": "30 Oct 2026, 22:30 IST",
+          "detail": "Official deadline: Oct 30 at 10:00 AM PDT (22:30 IST). Requires Nebius Token Factory or AI Cloud and at least one NVIDIA open-source model. Source checked Sep 30.",
+          "next": "Review this weekend (3-4 Oct) only if time permits. Instinct to prepare registration for Jai to review before submission and carry build work once scope is chosen. No submission authorized by parking this item.",
+          "link": "https://nebiusglobalaihackathon.devpost.com/",
+          "linkLabel": "Official hackathon"
+        },
+        {
+          "id": "amazon-build-ship-shape",
+          "name": "Amazon Build, Ship, Shape",
+          "state": "parked",
+          "status": "Second pick for optional weekend review alongside Kaggle Gemma 4. $138,000 cash prize pool; Alexa+ track of interest. No registration or build started.",
+          "due": "24 Oct 2026, 00:30 IST (late 23 Oct night)",
+          "detail": "Official deadline: Oct 23 at 12:00 PM PDT, which is Oct 24 at 00:30 IST. This is not the end of Oct 24. Alexa+ allows an Agent Skill, self-hosted MCP server or simulated Alexa+ experience. Source checked Sep 30.",
+          "next": "Review this weekend (3-4 Oct) only if time permits. Instinct to prepare registration for Jai to review before submission and carry build work once scope is chosen. No submission authorized by parking this item.",
+          "link": "https://amazonappdev2026.devpost.com/",
+          "linkLabel": "Official hackathon"
         },
         {
           "id": "personal-agent",
