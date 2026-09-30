@@ -306,7 +306,7 @@
           "status": "Fix in progress after Jai's Sep 30, 17:33 IST \"Fix it now\": gate fabricated EMA/high/ATR fallbacks in positionalSignalEngine.js.",
           "detail": "Missing real data currently falls back to LTP multipliers such as 0.978 / 0.952, violating the real-data-only rule. The active fix replaces fabricated fallbacks with hard gates: missing real data means no signal. Separate from the CA attribution cleanup; not yet verified pushed or deployed.",
           "next": "Finish gating the fabricated fallbacks, test missing-data behavior, then push and verify. Do not mark fixed until the code and result are confirmed; fundamentals extension remains downstream.",
-          "due": "Parked; first step before fundamentals extension"
+          "due": "Fix in progress; push and verification pending"
         },
         {
           "id": "pro-t-market-value-column",
