@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:31:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:31 PM IST",
+  "updatedAt": "2026-09-30T17:33:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:33 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -298,6 +298,15 @@
           "detail": "Recorded safety-state finding from session-log review. Causality for the trading losses is unproven. Circuit breaker separately fired at 15:16 IST after square-off when the Rs2,000 / 2% daily-loss threshold was crossed, as designed.",
           "next": "Review sizing and invariant enforcement against exact log/trade evidence before changing logic. No repair or loss-causality conclusion claimed.",
           "due": "Parked; no fix date set"
+        },
+        {
+          "id": "pro-t-fabricated-indicator-fallbacks",
+          "name": "pro_t fabricated positional indicator fallbacks",
+          "state": "parked",
+          "status": "Parked bug found Sep 30: positionalSignalEngine.js fabricates EMA/high/ATR fallbacks when real data is missing, using LTP multipliers such as 0.978 / 0.952.",
+          "detail": "Violates the real-data-only rule. Reported in the fundamentals-extension review; not fixed by the CA attribution cleanup. No repair or production gating claimed.",
+          "next": "Fix or gate missing-data fallbacks as step one of the planned fundamentals-analysis extension. Require real source data before using these indicators.",
+          "due": "Parked; first step before fundamentals extension"
         },
         {
           "id": "pro-t-market-value-column",
