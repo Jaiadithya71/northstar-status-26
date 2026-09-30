@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T16:28:00+05:30",
-  "updatedLabel": "30 Sep 2026, 04:28 PM IST",
+  "updatedAt": "2026-09-30T16:29:00+05:30",
+  "updatedLabel": "30 Sep 2026, 04:29 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -132,13 +132,13 @@
           "id": "reelsaga-cloud-uploader",
           "name": "ReelSaga cloud uploader",
           "state": "active",
-          "status": "In progress: OAuth and GitHub Actions secret set up Sep 30. Read-only gate PASSED; state/stop gate PASSED; one private canary upload PASSED end to end. Public API publishing still locked.",
-          "detail": "Private canary v0ecz1ozokQ was checked in Studio through playback, correct saved metadata and no claims. Encrypted checkpoint and stopped controls readback passed; access_enabled=false and public_publishing_enabled=false. This proves the private upload/checkpoint/stop path, not public publishing. Snapshot from the uploader report at 15:41 IST.",
-          "next": "Finish public API audit, Drive queue and Instagram relay before any public API publishing. Keep public controls locked until separately cleared. No second canary or public upload implied.",
+          "status": "In progress: read-only, state/stop and private canary gates passed. Sep 30 manual Studio flip test also passed on v0ecz1ozokQ. Public API publishing remains locked; audit draft ready, owner fields pending, nothing submitted.",
+          "detail": "The one API-private synthetic canary was manually saved Public in Studio, stayed Public after reload and played signed-out with no warnings in the reported 16:27 IST test. This single-video empirical result differs from YouTube's written private-lock help; it does not guarantee later visibility or a reliable path for other uploads. Earlier private upload/checkpoint/stop gate remains proven. No general public API clearance established.",
+          "next": "Finish the audit owner fields and review the application before submission. Keep public API publishing locked; do not treat one manual flip as a blanket audit exemption. Drive queue and Instagram relay remain unfinished.",
           "link": "https://github.com/Jaiadithya71/reelsaga-cloud-uploader/actions/runs/36700512294/job/109838597517",
           "linkLabel": "Successful private canary run",
-          "secondaryLink": "https://youtube.com/shorts/v0ecz1ozokQ",
-          "secondaryLinkLabel": "Private canary (owner only)"
+          "secondaryLink": "https://www.youtube.com/shorts/v0ecz1ozokQ",
+          "secondaryLinkLabel": "Canary (public in flip test)"
         },
         {
           "id": "horoscope-next-idea",
