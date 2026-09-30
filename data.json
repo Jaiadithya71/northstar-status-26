@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:36:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:36 PM IST",
+  "updatedAt": "2026-09-30T17:54:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:54 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -213,6 +213,16 @@
           "due": "Invite by Oct 14; challenge Oct 15-Nov 5",
           "link": "https://aspire.delphi.ai/",
           "linkLabel": "Challenge site"
+        },
+        {
+          "id": "pro-t-ca-attribution-cleanup",
+          "name": "pro_t frontend attribution cleanup",
+          "state": "done",
+          "status": "Done Sep 30: six frontend commits removed visible CA Rachana Ranade attribution; live Render dashboard and Strategies checked on desktop and phone.",
+          "detail": "Labels, descriptions and dynamic/history display text are attribution-free. Backend rule IDs, historical records, numeric values and en-CA locale unchanged. 18 formatter regression assertions pass. Attribution in the old frontend was not proof of endorsement.",
+          "next": "No cleanup follow-up needed. Fundamentals extension remains a separate plan, not built.",
+          "link": "https://stock-trading-1-cquo.onrender.com/",
+          "linkLabel": "Live app"
         }
       ]
     },
@@ -302,11 +312,15 @@
         {
           "id": "pro-t-fabricated-indicator-fallbacks",
           "name": "pro_t fabricated positional indicator fallbacks",
-          "state": "active",
-          "status": "Fix in progress after Jai's Sep 30, 17:33 IST \"Fix it now\": gate fabricated EMA/high/ATR fallbacks in positionalSignalEngine.js.",
-          "detail": "Missing real data currently falls back to LTP multipliers such as 0.978 / 0.952, violating the real-data-only rule. The active fix replaces fabricated fallbacks with hard gates: missing real data means no signal. Separate from the CA attribution cleanup; not yet verified pushed or deployed.",
-          "next": "Finish gating the fabricated fallbacks, test missing-data behavior, then push and verify. Do not mark fixed until the code and result are confirmed; fundamentals extension remains downstream.",
-          "due": "Fix in progress; push and verification pending"
+          "state": "done",
+          "status": "Fixed in code and pushed Sep 30: fabricated EMA/high/ATR fallbacks replaced with real-data gates. 49 regression assertions pass; exact backend deployment behavior not yet verified.",
+          "detail": "Gate commit 8e7ff43bdb718e128f92a267c867312bab27745b; test d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530. Missing daily inputs suppress candidates or affected indicator rules; real-price stop/target exits remain active. Current feed lacks explicit daily indicators, so swing entries stay gated. Render was running, but no deployed-commit stamp or direct evaluator route established this exact backend gate live.",
+          "next": "Verify deployed backend gate behavior when evidence is available. Supply a real daily EMA20/EMA50/ATR/high feed before enabling swing entries; no fabricated substitute.",
+          "due": "Code fixed; backend live verification pending",
+          "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/8e7ff43bdb718e128f92a267c867312bab27745b",
+          "linkLabel": "Gate fix",
+          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530",
+          "secondaryLinkLabel": "49-assertion regression test"
         },
         {
           "id": "pro-t-market-value-column",
