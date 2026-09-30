@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-09-30T17:06:00+05:30",
-  "updatedLabel": "30 Sep 2026, 05:06 PM IST",
+  "updatedAt": "2026-09-30T17:15:00+05:30",
+  "updatedLabel": "30 Sep 2026, 05:15 PM IST",
   "focus": {
     "title": "Choose Wednesday’s focus",
     "date": "2026-09-30T22:15:00+05:30",
@@ -176,18 +176,6 @@
           "next": "Tue 29 Sep: watch the existing Dean office thread for reply and any dispatch/tracking details."
         },
         {
-          "id": "outlier-onboarding",
-          "name": "Outlier.ai onboarding",
-          "state": "blocked",
-          "status": "Blocked / user-handling. Profile and phone verified; LinkedIn/GitHub connected. Save skills returns HTTP 403: User not permitted to set skills.",
-          "detail": "Server-side account-permission block, not a completed onboarding. The support bot claimed permanent deactivation; that claim has not been independently confirmed. Jai reported no notice email. Profile/phone verification is not identity ID/selfie verification, and no assessment or paid task completion is claimed. Jai took escalation over manually at 15:27 IST; no further outreach from Instinct.",
-          "next": "Jai handles Help > Contact Support or onboarding@outlier.ai. Await his update or a verified account response before resuming onboarding. Do not mark the account permanently deactivated from the bot claim alone.",
-          "link": "https://app.outlier.ai/onboarding/skill-selection",
-          "linkLabel": "Blocked skills step",
-          "secondaryLink": "https://outlier.ai/faq",
-          "secondaryLinkLabel": "Official support FAQ"
-        },
-        {
           "id": "gig-data-annotation-application",
           "name": "Gig / side-income: data annotation application",
           "state": "waiting",
@@ -195,6 +183,14 @@
           "detail": "Website not named. No application receipt, assessment, acceptance, work allocation or earnings reported. This is separate from the known Outlier onboarding blocker; no site identity inferred.",
           "next": "Await an update from Jai; add the site and any response when known. No follow-up or assessment scheduled.",
           "due": "Applied Sep 30; response date unknown"
+        },
+        {
+          "id": "job-hunt",
+          "name": "Part-time AI gig work",
+          "status": "Sep 30 pivot: stop Telegram-channel scanning for 12+ LPA jobs; search part-time gig work related to AI instead.",
+          "state": "active",
+          "next": "Search for part-time AI-related gigs and verify fit, terms and pay. No search results or new applications claimed by this dashboard update.",
+          "detail": "Jai changed the search direction at 17:14 IST. This supersedes the prior 12 LPA floor / 15 LPA aim for the stopped Telegram scanning plan, not proof that other applications or assessments are cancelled. Today's unnamed data annotation application is tracked separately; no paid work or earnings confirmed."
         }
       ]
     },
@@ -350,13 +346,6 @@
           "due": "11 Oct"
         },
         {
-          "id": "job-hunt",
-          "name": "AI & DS job hunt",
-          "status": "Off-campus roles · 12 LPA floor, 15 LPA aim. Exam comes first.",
-          "state": "parked",
-          "next": "Resume applications after 27 Sep."
-        },
-        {
           "id": "gemma",
           "name": "Kaggle Gemma 4",
           "status": "Kaggle Gemma 4 remains warm, with no start date committed.",
@@ -392,6 +381,18 @@
           "status": "Scaffold exists; direction not set.",
           "state": "parked",
           "next": "Choose the first useful workflow after the exam."
+        },
+        {
+          "id": "outlier-onboarding",
+          "name": "Outlier.ai onboarding",
+          "state": "parked",
+          "status": "Parked at Jai's request Sep 30, 17:13 IST. Skills-save HTTP 403 remains unresolved; Jai will check manually later.",
+          "detail": "Server-side account-permission block, not a completed onboarding. The support bot claimed permanent deactivation; that claim has not been independently confirmed. Jai reported no notice email. Profile/phone verification is not identity ID/selfie verification, and no assessment or paid task completion is claimed. Jai took escalation over manually at 15:27 IST; no further outreach from Instinct.",
+          "next": "Jai checks manually later. No active onboarding, support outreach or automated follow-up planned.",
+          "link": "https://app.outlier.ai/onboarding/skill-selection",
+          "linkLabel": "Blocked skills step",
+          "secondaryLink": "https://outlier.ai/faq",
+          "secondaryLinkLabel": "Official support FAQ"
         }
       ]
     },
