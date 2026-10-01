@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-01T15:16:08+05:30",
-  "updatedLabel": "01 Oct 2026, 03:16 PM IST",
+  "updatedAt": "2026-10-01T18:54:05+05:30",
+  "updatedLabel": "01 Oct 2026, 06:54 PM IST",
   "focus": {
     "title": "Choose Thursday’s focus",
     "date": "2026-10-01T22:15:00+05:30",
@@ -152,14 +152,16 @@
         },
         {
           "id": "vedic-astrology-app",
-          "name": "Vedic astrology app",
-          "state": "parked",
-          "status": "App build parked until the Balaji / Horoscope_Ventrue engine work completes. Jai clarified Sep 30 at 17:29 IST: engine first, app after.",
-          "detail": "Jai committed at 17:27 IST to turning it into an app, then at 17:29 said to let the engine work complete before building. This replaces the earlier tonight/parallel app-shell plan. No app build, launch or validated prediction system is claimed.",
-          "next": "Wait for verified completion of the Balaji engine work, then build the app around Horoscope_Ventrue. Do not start the app shell tonight while the engine work remains open.",
-          "due": "After engine completion; no start date set",
-          "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
-          "linkLabel": "Engine repo"
+          "name": "Vedic astrology app shell",
+          "state": "done",
+          "status": "Launched Oct 1: live app shell with city-name input and a Balaji-style reading layer. Engine untouched by the shell launch.",
+          "detail": "Launch closeout reports AGPL licensing and 536 engine + 8 app tests passing. Live homepage verified Oct 1. This completes the app shell, not full strength totals or predictive validation: full strength totals, historical calendar selection and personal forecasts remain research-gated.",
+          "next": "Review the live shell; track remaining engine research separately. Do not treat the shell launch as a finished prediction system.",
+          "due": "Launched · 1 Oct 2026",
+          "link": "https://horoscope-ventrue.vercel.app",
+          "linkLabel": "Open live app",
+          "secondaryLink": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+          "secondaryLinkLabel": "Engine repo"
         },
         {
           "id": "agentforge",
@@ -1025,4 +1027,4 @@
       }
     ]
   }
-}
+        }
