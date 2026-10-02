@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-01T18:54:05+05:30",
-  "updatedLabel": "01 Oct 2026, 06:54 PM IST",
+  "updatedAt": "2026-10-02T08:28:19+05:30",
+  "updatedLabel": "02 Oct 2026, 08:28 AM IST",
   "focus": {
     "title": "Choose Thursday’s focus",
     "date": "2026-10-01T22:15:00+05:30",
@@ -123,10 +123,10 @@
         {
           "id": "dramacps-youtube-pipeline",
           "name": "DramaCPS / ReelSaga: YouTube + Instagram Reels",
-          "status": "In progress. Sep 30 afternoon publisher update: Blood Pact Ep1 complete on YouTube + Instagram (3/3 each); Daddy Ep1 complete (4/4). Daddy Ep2 Parts 1-4 Public, Part 5 saved in Studio checks.",
+          "status": "Vows YouTube COMPLETE Oct 2: 31/31 production Shorts public across all 9 episodes. Blood Instagram COMPLETE Oct 1: 30/30.",
           "state": "active",
-          "detail": "Snapshot from publisher reports through Sep 30, 15:41 IST, not a live upload feed. Duplicate 3-second draft was deleted under Jai's approval. Part 5 is not counted as public. Instagram Reels is now active, superseding the earlier sign-in/setup blocker. Public API publishing remains locked in the separate cloud-uploader item; browser publishing and private canary testing are different flows. TikTok remains excluded.",
-          "next": "Continue the existing Part 5 checks watch and verify its stored verdict before publishing or marking it complete. Keep channel/link and clip-rights checks attached to the publisher workflow."
+          "detail": "Publication milestones from the Oct 2 publisher closeout relayed at 08:27 IST. Vows Instagram is next, not counted as published. These milestones do not supply fresh views, likes or comments; older Studio analytics remain dated separately. Private probes are not production Shorts.",
+          "next": "Publish Vows to Instagram through the existing publisher workflow, with live verification of each part. Keep clip-rights and platform limits attached to that workflow."
         },
         {
           "id": "reelsaga-cloud-uploader",
@@ -957,7 +957,7 @@
     "channelId": "UC71kSXnAt6Ipy7KqVVo3mdA",
     "asOf": "29 Sep 2026, 04:45 AM IST",
     "source": "YouTube Studio, ReelSaga Shorts list on the 71 account",
-    "note": "Snapshot, not a live feed. Views and comments are from Studio’s Shorts list; likes were not shown there. EP2 Parts 2/3 are not listed as uploaded yet. Privacy, notices and counts can change after this read. Older private screening tests are included below, separate from the public split parts.",
+    "note": "Historical analytics snapshot from Sep 29, 04:45 IST, not current publication inventory or a live feed. Later publisher milestone: Vows YouTube completed Oct 2 with 31/31 production Shorts public across 9 episodes; Blood Instagram completed Oct 1 with 30/30. Vows Instagram is next. Old view/comment figures below have not been refreshed; missing likes are not zero. Private screening tests remain separate.",
     "videos": [
       {
         "id": "f4ezceNKudQ",
@@ -1027,4 +1027,4 @@
       }
     ]
   }
-        }
+}
