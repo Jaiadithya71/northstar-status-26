@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-02T08:30:34+05:30",
-  "updatedLabel": "02 Oct 2026, 08:30 AM IST",
+  "updatedAt": "2026-10-02T22:33:01+05:30",
+  "updatedLabel": "02 Oct 2026, 10:33 PM IST",
   "focus": {
     "title": "Choose Friday’s next step",
     "date": "2026-10-02T23:45:00+05:30",
@@ -123,10 +123,19 @@
         {
           "id": "dramacps-youtube-pipeline",
           "name": "DramaCPS / ReelSaga: YouTube + Instagram Reels",
-          "status": "Vows YouTube COMPLETE Oct 2: 31/31 production Shorts public across all 9 episodes. Blood Instagram COMPLETE Oct 1: 30/30.",
+          "status": "Published milestones complete: Maid YouTube 17/17 and Vows Instagram 31/31 on Oct 2. Vows YouTube 31/31 (9 episodes) completed Oct 2; Blood Instagram 30/30 completed Oct 1.",
+          "state": "done",
+          "detail": "Publisher completion update relayed Oct 2 at 22:32 IST. Counts are production publication milestones, not fresh analytics or proof of rights. Private probes are separate. The next series is tracked in its own active item.",
+          "next": "Completed batches stay recorded here. Follow the separate next-series item for new YouTube and Instagram publication."
+        },
+        {
+          "id": "reelsaga-next-series-oct02",
+          "name": "ReelSaga next series: YouTube + Instagram",
           "state": "active",
-          "detail": "Publication milestones from the Oct 2 publisher closeout relayed at 08:27 IST. Vows Instagram is next, not counted as published. These milestones do not supply fresh views, likes or comments; older Studio analytics remain dated separately. Private probes are not production Shorts.",
-          "next": "Publish Vows to Instagram through the existing publisher workflow, with live verification of each part. Keep clip-rights and platform limits attached to that workflow."
+          "status": "Started Oct 2 around 22:32 IST: next series publishing to both YouTube and Instagram.",
+          "detail": "Series title, total parts and live published counts have not been supplied in this update. Started does not mean finished or already public on either platform.",
+          "next": "Continue the existing publisher workflow and report the series title, per-platform part counts and verified publication milestones.",
+          "due": "Started · 2 Oct 2026, ~22:32 IST"
         },
         {
           "id": "reelsaga-cloud-uploader",
@@ -999,7 +1008,7 @@
     "channelId": "UC71kSXnAt6Ipy7KqVVo3mdA",
     "asOf": "29 Sep 2026, 04:45 AM IST",
     "source": "YouTube Studio, ReelSaga Shorts list on the 71 account",
-    "note": "Historical analytics snapshot from Sep 29, 04:45 IST, not current publication inventory or a live feed. Later publisher milestone: Vows YouTube completed Oct 2 with 31/31 production Shorts public across 9 episodes; Blood Instagram completed Oct 1 with 30/30. Vows Instagram is next. Old view/comment figures below have not been refreshed; missing likes are not zero. Private screening tests remain separate.",
+    "note": "Historical analytics snapshot from Sep 29, 04:45 IST, not current inventory or a live feed. Publication milestones: Vows YouTube 31/31 across 9 episodes and Maid YouTube 17/17 completed Oct 2; Vows Instagram 31/31 completed Oct 2; Blood Instagram 30/30 completed Oct 1. Next series started on both platforms Oct 2 around 22:32 IST; title/counts not yet recorded. Old views/comments below are not refreshed; missing likes are not zero. Private probes remain separate.",
     "videos": [
       {
         "id": "f4ezceNKudQ",
