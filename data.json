@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-02T08:28:19+05:30",
-  "updatedLabel": "02 Oct 2026, 08:28 AM IST",
+  "updatedAt": "2026-10-02T08:30:34+05:30",
+  "updatedLabel": "02 Oct 2026, 08:30 AM IST",
   "focus": {
-    "title": "Choose Thursday’s focus",
-    "date": "2026-10-01T22:15:00+05:30",
-    "dateLabel": "Thu 1 Oct · routine day-end",
-    "status": "Sleep, pace and priority unconfirmed",
-    "next": "Check actual rest and institute plan, choose one bounded work block, and protect food and wind-down."
+    "title": "Choose Friday’s next step",
+    "date": "2026-10-02T23:45:00+05:30",
+    "dateLabel": "Fri 2 Oct · routine sleep anchor",
+    "status": "Rest, institute plan and priority unconfirmed",
+    "next": "Ground the real start, choose one bounded next step, and fit the Friday evening routine around actual energy."
   },
   "groups": [
     {
@@ -544,44 +544,44 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-10-01",
-    "label": "Thursday, 1 Oct",
-    "dayEnd": "22:15",
-    "dayEndLabel": "weekday wind-down anchor, adjustable",
-    "note": "Thursday plan uses the weekday routine without assuming an early study block, institute attendance or enough sleep. Post-exam pace remains unconfirmed. Ongoing publication and backend verification stay in their existing workflows. Nitin follow-up and the Japanese_Practice celebration bug remain outside My Day.",
+    "date": "2026-10-02",
+    "label": "Friday, 2 Oct",
+    "dayEnd": "23:45",
+    "dayEndLabel": "Friday sleep anchor, adjustable",
+    "note": "Friday plan uses the weekday routine and Friday evening exception without assuming attendance, early study or sleep. NAT-TEST 4Q is passed by Jai’s report; the app shell is launched and Vows YouTube is complete. Those are milestones, not automatic completion of today’s tasks. Nitin and the celebration bug remain outside My Day.",
     "items": [
       {
-        "id": "oct01-readiness",
+        "id": "oct02-readiness",
         "source": "agent",
-        "label": "Set Thursday’s pace from sleep and institute plan",
-        "window": "Morning · before a work block",
-        "target": "Check actual sleep and whether institute is on today (usual weekday 09:00-17:30). Eat and plan the commute around the real start; the 04:50 grammar block is a routine reference, not assumed work.",
+        "label": "Set Friday’s pace from actual rest and institute plan",
+        "window": "Morning · before committing a work block",
+        "target": "Confirm rest, breakfast and whether institute is on (usual 09:00-17:30). Adapt the commute and study blocks to the actual day; do not count an early grammar block as done.",
         "status": "pending",
-        "progress_text": "Late-night work continued into Oct 1. Sleep, attendance and morning study are unconfirmed.",
-        "impact_done": "Keeps the day usable after a late night.",
-        "impact_skipped": "An assumed early start can crowd out rest and meals."
+        "progress_text": "Sleep, meals, attendance and today’s study are not confirmed.",
+        "impact_done": "Keeps the plan aligned with the day Jai actually has.",
+        "impact_skipped": "An assumed routine can create an unrealistic load."
       },
       {
-        "id": "oct01-one-block",
+        "id": "oct02-focus",
         "source": "agent",
-        "label": "Choose one manageable post-exam work block",
-        "window": "When rested · one priority with a stop point",
-        "target": "Choose a current priority and one bounded action. Leave ReelSaga publication and pro_t deployment follow-up with their existing workflows; do not turn their unfinished work into personal tasks by default.",
+        "label": "Choose one next step after the shipped milestones",
+        "window": "When ready · one bounded block",
+        "target": "Choose one priority and a clear stop point. The astrology shell is launched and Vows YouTube is complete; ongoing engine research and Vows Instagram remain with their existing workflows unless Jai chooses a personal action.",
         "status": "pending",
-        "progress_text": "No new Thursday priority or post-exam study cadence has been confirmed. The Sep 27 exam sitting is complete; Jai confirmed a pass on Oct 1.",
-        "impact_done": "Gives the day a clear outcome without duplicating ongoing work.",
-        "impact_skipped": "Reactive updates can consume the available energy."
+        "progress_text": "No Friday priority has been chosen here. NAT-TEST pass is user-reported; score is still unavailable in this dashboard.",
+        "impact_done": "Turns recent wins into a deliberate next step.",
+        "impact_skipped": "Reactive work can fill the day without a chosen outcome."
       },
       {
-        "id": "oct01-recovery",
+        "id": "oct02-evening",
         "source": "agent",
-        "label": "Keep food and evening recovery in the plan",
-        "window": "Routine: gym 19:30-20:45 if feasible; wind-down 21:30-22:15",
-        "target": "Fit gym to actual sleep and commitments. Keep dinner and a firm work stop; use the weekday routine as an adjustable anchor, not proof of attendance.",
+        "label": "Plan food, gym and the Friday evening exception",
+        "window": "Gym 19:30-20:45 if feasible; driving routine 22:00-23:30; sleep anchor 23:45",
+        "target": "Keep dinner and recovery in the plan. Use gym and Friday driving only if actual rest and commitments allow; driving is a routine reference, not a booking or required activity.",
         "status": "pending",
-        "progress_text": "No Thursday gym, meals or wind-down outcome is confirmed.",
-        "impact_done": "Leaves room for recovery and a more workable Friday.",
-        "impact_skipped": "Another open-ended late night can weaken the next day."
+        "progress_text": "No Friday gym, driving or sleep outcome is confirmed.",
+        "impact_done": "Leaves a clear evening stop and room for recovery.",
+        "impact_skipped": "Another open-ended late night can make Saturday harder."
       }
     ]
   },
@@ -948,6 +948,48 @@
           "progress_text": "Gym, meals and sleep for Wednesday are not confirmed; routine times are an anchor, not attendance evidence.",
           "impact_done": "Supports recovery while the next work decisions settle.",
           "impact_skipped": "Another late night may make tomorrow’s plan less usable."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "label": "Thursday, 1 Oct",
+      "dayEnd": "22:15",
+      "dayEndLabel": "weekday wind-down anchor, adjustable",
+      "note": "Thursday plan uses the weekday routine without assuming an early study block, institute attendance or enough sleep. Post-exam pace remains unconfirmed. Ongoing publication and backend verification stay in their existing workflows. Nitin follow-up and the Japanese_Practice celebration bug remain outside My Day.",
+      "items": [
+        {
+          "id": "oct01-readiness",
+          "source": "agent",
+          "label": "Set Thursday’s pace from sleep and institute plan",
+          "window": "Morning · before a work block",
+          "target": "Check actual sleep and whether institute is on today (usual weekday 09:00-17:30). Eat and plan the commute around the real start; the 04:50 grammar block is a routine reference, not assumed work.",
+          "status": "pending",
+          "progress_text": "Late-night work continued into Oct 1. Sleep, attendance and morning study are unconfirmed.",
+          "impact_done": "Keeps the day usable after a late night.",
+          "impact_skipped": "An assumed early start can crowd out rest and meals."
+        },
+        {
+          "id": "oct01-one-block",
+          "source": "agent",
+          "label": "Choose one manageable post-exam work block",
+          "window": "When rested · one priority with a stop point",
+          "target": "Choose a current priority and one bounded action. Leave ReelSaga publication and pro_t deployment follow-up with their existing workflows; do not turn their unfinished work into personal tasks by default.",
+          "status": "pending",
+          "progress_text": "No new Thursday priority or post-exam study cadence has been confirmed. The Sep 27 exam sitting is complete; Jai confirmed a pass on Oct 1.",
+          "impact_done": "Gives the day a clear outcome without duplicating ongoing work.",
+          "impact_skipped": "Reactive updates can consume the available energy."
+        },
+        {
+          "id": "oct01-recovery",
+          "source": "agent",
+          "label": "Keep food and evening recovery in the plan",
+          "window": "Routine: gym 19:30-20:45 if feasible; wind-down 21:30-22:15",
+          "target": "Fit gym to actual sleep and commitments. Keep dinner and a firm work stop; use the weekday routine as an adjustable anchor, not proof of attendance.",
+          "status": "pending",
+          "progress_text": "No Thursday gym, meals or wind-down outcome is confirmed.",
+          "impact_done": "Leaves room for recovery and a more workable Friday.",
+          "impact_skipped": "Another open-ended late night can weaken the next day."
         }
       ]
     }
