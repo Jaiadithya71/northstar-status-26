@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T02:04:19+05:30",
-  "updatedLabel": "03 Oct 2026, 02:04 AM IST",
+  "updatedAt": "2026-10-03T04:40:53+05:30",
+  "updatedLabel": "03 Oct 2026, 04:40 AM IST",
   "focus": {
-    "title": "Choose Friday’s next step",
-    "date": "2026-10-02T23:45:00+05:30",
-    "dateLabel": "Fri 2 Oct · routine sleep anchor",
-    "status": "Rest, institute plan and priority unconfirmed",
-    "next": "Ground the real start, choose one bounded next step, and fit the Friday evening routine around actual energy."
+    "title": "Choose Saturday’s focus",
+    "date": "2026-10-03T22:30:00+05:30",
+    "dateLabel": "Sat 3 Oct · routine sleep anchor",
+    "status": "Rest and weekend priority unconfirmed",
+    "next": "Check rest and food, choose one bounded weekend block, and keep a clear evening stop."
   },
   "groups": [
     {
@@ -553,44 +553,44 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-10-02",
-    "label": "Friday, 2 Oct",
-    "dayEnd": "23:45",
-    "dayEndLabel": "Friday sleep anchor, adjustable",
-    "note": "Friday plan uses the weekday routine and Friday evening exception without assuming attendance, early study or sleep. NAT-TEST 4Q is passed by Jai’s report; the app shell is launched and Vows YouTube is complete. Those are milestones, not automatic completion of today’s tasks. Nitin and the celebration bug remain outside My Day.",
+    "date": "2026-10-03",
+    "label": "Saturday, 3 Oct",
+    "dayEnd": "22:30",
+    "dayEndLabel": "Saturday sleep anchor, adjustable",
+    "note": "Saturday routine is a reference, not proof of attendance or completed work. Publishing continued around 02:03; actual rest is unknown. NAT-TEST 4Q pass and completed publication batches remain milestones. No weekend hackathon entry, call or personal task is assumed. Nitin and the celebration bug stay outside My Day.",
     "items": [
       {
-        "id": "oct02-readiness",
+        "id": "oct03-start",
         "source": "agent",
-        "label": "Set Friday’s pace from actual rest and institute plan",
-        "window": "Morning · before committing a work block",
-        "target": "Confirm rest, breakfast and whether institute is on (usual 09:00-17:30). Adapt the commute and study blocks to the actual day; do not count an early grammar block as done.",
+        "label": "Ground the Saturday start in real rest and food",
+        "window": "Routine: wake 07:00; gym 07:30-09:00 if feasible",
+        "target": "Check actual sleep and breakfast before setting the pace. Adapt gym to rest and energy rather than treating the routine time as a required or completed session.",
         "status": "pending",
-        "progress_text": "Sleep, meals, attendance and today’s study are not confirmed.",
-        "impact_done": "Keeps the plan aligned with the day Jai actually has.",
-        "impact_skipped": "An assumed routine can create an unrealistic load."
+        "progress_text": "Sleep, meals and Saturday gym are not confirmed.",
+        "impact_done": "Makes the weekend plan realistic after late-night work.",
+        "impact_skipped": "A routine imposed on little sleep may crowd out recovery."
       },
       {
-        "id": "oct02-focus",
+        "id": "oct03-focus",
         "source": "agent",
-        "label": "Choose one next step after the shipped milestones",
-        "window": "When ready · one bounded block",
-        "target": "Choose one priority and a clear stop point. The astrology shell is launched and Vows YouTube is complete; ongoing engine research and Vows Instagram remain with their existing workflows unless Jai chooses a personal action.",
+        "label": "Choose one bounded weekend focus",
+        "window": "Routine study windows: 09:45-12:00 or 14:00-16:00",
+        "target": "Choose one useful work or study action with a stop point. Optional hackathon review remains backlog, not an entry commitment; Mech God publishing stays in its existing workflow.",
         "status": "pending",
-        "progress_text": "No Friday priority has been chosen here. NAT-TEST pass is user-reported; score is still unavailable in this dashboard.",
-        "impact_done": "Turns recent wins into a deliberate next step.",
-        "impact_skipped": "Reactive work can fill the day without a chosen outcome."
+        "progress_text": "No Saturday personal priority or new study cadence has been chosen here.",
+        "impact_done": "Creates a clear outcome without duplicating ongoing publishing.",
+        "impact_skipped": "The weekend can fill with reactive work."
       },
       {
-        "id": "oct02-evening",
+        "id": "oct03-evening",
         "source": "agent",
-        "label": "Plan food, gym and the Friday evening exception",
-        "window": "Gym 19:30-20:45 if feasible; driving routine 22:00-23:30; sleep anchor 23:45",
-        "target": "Keep dinner and recovery in the plan. Use gym and Friday driving only if actual rest and commitments allow; driving is a routine reference, not a booking or required activity.",
+        "label": "Leave room for friends and a Saturday stop",
+        "window": "Routine: friend calls 16:00-17:30; reading 20:30-22:00; sleep 22:30",
+        "target": "Keep dinner and wind-down. Use friend-call and reading windows if wanted and feasible; no call is booked or sent by this plan. Car cleaning 13:00-14:00 is another routine option, not assigned work.",
         "status": "pending",
-        "progress_text": "No Friday gym, driving or sleep outcome is confirmed.",
-        "impact_done": "Leaves a clear evening stop and room for recovery.",
-        "impact_skipped": "Another open-ended late night can make Saturday harder."
+        "progress_text": "No call, car-cleaning, reading or sleep outcome is confirmed.",
+        "impact_done": "Keeps the weekend from becoming an open-ended work run.",
+        "impact_skipped": "Rest and relationships may be crowded out."
       }
     ]
   },
@@ -999,6 +999,48 @@
           "progress_text": "No Thursday gym, meals or wind-down outcome is confirmed.",
           "impact_done": "Leaves room for recovery and a more workable Friday.",
           "impact_skipped": "Another open-ended late night can weaken the next day."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "label": "Friday, 2 Oct",
+      "dayEnd": "23:45",
+      "dayEndLabel": "Friday sleep anchor, adjustable",
+      "note": "Friday plan uses the weekday routine and Friday evening exception without assuming attendance, early study or sleep. NAT-TEST 4Q is passed by Jai’s report; the app shell is launched and Vows YouTube is complete. Those are milestones, not automatic completion of today’s tasks. Nitin and the celebration bug remain outside My Day.",
+      "items": [
+        {
+          "id": "oct02-readiness",
+          "source": "agent",
+          "label": "Set Friday’s pace from actual rest and institute plan",
+          "window": "Morning · before committing a work block",
+          "target": "Confirm rest, breakfast and whether institute is on (usual 09:00-17:30). Adapt the commute and study blocks to the actual day; do not count an early grammar block as done.",
+          "status": "pending",
+          "progress_text": "Sleep, meals, attendance and today’s study are not confirmed.",
+          "impact_done": "Keeps the plan aligned with the day Jai actually has.",
+          "impact_skipped": "An assumed routine can create an unrealistic load."
+        },
+        {
+          "id": "oct02-focus",
+          "source": "agent",
+          "label": "Choose one next step after the shipped milestones",
+          "window": "When ready · one bounded block",
+          "target": "Choose one priority and a clear stop point. The astrology shell is launched and Vows YouTube is complete; ongoing engine research and Vows Instagram remain with their existing workflows unless Jai chooses a personal action.",
+          "status": "pending",
+          "progress_text": "No Friday priority has been chosen here. NAT-TEST pass is user-reported; score is still unavailable in this dashboard.",
+          "impact_done": "Turns recent wins into a deliberate next step.",
+          "impact_skipped": "Reactive work can fill the day without a chosen outcome."
+        },
+        {
+          "id": "oct02-evening",
+          "source": "agent",
+          "label": "Plan food, gym and the Friday evening exception",
+          "window": "Gym 19:30-20:45 if feasible; driving routine 22:00-23:30; sleep anchor 23:45",
+          "target": "Keep dinner and recovery in the plan. Use gym and Friday driving only if actual rest and commitments allow; driving is a routine reference, not a booking or required activity.",
+          "status": "pending",
+          "progress_text": "No Friday gym, driving or sleep outcome is confirmed.",
+          "impact_done": "Leaves a clear evening stop and room for recovery.",
+          "impact_skipped": "Another open-ended late night can make Saturday harder."
         }
       ]
     }
