@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T15:10:21+05:30",
-  "updatedLabel": "03 Oct 2026, 03:10 PM IST",
+  "updatedAt": "2026-10-03T18:25:34+05:30",
+  "updatedLabel": "03 Oct 2026, 06:25 PM IST",
   "focus": {
     "title": "Choose Saturday’s focus",
     "date": "2026-10-03T22:30:00+05:30",
@@ -251,13 +251,13 @@
         {
           "id": "patent-expiry-research",
           "name": "Patent Expiry Research",
-          "state": "active",
-          "status": "Data pipeline building. Second-income demand test: expired/lapsed Indian patent reports for small companies, starting with farm chemicals.",
-          "detail": "Project plan relayed Oct 3 at 15:10 IST: data pipeline -> report builder -> lead finder -> planned outreach of 100/day for 7 days. This is a demand test, not established sales. Expiry/lapse findings require source checks; no patent list or company outreach is marked complete.",
-          "next": "Build and verify the data pipeline, then report builder and lead finder. Track the outreach target separately from messages actually sent.",
+          "state": "waiting",
+          "status": "Data stage complete: 342 expired-term agrochemical patent records harvested; captcha self-solve pipeline working. Report #1 drafted and awaiting Jai’s review.",
+          "detail": "Stage update relayed Oct 3 at 18:25 IST. Draft: reports/report-01-agrochemical-expired-patents.md. Harvested expired-term records are a research input, not a freedom-to-operate opinion or proven customer demand. No report approval, lead-finder completion or outreach send is recorded.",
+          "next": "Await Jai’s approval of Report #1, then proceed to lead finder and outreach. Keep the 100/day for 7 days target separate from actual sends.",
           "link": "https://github.com/Jaiadithya71/patent-expiry-research",
           "linkLabel": "Project repo",
-          "due": "Demand-test plan · 7-day outreach stage"
+          "due": "Report #1 review pending"
         }
       ]
     },
