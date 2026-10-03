@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T20:01:14+05:30",
-  "updatedLabel": "03 Oct 2026, 08:01 PM IST",
+  "updatedAt": "2026-10-03T20:04:37+05:30",
+  "updatedLabel": "03 Oct 2026, 08:04 PM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -241,10 +241,15 @@
           "id": "focus-horoscope",
           "name": "Horoscope project",
           "state": "active",
-          "status": "Oct 3: period-by-period timeline live, 9 dasa cards with sourced rules; 583 tests. Lahiri ayanamsa bug fixed with regression coverage.",
+          "status": "Oct 3: period cards lead with year ranges and plain-life themes; planet names and rules behind evidence. 585 tests reported, including jargon-leak regressions.",
           "next": "Build the whole-chart \"who you are\" layer; retain remaining source/research gaps and test gates.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-03T20:04:37+05:30",
+              "source": "Agent · implementation closeout",
+              "text": "User-oriented tone retrofit live: year ranges and plain-life reads (testing/supportive stretch) lead period cards; planet names and source rules moved into evidence drill-down. 585 tests reported; jargon-leak regression tests added."
+            },
             {
               "at": "2026-10-03T19:58:46+05:30",
               "source": "Agent · implementation closeout",
@@ -804,7 +809,7 @@
         "window": "Daily project check-in · 3 Oct",
         "target": "Build the whole-chart \"who you are\" layer; retain remaining source/research gaps and test gates.",
         "status": "pending",
-        "progress_text": "Oct 3: period-by-period timeline live, 9 dasa cards with sourced rules; 583 tests. Lahiri ayanamsa bug fixed with regression coverage.",
+        "progress_text": "Oct 3: period cards lead with year ranges and plain-life themes; planet names and rules behind evidence. 585 tests reported, including jargon-leak regressions.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -1408,4 +1413,4 @@
       }
     }
   ]
-}
+      }
