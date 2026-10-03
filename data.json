@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T04:40:53+05:30",
-  "updatedLabel": "03 Oct 2026, 04:40 AM IST",
+  "updatedAt": "2026-10-03T15:10:21+05:30",
+  "updatedLabel": "03 Oct 2026, 03:10 PM IST",
   "focus": {
     "title": "Choose Saturday’s focus",
     "date": "2026-10-03T22:30:00+05:30",
@@ -247,6 +247,17 @@
           "linkLabel": "Paper swing route",
           "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/f162fdfbbaf101e4e3514e3017b120e33f77a03d",
           "secondaryLinkLabel": "1x delivery guard"
+        },
+        {
+          "id": "patent-expiry-research",
+          "name": "Patent Expiry Research",
+          "state": "active",
+          "status": "Data pipeline building. Second-income demand test: expired/lapsed Indian patent reports for small companies, starting with farm chemicals.",
+          "detail": "Project plan relayed Oct 3 at 15:10 IST: data pipeline -> report builder -> lead finder -> planned outreach of 100/day for 7 days. This is a demand test, not established sales. Expiry/lapse findings require source checks; no patent list or company outreach is marked complete.",
+          "next": "Build and verify the data pipeline, then report builder and lead finder. Track the outreach target separately from messages actually sent.",
+          "link": "https://github.com/Jaiadithya71/patent-expiry-research",
+          "linkLabel": "Project repo",
+          "due": "Demand-test plan · 7-day outreach stage"
         }
       ]
     },
