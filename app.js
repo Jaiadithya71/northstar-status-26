@@ -1,7 +1,7 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
 const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Later',personal:'Post-exam chilling',history:'History',shorts:'ReelSaga Shorts'};
+const views={overview:'Overview',today:'My Day',projects:'Projects',later:'Backlog',personal:'Post-exam chilling',history:'History',shorts:'ReelSaga Shorts'};
 const view=()=>{const q=new URLSearchParams(location.search).get('view');return views[q]?q:'overview'};
 const dayEnd=(day)=>new Date(`${day.date}T${day.dayEnd||'22:15'}:00+05:30`).getTime(); // Labeled routine anchor, not a deadline.
 const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
@@ -18,7 +18,7 @@ function renderToday(data){
   const list=$('div','today-list');const known=new Set(['pending','in_progress','done','partial','missed']);
   for(const item of items){const status=known.has(item.status)?item.status:'pending';const card=$('details','day-item');
     const summary=$('summary','day-summary');const title=$('div','day-title');appendText(title,'span','day-label',item.label);appendText(title,'span','day-status '+status,status.replace('_',' '));summary.appendChild(title);appendText(summary,'span','day-window',item.window||'');card.appendChild(summary);
-    const body=$('div','day-body');if(item.target)appendText(body,'p','day-target',item.target);if(item.progress_text)appendText(body,'p','day-progress',item.progress_text);
+    const body=$('div','day-body');if(item.projectId){const a=$('a','more-link','Open project log');a.href='?view=projects#'+item.projectId;body.appendChild(a)}if(item.target)appendText(body,'p','day-target',item.target);if(item.progress_text)appendText(body,'p','day-progress',item.progress_text);
     if(item.impact_done||item.impact_skipped){const impacts=$('div','impacts');if(item.impact_done){const done=$('p','impact-done');appendText(done,'strong','','Finish: ');done.appendChild(document.createTextNode(item.impact_done));impacts.appendChild(done)}if(item.impact_skipped){const skipped=$('p','impact-skipped');appendText(skipped,'strong','','Skip: ');skipped.appendChild(document.createTextNode(item.impact_skipped));impacts.appendChild(skipped)}body.appendChild(impacts)}
     const controls=$('div','day-controls');for(const [value,label] of [['done','Done'],['partial','Partial'],['pending','Reset']]){const btn=$('button','day-action',label);btn.type='button';btn.disabled=status===value;btn.addEventListener('click',()=>changeDay({action:'status',id:item.id,status:value}));controls.appendChild(btn)}if(item.source==='user'){const remove=$('button','day-remove','Remove');remove.type='button';remove.addEventListener('click',()=>changeDay({action:'remove',id:item.id}));controls.appendChild(remove)}body.appendChild(controls);card.appendChild(body);list.appendChild(card)}section.appendChild(list);
   const form=$('form','add-task');const input=$('input');input.type='text';input.maxLength=120;input.placeholder='Add a task for today';input.setAttribute('aria-label','New task');input.required=true;const submit=$('button','','Add task');submit.type='submit';form.append(input,submit);form.addEventListener('submit',e=>{e.preventDefault();const label=input.value.trim();if(label)changeDay({action:'add',label})});section.appendChild(form);
@@ -49,7 +49,7 @@ function renderShorts(data){
     appendText(card,'p','shorts-state',video.visibility);if(video.notice)appendText(card,'p','shorts-notice',video.notice);
     const links=$('div','shorts-links');for(const [label,url] of [['Watch Short',video.url],['Open Studio',video.studioUrl]]){const a=$('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.appendChild(a)}card.appendChild(links);list.appendChild(card)}section.appendChild(list);
 }
-function renderArchive(data){const section=document.querySelector('#archive');section.replaceChildren();const h=$('h2','','Past days');section.appendChild(h);const days=(data.archive||[]);if(!days.length){appendText(section,'p','archive-empty','No past days yet.');return}for(const day of days){const d=$('details','archive-day');const title=$('summary','',`${day.label||day.date} · ${progress(day.items)}% complete`);d.appendChild(title);for(const item of day.items||[])appendText(d,'p','',`${item.status.replace('_',' ')} · ${item.label}`);section.appendChild(d)}}
+function renderArchive(data){const section=document.querySelector('#archive');section.replaceChildren();const h=$('h2','','Past days');section.appendChild(h);for(const prior of data.priorDayPlans||[]){const d=$('details','archive-day');d.appendChild($('summary','',prior.plan.label+' · earlier plan'));for(const item of prior.plan.items||[])appendText(d,'p','',item.status.replace('_',' ')+' · '+item.label);section.appendChild(d)}const days=(data.archive||[]);if(!days.length){appendText(section,'p','archive-empty','No past days yet.');return}for(const day of days){const d=$('details','archive-day');const title=$('summary','',`${day.label||day.date} · ${progress(day.items)}% complete`);d.appendChild(title);for(const item of day.items||[])appendText(d,'p','',`${item.status.replace('_',' ')} · ${item.label}`);section.appendChild(d)}}
 const $ = (tag, cls, text) => { const el = document.createElement(tag); if(cls) el.className=cls; if(text!==undefined) el.textContent=text; return el; };
 const appendText=(el,tag,cls,text)=>el.appendChild($(tag,cls,text));
 function render(data){
@@ -72,6 +72,8 @@ function render(data){
       const summary=$('summary','item-summary');const head=$('div','item-head');appendText(head,'h3','',item.name);appendText(head,'span',`pill ${item.state}`,item.state);summary.appendChild(head);appendText(summary,'p','status',item.status);card.appendChild(summary);
       const content=$('div','item-content');if(item.detail)appendText(content,'p','detail',item.detail);
       const next=$('p','next');appendText(next,'strong','','Next: ');next.appendChild(document.createTextNode(item.next));content.appendChild(next);
+      if(item.focusProject){const log=$('details','project-log');log.appendChild($('summary','','Daily progress · latest first'));const rows=(item.dailyLog||[]).slice();for(const day of [data.today,...(data.archive||[])]){for(const row of day?.items||[]){if(row.projectId===item.id&&row.checked_at)rows.push({at:row.checked_at,source:'Jai · saved check-in',text:row.status.replace('_',' ')})}}rows.sort((a,b)=>b.at.localeCompare(a.at));for(const row of rows){const line=$('p','detail');appendText(line,'strong','',new Date(row.at).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' IST · '+row.source+' · ');line.appendChild(document.createTextNode(row.text));log.appendChild(line)}content.appendChild(log);if(item.foldedRecords?.length){const history=$('details','project-log');history.appendChild($('summary','','Earlier records'));for(const row of item.foldedRecords)appendText(history,'p','detail',row.name+': '+row.status);content.appendChild(history)}}
+
       if(item.due||item.link||item.secondaryLink){const meta=$('div','item-meta');if(item.due)appendText(meta,'span','',item.due);else appendText(meta,'span','','');for(const [url,label] of [[item.link,item.linkLabel||'Open'],[item.secondaryLink,item.secondaryLinkLabel||'More details']]){if(url){const a=$('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';meta.appendChild(a);}}content.appendChild(meta);}card.appendChild(content);grid.appendChild(card);
     }
     section.appendChild(grid);groups.appendChild(section);
@@ -93,7 +95,7 @@ function render(data){
   overview.hidden=page!=='overview';
   document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
   document.querySelector('#groups').hidden=!projects&&!later&&!personal&&page!=='overview';
-  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=personal?name!=='Post-exam chilling':later?name!=='Jobs & later':projects?['Jobs & later','Post-exam chilling'].includes(name):!['Monday done / in flight','Tuesday, 29 Sep'].includes(name)}
+  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=later?name!=='Backlog':projects?name!=='Focus projects':personal?true:name!=='Focus projects'}
   document.querySelector('#footer').textContent=data.footer;
   if(['overview','today'].includes(page)&&!window.urgencyTimer)window.urgencyTimer=setInterval(()=>urgency(currentData),60000);
 }
