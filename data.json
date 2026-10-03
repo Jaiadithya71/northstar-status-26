@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T20:24:09+05:30",
-  "updatedLabel": "03 Oct 2026, 08:24 PM IST",
+  "updatedAt": "2026-10-03T20:44:07+05:30",
+  "updatedLabel": "03 Oct 2026, 08:44 PM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -327,10 +327,15 @@
           "id": "focus-patents",
           "name": "Patent scraping + client acquisition",
           "state": "active",
-          "status": "Oct 3 lead list v2 committed: 527 unique companies, 282 with published business emails. Deduped; big firms removed. Round 3 running.",
-          "next": "Finish Round 3 lead research and Report #1 review; keep lead count separate from outreach sends and sales.",
+          "status": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
+          "next": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-03T20:44:07+05:30",
+              "source": "Agent · outreach preparation",
+              "text": "Outreach preparation reported: S-approved mail with 2 verified patent examples and no overclaims; sender script committed with 100/day cap and bounce/stop suppression. Gmail account referred to as \"71\" connected as sender. 217 clean day-one addresses, 36 held for re-verification. First batch of 20 planned Monday Oct 5, 10:05 AM IST. This log records preparation and the plan, not sent mail."
+            },
             {
               "at": "2026-10-03T20:01:14+05:30",
               "source": "Agent · lead-finder closeout",
@@ -836,9 +841,9 @@
         "source": "agent",
         "label": "Patent scraping + client acquisition",
         "window": "Daily project check-in · 3 Oct",
-        "target": "Finish Round 3 lead research and Report #1 review; keep lead count separate from outreach sends and sales.",
+        "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
         "status": "pending",
-        "progress_text": "Oct 3 lead list v2 committed: 527 unique companies, 282 with published business emails. Deduped; big firms removed. Round 3 running.",
+        "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
         "impact_done": "",
         "impact_skipped": ""
       }
