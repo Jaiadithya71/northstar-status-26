@@ -1,40 +1,348 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-03T18:25:34+05:30",
-  "updatedLabel": "03 Oct 2026, 06:25 PM IST",
+  "updatedAt": "2026-10-03T19:53:51+05:30",
+  "updatedLabel": "03 Oct 2026, 07:53 PM IST",
   "focus": {
-    "title": "Choose Saturday’s focus",
+    "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
-    "dateLabel": "Sat 3 Oct · routine sleep anchor",
-    "status": "Rest and weekend priority unconfirmed",
-    "next": "Check rest and food, choose one bounded weekend block, and keep a clear evening stop."
+    "dateLabel": "Sat 3 Oct",
+    "status": "Project-based tracking",
+    "next": "Open My Day to report progress; project cards hold the dated agent and user log."
   },
   "groups": [
     {
-      "name": "Now",
+      "name": "Focus projects",
       "items": [
         {
-          "id": "nat-test",
-          "name": "NAT-TEST 4Q",
-          "status": "PASSED the Sep 27 NAT-TEST 4Q sitting. Jai confirmed the result on Oct 1, around 15:15 IST.",
-          "state": "done",
-          "next": "Save the official score report or certificate when available; no resit is planned from this pass update.",
-          "detail": "Result source: Jai’s Oct 1 messages \"Passed 4q\" and \"No score yet, just that I passed.\" User-reported pass recorded; score not yet available. The current public results page still lists August as latest at the Oct 1 check, so the September pass has not been corroborated there. The prior pending-result and resit notes are superseded.",
-          "due": "Passed · confirmed 1 Oct 2026",
-          "link": "https://www.nat-test.jp/contents/result.html",
-          "linkLabel": "Official NAT-TEST results",
-          "secondaryLink": "https://drive.google.com/file/d/1hNztpM9g1SNxPF9-oJ3VJ_R_DdKG4VhQ/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
-          "secondaryLinkLabel": "Saved QR/details"
+          "id": "focus-pro-t",
+          "name": "Pro_T",
+          "state": "active",
+          "status": "Last recorded paper session Sep 30: -Rs2,950.20. Paper swing implementation pushed; live backend verification still unconfirmed.",
+          "next": "Get a current trading/deploy report; verify backend before calling swing live.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Last recorded paper session Sep 30: -Rs2,950.20. Paper swing implementation pushed; live backend verification still unconfirmed."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "alphaforge",
+              "name": "AlphaForge / pro_t",
+              "status": "Sep 30 paper session closed: net -Rs2,950.20; 9 closed intraday trades, 1 win / 8 losses. Ending paper balance Rs95,177.56; no open positions or overnight swings.",
+              "state": "active",
+              "next": "Review the Sep 30 session and parked operational issues before changing trading logic. Use the committed dated EOD report, not the stale latest-email-summary endpoint, for today's report.",
+              "link": "https://stock-trading-1-cquo.onrender.com/",
+              "linkLabel": "Open bot",
+              "detail": "Sep 30 result was verified from the live paper ledger and committed EOD report, read around 16:16-16:18 IST. Gross loss Rs2,511.31 plus Rs438.89 charges equals net loss Rs2,950.20. These are virtual paper figures, not real cash or a broker statement. Operational warnings and stale report endpoint are parked separately below; they are not proven causes of the trading losses. Intraday and delivery/CNC fee models are shipped; today's nine trades were all intraday. Sep 30 safety-state review: circuit breaker fired at 15:16 IST after square-off when daily loss crossed Rs2,000 / 2%, as designed. Eight position-size invariant violations were logged 09:25-09:35 IST for margins above the Rs15,000 cap. These findings do not establish loss causality.",
+              "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/blob/main/reports/email_reports/market_close_summary_2026-09-30.md",
+              "secondaryLinkLabel": "Sep 30 paper EOD report"
+            },
+            {
+              "id": "pro-t-ca-attribution-cleanup",
+              "name": "pro_t frontend attribution cleanup",
+              "state": "done",
+              "status": "Done Sep 30: six frontend commits removed visible CA Rachana Ranade attribution; live Render dashboard and Strategies checked on desktop and phone.",
+              "detail": "Labels, descriptions and dynamic/history display text are attribution-free. Backend rule IDs, historical records, numeric values and en-CA locale unchanged. 18 formatter regression assertions pass. Attribution in the old frontend was not proof of endorsement.",
+              "next": "No cleanup follow-up needed. Fundamentals extension remains a separate plan, not built.",
+              "link": "https://stock-trading-1-cquo.onrender.com/",
+              "linkLabel": "Live app"
+            },
+            {
+              "id": "pro-t-paper-swing-route",
+              "name": "pro_t paper swing trading: deployment pending",
+              "state": "active",
+              "status": "Implementation pushed Sep 30: real ONE_DAY daily indicators, paper-only swing-entry route, 15% allocation and 1x delivery margin guard. 181 assertions pass. Live backend verification pending.",
+              "detail": "Daily-data commits bdb6193, cb8984d, 1fd0e2d; paper route def413b; allocation a23d13b; delivery guard f162fdf. Test total: 58 daily-data + 49 fallback-gate + 56 route + 18 delivery-risk. Only BUY_SWING_BREAKOUT fires; shared entry safety guards remain and intraday gets first priority. New route never enters LIVE_BROKER. Fresh completed daily data required; failed/invalid inputs gate. This is code/readback evidence, not a live deployment or order result.",
+              "next": "Resolve Render sign-in and verify exact deployed code/data/route. Do not call swing trading live until confirmed. No new order or settings action implied by this dashboard update.",
+              "due": "Pushed; Render deployment verification pending",
+              "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/def413b057abdb7b53d908b97a9f06edee5d627f",
+              "linkLabel": "Paper swing route",
+              "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/f162fdfbbaf101e4e3514e3017b120e33f77a03d",
+              "secondaryLinkLabel": "1x delivery guard"
+            },
+            {
+              "id": "pro-t-fabricated-indicator-fallbacks",
+              "name": "pro_t fabricated positional indicator fallbacks",
+              "state": "done",
+              "status": "Fixed in code and pushed Sep 30: fabricated EMA/high/ATR fallbacks replaced with real-data gates. 49 regression assertions pass; exact backend deployment behavior not yet verified.",
+              "detail": "Fallback gate commit 8e7ff43bdb718e128f92a267c867312bab27745b; regression test d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530. Real daily EMA20/EMA50/ATR/prior-high inputs are now wired in code from ONE_DAY candles, replacing the earlier missing-feed blocker. Invalid, insufficient or stale daily input still gates candidates; real-price exits remain active. Live backend deployment is still unverified.",
+              "next": "Keep missing/stale-data gates. Verify the deployed daily-input and swing route behavior on Render before claiming it live.",
+              "due": "Code fixed; backend live verification pending",
+              "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/8e7ff43bdb718e128f92a267c867312bab27745b",
+              "linkLabel": "Gate fix",
+              "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530",
+              "secondaryLinkLabel": "49-assertion regression test"
+            }
+          ],
+          "link": "https://stock-trading-1-cquo.onrender.com/",
+          "linkLabel": "Open project"
         },
         {
-          "id": "japanese-practice",
-          "name": "Japanese_Practice",
-          "status": "Study app active; school pitch deck sent for review. Total counter patch remains with Jai, not verified pushed.",
+          "id": "focus-vibestream",
+          "name": "VibeStream music app",
           "state": "active",
-          "next": "Await pitch review; Jai to apply or confirm the Total counter patch. Verify live product flow and teacher view before offering a school pilot.",
-          "link": "https://japanese-practice-orcin.vercel.app/",
-          "linkLabel": "Open app"
+          "status": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+          "next": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification."
+            }
+          ],
+          "foldedRecords": [],
+          "link": "https://github.com/Jaiadithya71/Local_Music_app",
+          "linkLabel": "Open project"
         },
+        {
+          "id": "focus-japanese",
+          "name": "Japanese learning app",
+          "state": "active",
+          "status": "NAT-TEST 4Q passed by Jai’s report. App daily progress unconfirmed; Gist last synced Sep 27, 09:41 IST (932 recorded activity), not today.",
+          "next": "Report today’s app work or study; check the next Gist sync without treating absent data as zero.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "NAT-TEST 4Q passed by Jai’s report. App daily progress unconfirmed; Gist last synced Sep 27, 09:41 IST (932 recorded activity), not today."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "japanese-practice",
+              "name": "Japanese_Practice",
+              "status": "Study app active; school pitch deck sent for review. Total counter patch remains with Jai, not verified pushed.",
+              "state": "active",
+              "next": "Await pitch review; Jai to apply or confirm the Total counter patch. Verify live product flow and teacher view before offering a school pilot.",
+              "link": "https://japanese-practice-orcin.vercel.app/",
+              "linkLabel": "Open app"
+            },
+            {
+              "id": "nat-test",
+              "name": "NAT-TEST 4Q",
+              "status": "PASSED the Sep 27 NAT-TEST 4Q sitting. Jai confirmed the result on Oct 1, around 15:15 IST.",
+              "state": "done",
+              "next": "Save the official score report or certificate when available; no resit is planned from this pass update.",
+              "detail": "Result source: Jai’s Oct 1 messages \"Passed 4q\" and \"No score yet, just that I passed.\" User-reported pass recorded; score not yet available. The current public results page still lists August as latest at the Oct 1 check, so the September pass has not been corroborated there. The prior pending-result and resit notes are superseded.",
+              "due": "Passed · confirmed 1 Oct 2026",
+              "link": "https://www.nat-test.jp/contents/result.html",
+              "linkLabel": "Official NAT-TEST results",
+              "secondaryLink": "https://drive.google.com/file/d/1hNztpM9g1SNxPF9-oJ3VJ_R_DdKG4VhQ/view?usp=drivesdk&authuser=126156054%40sastra.ac.in",
+              "secondaryLinkLabel": "Saved QR/details"
+            },
+            {
+              "id": "japanese-practice-celebration-bug",
+              "name": "Japanese_Practice review completion celebration",
+              "status": "Missing celebration on lesson-review completion screen. Parked until after the Sep 27 exam.",
+              "state": "parked",
+              "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
+              "due": "After 27 Sep"
+            }
+          ],
+          "link": "https://japanese-practice-orcin.vercel.app/",
+          "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-monetize",
+          "name": "Monetize platform build",
+          "state": "waiting",
+          "status": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+          "next": "Define the first product slice and build plan; no purchase or launch assumed.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "side-hustle-platform-rebuild",
+              "name": "Explore rebuilding Monetise-style platform",
+              "state": "waiting",
+              "status": "Parked: distinct from selling Japanese_Practice. The target is Iman Gadzhi’s Monetise, pitched through the free Side Hustle Summit.",
+              "detail": "A Sep 14 independent buyer review reports Monetise 2.0 cost $1,995 one-time, not ~$2,000/year. Its predecessor Monetise 1.0 was $999 for twelve months and was replaced in Sept 2025. The same review reports a $995 companion offer and a member-reported ~$2,000 Pro upsell (not published vendor pricing), with optional add-ons potentially taking the bill near $4,000. It says the Summit cart closed Sep 14; the vendor currently shows a waitlist. These are research leads, not a purchase recommendation or verified checkout quote. Review: https://sidehustlesummitreviews.com/monetise-pricing/ ; vendor: https://www.monetise.com/waitlist .",
+              "next": "After current priorities, map what parts of Monetise he means to rebuild; verify features, legal rights, live terms and costs before choosing a scope. This is separate from selling Japanese_Practice.",
+              "link": "https://sidehustlesummitreviews.com/monetise-pricing/",
+              "linkLabel": "Price research"
+            }
+          ]
+        },
+        {
+          "id": "focus-youtube",
+          "name": "YouTube pipeline",
+          "state": "active",
+          "status": "Latest publisher report Oct 3, 19:45: Beast 16/23 public; EP7 P2 private upload queued. Earlier Vows 31/31 and Maid 17/17 complete.",
+          "next": "Continue the existing checks/publication workflow and report verified part counts.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Latest publisher report Oct 3, 19:45: Beast 16/23 public; EP7 P2 private upload queued. Earlier Vows 31/31 and Maid 17/17 complete."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "dramacps-youtube-pipeline",
+              "name": "DramaCPS / ReelSaga: YouTube + Instagram Reels",
+              "status": "Published milestones complete: Maid YouTube 17/17 and Vows Instagram 31/31 on Oct 2. Vows YouTube 31/31 (9 episodes) completed Oct 2; Blood Instagram 30/30 completed Oct 1.",
+              "state": "done",
+              "detail": "Publisher completion update relayed Oct 2 at 22:32 IST. Counts are production publication milestones, not fresh analytics or proof of rights. Private probes are separate. The next series is tracked in its own active item.",
+              "next": "Completed batches stay recorded here. Follow the separate next-series item for new YouTube and Instagram publication."
+            },
+            {
+              "id": "reelsaga-cloud-uploader",
+              "name": "ReelSaga cloud uploader",
+              "state": "active",
+              "status": "In progress: read-only, state/stop and private canary gates passed. Sep 30 manual Studio flip test also passed on v0ecz1ozokQ. Public API publishing remains locked; audit draft ready, owner fields pending, nothing submitted.",
+              "detail": "The one API-private synthetic canary was manually saved Public in Studio, stayed Public after reload and played signed-out with no warnings in the reported 16:27 IST test. This single-video empirical result differs from YouTube's written private-lock help; it does not guarantee later visibility or a reliable path for other uploads. Earlier private upload/checkpoint/stop gate remains proven. No general public API clearance established.",
+              "next": "Finish the audit owner fields and review the application before submission. Keep public API publishing locked; do not treat one manual flip as a blanket audit exemption. Drive queue and Instagram relay remain unfinished.",
+              "link": "https://github.com/Jaiadithya71/reelsaga-cloud-uploader/actions/runs/36700512294/job/109838597517",
+              "linkLabel": "Successful private canary run",
+              "secondaryLink": "https://www.youtube.com/shorts/v0ecz1ozokQ",
+              "secondaryLinkLabel": "Canary (public in flip test)"
+            }
+          ]
+        },
+        {
+          "id": "focus-instagram",
+          "name": "IG pipeline",
+          "state": "active",
+          "status": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied.",
+          "next": "Get a current IG count and Safelist verdict; keep identical parts across platforms, no Maid IG backfill.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "reelsaga-next-series-oct02",
+              "name": "ReelSaga Mech God: YouTube + Instagram",
+              "state": "active",
+              "status": "Mech God publishing started Oct 3, 02:03 IST via RS Boost (30%). Instagram EP1 Part 1 is live; YouTube private-first upload is in progress.",
+              "detail": "Publisher update relayed Oct 3 at 02:03 IST. Creator Safelist submitted for both accounts, status Pending Update: not approved or cleared yet. This is an in-progress batch, not full publication. Total part count and further live parts are not supplied. Forward plan records identical parts on YouTube and Instagram; no Maid Instagram backfill.",
+              "next": "Continue matched-part publication on both platforms through the existing workflow. Verify YouTube checks and saved visibility before counting parts public; track Safelist status separately.",
+              "due": "Publishing started · 3 Oct 2026, 02:03 IST"
+            }
+          ]
+        },
+        {
+          "id": "focus-horoscope",
+          "name": "Horoscope project",
+          "state": "active",
+          "status": "Oct 3 closeout: live readings for Work, Marriage, Money, Strength and Timing; 577 tests pass. Whole-chart and period-theme rules now being extracted.",
+          "next": "Build source-backed whole-chart/timeline depth. Repo Playwright spec, health/children/education, other dasas, Yuddha and Bhavabala remain open.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Oct 3 closeout: live readings for Work, Marriage, Money, Strength and Timing; 577 tests pass. Whole-chart and period-theme rules now being extracted."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "horoscope-next-idea",
+              "name": "Horoscope_Ventrue research / strength engine",
+              "status": "In progress. Sep 30 research update: 399 passing tests and about 15 pushes today. Digbala, temporal Kala, lords, Ayana in both schools, BPHS identity chain, 17 precedence scopes and Raman tables verified.",
+              "state": "active",
+              "detail": "Latest reported commit: 8fe26342791929550691b633e7a48ca280b6a25c (15:39 IST). Source-specific conventions remain separate; verified fixtures do not establish arbitrary-date planetary positions or predictive accuracy. The current work has moved beyond raw OCR extraction.",
+              "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
+              "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+              "linkLabel": "Open repo"
+            },
+            {
+              "id": "vedic-astrology-app",
+              "name": "Vedic astrology app shell",
+              "state": "done",
+              "status": "Launched Oct 1: live app shell with city-name input and a Balaji-style reading layer. Engine untouched by the shell launch.",
+              "detail": "Launch closeout reports AGPL licensing and 536 engine + 8 app tests passing. Live homepage verified Oct 1. This completes the app shell, not full strength totals or predictive validation: full strength totals, historical calendar selection and personal forecasts remain research-gated.",
+              "next": "Review the live shell; track remaining engine research separately. Do not treat the shell launch as a finished prediction system.",
+              "due": "Launched · 1 Oct 2026",
+              "link": "https://horoscope-ventrue.vercel.app",
+              "linkLabel": "Open live app",
+              "secondaryLink": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+              "secondaryLinkLabel": "Engine repo"
+            }
+          ],
+          "link": "https://horoscope-ventrue.vercel.app",
+          "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-interns",
+          "name": "Intern mentorship",
+          "state": "waiting",
+          "status": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+          "next": "Get current intern deliverables and review one concrete submission before changing assignments.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "agentforge",
+              "name": "AgentForge internships",
+              "status": "Manaadithya received the smoke-checklist first task and mail at 18:04; repo access was revoked. Amit was nudged after missing his availability reply.",
+              "state": "waiting",
+              "next": "Await Manaadithya’s response/submission without assuming repo access. Amit: availability and GitHub username requested by Tue 29 Sep, 18:00 IST; reassign only after checking the thread and Jai’s decision.",
+              "link": "https://agentforge-jai-projects1.vercel.app/",
+              "linkLabel": "Open page",
+              "detail": "Manaadithya had accepted an earlier repo invite before access was removed; the first-task mail says no repo access needed. Amit’s nudge went on the existing email thread."
+            }
+          ],
+          "link": "https://agentforge-jai-projects1.vercel.app/",
+          "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-patents",
+          "name": "Patent scraping + client acquisition",
+          "state": "active",
+          "status": "342 expired-term agrochemical records harvested; Report #1 in review. Lead search started in parallel Oct 3, 19:40. No outreach sends recorded.",
+          "next": "Continue lead research and report review; send outreach only within the owner-approved communication scope.",
+          "focusProject": true,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "342 expired-term agrochemical records harvested; Report #1 in review. Lead search started in parallel Oct 3, 19:40. No outreach sends recorded."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "patent-expiry-research",
+              "name": "Patent Expiry Research",
+              "state": "waiting",
+              "status": "Data stage complete: 342 expired-term agrochemical patent records harvested; captcha self-solve pipeline working. Report #1 drafted and awaiting Jai’s review.",
+              "detail": "Stage update relayed Oct 3 at 18:25 IST. Draft: reports/report-01-agrochemical-expired-patents.md. Harvested expired-term records are a research input, not a freedom-to-operate opinion or proven customer demand. No report approval, lead-finder completion or outreach send is recorded.",
+              "next": "Await Jai’s approval of Report #1, then proceed to lead finder and outreach. Keep the 100/day for 7 days target separate from actual sends.",
+              "link": "https://github.com/Jaiadithya71/patent-expiry-research",
+              "linkLabel": "Project repo",
+              "due": "Report #1 review pending"
+            }
+          ],
+          "link": "https://github.com/Jaiadithya71/patent-expiry-research",
+          "linkLabel": "Open project"
+        }
+      ]
+    },
+    {
+      "name": "Backlog",
+      "items": [
         {
           "id": "nitin-client-followup",
           "name": "Nitin Kumar (AceAI client)",
@@ -42,12 +350,7 @@
           "state": "waiting",
           "next": "Tonight: 90-minute walkthrough read against code and mock Q&A, neither yet confirmed done. Tue 29 Sep: Jai pings Nitin after 20:00 as requested and agrees the actual call slot.",
           "due": "Tue 29 Sep · ping about 19:50 IST; talk after 20:00 if agreed"
-        }
-      ]
-    },
-    {
-      "name": "Monday done / in flight",
-      "items": [
+        },
         {
           "id": "sep28-media-progress",
           "name": "Media build and test",
@@ -73,12 +376,7 @@
           "status": "pro_t intraday and delivery charge models shipped; paper positions squared off. Horoscope_Ventrue repo is live, with nine books in Drive and OCR extraction running.",
           "detail": "Stock-Trading main has branch protection, but it is not enforced on the free private-repo plan. OCR outputs still need source-page review. No real trade or astrology result is claimed.",
           "next": "Check next market session and review OCR when extraction finishes."
-        }
-      ]
-    },
-    {
-      "name": "Tuesday, 29 Sep",
-      "items": [
+        },
         {
           "id": "sep29-nitin",
           "name": "Nitin Kumar after 8 PM",
@@ -102,85 +400,6 @@
           "status": "NAT-TEST result, DramaCPS rights reply, ReelSaga uploads and astrology OCR review remained open on Tuesday.",
           "detail": "Historical Tuesday plan. The original “clips local only, no upload” wording was superseded by later verified Studio uploads; do not use it as current status.",
           "next": "Check the current source for each result, right, upload and OCR state before closing it."
-        }
-      ]
-    },
-    {
-      "name": "Moving",
-      "items": [
-        {
-          "id": "alphaforge",
-          "name": "AlphaForge / pro_t",
-          "status": "Sep 30 paper session closed: net -Rs2,950.20; 9 closed intraday trades, 1 win / 8 losses. Ending paper balance Rs95,177.56; no open positions or overnight swings.",
-          "state": "active",
-          "next": "Review the Sep 30 session and parked operational issues before changing trading logic. Use the committed dated EOD report, not the stale latest-email-summary endpoint, for today's report.",
-          "link": "https://stock-trading-1-cquo.onrender.com/",
-          "linkLabel": "Open bot",
-          "detail": "Sep 30 result was verified from the live paper ledger and committed EOD report, read around 16:16-16:18 IST. Gross loss Rs2,511.31 plus Rs438.89 charges equals net loss Rs2,950.20. These are virtual paper figures, not real cash or a broker statement. Operational warnings and stale report endpoint are parked separately below; they are not proven causes of the trading losses. Intraday and delivery/CNC fee models are shipped; today's nine trades were all intraday. Sep 30 safety-state review: circuit breaker fired at 15:16 IST after square-off when daily loss crossed Rs2,000 / 2%, as designed. Eight position-size invariant violations were logged 09:25-09:35 IST for margins above the Rs15,000 cap. These findings do not establish loss causality.",
-          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/blob/main/reports/email_reports/market_close_summary_2026-09-30.md",
-          "secondaryLinkLabel": "Sep 30 paper EOD report"
-        },
-        {
-          "id": "dramacps-youtube-pipeline",
-          "name": "DramaCPS / ReelSaga: YouTube + Instagram Reels",
-          "status": "Published milestones complete: Maid YouTube 17/17 and Vows Instagram 31/31 on Oct 2. Vows YouTube 31/31 (9 episodes) completed Oct 2; Blood Instagram 30/30 completed Oct 1.",
-          "state": "done",
-          "detail": "Publisher completion update relayed Oct 2 at 22:32 IST. Counts are production publication milestones, not fresh analytics or proof of rights. Private probes are separate. The next series is tracked in its own active item.",
-          "next": "Completed batches stay recorded here. Follow the separate next-series item for new YouTube and Instagram publication."
-        },
-        {
-          "id": "reelsaga-next-series-oct02",
-          "name": "ReelSaga Mech God: YouTube + Instagram",
-          "state": "active",
-          "status": "Mech God publishing started Oct 3, 02:03 IST via RS Boost (30%). Instagram EP1 Part 1 is live; YouTube private-first upload is in progress.",
-          "detail": "Publisher update relayed Oct 3 at 02:03 IST. Creator Safelist submitted for both accounts, status Pending Update: not approved or cleared yet. This is an in-progress batch, not full publication. Total part count and further live parts are not supplied. Forward plan records identical parts on YouTube and Instagram; no Maid Instagram backfill.",
-          "next": "Continue matched-part publication on both platforms through the existing workflow. Verify YouTube checks and saved visibility before counting parts public; track Safelist status separately.",
-          "due": "Publishing started · 3 Oct 2026, 02:03 IST"
-        },
-        {
-          "id": "reelsaga-cloud-uploader",
-          "name": "ReelSaga cloud uploader",
-          "state": "active",
-          "status": "In progress: read-only, state/stop and private canary gates passed. Sep 30 manual Studio flip test also passed on v0ecz1ozokQ. Public API publishing remains locked; audit draft ready, owner fields pending, nothing submitted.",
-          "detail": "The one API-private synthetic canary was manually saved Public in Studio, stayed Public after reload and played signed-out with no warnings in the reported 16:27 IST test. This single-video empirical result differs from YouTube's written private-lock help; it does not guarantee later visibility or a reliable path for other uploads. Earlier private upload/checkpoint/stop gate remains proven. No general public API clearance established.",
-          "next": "Finish the audit owner fields and review the application before submission. Keep public API publishing locked; do not treat one manual flip as a blanket audit exemption. Drive queue and Instagram relay remain unfinished.",
-          "link": "https://github.com/Jaiadithya71/reelsaga-cloud-uploader/actions/runs/36700512294/job/109838597517",
-          "linkLabel": "Successful private canary run",
-          "secondaryLink": "https://www.youtube.com/shorts/v0ecz1ozokQ",
-          "secondaryLinkLabel": "Canary (public in flip test)"
-        },
-        {
-          "id": "horoscope-next-idea",
-          "name": "Horoscope_Ventrue research / strength engine",
-          "status": "In progress. Sep 30 research update: 399 passing tests and about 15 pushes today. Digbala, temporal Kala, lords, Ayana in both schools, BPHS identity chain, 17 precedence scopes and Raman tables verified.",
-          "state": "active",
-          "detail": "Latest reported commit: 8fe26342791929550691b633e7a48ca280b6a25c (15:39 IST). Source-specific conventions remain separate; verified fixtures do not establish arbitrary-date planetary positions or predictive accuracy. The current work has moved beyond raw OCR extraction.",
-          "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
-          "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
-          "linkLabel": "Open repo"
-        },
-        {
-          "id": "vedic-astrology-app",
-          "name": "Vedic astrology app shell",
-          "state": "done",
-          "status": "Launched Oct 1: live app shell with city-name input and a Balaji-style reading layer. Engine untouched by the shell launch.",
-          "detail": "Launch closeout reports AGPL licensing and 536 engine + 8 app tests passing. Live homepage verified Oct 1. This completes the app shell, not full strength totals or predictive validation: full strength totals, historical calendar selection and personal forecasts remain research-gated.",
-          "next": "Review the live shell; track remaining engine research separately. Do not treat the shell launch as a finished prediction system.",
-          "due": "Launched · 1 Oct 2026",
-          "link": "https://horoscope-ventrue.vercel.app",
-          "linkLabel": "Open live app",
-          "secondaryLink": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
-          "secondaryLinkLabel": "Engine repo"
-        },
-        {
-          "id": "agentforge",
-          "name": "AgentForge internships",
-          "status": "Manaadithya received the smoke-checklist first task and mail at 18:04; repo access was revoked. Amit was nudged after missing his availability reply.",
-          "state": "waiting",
-          "next": "Await Manaadithya’s response/submission without assuming repo access. Amit: availability and GitHub username requested by Tue 29 Sep, 18:00 IST; reassign only after checking the thread and Jai’s decision.",
-          "link": "https://agentforge-jai-projects1.vercel.app/",
-          "linkLabel": "Open page",
-          "detail": "Manaadithya had accepted an earlier repo invite before access was removed; the first-task mail says no repo access needed. Amit’s nudge went on the existing email thread."
         },
         {
           "id": "qcc",
@@ -224,53 +443,6 @@
           "due": "Invite by Oct 14; challenge Oct 15-Nov 5",
           "link": "https://aspire.delphi.ai/",
           "linkLabel": "Challenge site"
-        },
-        {
-          "id": "pro-t-ca-attribution-cleanup",
-          "name": "pro_t frontend attribution cleanup",
-          "state": "done",
-          "status": "Done Sep 30: six frontend commits removed visible CA Rachana Ranade attribution; live Render dashboard and Strategies checked on desktop and phone.",
-          "detail": "Labels, descriptions and dynamic/history display text are attribution-free. Backend rule IDs, historical records, numeric values and en-CA locale unchanged. 18 formatter regression assertions pass. Attribution in the old frontend was not proof of endorsement.",
-          "next": "No cleanup follow-up needed. Fundamentals extension remains a separate plan, not built.",
-          "link": "https://stock-trading-1-cquo.onrender.com/",
-          "linkLabel": "Live app"
-        },
-        {
-          "id": "pro-t-paper-swing-route",
-          "name": "pro_t paper swing trading: deployment pending",
-          "state": "active",
-          "status": "Implementation pushed Sep 30: real ONE_DAY daily indicators, paper-only swing-entry route, 15% allocation and 1x delivery margin guard. 181 assertions pass. Live backend verification pending.",
-          "detail": "Daily-data commits bdb6193, cb8984d, 1fd0e2d; paper route def413b; allocation a23d13b; delivery guard f162fdf. Test total: 58 daily-data + 49 fallback-gate + 56 route + 18 delivery-risk. Only BUY_SWING_BREAKOUT fires; shared entry safety guards remain and intraday gets first priority. New route never enters LIVE_BROKER. Fresh completed daily data required; failed/invalid inputs gate. This is code/readback evidence, not a live deployment or order result.",
-          "next": "Resolve Render sign-in and verify exact deployed code/data/route. Do not call swing trading live until confirmed. No new order or settings action implied by this dashboard update.",
-          "due": "Pushed; Render deployment verification pending",
-          "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/def413b057abdb7b53d908b97a9f06edee5d627f",
-          "linkLabel": "Paper swing route",
-          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/f162fdfbbaf101e4e3514e3017b120e33f77a03d",
-          "secondaryLinkLabel": "1x delivery guard"
-        },
-        {
-          "id": "patent-expiry-research",
-          "name": "Patent Expiry Research",
-          "state": "waiting",
-          "status": "Data stage complete: 342 expired-term agrochemical patent records harvested; captcha self-solve pipeline working. Report #1 drafted and awaiting Jai’s review.",
-          "detail": "Stage update relayed Oct 3 at 18:25 IST. Draft: reports/report-01-agrochemical-expired-patents.md. Harvested expired-term records are a research input, not a freedom-to-operate opinion or proven customer demand. No report approval, lead-finder completion or outreach send is recorded.",
-          "next": "Await Jai’s approval of Report #1, then proceed to lead finder and outreach. Keep the 100/day for 7 days target separate from actual sends.",
-          "link": "https://github.com/Jaiadithya71/patent-expiry-research",
-          "linkLabel": "Project repo",
-          "due": "Report #1 review pending"
-        }
-      ]
-    },
-    {
-      "name": "Jobs & later",
-      "items": [
-        {
-          "id": "japanese-practice-celebration-bug",
-          "name": "Japanese_Practice review completion celebration",
-          "status": "Missing celebration on lesson-review completion screen. Parked until after the Sep 27 exam.",
-          "state": "parked",
-          "next": "Fix the missing completion-screen celebration after the exam; keep exam prep first.",
-          "due": "After 27 Sep"
         },
         {
           "id": "pro-t-stale-eod-summary",
@@ -345,19 +517,6 @@
           "due": "Parked; no fix date set"
         },
         {
-          "id": "pro-t-fabricated-indicator-fallbacks",
-          "name": "pro_t fabricated positional indicator fallbacks",
-          "state": "done",
-          "status": "Fixed in code and pushed Sep 30: fabricated EMA/high/ATR fallbacks replaced with real-data gates. 49 regression assertions pass; exact backend deployment behavior not yet verified.",
-          "detail": "Fallback gate commit 8e7ff43bdb718e128f92a267c867312bab27745b; regression test d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530. Real daily EMA20/EMA50/ATR/prior-high inputs are now wired in code from ONE_DAY candles, replacing the earlier missing-feed blocker. Invalid, insufficient or stale daily input still gates candidates; real-price exits remain active. Live backend deployment is still unverified.",
-          "next": "Keep missing/stale-data gates. Verify the deployed daily-input and swing route behavior on Render before claiming it live.",
-          "due": "Code fixed; backend live verification pending",
-          "link": "https://github.com/Jaiadithya71/Stock-Trading/commit/8e7ff43bdb718e128f92a267c867312bab27745b",
-          "linkLabel": "Gate fix",
-          "secondaryLink": "https://github.com/Jaiadithya71/Stock-Trading/commit/d6ab131bae9c3df8baa3e74f9eb0b0b1ffa93530",
-          "secondaryLinkLabel": "49-assertion regression test"
-        },
-        {
           "id": "pro-t-market-value-column",
           "name": "pro_t fixed panel market value",
           "state": "waiting",
@@ -388,16 +547,6 @@
           "status": "13-slide language-school pilot/licensing pitch deck sent for review; feedback and terms pending.",
           "detail": "Jai reported sending the pitch deck for review at 18:52 IST. The reviewer and feedback are not established here. Pilot length, seats, price, success criteria, support/privacy and renewal remain bracketed. The product-flow slide is conceptual, and teacher progress visibility must be checked against the real build before external school use. No sale or partnership is established.",
           "next": "Collect review feedback, settle pilot terms, verify real app flow and teacher capability before a school pitch."
-        },
-        {
-          "id": "side-hustle-platform-rebuild",
-          "name": "Explore rebuilding Monetise-style platform",
-          "state": "waiting",
-          "status": "Parked: distinct from selling Japanese_Practice. The target is Iman Gadzhi’s Monetise, pitched through the free Side Hustle Summit.",
-          "detail": "A Sep 14 independent buyer review reports Monetise 2.0 cost $1,995 one-time, not ~$2,000/year. Its predecessor Monetise 1.0 was $999 for twelve months and was replaced in Sept 2025. The same review reports a $995 companion offer and a member-reported ~$2,000 Pro upsell (not published vendor pricing), with optional add-ons potentially taking the bill near $4,000. It says the Summit cart closed Sep 14; the vendor currently shows a waitlist. These are research leads, not a purchase recommendation or verified checkout quote. Review: https://sidehustlesummitreviews.com/monetise-pricing/ ; vendor: https://www.monetise.com/waitlist .",
-          "next": "After current priorities, map what parts of Monetise he means to rebuild; verify features, legal rights, live terms and costs before choosing a scope. This is separate from selling Japanese_Practice.",
-          "link": "https://sidehustlesummitreviews.com/monetise-pricing/",
-          "linkLabel": "Price research"
         },
         {
           "id": "post-exam-media-ai-app-research",
@@ -482,12 +631,7 @@
           "detail": "Requested Sep 30 after an alert about an alleged email-forwarding request. Actual page reads did not show the claimed passage; no confirmed site incident or forwarding occurred.",
           "next": "Explore ways to spot and defend against fake-approval instructions and forwarding scams. Scope and approach not chosen.",
           "due": "Parked; no date set"
-        }
-      ]
-    },
-    {
-      "name": "Post-exam chilling",
-      "items": [
+        },
         {
           "id": "week-kfc-bucket",
           "name": "KFC bucket",
@@ -568,40 +712,115 @@
     "label": "Saturday, 3 Oct",
     "dayEnd": "22:30",
     "dayEndLabel": "Saturday sleep anchor, adjustable",
-    "note": "Saturday routine is a reference, not proof of attendance or completed work. Publishing continued around 02:03; actual rest is unknown. NAT-TEST 4Q pass and completed publication batches remain milestones. No weekend hackathon entry, call or personal task is assumed. Nitin and the celebration bug stay outside My Day.",
+    "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Open a project for its dated log. Today’s earlier routine plan is preserved in History.",
     "items": [
       {
-        "id": "oct03-start",
+        "id": "oct03-focus-pro-t",
+        "projectId": "focus-pro-t",
         "source": "agent",
-        "label": "Ground the Saturday start in real rest and food",
-        "window": "Routine: wake 07:00; gym 07:30-09:00 if feasible",
-        "target": "Check actual sleep and breakfast before setting the pace. Adapt gym to rest and energy rather than treating the routine time as a required or completed session.",
+        "label": "Pro_T",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Get a current trading/deploy report; verify backend before calling swing live.",
         "status": "pending",
-        "progress_text": "Sleep, meals and Saturday gym are not confirmed.",
-        "impact_done": "Makes the weekend plan realistic after late-night work.",
-        "impact_skipped": "A routine imposed on little sleep may crowd out recovery."
+        "progress_text": "Last recorded paper session Sep 30: -Rs2,950.20. Paper swing implementation pushed; live backend verification still unconfirmed.",
+        "impact_done": "",
+        "impact_skipped": ""
       },
       {
-        "id": "oct03-focus",
+        "id": "oct03-focus-vibestream",
+        "projectId": "focus-vibestream",
         "source": "agent",
-        "label": "Choose one bounded weekend focus",
-        "window": "Routine study windows: 09:45-12:00 or 14:00-16:00",
-        "target": "Choose one useful work or study action with a stop point. Optional hackathon review remains backlog, not an entry commitment; Mech God publishing stays in its existing workflow.",
+        "label": "VibeStream music app",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
         "status": "pending",
-        "progress_text": "No Saturday personal priority or new study cadence has been chosen here.",
-        "impact_done": "Creates a clear outcome without duplicating ongoing publishing.",
-        "impact_skipped": "The weekend can fill with reactive work."
+        "progress_text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+        "impact_done": "",
+        "impact_skipped": ""
       },
       {
-        "id": "oct03-evening",
+        "id": "oct03-focus-japanese",
+        "projectId": "focus-japanese",
         "source": "agent",
-        "label": "Leave room for friends and a Saturday stop",
-        "window": "Routine: friend calls 16:00-17:30; reading 20:30-22:00; sleep 22:30",
-        "target": "Keep dinner and wind-down. Use friend-call and reading windows if wanted and feasible; no call is booked or sent by this plan. Car cleaning 13:00-14:00 is another routine option, not assigned work.",
+        "label": "Japanese learning app",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Report today’s app work or study; check the next Gist sync without treating absent data as zero.",
         "status": "pending",
-        "progress_text": "No call, car-cleaning, reading or sleep outcome is confirmed.",
-        "impact_done": "Keeps the weekend from becoming an open-ended work run.",
-        "impact_skipped": "Rest and relationships may be crowded out."
+        "progress_text": "NAT-TEST 4Q passed by Jai’s report. App daily progress unconfirmed; Gist last synced Sep 27, 09:41 IST (932 recorded activity), not today.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-monetize",
+        "projectId": "focus-monetize",
+        "source": "agent",
+        "label": "Monetize platform build",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Define the first product slice and build plan; no purchase or launch assumed.",
+        "status": "pending",
+        "progress_text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-youtube",
+        "projectId": "focus-youtube",
+        "source": "agent",
+        "label": "YouTube pipeline",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Continue the existing checks/publication workflow and report verified part counts.",
+        "status": "pending",
+        "progress_text": "Latest publisher report Oct 3, 19:45: Beast 16/23 public; EP7 P2 private upload queued. Earlier Vows 31/31 and Maid 17/17 complete.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-instagram",
+        "projectId": "focus-instagram",
+        "source": "agent",
+        "label": "IG pipeline",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Get a current IG count and Safelist verdict; keep identical parts across platforms, no Maid IG backfill.",
+        "status": "pending",
+        "progress_text": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-horoscope",
+        "projectId": "focus-horoscope",
+        "source": "agent",
+        "label": "Horoscope project",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Build source-backed whole-chart/timeline depth. Repo Playwright spec, health/children/education, other dasas, Yuddha and Bhavabala remain open.",
+        "status": "pending",
+        "progress_text": "Oct 3 closeout: live readings for Work, Marriage, Money, Strength and Timing; 577 tests pass. Whole-chart and period-theme rules now being extracted.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-interns",
+        "projectId": "focus-interns",
+        "source": "agent",
+        "label": "Intern mentorship",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Get current intern deliverables and review one concrete submission before changing assignments.",
+        "status": "pending",
+        "progress_text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "oct03-focus-patents",
+        "projectId": "focus-patents",
+        "source": "agent",
+        "label": "Patent scraping + client acquisition",
+        "window": "Daily project check-in · 3 Oct",
+        "target": "Continue lead research and report review; send outreach only within the owner-approved communication scope.",
+        "status": "pending",
+        "progress_text": "342 expired-term agrochemical records harvested; Report #1 in review. Lead search started in parallel Oct 3, 19:40. No outreach sends recorded.",
+        "impact_done": "",
+        "impact_skipped": ""
       }
     ]
   },
@@ -1130,5 +1349,53 @@
         "notice": "Copyright checks still displayed as pending. This is not the public split-part upload."
       }
     ]
-  }
-}
+  },
+  "priorDayPlans": [
+    {
+      "replacedAt": "2026-10-03T19:53:51+05:30",
+      "reason": "Owner switched My Day to nine focus projects",
+      "plan": {
+        "date": "2026-10-03",
+        "label": "Saturday, 3 Oct",
+        "dayEnd": "22:30",
+        "dayEndLabel": "Saturday sleep anchor, adjustable",
+        "note": "Saturday routine is a reference, not proof of attendance or completed work. Publishing continued around 02:03; actual rest is unknown. NAT-TEST 4Q pass and completed publication batches remain milestones. No weekend hackathon entry, call or personal task is assumed. Nitin and the celebration bug stay outside My Day.",
+        "items": [
+          {
+            "id": "oct03-start",
+            "source": "agent",
+            "label": "Ground the Saturday start in real rest and food",
+            "window": "Routine: wake 07:00; gym 07:30-09:00 if feasible",
+            "target": "Check actual sleep and breakfast before setting the pace. Adapt gym to rest and energy rather than treating the routine time as a required or completed session.",
+            "status": "pending",
+            "progress_text": "Sleep, meals and Saturday gym are not confirmed.",
+            "impact_done": "Makes the weekend plan realistic after late-night work.",
+            "impact_skipped": "A routine imposed on little sleep may crowd out recovery."
+          },
+          {
+            "id": "oct03-focus",
+            "source": "agent",
+            "label": "Choose one bounded weekend focus",
+            "window": "Routine study windows: 09:45-12:00 or 14:00-16:00",
+            "target": "Choose one useful work or study action with a stop point. Optional hackathon review remains backlog, not an entry commitment; Mech God publishing stays in its existing workflow.",
+            "status": "pending",
+            "progress_text": "No Saturday personal priority or new study cadence has been chosen here.",
+            "impact_done": "Creates a clear outcome without duplicating ongoing publishing.",
+            "impact_skipped": "The weekend can fill with reactive work."
+          },
+          {
+            "id": "oct03-evening",
+            "source": "agent",
+            "label": "Leave room for friends and a Saturday stop",
+            "window": "Routine: friend calls 16:00-17:30; reading 20:30-22:00; sleep 22:30",
+            "target": "Keep dinner and wind-down. Use friend-call and reading windows if wanted and feasible; no call is booked or sent by this plan. Car cleaning 13:00-14:00 is another routine option, not assigned work.",
+            "status": "pending",
+            "progress_text": "No call, car-cleaning, reading or sleep outcome is confirmed.",
+            "impact_done": "Keeps the weekend from becoming an open-ended work run.",
+            "impact_skipped": "Rest and relationships may be crowded out."
+          }
+        ]
+      }
+    }
+  ]
+        }
