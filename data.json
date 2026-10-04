@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-04T04:41:13+05:30",
-  "updatedLabel": "04 Oct 2026, 04:41 AM IST",
+  "updatedAt": "2026-10-04T17:46:12+05:30",
+  "updatedLabel": "04 Oct 2026, 05:46 PM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -15,12 +15,17 @@
       "items": [
         {
           "id": "focus-pro-t",
-          "name": "Pro_T",
+          "name": "Pro_T · paper trading",
           "state": "active",
-          "status": "Last recorded paper session Sep 30: -Rs2,950.20. Paper swing implementation pushed; live backend verification still unconfirmed.",
-          "next": "Get a current trading/deploy report; verify backend before calling swing live.",
+          "status": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
+          "next": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: live Render login verified. Oct 3 audit closeout reported TLS verification restored, lot sizes updated and four swing/positional test files passing. Historical size alerts were rejected orders, not executed oversize trades. Backend patch/deploy parity not independently verified."
+            },
             {
               "at": "2026-10-03T19:53:51+05:30",
               "source": "Agent",
@@ -100,12 +105,17 @@
         },
         {
           "id": "focus-japanese",
-          "name": "Japanese learning app",
+          "name": "Japanese_Practice · learning app",
           "state": "active",
-          "status": "NAT-TEST 4Q passed by Jai’s report. App daily progress unconfirmed; Gist last synced Sep 27, 09:41 IST (932 recorded activity), not today.",
-          "next": "Report today’s app work or study; check the next Gist sync without treating absent data as zero.",
+          "status": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
+          "next": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: private Japanese_Practice repository and live Nihongo Trainer checked. Existing Gist snapshot remains date-labelled; no new study outcome inferred."
+            },
             {
               "at": "2026-10-03T19:53:51+05:30",
               "source": "Agent",
@@ -145,7 +155,8 @@
             }
           ],
           "link": "https://japanese-practice-orcin.vercel.app/",
-          "linkLabel": "Open project"
+          "linkLabel": "Open project",
+          "detail": "Latest previously verified Gist sync: Sep 27, 09:41 IST, 932 recorded activity. A live repository/app check is not proof of new study or sync."
         },
         {
           "id": "focus-monetize",
@@ -176,12 +187,17 @@
         },
         {
           "id": "focus-youtube",
-          "name": "YouTube pipeline",
+          "name": "ReelSaga · YouTube pipeline",
           "state": "active",
-          "status": "Latest publisher report Oct 3, 19:45: Beast 16/23 public; EP7 P2 private upload queued. Earlier Vows 31/31 and Maid 17/17 complete.",
-          "next": "Continue the existing checks/publication workflow and report verified part counts.",
+          "status": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
+          "next": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: active ReelSaga work retained with its actual last-count time. reelsaga-cloud-uploader repo checked: queue/auth/control code and tests, but no public deployment or production connection yet."
+            },
             {
               "at": "2026-10-03T19:53:51+05:30",
               "source": "Agent",
@@ -213,12 +229,17 @@
         },
         {
           "id": "focus-instagram",
-          "name": "IG pipeline",
+          "name": "ReelSaga · IG pipeline",
           "state": "active",
-          "status": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied.",
-          "next": "Get a current IG count and Safelist verdict; keep identical parts across platforms, no Maid IG backfill.",
+          "status": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
+          "next": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: separated ReelSaga’s established IG workflow from Kathirvelan’s still-blocked token setup. No newer public-part count verified."
+            },
             {
               "at": "2026-10-03T19:53:51+05:30",
               "source": "Agent",
@@ -239,12 +260,17 @@
         },
         {
           "id": "focus-horoscope",
-          "name": "Horoscope project",
+          "name": "Horoscope_Ventrue · chart research",
           "state": "active",
-          "status": "Oct 3: deep period layer slice 1 live. Current/next stretches have 6 life-area sections with lean-into/take-care guidance; tap into sub-periods. 592 tests reported.",
-          "next": "Build the whole-chart \"who you are\" layer; retain remaining source/research gaps and test gates.",
+          "status": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
+          "next": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: live birth-time certainty form and repository Tamil-lagna commit verified. Oct 3 implementation reports 599 passing tests, clock-window lagna choices and stand-in-time/Moon-stability caveats. Test count relayed, not independently rerun."
+            },
             {
               "at": "2026-10-03T20:23:40+05:30",
               "source": "Agent · implementation closeout",
@@ -362,6 +388,41 @@
           ],
           "link": "https://github.com/Jaiadithya71/patent-expiry-research",
           "linkLabel": "Open project"
+        }
+      ]
+    },
+    {
+      "name": "New ventures + platform",
+      "items": [
+        {
+          "id": "venture-kathirvelan",
+          "name": "Kathirvelan Boutique · NILA",
+          "state": "active",
+          "status": "Oct 4: new saree venture and AI-model content engine in progress. YouTube channel created; Shorts enabled by setup report, first upload not done. Instagram token not obtained.",
+          "detail": "YouTube channel page verified. Description awaiting final review. IG login returned a connection refusal; its cause is unconfirmed, not a proven account-age freeze. Product reel/music prepared by implementation report, not yet public.",
+          "next": "Review channel description and stage first Short. Resolve IG authorization without claiming the pipeline is live before a verified upload.",
+          "link": "https://www.youtube.com/@kathirvelanboutique",
+          "linkLabel": "Open YouTube channel"
+        },
+        {
+          "id": "platform-reelsaga-uploader",
+          "name": "ReelSaga cloud uploader",
+          "state": "active",
+          "status": "Oct 4 repo check: server-side upload queue prototype, still undeployed and unconnected to production accounts.",
+          "detail": "Queue/auth/control code and local review UI exist. Durable state, credential wiring, publishing canary and audit gates remain. This is separate from the established ReelSaga publishing workflow.",
+          "next": "Finish scoped authorization, durable storage and end-to-end canary before calling uploads automatic.",
+          "link": "https://github.com/Jaiadithya71/reelsaga-cloud-uploader",
+          "linkLabel": "Private repo"
+        },
+        {
+          "id": "platform-northstar",
+          "name": "Northstar · project command center",
+          "state": "active",
+          "status": "Live on Vercel. Nine daily focus-project check-ins, latest-first project logs and dated My Day history. Oct 4 showcase refreshed.",
+          "detail": "Kathirvelan and new platform work are shown here without changing the nine-project daily plan. Saved check-in statuses and user-added tasks are preserved.",
+          "next": "Keep project outcomes date-labelled and update the matching card as verified milestones arrive.",
+          "link": "https://github.com/Jaiadithya71/northstar-status-26",
+          "linkLabel": "Open repo"
         }
       ]
     },
@@ -499,10 +560,10 @@
         {
           "id": "pro-t-tls-verification",
           "name": "Stock-Trading TLS verification disabled",
-          "state": "parked",
-          "status": "Parked issue found Sep 30: TLS certificate-verification-disabled warning observed in the logs.",
+          "state": "done",
+          "status": "Oct 3 audit closeout: global TLS-disable removed and gitSyncService verifies certificates. Other per-call overrides remain; deployed parity not verified.",
           "detail": "Source: Sep 30 ledger/report and operational log review reported at 16:18 IST. No repair performed or loss causality established by this dashboard update.",
-          "next": "Review TLS configuration and restore certificate verification safely; do not infer compromise from this warning alone.",
+          "next": "Verify outbound services after deployment; review remaining per-call overrides separately.",
           "due": "Parked; no fix date set"
         },
         {
@@ -535,10 +596,10 @@
         {
           "id": "pro-t-position-size-invariant",
           "name": "pro_t position-size invariant violations",
-          "state": "parked",
-          "status": "Sep 30 safety-state finding: eight violations logged 09:25-09:35 IST, with margins above the Rs15,000 cap.",
+          "state": "done",
+          "status": "Oct 3 audit: the eight recorded size alerts were rejected placements, not executed oversize trades. Guard boundary tests added; four swing/positional files pass by report.",
           "detail": "Recorded safety-state finding from session-log review. Causality for the trading losses is unproven. Circuit breaker separately fired at 15:16 IST after square-off when the Rs2,000 / 2% daily-loss threshold was crossed, as designed.",
-          "next": "Review sizing and invariant enforcement against exact log/trade evidence before changing logic. No repair or loss-causality conclusion claimed.",
+          "next": "Verify the current live ledger and deployed build; historical data was not rewritten.",
           "due": "Parked; no fix date set"
         },
         {
@@ -743,11 +804,11 @@
         "id": "oct04-focus-pro-t",
         "projectId": "focus-pro-t",
         "source": "agent",
-        "label": "Pro_T",
+        "label": "Pro_T · paper trading",
         "window": "Daily project check-in · 4 Oct",
-        "target": "Get a current trading/deploy report; verify backend before calling swing live.",
+        "target": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
         "status": "pending",
-        "progress_text": "Last recorded paper session Sep 30: -Rs2,950.20. Paper swing implementation pushed; live backend verification still unconfirmed.",
+        "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -767,11 +828,11 @@
         "id": "oct04-focus-japanese",
         "projectId": "focus-japanese",
         "source": "agent",
-        "label": "Japanese learning app",
+        "label": "Japanese_Practice · learning app",
         "window": "Daily project check-in · 4 Oct",
-        "target": "Report today’s app work or study; check the next Gist sync without treating absent data as zero.",
+        "target": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
         "status": "pending",
-        "progress_text": "NAT-TEST 4Q passed by Jai’s report. App daily progress unconfirmed; Gist last synced Sep 27, 09:41 IST (932 recorded activity), not today.",
+        "progress_text": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -791,11 +852,11 @@
         "id": "oct04-focus-youtube",
         "projectId": "focus-youtube",
         "source": "agent",
-        "label": "YouTube pipeline",
+        "label": "ReelSaga · YouTube pipeline",
         "window": "Daily project check-in · 4 Oct",
-        "target": "Continue the existing checks/publication workflow and report verified part counts.",
+        "target": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
         "status": "pending",
-        "progress_text": "Latest publisher report Oct 3, 19:45: Beast 16/23 public; EP7 P2 private upload queued. Earlier Vows 31/31 and Maid 17/17 complete.",
+        "progress_text": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -803,11 +864,11 @@
         "id": "oct04-focus-instagram",
         "projectId": "focus-instagram",
         "source": "agent",
-        "label": "IG pipeline",
+        "label": "ReelSaga · IG pipeline",
         "window": "Daily project check-in · 4 Oct",
-        "target": "Get a current IG count and Safelist verdict; keep identical parts across platforms, no Maid IG backfill.",
+        "target": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
         "status": "pending",
-        "progress_text": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied.",
+        "progress_text": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -815,11 +876,11 @@
         "id": "oct04-focus-horoscope",
         "projectId": "focus-horoscope",
         "source": "agent",
-        "label": "Horoscope project",
+        "label": "Horoscope_Ventrue · chart research",
         "window": "Daily project check-in · 4 Oct",
-        "target": "Build the whole-chart \"who you are\" layer; retain remaining source/research gaps and test gates.",
+        "target": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
         "status": "pending",
-        "progress_text": "Oct 3: deep period layer slice 1 live. Current/next stretches have 6 life-area sections with lean-into/take-care guidance; tap into sub-periods. 592 tests reported.",
+        "progress_text": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
         "impact_done": "",
         "impact_skipped": ""
       },
