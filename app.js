@@ -95,7 +95,7 @@ function render(data){
   overview.hidden=page!=='overview';
   document.querySelector('#urgency').hidden=!['overview','today'].includes(page);
   document.querySelector('#groups').hidden=!projects&&!later&&!personal&&page!=='overview';
-  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=later?name!=='Backlog':projects?name!=='Focus projects':personal?true:name!=='Focus projects'}
+  for(const section of groups.children){const name=section.querySelector('h2')?.textContent;section.hidden=later?name!=='Backlog':projects?!['Focus projects','New ventures + platform'].includes(name):personal?true:name!=='Focus projects'}
   document.querySelector('#footer').textContent=data.footer;
   if(['overview','today'].includes(page)&&!window.urgencyTimer)window.urgencyTimer=setInterval(()=>urgency(currentData),60000);
 }
