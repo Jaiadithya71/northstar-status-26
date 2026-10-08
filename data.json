@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-08T04:43:24+05:30",
-  "updatedLabel": "08 Oct 2026, 04:43 AM IST",
+  "updatedAt": "2026-10-08T18:37:50+05:30",
+  "updatedLabel": "08 Oct 2026, 06:37 PM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -1834,5 +1834,68 @@
         ]
       }
     }
-  ]
+  ],
+  "journal": {
+    "intro": "A dated record of what you learned, what you chose, and what changed. Plans and advice stay separate from observed results. Return to an entry with evidence before judging growth.",
+    "entries": [
+      {
+        "id": "2026-10-08-japanese-n3",
+        "date": "2026-10-08",
+        "at": "2026-10-08T18:36:25+05:30",
+        "title": "N3: keep anime, change how you use it",
+        "projectId": "focus-japanese",
+        "topic": "Japanese · learning decision",
+        "summary": "Anime stays as supporting practice. Add reading, kanji and exam-shaped listening so enjoyment does not stand in for preparation.",
+        "source": "Jai’s Oct 8 conversation: guidance shared at 18:33, discussion at 18:34-18:35, request to record at 18:36 IST.",
+        "kind": "Guidance recorded · practice outcome not yet measured",
+        "sections": [
+          {
+            "heading": "What prompted this",
+            "paragraphs": [
+              "Jai shared guidance about moving from N4 toward N3 and asked whether anime was really of no use. The useful distinction is passive enjoyment versus active language practice, not anime versus no anime. Understanding the story with visual cues is not the same as parsing every sentence."
+            ]
+          },
+          {
+            "heading": "Keep anime, make it active",
+            "paragraphs": [
+              "Turn English subtitles off and use Japanese subtitles when available. Pause on a short line, listen again, and shadow it aloud. Check unfamiliar words or grammar instead of relying only on the scene.",
+              "The guidance recommends everyday slice-of-life shows such as Shirokuma Cafe, Karakai Jouzu no Takagi-san and Barakamon. These are study suggestions, not verified subtitle availability or a rule that every other genre is useless.",
+              "Anime can support listening stamina, vocabulary in context and enjoyment. It is a supporting tool, not a complete N3 preparation plan."
+            ]
+          },
+          {
+            "heading": "Add the work anime does not cover",
+            "bullets": [
+              "Intermediate listening: Nihongo con Teppei for Intermediate or Japanese with Shun. Check that the episode’s level fits; listen for the language, not just the topic.",
+              "Reading: 15-20 minutes of NHK News Web Easy or Tadoku graded readers. Track what you can understand and summarise without leaning on a translation.",
+              "Exam listening: Shin Kanzen Master or official JLPT mocks. Practise changing plans, multi-step instructions and formal conversation in the question format.",
+              "Kanji and vocabulary: keep deliberate review alongside reading. Subtitles can help connect sound and written words, but do not replace reading-speed practice."
+            ]
+          },
+          {
+            "heading": "Keep the claim honest",
+            "paragraphs": [
+              "The earlier chat overstated that anime trains neither reading nor formal listening, and that reading is what fails most N3 candidates. No evidence for that pass/fail ranking was supplied. Japanese subtitles can provide reading exposure; what they do not provide alone is balanced exam preparation.",
+              "The practical takeaway remains: cover reading, vocabulary/kanji, grammar and listening deliberately. Use anime to make the routine enjoyable and active, without treating enjoyment or a rough comprehension estimate as a mock-test score."
+            ]
+          },
+          {
+            "heading": "Evaluate growth, not just time spent",
+            "bullets": [
+              "Record the date, material and minutes of active practice. Note whether you could explain the meaning without English subtitles.",
+              "Keep a short reading summary and unfamiliar grammar/kanji list. Revisit one passage later to see whether it is faster and clearer.",
+              "Log timed reading and listening-drill accuracy, then compare similar exercises over time. Do not infer improvement from a longer watch session alone."
+            ]
+          },
+          {
+            "heading": "Decision and next review",
+            "paragraphs": [
+              "Recorded direction: anime has a supporting role; reading and exam listening need their own place. The 15-20 minute reading block is advice recorded here, not a claim that a daily routine has been completed.",
+              "No practice outcome is recorded yet. Add a dated follow-up with what Jai actually tried, what the drills showed, and whether the balance should change. Earlier entries remain intact so the reason for a decision is not lost."
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
