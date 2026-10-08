@@ -1,7 +1,7 @@
 let currentData;
 const progress=(items=[])=>items.length?Math.round(items.reduce((v,x)=>v+({done:1,partial:.5}[x.status]||0),0)/items.length*100):0;
 const dayLocal=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-const views={overview:'Overview',today:'My Day',projects:'Projects',career:'Career + FI',later:'Backlog',personal:'Post-exam chilling',history:'History',shorts:'ReelSaga Shorts'};
+const views={overview:'Overview',today:'My Day',journal:'Journal',projects:'Projects',career:'Career + FI',later:'Backlog',personal:'Post-exam chilling',history:'History',shorts:'ReelSaga Shorts'};
 const view=()=>{const q=new URLSearchParams(location.search).get('view');return views[q]?q:'overview'};
 const dayEnd=(day)=>new Date(`${day.date}T${day.dayEnd||'22:15'}:00+05:30`).getTime(); // Labeled routine anchor, not a deadline.
 const duration=(ms)=>{if(ms<=0)return 'Routine day-end passed';const mins=Math.ceil(ms/60000);return `${Math.floor(mins/60)}h ${String(mins%60).padStart(2,'0')}m left in your planned day`};
@@ -52,11 +52,21 @@ function renderShorts(data){
 function renderArchive(data){const section=document.querySelector('#archive');section.replaceChildren();const h=$('h2','','Past days');section.appendChild(h);for(const prior of data.priorDayPlans||[]){const d=$('details','archive-day');d.appendChild($('summary','',prior.plan.label+' · earlier plan'));for(const item of prior.plan.items||[])appendText(d,'p','',item.status.replace('_',' ')+' · '+item.label);section.appendChild(d)}const days=(data.archive||[]);if(!days.length){appendText(section,'p','archive-empty','No past days yet.');return}for(const day of days){const d=$('details','archive-day');const title=$('summary','',`${day.label||day.date} · ${progress(day.items)}% complete`);d.appendChild(title);for(const item of day.items||[])appendText(d,'p','',`${item.status.replace('_',' ')} · ${item.label}`);section.appendChild(d)}}
 const $ = (tag, cls, text) => { const el = document.createElement(tag); if(cls) el.className=cls; if(text!==undefined) el.textContent=text; return el; };
 const appendText=(el,tag,cls,text)=>el.appendChild($(tag,cls,text));
+
+function renderJournal(data){
+ let section=document.querySelector('#journal');if(!section){section=$('section','journal');section.id='journal';section.setAttribute('aria-label','Learning and decision journal');document.querySelector('main').appendChild(section)}section.replaceChildren();section.hidden=view()!=='journal';
+ appendText(section,'p','journal-intro',data.journal?.intro||'A dated record of learning, decisions and outcomes.');
+ const entries=(data.journal?.entries||[]).slice().sort((a,b)=>(b.at||b.date).localeCompare(a.at||a.date));
+ const index=$('nav','journal-index');index.setAttribute('aria-label','Journal entries');appendText(index,'span','focus-label','Entry index');
+ for(const e of entries){const a=$('a','journal-index-link',e.date+' · '+e.title);a.href='#journal-'+e.id;index.appendChild(a)}section.appendChild(index);
+ for(const e of entries){const article=$('article','journal-entry');article.id='journal-'+e.id;appendText(article,'p','journal-date',new Date(e.at||e.date+'T12:00:00+05:30').toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'})+' IST · '+e.topic);appendText(article,'h2','',e.title);appendText(article,'p','journal-summary',e.summary);appendText(article,'p','journal-state',e.kind);for(const part of e.sections||[]){const block=$('section','journal-block');appendText(block,'h3','',part.heading);for(const line of part.paragraphs||[])appendText(block,'p','',line);if(part.bullets?.length){const ul=$('ul');for(const line of part.bullets)appendText(ul,'li','',line);block.appendChild(ul)}article.appendChild(block)}appendText(article,'p','journal-source',e.source);if(e.projectId){const a=$('a','more-link','Related project and progress log');a.href='?view=projects#'+e.projectId;article.appendChild(a)}section.appendChild(article)}
+}
+
 function render(data){
-  currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);renderShorts(data);renderCareer();
+  currentData=data;navigation();urgency(data);renderToday(data);renderArchive(data);renderShorts(data);renderCareer();renderJournal(data);
   const page=view();document.title=`${views[page]} · ${data.title}`;
   document.querySelector('#title').textContent=page==='overview'?data.title:views[page];
-  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and friends to unwind this week. Nothing booked yet.',history:'Past My Day plans as they were saved.',shorts:'Shorts performance, with source and read time.',career:'What to do when. Evidence first, options open.'})[page];
+  document.querySelector('.sub').textContent=({overview:'What matters now. Open a page for the rest.',today:'Today’s plan and saved progress.',projects:'Current work and next steps.',later:'On the list, without crowding today.',personal:'Food, films and friends to unwind this week. Nothing booked yet.',history:'Past My Day plans as they were saved.',shorts:'Shorts performance, with source and read time.',journal:'Learning, decisions and growth over time.',career:'What to do when. Evidence first, options open.'})[page];
   document.querySelector('#fresh').textContent=page==='career'?'Revised 7 Oct 2026 · global-first / targets reviewed annually':`Updated ${data.updatedLabel}`;
   const focus=document.querySelector('#focus');focus.replaceChildren();
   const top=$('div','focus-top'); top.appendChild($('span','focus-label','Top priority')); const counter=$('span','count'); top.appendChild(counter); focus.appendChild(top);
