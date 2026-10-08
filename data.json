@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-09T04:40:22+05:30",
-  "updatedLabel": "09 Oct 2026, 04:40 AM IST",
+  "updatedAt": "2026-10-09T04:42:07+05:30",
+  "updatedLabel": "09 Oct 2026, 04:42 AM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -796,8 +796,8 @@
   "today": {
     "date": "2026-10-09",
     "label": "Friday, 9 Oct",
-    "dayEnd": "23:45",
-    "dayEndLabel": "Friday schedule sleep anchor",
+    "dayEnd": "23:30",
+    "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Status snapshots retain their original dates; they do not establish work today. Open a project for its dated log.",
     "items": [
       {
@@ -2054,5 +2054,11 @@
         ]
       }
     ]
+  },
+  "sleepWindow": {
+    "bed": "23:30",
+    "wake": "06:00",
+    "effectiveFrom": "2026-10-08",
+    "source": "Jai’s Oct 8 23:10 bedtime proposal and 23:11 wake-time proposal; agreed 23:11 IST. Earlier exam-day wake only if separately confirmed."
   }
 }
