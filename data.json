@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-09T23:43:24+05:30",
-  "updatedLabel": "09 Oct 2026, 11:43 PM IST",
+  "updatedAt": "2026-10-10T04:40:25+05:30",
+  "updatedLabel": "10 Oct 2026, 04:40 AM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -802,18 +802,18 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-10-09",
-    "label": "Friday, 9 Oct",
+    "date": "2026-10-10",
+    "label": "Saturday, 10 Oct",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Status snapshots retain their original dates; they do not establish work today. Open a project for its dated log.",
     "items": [
       {
-        "id": "oct09-focus-pro-t",
+        "id": "oct10-focus-pro-t",
         "projectId": "focus-pro-t",
         "source": "agent",
         "label": "Pro_T · paper trading",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
         "status": "pending",
         "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
@@ -821,11 +821,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-vibestream",
+        "id": "oct10-focus-vibestream",
         "projectId": "focus-vibestream",
         "source": "agent",
         "label": "VibeStream music app",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
         "status": "pending",
         "progress_text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
@@ -833,11 +833,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-japanese",
+        "id": "oct10-focus-japanese",
         "projectId": "focus-japanese",
         "source": "agent",
         "label": "Japanese_Practice · learning app",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
         "status": "pending",
         "progress_text": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
@@ -845,11 +845,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-monetize",
+        "id": "oct10-focus-monetize",
         "projectId": "focus-monetize",
         "source": "agent",
         "label": "Monetize platform build",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Define the first product slice and build plan; no purchase or launch assumed.",
         "status": "pending",
         "progress_text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
@@ -857,11 +857,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-youtube",
+        "id": "oct10-focus-youtube",
         "projectId": "focus-youtube",
         "source": "agent",
         "label": "ReelSaga · YouTube pipeline",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
         "status": "pending",
         "progress_text": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
@@ -869,11 +869,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-instagram",
+        "id": "oct10-focus-instagram",
         "projectId": "focus-instagram",
         "source": "agent",
         "label": "ReelSaga · IG pipeline",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
         "status": "pending",
         "progress_text": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
@@ -881,11 +881,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-horoscope",
+        "id": "oct10-focus-horoscope",
         "projectId": "focus-horoscope",
         "source": "agent",
         "label": "Horoscope_Ventrue · chart research",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
         "status": "pending",
         "progress_text": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
@@ -893,11 +893,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-interns",
+        "id": "oct10-focus-interns",
         "projectId": "focus-interns",
         "source": "agent",
         "label": "Intern mentorship",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Get current intern deliverables and review one concrete submission before changing assignments.",
         "status": "pending",
         "progress_text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
@@ -905,11 +905,11 @@
         "impact_skipped": ""
       },
       {
-        "id": "oct09-focus-patents",
+        "id": "oct10-focus-patents",
         "projectId": "focus-patents",
         "source": "agent",
         "label": "Patent scraping + client acquisition",
-        "window": "Daily project check-in · 9 Oct",
+        "window": "Daily project check-in · 10 Oct",
         "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
         "status": "pending",
         "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
@@ -1828,6 +1828,123 @@
           "source": "agent",
           "label": "Patent scraping + client acquisition",
           "window": "Daily project check-in · 8 Oct",
+          "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
+          "status": "pending",
+          "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "label": "Friday, 9 Oct",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Status snapshots retain their original dates; they do not establish work today. Open a project for its dated log.",
+      "items": [
+        {
+          "id": "oct09-focus-pro-t",
+          "projectId": "focus-pro-t",
+          "source": "agent",
+          "label": "Pro_T · paper trading",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
+          "status": "pending",
+          "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-vibestream",
+          "projectId": "focus-vibestream",
+          "source": "agent",
+          "label": "VibeStream music app",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
+          "status": "pending",
+          "progress_text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-japanese",
+          "projectId": "focus-japanese",
+          "source": "agent",
+          "label": "Japanese_Practice · learning app",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
+          "status": "pending",
+          "progress_text": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-monetize",
+          "projectId": "focus-monetize",
+          "source": "agent",
+          "label": "Monetize platform build",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Define the first product slice and build plan; no purchase or launch assumed.",
+          "status": "pending",
+          "progress_text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-youtube",
+          "projectId": "focus-youtube",
+          "source": "agent",
+          "label": "ReelSaga · YouTube pipeline",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
+          "status": "pending",
+          "progress_text": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-instagram",
+          "projectId": "focus-instagram",
+          "source": "agent",
+          "label": "ReelSaga · IG pipeline",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
+          "status": "pending",
+          "progress_text": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-horoscope",
+          "projectId": "focus-horoscope",
+          "source": "agent",
+          "label": "Horoscope_Ventrue · chart research",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
+          "status": "pending",
+          "progress_text": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-interns",
+          "projectId": "focus-interns",
+          "source": "agent",
+          "label": "Intern mentorship",
+          "window": "Daily project check-in · 9 Oct",
+          "target": "Get current intern deliverables and review one concrete submission before changing assignments.",
+          "status": "pending",
+          "progress_text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "oct09-focus-patents",
+          "projectId": "focus-patents",
+          "source": "agent",
+          "label": "Patent scraping + client acquisition",
+          "window": "Daily project check-in · 9 Oct",
           "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
           "status": "pending",
           "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
