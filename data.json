@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-09T04:42:07+05:30",
-  "updatedLabel": "09 Oct 2026, 04:42 AM IST",
+  "updatedAt": "2026-10-09T23:43:24+05:30",
+  "updatedLabel": "09 Oct 2026, 11:43 PM IST",
   "focus": {
     "title": "Nine projects, one daily view",
     "date": "2026-10-03T22:30:00+05:30",
@@ -429,6 +429,14 @@
     {
       "name": "Backlog",
       "items": [
+        {
+          "id": "personal-local-agent",
+          "name": "Personal local agent",
+          "state": "parked",
+          "status": "Project idea recorded Oct 9: build a local agent-orchestration layer for tools, memory, scheduling, channels and permissions.",
+          "detail": "Success bar: it has to run Jai’s life for a month. Motivation: learning and a resume signal for tier-1 AI roles, not a subscription hedge. No month-long run or completed build claimed.",
+          "next": "Define the first local workflow and measurable month-long trial; keep permissions explicit before connecting channels or taking actions."
+        },
         {
           "id": "nitin-client-followup",
           "name": "Nitin Kumar (AceAI client)",
