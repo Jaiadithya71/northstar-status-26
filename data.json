@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-10T04:40:25+05:30",
-  "updatedLabel": "10 Oct 2026, 04:40 AM IST",
+  "updatedAt": "2026-10-10T16:36:46+05:30",
+  "updatedLabel": "10 Oct 2026, 04:36 PM IST",
   "focus": {
-    "title": "Nine projects, one daily view",
-    "date": "2026-10-03T22:30:00+05:30",
-    "dateLabel": "Sat 3 Oct",
-    "status": "Project-based tracking",
-    "next": "Open My Day to report progress; project cards hold the dated agent and user log."
+    "title": "Four tracks + job-switch prep",
+    "date": "2026-10-10T23:30:00+05:30",
+    "dateLabel": "Oct 10 focus decision",
+    "status": "Scope narrowed by Jai",
+    "next": "Japanese app, YouTube channels including Kathirvelan, patent pipeline, trading platform, and job-switch preparation. Other ideas/research paused; earlier plans remain in History."
   },
   "groups": [
     {
@@ -17,8 +17,8 @@
           "id": "focus-pro-t",
           "name": "Pro_T · paper trading",
           "state": "active",
-          "status": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
-          "next": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
+          "status": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20. Oct 10 coordination report: watchdog and notes ingestion retained; intern guard PR review reported pending. No fresh ledger verification in this plan edit.",
+          "next": "Keep trading safety checks and review the intern guard PR; retain paper/live distinction and source dates.",
           "focusProject": true,
           "dailyLog": [
             {
@@ -86,29 +86,11 @@
           "linkLabel": "Open project"
         },
         {
-          "id": "focus-vibestream",
-          "name": "VibeStream music app",
-          "state": "active",
-          "status": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
-          "next": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
-          "focusProject": true,
-          "dailyLog": [
-            {
-              "at": "2026-10-03T19:53:51+05:30",
-              "source": "Agent",
-              "text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification."
-            }
-          ],
-          "foldedRecords": [],
-          "link": "https://github.com/Jaiadithya71/Local_Music_app",
-          "linkLabel": "Open project"
-        },
-        {
           "id": "focus-japanese",
           "name": "Japanese_Practice · learning app",
           "state": "active",
-          "status": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
-          "next": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
+          "status": "Oct 10 app task reported seven onboarding/UI fixes shipped, with empty-heatmap and end-of-session visuals still unverified at its 14:05 report. Distribution awaiting Reddit review per 15:03 coordination report. NAT-TEST watch closed by Jai; earlier pass report retained.",
+          "next": "Continue the learning app and N3 study; measure real sessions and review the distribution draft before posting.",
           "focusProject": true,
           "dailyLog": [
             {
@@ -159,40 +141,18 @@
           "detail": "Latest previously verified Gist sync: Sep 27, 09:41 IST, 932 recorded activity. A live repository/app check is not proof of new study or sync."
         },
         {
-          "id": "focus-monetize",
-          "name": "Monetize platform build",
-          "state": "waiting",
-          "status": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
-          "next": "Define the first product slice and build plan; no purchase or launch assumed.",
-          "focusProject": true,
-          "dailyLog": [
-            {
-              "at": "2026-10-03T19:53:51+05:30",
-              "source": "Agent",
-              "text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app."
-            }
-          ],
-          "foldedRecords": [
-            {
-              "id": "side-hustle-platform-rebuild",
-              "name": "Explore rebuilding Monetise-style platform",
-              "state": "waiting",
-              "status": "Parked: distinct from selling Japanese_Practice. The target is Iman Gadzhi’s Monetise, pitched through the free Side Hustle Summit.",
-              "detail": "A Sep 14 independent buyer review reports Monetise 2.0 cost $1,995 one-time, not ~$2,000/year. Its predecessor Monetise 1.0 was $999 for twelve months and was replaced in Sept 2025. The same review reports a $995 companion offer and a member-reported ~$2,000 Pro upsell (not published vendor pricing), with optional add-ons potentially taking the bill near $4,000. It says the Summit cart closed Sep 14; the vendor currently shows a waitlist. These are research leads, not a purchase recommendation or verified checkout quote. Review: https://sidehustlesummitreviews.com/monetise-pricing/ ; vendor: https://www.monetise.com/waitlist .",
-              "next": "After current priorities, map what parts of Monetise he means to rebuild; verify features, legal rights, live terms and costs before choosing a scope. This is separate from selling Japanese_Practice.",
-              "link": "https://sidehustlesummitreviews.com/monetise-pricing/",
-              "linkLabel": "Price research"
-            }
-          ]
-        },
-        {
           "id": "focus-youtube",
-          "name": "ReelSaga · YouTube pipeline",
+          "name": "YouTube channels · ReelSaga + Kathirvelan",
           "state": "active",
-          "status": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
-          "next": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
+          "status": "Oct 10 publisher reports: Airport Cleaner complete on YT + IG (23 parts); Kathirvelan plum-purple reel live. Swarm then Hidden Heiress queued; publication gates remain separate.",
+          "next": "Continue ReelSaga and Kathirvelan channel workflows and paired IG posts; track verified part counts, quality and copyright gates.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-10-10T16:36:46+05:30",
+              "source": "Agent · Oct 10 plan refresh",
+              "text": "Channels combined into one focus track. Oct 10 relayed closeouts: Airport Cleaner 23 paired parts complete at 15:34; Kathirvelan plum-purple reel live at 15:44. No new API verification in this plan edit."
+            },
             {
               "at": "2026-10-04T17:46:12+05:30",
               "source": "Agent · project refresh",
@@ -228,133 +188,11 @@
           ]
         },
         {
-          "id": "focus-instagram",
-          "name": "ReelSaga · IG pipeline",
-          "state": "active",
-          "status": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
-          "next": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
-          "focusProject": true,
-          "dailyLog": [
-            {
-              "at": "2026-10-04T17:46:12+05:30",
-              "source": "Agent · project refresh",
-              "text": "Oct 4 refresh: separated ReelSaga’s established IG workflow from Kathirvelan’s still-blocked token setup. No newer public-part count verified."
-            },
-            {
-              "at": "2026-10-03T19:53:51+05:30",
-              "source": "Agent",
-              "text": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied."
-            }
-          ],
-          "foldedRecords": [
-            {
-              "id": "reelsaga-next-series-oct02",
-              "name": "ReelSaga Mech God: YouTube + Instagram",
-              "state": "active",
-              "status": "Mech God publishing started Oct 3, 02:03 IST via RS Boost (30%). Instagram EP1 Part 1 is live; YouTube private-first upload is in progress.",
-              "detail": "Publisher update relayed Oct 3 at 02:03 IST. Creator Safelist submitted for both accounts, status Pending Update: not approved or cleared yet. This is an in-progress batch, not full publication. Total part count and further live parts are not supplied. Forward plan records identical parts on YouTube and Instagram; no Maid Instagram backfill.",
-              "next": "Continue matched-part publication on both platforms through the existing workflow. Verify YouTube checks and saved visibility before counting parts public; track Safelist status separately.",
-              "due": "Publishing started · 3 Oct 2026, 02:03 IST"
-            }
-          ]
-        },
-        {
-          "id": "focus-horoscope",
-          "name": "Horoscope_Ventrue · chart research",
-          "state": "active",
-          "status": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
-          "next": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
-          "focusProject": true,
-          "dailyLog": [
-            {
-              "at": "2026-10-04T17:46:12+05:30",
-              "source": "Agent · project refresh",
-              "text": "Oct 4 refresh: live birth-time certainty form and repository Tamil-lagna commit verified. Oct 3 implementation reports 599 passing tests, clock-window lagna choices and stand-in-time/Moon-stability caveats. Test count relayed, not independently rerun."
-            },
-            {
-              "at": "2026-10-03T20:23:40+05:30",
-              "source": "Agent · implementation closeout",
-              "text": "Deep period layer slice 1 live per Jai’s locked spec: current/next stretches show 6 life-area sections with lean-into/take-care guidance, sub-periods drill down on tap, and thin areas honestly marked \"nothing specific\". 592 tests reported."
-            },
-            {
-              "at": "2026-10-03T20:04:37+05:30",
-              "source": "Agent · implementation closeout",
-              "text": "User-oriented tone retrofit live: year ranges and plain-life reads (testing/supportive stretch) lead period cards; planet names and source rules moved into evidence drill-down. 585 tests reported; jargon-leak regression tests added."
-            },
-            {
-              "at": "2026-10-03T19:58:46+05:30",
-              "source": "Agent · implementation closeout",
-              "text": "Period-by-period timeline live: 9 dasa cards with sourced rules, 583 tests reported. Fixed app ayanamsa from Fagan-Bradley to Lahiri; prior planets were 0.88 degrees low. Regression test added. Next: whole-chart \"who you are\" layer."
-            },
-            {
-              "at": "2026-10-03T19:53:51+05:30",
-              "source": "Agent",
-              "text": "Oct 3 closeout: live readings for Work, Marriage, Money, Strength and Timing; 577 tests pass. Whole-chart and period-theme rules now being extracted."
-            }
-          ],
-          "foldedRecords": [
-            {
-              "id": "horoscope-next-idea",
-              "name": "Horoscope_Ventrue research / strength engine",
-              "status": "In progress. Sep 30 research update: 399 passing tests and about 15 pushes today. Digbala, temporal Kala, lords, Ayana in both schools, BPHS identity chain, 17 precedence scopes and Raman tables verified.",
-              "state": "active",
-              "detail": "Latest reported commit: 8fe26342791929550691b633e7a48ca280b6a25c (15:39 IST). Source-specific conventions remain separate; verified fixtures do not establish arbitrary-date planetary positions or predictive accuracy. The current work has moved beyond raw OCR extraction.",
-              "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
-              "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
-              "linkLabel": "Open repo"
-            },
-            {
-              "id": "vedic-astrology-app",
-              "name": "Vedic astrology app shell",
-              "state": "done",
-              "status": "Launched Oct 1: live app shell with city-name input and a Balaji-style reading layer. Engine untouched by the shell launch.",
-              "detail": "Launch closeout reports AGPL licensing and 536 engine + 8 app tests passing. Live homepage verified Oct 1. This completes the app shell, not full strength totals or predictive validation: full strength totals, historical calendar selection and personal forecasts remain research-gated.",
-              "next": "Review the live shell; track remaining engine research separately. Do not treat the shell launch as a finished prediction system.",
-              "due": "Launched · 1 Oct 2026",
-              "link": "https://horoscope-ventrue.vercel.app",
-              "linkLabel": "Open live app",
-              "secondaryLink": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
-              "secondaryLinkLabel": "Engine repo"
-            }
-          ],
-          "link": "https://horoscope-ventrue.vercel.app",
-          "linkLabel": "Open project"
-        },
-        {
-          "id": "focus-interns",
-          "name": "Intern mentorship",
-          "state": "waiting",
-          "status": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
-          "next": "Get current intern deliverables and review one concrete submission before changing assignments.",
-          "focusProject": true,
-          "dailyLog": [
-            {
-              "at": "2026-10-03T19:53:51+05:30",
-              "source": "Agent",
-              "text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today."
-            }
-          ],
-          "foldedRecords": [
-            {
-              "id": "agentforge",
-              "name": "AgentForge internships",
-              "status": "Manaadithya received the smoke-checklist first task and mail at 18:04; repo access was revoked. Amit was nudged after missing his availability reply.",
-              "state": "waiting",
-              "next": "Await Manaadithya’s response/submission without assuming repo access. Amit: availability and GitHub username requested by Tue 29 Sep, 18:00 IST; reassign only after checking the thread and Jai’s decision.",
-              "link": "https://agentforge-jai-projects1.vercel.app/",
-              "linkLabel": "Open page",
-              "detail": "Manaadithya had accepted an earlier repo invite before access was removed; the first-task mail says no repo access needed. Amit’s nudge went on the existing email thread."
-            }
-          ],
-          "link": "https://agentforge-jai-projects1.vercel.app/",
-          "linkLabel": "Open project"
-        },
-        {
           "id": "focus-patents",
           "name": "Patent scraping + client acquisition",
           "state": "active",
-          "status": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
-          "next": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
+          "status": "Oct 10 coordination snapshot: 59 outreach messages reported sent; Ecochem the only positive response; run continues through the 133-lead list.",
+          "next": "Track remaining approved pipeline sends and actual replies; keep interested responses separate from paying customers.",
           "focusProject": true,
           "dailyLog": [
             {
@@ -388,6 +226,21 @@
           ],
           "link": "https://github.com/Jaiadithya71/patent-expiry-research",
           "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-job-switch",
+          "name": "Job-switch prep",
+          "state": "active",
+          "focusProject": true,
+          "status": "Oct 10: job-switch preparation is the fifth focus thread, alongside four selected product/pipeline tracks. No new mock result recorded.",
+          "next": "Use Career + FI for the existing preparation plan; record measured coding/interview practice and application decisions.",
+          "dailyLog": [
+            {
+              "at": "2026-10-10T16:36:46+05:30",
+              "source": "Jai · plan decision",
+              "text": "Oct 10 14:58: focus only on Japanese learning app, YouTube channels, patent pipeline and trading platform, and prepare for the next job switch. Maximum ROI and no capital for other real projects were the stated reasons."
+            }
+          ]
         }
       ]
     },
@@ -398,9 +251,9 @@
           "id": "venture-kathirvelan",
           "name": "Kathirvelan Boutique · NILA",
           "state": "active",
-          "status": "Oct 4: new saree venture and AI-model content engine in progress. YouTube channel created; Shorts enabled by setup report, first upload not done. Instagram token not obtained.",
+          "status": "Oct 10 publisher report: daily NILA reel live on IG + YT; now part of the combined channels focus.",
           "detail": "YouTube channel page verified. Description awaiting final review. IG login returned a connection refusal; its cause is unconfirmed, not a proven account-age freeze. Product reel/music prepared by implementation report, not yet public.",
-          "next": "Review channel description and stage first Short. Resolve IG authorization without claiming the pipeline is live before a verified upload.",
+          "next": "Continue under YouTube channels track; track each verified post outcome.",
           "link": "https://www.youtube.com/@kathirvelanboutique",
           "linkLabel": "Open YouTube channel"
         },
@@ -435,7 +288,7 @@
           "state": "parked",
           "status": "Project idea recorded Oct 9: build a local agent-orchestration layer for tools, memory, scheduling, channels and permissions.",
           "detail": "Success bar: it has to run Jai’s life for a month. Motivation: learning and a resume signal for tier-1 AI roles, not a subscription hedge. No month-long run or completed build claimed.",
-          "next": "Define the first local workflow and measurable month-long trial; keep permissions explicit before connecting channels or taking actions."
+          "next": "Shelved under the Oct 10 four-tracks + job-switch decision. Prior concept and success bar retained."
         },
         {
           "id": "nitin-client-followup",
@@ -498,17 +351,17 @@
         {
           "id": "qcc",
           "name": "Techfest QCC",
-          "status": "Registered solo as ZeroLoss · TM-CF33D0885BD. Oct 24 is the selected slot, pending final terms/confirmation.",
-          "state": "waiting",
-          "next": "Tue 29 Sep: check Techfest instructions and complete remaining QCC registration/confirmation steps; do not treat selected Oct 24 slot as fully confirmed.",
+          "status": "Oct 10: Jai said to drop the QCC watch. Prior registration retained; no registration cancellation claimed.",
+          "state": "parked",
+          "next": "No further watch planned.",
           "due": "24 Oct"
         },
         {
           "id": "certificates",
           "name": "Degree certificates",
-          "status": "Speed-post registration recorded Sep 25. Follow-up nudges to Ganesan and Jayaprakash sent Sep 28; no new office reply or dispatch/tracking confirmed.",
-          "state": "waiting",
-          "next": "Tue 29 Sep: watch the existing Dean office thread for reply and any dispatch/tracking details."
+          "status": "Oct 10: Jai reported the certificate item done. Dispatch details not independently rechecked in this edit.",
+          "state": "done",
+          "next": "Closed by owner report; retain earlier correspondence history."
         },
         {
           "id": "gig-data-annotation-application",
@@ -523,8 +376,8 @@
           "id": "job-hunt",
           "name": "Part-time AI gig work",
           "status": "Sep 30 pivot: stop Telegram-channel scanning for 12+ LPA jobs; search part-time gig work related to AI instead.",
-          "state": "active",
-          "next": "Search for part-time AI-related gigs and verify fit, terms and pay. No search results or new applications claimed by this dashboard update.",
+          "state": "parked",
+          "next": "Gig scans stopped under the Oct 10 focus change; job-switch prep tracked separately.",
           "detail": "Jai changed the search direction at 17:14 IST. This supersedes the prior 12 LPA floor / 15 LPA aim for the stopped Telegram scanning plan, not proof that other applications or assessments are cancelled. Today's unnamed data annotation application is tracked separately; no paid work or earnings confirmed."
         },
         {
@@ -703,15 +556,15 @@
           "name": "Personal-agent project",
           "status": "Scaffold exists; direction not set.",
           "state": "parked",
-          "next": "Choose the first useful workflow after the exam."
+          "next": "Shelved under the Oct 10 four-tracks + job-switch decision. Prior concept and success bar retained."
         },
         {
           "id": "outlier-onboarding",
           "name": "Outlier.ai onboarding",
           "state": "parked",
-          "status": "Parked at Jai's request Sep 30, 17:13 IST. Skills-save HTTP 403 remains unresolved; Jai will check manually later.",
-          "detail": "Server-side account-permission block, not a completed onboarding. The support bot claimed permanent deactivation; that claim has not been independently confirmed. Jai reported no notice email. Profile/phone verification is not identity ID/selfie verification, and no assessment or paid task completion is claimed. Jai took escalation over manually at 15:27 IST; no further outreach from Instinct.",
-          "next": "Jai checks manually later. No active onboarding, support outreach or automated follow-up planned.",
+          "status": "Oct 10: Jai said he thinks this is done; Outlier watch/setup removed from focus.",
+          "detail": "Oct 10 supersedes the earlier follow-up plan: Jai thinks this is done, but completion is not confirmed. Prior skills-save HTTP 403 and the support-bot deactivation claim were not independently resolved here. No further watch or outreach planned.",
+          "next": "No further setup planned. Completion is owner-reported, not independently verified.",
           "link": "https://app.outlier.ai/onboarding/skill-selection",
           "linkLabel": "Blocked skills step",
           "secondaryLink": "https://outlier.ai/faq",
@@ -796,6 +649,173 @@
           "detail": "Preserve Jai’s exact title/year; the specific film and availability have not been checked. Not assigned to a weekend movie night yet.",
           "next": "Verify which “Dragon (2011)” he means before arranging a viewing.",
           "due": "Week of 28 Sep-4 Oct"
+        },
+        {
+          "id": "focus-vibestream",
+          "name": "VibeStream music app",
+          "state": "parked",
+          "status": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+          "next": "Outside the Oct 10 focus. Retained as an idea/history, not daily work.",
+          "focusProject": false,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification."
+            }
+          ],
+          "foldedRecords": [],
+          "link": "https://github.com/Jaiadithya71/Local_Music_app",
+          "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-monetize",
+          "name": "Monetize platform build",
+          "state": "parked",
+          "status": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+          "next": "Outside the Oct 10 focus. Retained as an idea/history, not daily work.",
+          "focusProject": false,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "side-hustle-platform-rebuild",
+              "name": "Explore rebuilding Monetise-style platform",
+              "state": "waiting",
+              "status": "Parked: distinct from selling Japanese_Practice. The target is Iman Gadzhi’s Monetise, pitched through the free Side Hustle Summit.",
+              "detail": "A Sep 14 independent buyer review reports Monetise 2.0 cost $1,995 one-time, not ~$2,000/year. Its predecessor Monetise 1.0 was $999 for twelve months and was replaced in Sept 2025. The same review reports a $995 companion offer and a member-reported ~$2,000 Pro upsell (not published vendor pricing), with optional add-ons potentially taking the bill near $4,000. It says the Summit cart closed Sep 14; the vendor currently shows a waitlist. These are research leads, not a purchase recommendation or verified checkout quote. Review: https://sidehustlesummitreviews.com/monetise-pricing/ ; vendor: https://www.monetise.com/waitlist .",
+              "next": "After current priorities, map what parts of Monetise he means to rebuild; verify features, legal rights, live terms and costs before choosing a scope. This is separate from selling Japanese_Practice.",
+              "link": "https://sidehustlesummitreviews.com/monetise-pricing/",
+              "linkLabel": "Price research"
+            }
+          ]
+        },
+        {
+          "id": "focus-instagram",
+          "name": "ReelSaga · IG pipeline",
+          "state": "active",
+          "status": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
+          "next": "ReelSaga cross-posting now belongs to the combined YouTube channels track; preserve this earlier IG log.",
+          "focusProject": false,
+          "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: separated ReelSaga’s established IG workflow from Kathirvelan’s still-blocked token setup. No newer public-part count verified."
+            },
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Latest recorded batch: Mech God IG EP1 P1 live at Oct 3 02:03. Vows 31/31 and Blood 30/30 complete; no later IG count supplied."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "reelsaga-next-series-oct02",
+              "name": "ReelSaga Mech God: YouTube + Instagram",
+              "state": "active",
+              "status": "Mech God publishing started Oct 3, 02:03 IST via RS Boost (30%). Instagram EP1 Part 1 is live; YouTube private-first upload is in progress.",
+              "detail": "Publisher update relayed Oct 3 at 02:03 IST. Creator Safelist submitted for both accounts, status Pending Update: not approved or cleared yet. This is an in-progress batch, not full publication. Total part count and further live parts are not supplied. Forward plan records identical parts on YouTube and Instagram; no Maid Instagram backfill.",
+              "next": "Continue matched-part publication on both platforms through the existing workflow. Verify YouTube checks and saved visibility before counting parts public; track Safelist status separately.",
+              "due": "Publishing started · 3 Oct 2026, 02:03 IST"
+            }
+          ]
+        },
+        {
+          "id": "focus-horoscope",
+          "name": "Horoscope_Ventrue · chart research",
+          "state": "parked",
+          "status": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
+          "next": "Paused by Oct 10 focus decision. Keep prior research and app state as history; no new research planned.",
+          "focusProject": false,
+          "dailyLog": [
+            {
+              "at": "2026-10-04T17:46:12+05:30",
+              "source": "Agent · project refresh",
+              "text": "Oct 4 refresh: live birth-time certainty form and repository Tamil-lagna commit verified. Oct 3 implementation reports 599 passing tests, clock-window lagna choices and stand-in-time/Moon-stability caveats. Test count relayed, not independently rerun."
+            },
+            {
+              "at": "2026-10-03T20:23:40+05:30",
+              "source": "Agent · implementation closeout",
+              "text": "Deep period layer slice 1 live per Jai’s locked spec: current/next stretches show 6 life-area sections with lean-into/take-care guidance, sub-periods drill down on tap, and thin areas honestly marked \"nothing specific\". 592 tests reported."
+            },
+            {
+              "at": "2026-10-03T20:04:37+05:30",
+              "source": "Agent · implementation closeout",
+              "text": "User-oriented tone retrofit live: year ranges and plain-life reads (testing/supportive stretch) lead period cards; planet names and source rules moved into evidence drill-down. 585 tests reported; jargon-leak regression tests added."
+            },
+            {
+              "at": "2026-10-03T19:58:46+05:30",
+              "source": "Agent · implementation closeout",
+              "text": "Period-by-period timeline live: 9 dasa cards with sourced rules, 583 tests reported. Fixed app ayanamsa from Fagan-Bradley to Lahiri; prior planets were 0.88 degrees low. Regression test added. Next: whole-chart \"who you are\" layer."
+            },
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Oct 3 closeout: live readings for Work, Marriage, Money, Strength and Timing; 577 tests pass. Whole-chart and period-theme rules now being extracted."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "horoscope-next-idea",
+              "name": "Horoscope_Ventrue research / strength engine",
+              "status": "In progress. Sep 30 research update: 399 passing tests and about 15 pushes today. Digbala, temporal Kala, lords, Ayana in both schools, BPHS identity chain, 17 precedence scopes and Raman tables verified.",
+              "state": "active",
+              "detail": "Latest reported commit: 8fe26342791929550691b633e7a48ca280b6a25c (15:39 IST). Source-specific conventions remain separate; verified fixtures do not establish arbitrary-date planetary positions or predictive accuracy. The current work has moved beyond raw OCR extraction.",
+              "next": "Resolve the Mercury/Jupiter swap and historical-position blocker. Reproduce the book's worked chart end to end with audited inputs before treating the full strength engine as complete.",
+              "link": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+              "linkLabel": "Open repo"
+            },
+            {
+              "id": "vedic-astrology-app",
+              "name": "Vedic astrology app shell",
+              "state": "done",
+              "status": "Launched Oct 1: live app shell with city-name input and a Balaji-style reading layer. Engine untouched by the shell launch.",
+              "detail": "Launch closeout reports AGPL licensing and 536 engine + 8 app tests passing. Live homepage verified Oct 1. This completes the app shell, not full strength totals or predictive validation: full strength totals, historical calendar selection and personal forecasts remain research-gated.",
+              "next": "Review the live shell; track remaining engine research separately. Do not treat the shell launch as a finished prediction system.",
+              "due": "Launched · 1 Oct 2026",
+              "link": "https://horoscope-ventrue.vercel.app",
+              "linkLabel": "Open live app",
+              "secondaryLink": "https://github.com/Jaiadithya71/Horoscope_Ventrue",
+              "secondaryLinkLabel": "Engine repo"
+            }
+          ],
+          "link": "https://horoscope-ventrue.vercel.app",
+          "linkLabel": "Open project"
+        },
+        {
+          "id": "focus-interns",
+          "name": "Intern mentorship",
+          "state": "waiting",
+          "status": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+          "next": "Trading-related intern guard review remains within the trading track; no standalone daily mentorship check-in.",
+          "focusProject": false,
+          "dailyLog": [
+            {
+              "at": "2026-10-03T19:53:51+05:30",
+              "source": "Agent",
+              "text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today."
+            }
+          ],
+          "foldedRecords": [
+            {
+              "id": "agentforge",
+              "name": "AgentForge internships",
+              "status": "Manaadithya received the smoke-checklist first task and mail at 18:04; repo access was revoked. Amit was nudged after missing his availability reply.",
+              "state": "waiting",
+              "next": "Await Manaadithya’s response/submission without assuming repo access. Amit: availability and GitHub username requested by Tue 29 Sep, 18:00 IST; reassign only after checking the thread and Jai’s decision.",
+              "link": "https://agentforge-jai-projects1.vercel.app/",
+              "linkLabel": "Open page",
+              "detail": "Manaadithya had accepted an earlier repo invite before access was removed; the first-task mail says no repo access needed. Amit’s nudge went on the existing email thread."
+            }
+          ],
+          "link": "https://agentforge-jai-projects1.vercel.app/",
+          "linkLabel": "Open project"
         }
       ]
     }
@@ -806,29 +826,17 @@
     "label": "Saturday, 10 Oct",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
-    "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Status snapshots retain their original dates; they do not establish work today. Open a project for its dated log.",
+    "note": "Four selected tracks plus job-switch prep. Saved check-ins and dated agent milestones are separate; pending is not proof of no work. Earlier nine-project plan preserved in History.",
     "items": [
       {
         "id": "oct10-focus-pro-t",
         "projectId": "focus-pro-t",
         "source": "agent",
         "label": "Pro_T · paper trading",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
+        "window": "Daily focus check-in · 10 Oct",
+        "target": "Keep trading safety checks and review the intern guard PR; retain paper/live distinction and source dates.",
         "status": "pending",
-        "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "oct10-focus-vibestream",
-        "projectId": "focus-vibestream",
-        "source": "agent",
-        "label": "VibeStream music app",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
-        "status": "pending",
-        "progress_text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+        "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20. Oct 10 coordination report: watchdog and notes ingestion retained; intern guard PR review reported pending. No fresh ledger verification in this plan edit.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -837,22 +845,10 @@
         "projectId": "focus-japanese",
         "source": "agent",
         "label": "Japanese_Practice · learning app",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
+        "window": "Daily focus check-in · 10 Oct",
+        "target": "Continue the learning app and N3 study; measure real sessions and review the distribution draft before posting.",
         "status": "pending",
-        "progress_text": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "oct10-focus-monetize",
-        "projectId": "focus-monetize",
-        "source": "agent",
-        "label": "Monetize platform build",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Define the first product slice and build plan; no purchase or launch assumed.",
-        "status": "pending",
-        "progress_text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+        "progress_text": "Oct 10 app task reported seven onboarding/UI fixes shipped, with empty-heatmap and end-of-session visuals still unverified at its 14:05 report. Distribution awaiting Reddit review per 15:03 coordination report. NAT-TEST watch closed by Jai; earlier pass report retained.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -860,47 +856,11 @@
         "id": "oct10-focus-youtube",
         "projectId": "focus-youtube",
         "source": "agent",
-        "label": "ReelSaga · YouTube pipeline",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
+        "label": "YouTube channels · ReelSaga + Kathirvelan",
+        "window": "Daily focus check-in · 10 Oct",
+        "target": "Continue ReelSaga and Kathirvelan channel workflows and paired IG posts; track verified part counts, quality and copyright gates.",
         "status": "pending",
-        "progress_text": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "oct10-focus-instagram",
-        "projectId": "focus-instagram",
-        "source": "agent",
-        "label": "ReelSaga · IG pipeline",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
-        "status": "pending",
-        "progress_text": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "oct10-focus-horoscope",
-        "projectId": "focus-horoscope",
-        "source": "agent",
-        "label": "Horoscope_Ventrue · chart research",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
-        "status": "pending",
-        "progress_text": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "oct10-focus-interns",
-        "projectId": "focus-interns",
-        "source": "agent",
-        "label": "Intern mentorship",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Get current intern deliverables and review one concrete submission before changing assignments.",
-        "status": "pending",
-        "progress_text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+        "progress_text": "Oct 10 publisher reports: Airport Cleaner complete on YT + IG (23 parts); Kathirvelan plum-purple reel live. Swarm then Hidden Heiress queued; publication gates remain separate.",
         "impact_done": "",
         "impact_skipped": ""
       },
@@ -909,12 +869,24 @@
         "projectId": "focus-patents",
         "source": "agent",
         "label": "Patent scraping + client acquisition",
-        "window": "Daily project check-in · 10 Oct",
-        "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
+        "window": "Daily focus check-in · 10 Oct",
+        "target": "Track remaining approved pipeline sends and actual replies; keep interested responses separate from paying customers.",
         "status": "pending",
-        "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
+        "progress_text": "Oct 10 coordination snapshot: 59 outreach messages reported sent; Ecochem the only positive response; run continues through the 133-lead list.",
         "impact_done": "",
         "impact_skipped": ""
+      },
+      {
+        "id": "oct10-focus-job-switch",
+        "projectId": "focus-job-switch",
+        "source": "agent",
+        "status": "pending",
+        "impact_done": "",
+        "impact_skipped": "",
+        "label": "Job-switch prep",
+        "window": "Daily focus check-in · 10 Oct",
+        "target": "Use Career + FI for the existing preparation plan; record measured coding/interview practice and application decisions.",
+        "progress_text": "Oct 10: job-switch preparation is the fifth focus thread, alongside four selected product/pipeline tracks. No new mock result recorded."
       }
     ]
   },
@@ -2075,11 +2047,167 @@
           }
         ]
       }
+    },
+    {
+      "replacedAt": "2026-10-10T16:36:46+05:30",
+      "reason": "Oct 10 owner narrowed focus to four tracks + job-switch prep",
+      "plan": {
+        "date": "2026-10-10",
+        "label": "Saturday, 10 Oct",
+        "dayEnd": "23:30",
+        "dayEndLabel": "Sleep 23:30 · wake 06:00",
+        "note": "Daily progress across Jai’s nine focus projects. Agent reports and Jai’s saved check-ins are separate: pending means no personal daily update saved, not no project progress. Status snapshots retain their original dates; they do not establish work today. Open a project for its dated log.",
+        "items": [
+          {
+            "id": "oct10-focus-pro-t",
+            "projectId": "focus-pro-t",
+            "source": "agent",
+            "label": "Pro_T · paper trading",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Verify the deployed backend/Strategies panel and current paper ledger; do not treat code pushes or a reachable login as live trading proof.",
+            "status": "pending",
+            "progress_text": "Oct 4 live check: Pro_T login and simulation entry are reachable. Oct 3 code fixes reported for TLS, current option lots and size-guard boundary tests. Last recorded paper P&L remains Sep 30, -Rs2,950.20.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-vibestream",
+            "projectId": "focus-vibestream",
+            "source": "agent",
+            "label": "VibeStream music app",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Build on Jai’s phone/machine and report playback, lock-screen and offline results.",
+            "status": "pending",
+            "progress_text": "Local_Music_app: no new daily build/device outcome supplied. Prior review says fixes are source/test checked, Android build still needs verification.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-japanese",
+            "projectId": "focus-japanese",
+            "source": "agent",
+            "label": "Japanese_Practice · learning app",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Continue app/study work and check Gist sync; retained sync snapshot is not today’s study.",
+            "status": "pending",
+            "progress_text": "Oct 4: Nihongo Trainer live, with spaced repetition, N5/N4 test simulators, stories, kanji and textbook exercises. NAT-TEST 4Q pass is Jai-reported; score still unavailable.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-monetize",
+            "projectId": "focus-monetize",
+            "source": "agent",
+            "label": "Monetize platform build",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Define the first product slice and build plan; no purchase or launch assumed.",
+            "status": "pending",
+            "progress_text": "Not started. Jai’s own platform build, separate from buying Monetise or selling the Japanese app.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-youtube",
+            "projectId": "focus-youtube",
+            "source": "agent",
+            "label": "ReelSaga · YouTube pipeline",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Get a fresh part-count/checks report; keep private-first upload and copyright gates. Prototype readiness is separate from current channel publishing.",
+            "status": "pending",
+            "progress_text": "Active publishing workflow. Last counted Oct 3, 19:45: Beast 16/23 public; EP7 P2 queued privately. Vows 31/31 and Maid 17/17 completed earlier. New cloud uploader is a separate undeployed prototype.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-instagram",
+            "projectId": "focus-instagram",
+            "source": "agent",
+            "label": "ReelSaga · IG pipeline",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Get current IG count/Safelist verdict; keep identical parts across platforms and no Maid IG backfill.",
+            "status": "pending",
+            "progress_text": "Active IG work; last recorded Mech God EP1 P1 live Oct 3, 02:03. Vows 31/31 and Blood 30/30 completed earlier. Kathirvelan is a separate new venture with no publishing token yet.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-horoscope",
+            "projectId": "focus-horoscope",
+            "source": "agent",
+            "label": "Horoscope_Ventrue · chart research",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Review birth-time alternatives and source evidence; full strength totals, historical calendar selection and personal forecasts remain research-gated.",
+            "status": "pending",
+            "progress_text": "Oct 4 live check: exact-time, uncertain-time and known-lagna birth flows; Tamil lagna names. Latest Oct 3 closeout reports 599 tests. Deep period slice 1 remains live.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-interns",
+            "projectId": "focus-interns",
+            "source": "agent",
+            "label": "Intern mentorship",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Get current intern deliverables and review one concrete submission before changing assignments.",
+            "status": "pending",
+            "progress_text": "Last dashboard report: Manaadithya first task sent; Amit availability was requested. No fresh submission/review result supplied today.",
+            "impact_done": "",
+            "impact_skipped": ""
+          },
+          {
+            "id": "oct10-focus-patents",
+            "projectId": "focus-patents",
+            "source": "agent",
+            "label": "Patent scraping + client acquisition",
+            "window": "Daily project check-in · 10 Oct",
+            "target": "Re-verify held addresses; track the planned first 20 on Oct 5, 10:05 AM IST and actual sends/bounces/stops separately from leads and sales.",
+            "status": "pending",
+            "progress_text": "Oct 3: outreach mail approved; sender script committed. 217 clean day-one addresses, 36 held for re-verification. First 20 planned Monday Oct 5, 10:05 AM IST; no send outcome yet.",
+            "impact_done": "",
+            "impact_skipped": ""
+          }
+        ]
+      }
     }
   ],
   "journal": {
     "intro": "A dated record of what you learned, what you chose, and what changed. Plans and advice stay separate from observed results. Return to an entry with evidence before judging growth.",
     "entries": [
+      {
+        "id": "2026-10-10-focus-reset",
+        "date": "2026-10-10",
+        "at": "2026-10-10T16:36:46+05:30",
+        "title": "Narrow the work: four tracks + the next job switch",
+        "topic": "Planning · scope decision",
+        "summary": "Protect time for the highest-return work. Pause other research and ideas without erasing them.",
+        "kind": "Owner decision recorded · outcomes still to measure",
+        "source": "Jai’s authenticated WhatsApp: Oct 10 14:58 focus decision; 16:34 QCC/watch closures.",
+        "sections": [
+          {
+            "heading": "Chosen focus",
+            "bullets": [
+              "Japanese learning app",
+              "YouTube channels: ReelSaga and Kathirvelan Boutique",
+              "Patent pipeline",
+              "Trading platform",
+              "Job-switch prep"
+            ]
+          },
+          {
+            "heading": "Why and what stops",
+            "paragraphs": [
+              "Jai said the next job switch has the maximum ROI and there is no capital to fund other real projects. Horoscope research, gig scans and other ideas are paused. QCC watch is dropped; NAT-TEST/certificate watches closed by owner report; Outlier believed done. Earlier work is retained, not erased.",
+              "Anurag has not replied; Jai asked to give him a week. This entry does not send a follow-up or create a new commitment."
+            ]
+          },
+          {
+            "heading": "Review with evidence",
+            "paragraphs": [
+              "Compare shipped work, real replies, paper trading safety and measured interview/study practice. A narrower list is a decision, not proof of growth. Record a dated follow-up before expanding scope again."
+            ]
+          }
+        ]
+      },
       {
         "id": "2026-10-08-anime-watchlist",
         "date": "2026-10-08",
