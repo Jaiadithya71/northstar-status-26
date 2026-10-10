@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-10T22:22:23+05:30",
-  "updatedLabel": "10 Oct 2026, 10:22 PM IST",
+  "updatedAt": "2026-10-10T22:48:21+05:30",
+  "updatedLabel": "10 Oct 2026, 10:48 PM IST",
   "focus": {
     "title": "Four tracks + job-switch prep",
     "date": "2026-10-10T23:30:00+05:30",
@@ -232,15 +232,22 @@
           "name": "Job-switch prep",
           "state": "active",
           "focusProject": true,
-          "status": "Oct 10: job-switch preparation is the fifth focus thread, alongside four selected product/pipeline tracks. No new mock result recorded.",
-          "next": "Use Career + FI for the existing preparation plan; record measured coding/interview practice and application decisions.",
+          "status": "Locked Oct 10: target Amazon Japan SDE I (L4), ¥14M annual TC, or Google Tokyo L3, ¥16M annual TC. Floor: ¥7.5-9M annual TC at PayPay / Mercari / LINE Yahoo tier. These are target figures, not offers.",
+          "next": "Prepare for SWE interviews and angle for AI/data teams. Start ~Jul 2027, three months after planned landing, and keep interviewing until an offer lands; target switch completion by Oct 2027.",
           "dailyLog": [
+            {
+              "at": "2026-10-10T22:47:18+05:30",
+              "source": "Jai · target decision",
+              "text": "Jai: ceiling is the target, spine the floor; start interviewing three months after landing and continue until an offer. Earlier Oct 10 18:38 decision moved switch completion target to Oct 2027. Company/role/TC numbers are recorded target figures, not new salary verification."
+            },
             {
               "at": "2026-10-10T16:36:46+05:30",
               "source": "Jai · plan decision",
               "text": "Oct 10 14:58: focus only on Japanese learning app, YouTube channels, patent pipeline and trading platform, and prepare for the next job switch. Maximum ROI and no capital for other real projects were the stated reasons."
             }
-          ]
+          ],
+          "due": "Interviews ~Jul 2027 · switch by Oct 2027",
+          "detail": "Ceiling is the target; spine is the floor. Pure MLE titles belong to a later jump, not the first-switch target. No offer, hiring probability, team assignment or current compensation band is guaranteed. Month estimates assume the planned Apr 2027 landing; actual landing date controls the three-month start."
         }
       ]
     },
@@ -2187,6 +2194,40 @@
   "journal": {
     "intro": "A dated record of what you learned, what you chose, and what changed. Plans and advice stay separate from observed results. Return to an entry with evidence before judging growth.",
     "entries": [
+      {
+        "id": "2026-10-10-job-switch-target",
+        "date": "2026-10-10",
+        "at": "2026-10-10T22:47:18+05:30",
+        "title": "Job switch: ceiling target, spine floor",
+        "topic": "Career · target decision",
+        "summary": "Aim for Amazon Japan L4 or Google Tokyo L3, keep the ¥7.5-9M tier as the floor, and start interviews three months after landing.",
+        "kind": "Owner target recorded · not an offer",
+        "source": "Jai’s Oct 10 22:47:18 WhatsApp decision; Oct 10 18:38:56 switch-to-Oct-2027 decision. Target figures from the preceding ceiling/spine discussion.",
+        "sections": [
+          {
+            "heading": "Locked target",
+            "bullets": [
+              "Ceiling = target: Amazon Japan SDE I (L4), ¥14M annual total compensation, or Google Tokyo L3, ¥16M annual total compensation.",
+              "Floor = spine: ¥7.5-9M annual total compensation at the PayPay / Mercari / LINE Yahoo tier.",
+              "These figures are planning targets, not verified offers or guaranteed current pay bands."
+            ]
+          },
+          {
+            "heading": "Interview and switch window",
+            "paragraphs": [
+              "Start interviewing three months after landing, around Jul 2027 under the planned Apr 2027 landing. Continue until an offer lands. The switch-completion target is Oct 2027.",
+              "Jul 2027 is a planning estimate tied to the landing date, not a booked interview. Oct 2027 remains a goal, not a completed or guaranteed switch."
+            ]
+          },
+          {
+            "heading": "Role direction and evidence",
+            "paragraphs": [
+              "First switch: SWE roles, angling for AI/data teams. Pure MLE titles are a later-jump direction, not the first-switch target.",
+              "Track timed coding and interview practice, shipped work with real users, and actual interview/offer results. Do not turn preparation counts into placement probabilities or assume a team assignment."
+            ]
+          }
+        ]
+      },
       {
         "id": "2026-10-10-infosys-attendance",
         "date": "2026-10-10",
