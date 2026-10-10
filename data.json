@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-10-10T16:36:46+05:30",
-  "updatedLabel": "10 Oct 2026, 04:36 PM IST",
+  "updatedAt": "2026-10-10T22:22:23+05:30",
+  "updatedLabel": "10 Oct 2026, 10:22 PM IST",
   "focus": {
     "title": "Four tracks + job-switch prep",
     "date": "2026-10-10T23:30:00+05:30",
@@ -359,9 +359,16 @@
         {
           "id": "certificates",
           "name": "Degree certificates",
-          "status": "Oct 10: Jai reported the certificate item done. Dispatch details not independently rechecked in this edit.",
-          "state": "done",
-          "next": "Closed by owner report; retain earlier correspondence history."
+          "status": "Oct 10, 16:36 coordination correction: degree certificate dispatch not done; postal-charge payment reported pending, deadline Oct 30.",
+          "state": "waiting",
+          "next": "Review the postal-charge payment item before Oct 30; no payment or dispatch outcome verified in this dashboard edit.",
+          "dailyLog": [
+            {
+              "at": "2026-10-10T16:36:04+05:30",
+              "source": "Agent · coordination correction",
+              "text": "Supersedes the earlier Oct 10 owner-reported done label. Examwing Oct 8 mail was reported to require postal-charge payment by Oct 30; mail/payment not independently rechecked here."
+            }
+          ]
         },
         {
           "id": "gig-data-annotation-application",
@@ -516,10 +523,17 @@
         {
           "id": "infosys-assessment",
           "name": "Infosys coding assessment",
-          "status": "Preferred 11 Oct for in-person proctored assessment; seat and venue still to be confirmed.",
-          "state": "waiting",
-          "next": "Watch for final seat/venue confirmation, then attend the 11 Oct assessment. Passing leads to an in-person interview.",
-          "due": "11 Oct"
+          "status": "Oct 10, 22:21 IST: Jai decided not to attend the Sunday Oct 11 Infosys exam at SRM Kattankulathur.",
+          "state": "parked",
+          "next": "No attendance preparation planned for this sitting. No organizer cancellation or registration withdrawal claimed.",
+          "due": "11 Oct · not attending",
+          "dailyLog": [
+            {
+              "at": "2026-10-10T22:21:13+05:30",
+              "source": "Jai · attendance decision",
+              "text": "Not attending the Oct 11 exam. Earlier assessment plan retained as history."
+            }
+          ]
         },
         {
           "id": "gemma",
@@ -2173,6 +2187,25 @@
   "journal": {
     "intro": "A dated record of what you learned, what you chose, and what changed. Plans and advice stay separate from observed results. Return to an entry with evidence before judging growth.",
     "entries": [
+      {
+        "id": "2026-10-10-infosys-attendance",
+        "date": "2026-10-10",
+        "at": "2026-10-10T22:21:13+05:30",
+        "title": "Infosys exam: decision not to attend",
+        "topic": "Planning · owner decision",
+        "summary": "Jai decided not to attend the Sunday, Oct 11 Infosys exam at SRM Kattankulathur.",
+        "kind": "Owner decision recorded",
+        "source": "Jai’s WhatsApp message, Oct 10 at 22:21:13 IST: \"Not attending\", in reply to the exam-eve checklist.",
+        "sections": [
+          {
+            "heading": "Decision",
+            "paragraphs": [
+              "Jai decided not to attend the Sunday, Oct 11, 2026 Infosys exam at SRM Kattankulathur. No reason was supplied in this message.",
+              "This records his attendance decision. It does not claim the organizer cancelled the exam or that registration was withdrawn."
+            ]
+          }
+        ]
+      },
       {
         "id": "2026-10-10-focus-reset",
         "date": "2026-10-10",
