@@ -53,14 +53,14 @@
             },
             {
               "id": "n3-natest-register",
-              "label": "Register for NAT-TEST 3Q Chennai (ABK-AOTS), sitting Sun Nov 15. Backup sitting Dec 13, deadline Nov 13.",
-              "window": "Now - Apr 2027 · by Oct 16",
+              "label": "Register for NAT-TEST 3Q Chennai (ABK-AOTS) by Fri Nov 13 for the Sun Dec 13 sitting.",
+              "window": "Now - Apr 2027 · by Nov 13",
               "done": false
             },
             {
               "id": "n3-natest-pass",
-              "label": "Pass NAT-TEST N3 (results about Dec 6).",
-              "window": "Now - Apr 2027 · by Dec",
+              "label": "Pass NAT-TEST N3 (Dec 13 sitting, results about 3 weeks later, early Jan).",
+              "window": "Now - Apr 2027 · by Jan",
               "done": false
             },
             {
@@ -496,6 +496,144 @@
                   "id": "achievement-16",
                   "window": "Jul - Oct 2027 · by Oct",
                   "label": "Complete twenty logged peer mocks, ending with three consecutive full-loop passes.",
+                  "done": false
+                }
+              ]
+            },
+            {
+              "replacedAt": "2026-10-14T16:48:24.950Z",
+              "source": "Jai declined Nov 15 NAT-TEST seat, WhatsApp Oct 14 22:18; Dec 13 sitting",
+              "items": [
+                {
+                  "id": "n3-portion-ready",
+                  "label": "Finish the N3 study portion and be exam-ready.",
+                  "window": "Now - Apr 2027 · by Oct 21",
+                  "done": false
+                },
+                {
+                  "id": "n3-natest-register",
+                  "label": "Register for NAT-TEST 3Q Chennai (ABK-AOTS), sitting Sun Nov 15. Backup sitting Dec 13, deadline Nov 13.",
+                  "window": "Now - Apr 2027 · by Oct 16",
+                  "done": false
+                },
+                {
+                  "id": "n3-natest-pass",
+                  "label": "Pass NAT-TEST N3 (results about Dec 6).",
+                  "window": "Now - Apr 2027 · by Dec",
+                  "done": false
+                },
+                {
+                  "id": "lc-weekly-contest-q123",
+                  "label": "Every Sunday LeetCode weekly contest: solve Q1-Q3 within 50 minutes, zero penalties on Q1 and Q2.",
+                  "window": "Now - Apr 2027 · from Oct 18",
+                  "done": false
+                },
+                {
+                  "id": "lc-rating-1850",
+                  "label": "Reach and hold a LeetCode contest rating of 1850+ before any application.",
+                  "window": "Now - Apr 2027 · before applying",
+                  "done": false
+                },
+                {
+                  "id": "lc-alt-day-sprint",
+                  "label": "One unseen medium every other day: 25-minute timer, no autocomplete, 5 minutes of edge cases and complexity first, must pass on first submit.",
+                  "window": "Now - Apr 2027 · every 48 hours",
+                  "done": false
+                },
+                {
+                  "id": "lc-neetcode-core",
+                  "label": "Complete and review the NeetCode core patterns: graphs, sliding window and two pointers, trees and heaps, intervals and monotonic stacks.",
+                  "window": "Now - Apr 2027 · by Jan",
+                  "done": false
+                },
+                {
+                  "id": "artifact-vllm-service",
+                  "label": "Ship a containerized FP8 + FastAPI vLLM service on GitHub with a live demo and a 50-user Locust load test on a rented A10G, honest p95 logged.",
+                  "window": "Now - Apr 2027 · by Feb",
+                  "done": false
+                },
+                {
+                  "id": "artifact-eval-ci-gate",
+                  "label": "Ship a Ragas/DeepEval evaluation CI gate on GitHub that fails the build on quality regressions.",
+                  "window": "Now - Apr 2027 · by Mar",
+                  "done": false
+                },
+                {
+                  "id": "sd-weekly-rfc",
+                  "label": "Write one system-design RFC every week.",
+                  "window": "Now - Apr 2027 · weekly",
+                  "done": false
+                },
+                {
+                  "id": "achievement-1",
+                  "label": "Solve all four questions in one LeetCode weekly contest cold, during the contest.",
+                  "window": "Now - Apr 2027 · by Apr",
+                  "done": false
+                },
+                {
+                  "id": "achievement-2",
+                  "label": "Solve 4/4 cold in eight consecutive weekly LeetCode contests.",
+                  "window": "Now - Apr 2027 · by Apr",
+                  "done": false
+                },
+                {
+                  "id": "achievement-4",
+                  "label": "Hold a JLPT N3 pass certificate.",
+                  "window": "Now - Apr 2027 · before landing",
+                  "done": false
+                },
+                {
+                  "id": "achievement-5",
+                  "label": "Publish five system-design write-ups: URL shortener, chat, feed, rate limiter and payment system.",
+                  "window": "Now - Apr 2027 · by Feb",
+                  "done": false
+                },
+                {
+                  "id": "goal-tokyo-phase1",
+                  "label": "Phase 1 Tokyo launchpad: land Amazon L4, PayPay, Mercari or LINE Yahoo at about 8.5-11M yen total comp.",
+                  "window": "Apr - Jul 2027 · months 12-18",
+                  "done": false
+                },
+                {
+                  "id": "achievement-8",
+                  "label": "Japanese learning app reaches 500 users.",
+                  "window": "Apr - Jul 2027 · by Jun",
+                  "done": false
+                },
+                {
+                  "id": "achievement-9",
+                  "label": "Three institutes are actively piloting the Japanese learning app.",
+                  "window": "Apr - Jul 2027 · by Jun",
+                  "done": false
+                },
+                {
+                  "id": "achievement-10",
+                  "label": "Record and rehearse twelve distinct Amazon Leadership Principles stories from shipped work.",
+                  "window": "Apr - Jul 2027 · by Jun",
+                  "done": false
+                },
+                {
+                  "id": "achievement-11",
+                  "label": "Two referrals submitted for target-company roles.",
+                  "window": "Jul - Oct 2027 · by Sep",
+                  "done": false
+                },
+                {
+                  "id": "achievement-14",
+                  "label": "Complete 100% of the selected medium-problem set across fifteen core patterns.",
+                  "window": "Jul - Oct 2027 · by Oct",
+                  "done": false
+                },
+                {
+                  "id": "achievement-16",
+                  "label": "Complete twenty logged peer mocks, ending with three consecutive full-loop passes.",
+                  "window": "Jul - Oct 2027 · by Oct",
+                  "done": false
+                },
+                {
+                  "id": "goal-tokyo-phase2",
+                  "label": "Phase 2 Tokyo: move to Google or Meta L4-L5, or D.E. Shaw, at about 22-35M+ yen total comp. Market is settled: Tokyo.",
+                  "window": "Jul - Oct 2027 · years 3-4",
                   "done": false
                 }
               ]
