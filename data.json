@@ -3445,6 +3445,26 @@
         "metricVersion": 2,
         "source": "WhatsApp check-in Oct 14 06:05: 0 and 0; intermediate app almost done",
         "checked_at": "2026-10-14T00:36:06.285Z"
+      },
+      {
+        "date": "2026-10-14",
+        "track": "lc",
+        "status": "missed",
+        "minutes": null,
+        "questionsSolved": 0,
+        "metricVersion": 2,
+        "source": "WhatsApp reply Oct 14 22:19: no and no",
+        "checked_at": "2026-10-14T16:50:01.140Z"
+      },
+      {
+        "date": "2026-10-14",
+        "track": "japanese",
+        "status": "missed",
+        "minutes": null,
+        "reviewsDone": 0,
+        "metricVersion": 2,
+        "source": "WhatsApp reply Oct 14 22:19: no and no",
+        "checked_at": "2026-10-14T16:50:01.140Z"
       }
     ],
     "contests": [
