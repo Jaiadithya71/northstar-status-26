@@ -4429,12 +4429,12 @@
         "date": "2026-10-16",
         "track": "japanese",
         "status": "done",
-        "minutes": 35,
-        "reviewsDone": 93,
+        "minutes": 117,
+        "reviewsDone": 161,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 41,
-          "sessions": 1,
+          "sessions": 2,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -4443,7 +4443,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-10-16",
-        "checked_at": "2026-10-15T20:27:13.846Z"
+        "checked_at": "2026-10-15T21:50:49.796Z"
       }
     ],
     "contests": [
@@ -4628,6 +4628,27 @@
         "source": "N3 app daily aggregate, 2026-10-15",
         "checked_at": "2026-10-15T10:11:44.695Z",
         "replacedAt": "2026-10-15T18:10:42.366Z"
+      },
+      {
+        "date": "2026-10-16",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 35,
+        "reviewsDone": 93,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 41,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T02: Human Relations 2: Relationships and Feelings"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-10-16",
+        "checked_at": "2026-10-15T20:27:13.846Z",
+        "replacedAt": "2026-10-15T21:50:49.796Z"
       }
     ]
   }
