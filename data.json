@@ -4424,6 +4424,26 @@
         },
         "source": "N3 app daily aggregate, 2026-10-15",
         "checked_at": "2026-10-15T18:10:42.367Z"
+      },
+      {
+        "date": "2026-10-16",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 35,
+        "reviewsDone": 93,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 41,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T02: Human Relations 2: Relationships and Feelings"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-10-16",
+        "checked_at": "2026-10-15T20:27:13.846Z"
       }
     ],
     "contests": [
