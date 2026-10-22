@@ -3066,7 +3066,8 @@
         "status": "pending",
         "progress_text": "Locked Oct 10: target Amazon Japan SDE I (L4), ¥14M annual TC, or Google Tokyo L3, ¥16M annual TC. Floor: ¥7.5-9M annual TC at PayPay / Mercari / LINE Yahoo tier. These are target figures, not offers.",
         "impact_done": "",
-        "impact_skipped": ""
+        "impact_skipped": "",
+        "checked_at": "2026-10-22T04:36:56.804Z"
       },
       {
         "id": "oct22-focus-japanese",
