@@ -5655,22 +5655,23 @@
         "date": "2026-10-22",
         "track": "japanese",
         "status": "done",
-        "minutes": 24,
-        "reviewsDone": 126,
+        "minutes": 36,
+        "reviewsDone": 195,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 82,
-          "sessions": 2,
+          "uniqueItems": 126,
+          "sessions": 3,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
             "T01: Human Relations 1: Family, Friends, Personality",
-            "T02: Human Relations 2: Relationships and Feelings"
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework"
           ]
         },
         "source": "N3 app daily aggregate, 2026-10-22",
-        "checked_at": "2026-10-22T00:12:25.347Z"
+        "checked_at": "2026-10-22T00:24:58.811Z"
       }
     ],
     "contests": [
@@ -6133,6 +6134,28 @@
         "source": "N3 app daily aggregate, 2026-10-22",
         "checked_at": "2026-10-22T00:05:03.908Z",
         "replacedAt": "2026-10-22T00:12:25.347Z"
+      },
+      {
+        "date": "2026-10-22",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 24,
+        "reviewsDone": 126,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 82,
+          "sessions": 2,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-10-22",
+        "checked_at": "2026-10-22T00:12:25.347Z",
+        "replacedAt": "2026-10-22T00:24:58.811Z"
       }
     ]
   }
