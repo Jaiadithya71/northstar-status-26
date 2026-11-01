@@ -7256,7 +7256,7 @@
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 50,
-          "sessions": 5,
+          "sessions": 6,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7265,7 +7265,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-01",
-        "checked_at": "2026-11-01T00:32:43.745Z"
+        "checked_at": "2026-11-01T00:35:01.327Z"
       }
     ],
     "contests": [
@@ -8574,6 +8574,27 @@
         "source": "N3 app daily aggregate, 2026-11-01",
         "checked_at": "2026-11-01T00:29:10.958Z",
         "replacedAt": "2026-11-01T00:32:43.745Z"
+      },
+      {
+        "date": "2026-11-01",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 32,
+        "reviewsDone": 117,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 50,
+          "sessions": 5,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T08: Hobbies and Travel 1: Sports and Arts"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-01",
+        "checked_at": "2026-11-01T00:32:43.745Z",
+        "replacedAt": "2026-11-01T00:35:01.327Z"
       }
     ]
   }
