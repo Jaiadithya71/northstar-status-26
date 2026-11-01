@@ -7262,24 +7262,25 @@
         "date": "2026-11-01",
         "track": "japanese",
         "status": "done",
-        "minutes": 126,
-        "reviewsDone": 592,
+        "minutes": 128,
+        "reviewsDone": 607,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 192,
-          "sessions": 20,
+          "uniqueItems": 202,
+          "sessions": 21,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
             "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
             "T07: Hospital",
             "T08: Hobbies and Travel 1: Sports and Arts",
             "T09: Hobbies and Travel 2: Fashion"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-01",
-        "checked_at": "2026-11-01T06:37:23.836Z"
+        "checked_at": "2026-11-01T06:40:05.589Z"
       }
     ],
     "contests": [
@@ -8920,6 +8921,30 @@
         "source": "N3 app daily aggregate, 2026-11-01",
         "checked_at": "2026-11-01T06:27:31.166Z",
         "replacedAt": "2026-11-01T06:37:23.836Z"
+      },
+      {
+        "date": "2026-11-01",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 126,
+        "reviewsDone": 592,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 192,
+          "sessions": 20,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T07: Hospital",
+            "T08: Hobbies and Travel 1: Sports and Arts",
+            "T09: Hobbies and Travel 2: Fashion"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-01",
+        "checked_at": "2026-11-01T06:37:23.836Z",
+        "replacedAt": "2026-11-01T06:40:05.589Z"
       }
     ]
   }
