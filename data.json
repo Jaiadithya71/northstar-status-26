@@ -7281,6 +7281,26 @@
         },
         "source": "N3 app daily aggregate, 2026-11-01",
         "checked_at": "2026-11-01T10:53:56.583Z"
+      },
+      {
+        "date": "2026-11-02",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 7,
+        "reviewsDone": 58,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 41,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-02",
+        "checked_at": "2026-11-01T18:53:24.295Z"
       }
     ],
     "contests": [
