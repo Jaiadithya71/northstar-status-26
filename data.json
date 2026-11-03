@@ -2811,6 +2811,11 @@
           "focusProject": true,
           "dailyLog": [
             {
+              "at": "2026-11-03T06:25:00+05:30",
+              "source": "Agent · app work",
+              "text": "Nov 3: N3 Reading rework live (Japanese_Practice_intermediate commits 0b9d96e, 080ac8a, ab1ddc5, 0ac68cb; verified at nihongo-n3-study.vercel.app on mobile). Reading now has a lesson picker like Vocab/Kanji, and Read as book shows one section at a time (Strategy / Before Reading / Passage / Drills / Key Vocabulary / Tough words / Advice / Commentary) with Back/Next paging across selected lessons plus section jump. New per-lesson Tough words section lists words Jai flags in drills with + Add into My Words for revision (daily 8-word add cap unchanged; only user-flagged words appear, not all difficult passage words). Word and hard-word drills pool selected lessons."
+            },
+            {
               "at": "2026-10-27T19:25:00+05:30",
               "source": "Agent · app work",
               "text": "Oct 27: learner pathway live (Japanese_Practice_intermediate 578b438) - 3 routes with optional placement and 6 lessons; existing learner progress retained. The cost brief was delivered to Jai 19:25; its todo is completed."
