@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-03T06:49:00+05:30",
-  "updatedLabel": "3 Nov 2026, 06:49 AM IST",
+  "updatedAt": "2026-11-03T08:20:00+05:30",
+  "updatedLabel": "Nov 3, 8:20 AM",
   "focus": {
     "title": "N3 first through the Nov 15 exam",
     "date": "2026-11-15T00:00:00+05:30",
@@ -3209,6 +3209,11 @@
           "status": "Target: NAT-TEST 3Q pass before planned Japan landing (exam Sun Nov 15; Dec 13 retry if needed). Jai's syllabus first-pass completion target is Sunday, November 1, 2026 (moved Oct 27 from the same-day portion target). Goal, not a reported pass. Earlier card wording said JLPT N3; the registered Nov 15 exam is NAT-TEST 3Q.",
           "next": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
           "dailyLog": [
+            {
+              "at": "2026-11-03T08:20:00+05:30",
+              "source": "Agent · bug fix",
+              "text": "Nov 3 08:17: fixed three N3 app issues from Jai's morning report (Japanese_Practice_intermediate, commit fe5cc2b, live-verified on mobile viewport): (1) Reading chapters with no passage or questions (drills-only L03) no longer start a graded practice or show a 0/0 Mastered/PASSED result - they open in book mode, empty submits get an ungraded review, and a one-time migration clears provably-false mastery records on next app open; (2) Key Vocabulary section removed from the Reading book lesson page per Jai - words stay drillable from Reading home, My Words and the 8/day cap unchanged; (3) optional furigana toggle added to the Reading strategy section (off by default, persisted), with ruby over every kanji word in L03-L09 strategy and point text. Real study progress preserved."
+            },
             {
               "at": "2026-11-02T04:45:00+05:30",
               "source": "Agent · coach report relay",
