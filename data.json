@@ -7597,22 +7597,23 @@
         "date": "2026-11-05",
         "track": "japanese",
         "status": "done",
-        "minutes": 64,
-        "reviewsDone": 482,
+        "minutes": 76,
+        "reviewsDone": 564,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 86,
-          "sessions": 6,
+          "uniqueItems": 130,
+          "sessions": 7,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
+            "T03: Daily Life 1: Daily Routine & Housework",
             "T04: Daily Life 2: Food and Dining",
             "T05: Daily Life 3: Housing and Town"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-05",
-        "checked_at": "2026-11-05T07:04:40.666Z"
+        "checked_at": "2026-11-05T07:16:45.179Z"
       }
     ],
     "contests": [
@@ -10257,6 +10258,28 @@
         "source": "N3 app daily aggregate, 2026-11-05",
         "checked_at": "2026-11-05T06:21:12.927Z",
         "replacedAt": "2026-11-05T07:04:40.666Z"
+      },
+      {
+        "date": "2026-11-05",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 64,
+        "reviewsDone": 482,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 86,
+          "sessions": 6,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T04: Daily Life 2: Food and Dining",
+            "T05: Daily Life 3: Housing and Town"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-05",
+        "checked_at": "2026-11-05T07:04:40.666Z",
+        "replacedAt": "2026-11-05T07:16:45.179Z"
       }
     ]
   }
