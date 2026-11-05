@@ -7597,12 +7597,12 @@
         "date": "2026-11-05",
         "track": "japanese",
         "status": "done",
-        "minutes": 42,
-        "reviewsDone": 247,
+        "minutes": 48,
+        "reviewsDone": 314,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 86,
-          "sessions": 3,
+          "sessions": 4,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7612,7 +7612,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-05",
-        "checked_at": "2026-11-05T06:08:28.701Z"
+        "checked_at": "2026-11-05T06:15:36.172Z"
       }
     ],
     "contests": [
@@ -10191,6 +10191,28 @@
         "source": "N3 app daily aggregate, 2026-11-05",
         "checked_at": "2026-11-05T05:53:41.028Z",
         "replacedAt": "2026-11-05T06:08:28.701Z"
+      },
+      {
+        "date": "2026-11-05",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 42,
+        "reviewsDone": 247,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 86,
+          "sessions": 3,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T04: Daily Life 2: Food and Dining",
+            "T05: Daily Life 3: Housing and Town"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-05",
+        "checked_at": "2026-11-05T06:08:28.701Z",
+        "replacedAt": "2026-11-05T06:15:36.172Z"
       }
     ]
   }
