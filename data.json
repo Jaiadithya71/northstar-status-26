@@ -7677,12 +7677,12 @@
         "date": "2026-11-06",
         "track": "japanese",
         "status": "done",
-        "minutes": 31,
-        "reviewsDone": 354,
+        "minutes": 34,
+        "reviewsDone": 408,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 213,
-          "sessions": 13,
+          "uniqueItems": 257,
+          "sessions": 14,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7693,7 +7693,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-06",
-        "checked_at": "2026-11-06T16:19:57.954Z"
+        "checked_at": "2026-11-06T16:23:15.469Z"
       }
     ],
     "contests": [
@@ -10860,6 +10860,29 @@
         "source": "N3 app daily aggregate, 2026-11-06",
         "checked_at": "2026-11-06T16:15:48.988Z",
         "replacedAt": "2026-11-06T16:19:57.954Z"
+      },
+      {
+        "date": "2026-11-06",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 31,
+        "reviewsDone": 354,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 213,
+          "sessions": 13,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-06",
+        "checked_at": "2026-11-06T16:19:57.954Z",
+        "replacedAt": "2026-11-06T16:23:15.469Z"
       }
     ]
   }
