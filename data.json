@@ -7677,21 +7677,22 @@
         "date": "2026-11-06",
         "track": "japanese",
         "status": "done",
-        "minutes": 4,
-        "reviewsDone": 56,
+        "minutes": 7,
+        "reviewsDone": 103,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 41,
-          "sessions": 1,
+          "uniqueItems": 82,
+          "sessions": 2,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
             "T02: Human Relations 2: Relationships and Feelings"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-06",
-        "checked_at": "2026-11-06T12:06:10.919Z"
+        "checked_at": "2026-11-06T12:08:46.724Z"
       }
     ],
     "contests": [
@@ -10595,6 +10596,27 @@
         "source": "N3 app daily aggregate, 2026-11-05",
         "checked_at": "2026-11-05T09:55:41.501Z",
         "replacedAt": "2026-11-05T10:20:48.683Z"
+      },
+      {
+        "date": "2026-11-06",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 4,
+        "reviewsDone": 56,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 41,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T02: Human Relations 2: Relationships and Feelings"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-06",
+        "checked_at": "2026-11-06T12:06:10.919Z",
+        "replacedAt": "2026-11-06T12:08:46.724Z"
       }
     ]
   }
