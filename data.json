@@ -3479,15 +3479,20 @@
           "id": "sharemarket-ipo-rebuild",
           "name": "Sharemarket IPO · analysis + independent app",
           "state": "active",
-          "status": "Nov 7: JADX static analysis of the Play-exported Sharemarket IPO APK archived privately (Drive + private repo). Independent app 'IPO Explorer' at v0.3.0 in the private repo - working shell (tabs, detail, allotment links, offline calculators, official-page browser), not feature parity with the original.",
-          "next": "Live listing feed BLOCKED on terms/cost: exchange websites prohibit automated collection in their Terms of Use and licensed exchange data feeds are paid products, so the app opens official NSE/BSE/SEBI pages in-app instead and never guesses data. Remaining: release signing; user decision only if a paid data source is ever wanted (no spend made, none planned).",
-          "detail": "Original APK preserved unmodified, sha256-verified in the repo. The independent app is original code - no proprietary assets, no contact with the original private backend. Demo/sample entries appear only behind an explicit opt-in and carry a DEMO label on every screen, per the no-fake-data rule.",
+          "status": "Nov 7: JADX static analysis of the Play-exported Sharemarket IPO APK archived privately (Drive + private repo). Independent app 'IPO Explorer' at v0.4.0 in the private repo - working partial build (tabs, detail, allotment links, offline calculators, official-page browsing), not feature parity with the original.",
+          "next": "Live listing feed: none connected - the sources checked so far were not usable by this app (access blocks, or terms prohibiting automated collection; NSE ToU observed). Official NSE/BSE pages load inside the app; SEBI opens externally. Remaining: real-device checks; further source qualification if a compliant feed is found.",
+          "detail": "Original APK preserved unmodified, sha256-verified in the repo. Independent app is original code - no proprietary assets, no contact with the original private backend. Release APK signed with a fresh key stored durably (private Drive + vault, not in the repo). Demo entries only via explicit opt-in, DEMO-labelled on every screen.",
           "due": null,
           "focusProject": null,
           "milestones": null,
           "milestoneDefinitions": null,
           "milestoneNote": null,
           "dailyLog": [
+            {
+              "at": "2026-11-07T23:03:00+05:30",
+              "source": "Agent · wrap-up",
+              "text": "Nov 7 (v0.4.0): corrections applied - wording now 'sources checked so far were not usable' (no universal claims); ungrounded delivery-charges calculator removed; calculator math unit-tested against standard reference values + edge cases (8/8 green); NSE and BSE official pages verified loading live in the in-app WebView; SEBI switched to external browser (does not render embedded; Appetize proxy also breaks its TLS - real-device check pending); signed release APK built with a fresh durable key."
+            },
             {
               "at": "2026-11-07T22:55:00+05:30",
               "source": "Agent · wrap-up",
