@@ -7722,12 +7722,12 @@
         "date": "2026-11-07",
         "track": "japanese",
         "status": "done",
-        "minutes": 68,
-        "reviewsDone": 485,
+        "minutes": 75,
+        "reviewsDone": 539,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 217,
-          "sessions": 8,
+          "sessions": 9,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7738,7 +7738,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-07",
-        "checked_at": "2026-11-07T11:15:58.909Z"
+        "checked_at": "2026-11-07T11:22:46.432Z"
       }
     ],
     "contests": [
@@ -11199,6 +11199,29 @@
         "source": "N3 app daily aggregate, 2026-11-07",
         "checked_at": "2026-11-07T10:54:59.284Z",
         "replacedAt": "2026-11-07T11:15:58.909Z"
+      },
+      {
+        "date": "2026-11-07",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 68,
+        "reviewsDone": 485,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 217,
+          "sessions": 8,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T06: Beauty and Health",
+            "T07: Hospital",
+            "T08: Hobbies and Travel 1: Sports and Arts"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-07",
+        "checked_at": "2026-11-07T11:15:58.909Z",
+        "replacedAt": "2026-11-07T11:22:46.432Z"
       }
     ]
   }
