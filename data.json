@@ -3474,6 +3474,27 @@
               "text": "Oct 26 ~18:00: QuestFit v0.2 prototype delivered via WhatsApp - private repo https://github.com/Jaiadithya71/questfit commit cc6a93c, signed release APK at https://github.com/Jaiadithya71/questfit/blob/main/questfit.apk . Runtime-tested on Android 13 Pixel 7 (fresh data, onboarding, quest, stats; no demo hooks); actual pixels inspected by main. Offline preset workout templates, not an AI coach; XP/streak/history/home/recovery. Appetize free tier on the user-approved 71 Gmail, no card or spend. User feedback pending; no further build promised. The separate exam widget remains samples-only, awaiting concept feedback."
             }
           ]
+        },
+        {
+          "id": "sharemarket-ipo-rebuild",
+          "name": "Sharemarket IPO · analysis + independent app",
+          "state": "active",
+          "status": "Nov 7: JADX static analysis of the Play-exported Sharemarket IPO APK archived privately (Drive + private repo). Independent app 'IPO Explorer' at v0.3.0 in the private repo - working shell (tabs, detail, allotment links, offline calculators, official-page browser), not feature parity with the original.",
+          "next": "Live listing feed BLOCKED on terms/cost: exchange websites prohibit automated collection in their Terms of Use and licensed exchange data feeds are paid products, so the app opens official NSE/BSE/SEBI pages in-app instead and never guesses data. Remaining: release signing; user decision only if a paid data source is ever wanted (no spend made, none planned).",
+          "detail": "Original APK preserved unmodified, sha256-verified in the repo. The independent app is original code - no proprietary assets, no contact with the original private backend. Demo/sample entries appear only behind an explicit opt-in and carry a DEMO label on every screen, per the no-fake-data rule.",
+          "due": null,
+          "focusProject": null,
+          "milestones": null,
+          "milestoneDefinitions": null,
+          "milestoneNote": null,
+          "dailyLog": [
+            {
+              "at": "2026-11-07T22:55:00+05:30",
+              "source": "Agent · wrap-up",
+              "text": "Nov 7: analysis + private archive done; v0.1-v0.3 of the independent app built, unit-tested (6 green) and runtime-verified on Appetize (unavailable state, labelled demo opt-in, red DEMO banner on demo detail, calculators, official sources). v0.3.0 removed automated NSE fetching after confirming NSE ToU prohibits automated collection; replaced with user-initiated official pages. Debug APK in repo builds/."
+            }
+          ],
+          "milestoneHistory": []
         }
       ]
     },
