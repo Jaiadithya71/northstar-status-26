@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-08T04:40:33+05:30",
-  "updatedLabel": "8 Nov 2026, 04:40 AM IST",
+  "updatedAt": "2026-11-09T00:30:00+05:30",
+  "updatedLabel": "9 Nov 2026, 12:30 AM IST",
   "focus": {
     "title": "N3 first through the Nov 15 exam",
     "date": "2026-11-15T00:00:00+05:30",
@@ -2810,6 +2810,11 @@
           "next": "Distribution paused at Jai's call (Oct 23) until the blocked pipelines run reliably; resume onboarding pushes then. Keep app/study outcomes separate.",
           "focusProject": true,
           "dailyLog": [
+            {
+              "at": "2026-11-09T00:29:00+05:30",
+              "source": "Agent · app work",
+              "text": "Nov 9 00:29: Kanji status box live on the N3 app's Kanji tab (Japanese_Practice_intermediate commit 6f0bbfd, verified on nihongo-n3-study.vercel.app). His 00:24 report: Kanji had no status box like the Vocab one. New box mirrors Home's Vocab status - Part A (kanji front, reading facet) and Part B kana rows with Mastered/Learning/Hard/New counts over the 865 compound words, placed between the lesson picker and Kanji study activity. Counts are read-only (non-mutating peeks; no SRS records created); his synced stats drive the real numbers on his devices. Request + verification screenshots saved privately in Drive."
+            },
             {
               "at": "2026-11-04T13:20:00+05:30",
               "source": "Agent · study aid delivery",
