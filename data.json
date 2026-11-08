@@ -1,7 +1,7 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-09T00:30:00+05:30",
-  "updatedLabel": "9 Nov 2026, 12:30 AM IST",
+  "updatedAt": "2026-11-09T00:36:30+05:30",
+  "updatedLabel": "9 Nov 2026, 12:36 AM IST",
   "focus": {
     "title": "N3 first through the Nov 15 exam",
     "date": "2026-11-15T00:00:00+05:30",
@@ -2811,9 +2811,9 @@
           "focusProject": true,
           "dailyLog": [
             {
-              "at": "2026-11-09T00:29:00+05:30",
+              "at": "2026-11-09T00:36:00+05:30",
               "source": "Agent · app work",
-              "text": "Nov 9 00:29: Kanji status box live on the N3 app's Kanji tab (Japanese_Practice_intermediate commit 6f0bbfd, verified on nihongo-n3-study.vercel.app). His 00:24 report: Kanji had no status box like the Vocab one. New box mirrors Home's Vocab status - Part A (kanji front, reading facet) and Part B kana rows with Mastered/Learning/Hard/New counts over the 865 compound words, placed between the lesson picker and Kanji study activity. Counts are read-only (non-mutating peeks; no SRS records created); his synced stats drive the real numbers on his devices. Request + verification screenshots saved privately in Drive."
+              "text": "Nov 9 00:36: Kanji status box live on the N3 app's Kanji tab (Japanese_Practice_intermediate commits 6f0bbfd + d494103, verified on nihongo-n3-study.vercel.app on desktop AND 390px mobile viewport). His 00:24 report: Kanji had no status box like the Vocab one. New box mirrors Home's Vocab status - Part A (kanji front, reading facet) and Part B kana rows with Mastered/Learning/Hard/New counts over the 865 compound words, placed between the lesson picker and Kanji study activity. Counts are read-only (non-mutating peeks; no SRS records created); classification covered by a new isolated in-memory test (scripts/test-kanji-status-classification.mjs, 24 checks, no writes to real records). Also fixed a mixed-cache hazard: fresh kanji.js now version-tags its srs.js import so a stale cached srs.js can't break the whole module graph. Request + verification screenshots saved privately in Drive."
             },
             {
               "at": "2026-11-04T13:20:00+05:30",
