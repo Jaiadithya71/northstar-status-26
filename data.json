@@ -7912,12 +7912,12 @@
         "date": "2026-11-10",
         "track": "japanese",
         "status": "done",
-        "minutes": 43,
-        "reviewsDone": 266,
+        "minutes": 50,
+        "reviewsDone": 334,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 118,
-          "sessions": 4,
+          "sessions": 5,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7926,7 +7926,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-10",
-        "checked_at": "2026-11-09T23:43:52.682Z"
+        "checked_at": "2026-11-09T23:51:08.360Z"
       }
     ],
     "contests": [
@@ -12231,6 +12231,27 @@
         "source": "N3 app daily aggregate, 2026-11-10",
         "checked_at": "2026-11-09T23:31:39.324Z",
         "replacedAt": "2026-11-09T23:43:52.682Z"
+      },
+      {
+        "date": "2026-11-10",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 43,
+        "reviewsDone": 266,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 118,
+          "sessions": 4,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T13: Work 1: Jobs & Work"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-10",
+        "checked_at": "2026-11-09T23:43:52.682Z",
+        "replacedAt": "2026-11-09T23:51:08.360Z"
       }
     ]
   }
