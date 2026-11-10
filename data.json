@@ -7912,22 +7912,23 @@
         "date": "2026-11-10",
         "track": "japanese",
         "status": "done",
-        "minutes": 120,
-        "reviewsDone": 547,
+        "minutes": 129,
+        "reviewsDone": 599,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 222,
-          "sessions": 10,
+          "uniqueItems": 246,
+          "sessions": 11,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
             "T13: Work 1: Jobs & Work",
-            "T14: Work 2: Computers, Mail, Phone, etc."
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T15: Society 1: Incidents & Accidents"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-10",
-        "checked_at": "2026-11-10T02:30:45.467Z"
+        "checked_at": "2026-11-10T03:24:06.929Z"
       }
     ],
     "contests": [
@@ -12361,6 +12362,28 @@
         "source": "N3 app daily aggregate, 2026-11-10",
         "checked_at": "2026-11-10T02:16:43.833Z",
         "replacedAt": "2026-11-10T02:30:45.466Z"
+      },
+      {
+        "date": "2026-11-10",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 120,
+        "reviewsDone": 547,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 222,
+          "sessions": 10,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc."
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-10",
+        "checked_at": "2026-11-10T02:30:45.467Z",
+        "replacedAt": "2026-11-10T03:24:06.929Z"
       }
     ]
   }
