@@ -7955,12 +7955,12 @@
         "date": "2026-11-11",
         "track": "japanese",
         "status": "done",
-        "minutes": 322,
-        "reviewsDone": 1860,
+        "minutes": 330,
+        "reviewsDone": 1928,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 434,
-          "sessions": 39,
+          "uniqueItems": 480,
+          "sessions": 40,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7969,11 +7969,12 @@
             "T16: Society 2: Politics and Economy",
             "T17: Events and Religion",
             "T18: Nature 1: Seasons/Weather, Geography",
-            "T19: Nature 2: Plants and Animals"
+            "T19: Nature 2: Plants and Animals",
+            "T20: Numbers and Quantities"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-11",
-        "checked_at": "2026-11-11T16:08:41.601Z"
+        "checked_at": "2026-11-11T17:30:47.557Z"
       }
     ],
     "contests": [
@@ -13433,6 +13434,31 @@
         "source": "N3 app daily aggregate, 2026-11-11",
         "checked_at": "2026-11-11T15:53:09.306Z",
         "replacedAt": "2026-11-11T16:08:41.601Z"
+      },
+      {
+        "date": "2026-11-11",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 322,
+        "reviewsDone": 1860,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 434,
+          "sessions": 39,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T15: Society 1: Incidents & Accidents",
+            "T16: Society 2: Politics and Economy",
+            "T17: Events and Religion",
+            "T18: Nature 1: Seasons/Weather, Geography",
+            "T19: Nature 2: Plants and Animals"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-11",
+        "checked_at": "2026-11-11T16:08:41.601Z",
+        "replacedAt": "2026-11-11T17:30:47.557Z"
       }
     ]
   }
