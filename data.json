@@ -7955,12 +7955,12 @@
         "date": "2026-11-11",
         "track": "japanese",
         "status": "done",
-        "minutes": 233,
-        "reviewsDone": 1310,
+        "minutes": 239,
+        "reviewsDone": 1370,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 334,
-          "sessions": 27,
+          "sessions": 28,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -7972,7 +7972,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-11",
-        "checked_at": "2026-11-11T14:22:27.645Z"
+        "checked_at": "2026-11-11T14:28:41.325Z"
       }
     ],
     "contests": [
@@ -13138,6 +13138,30 @@
         "source": "N3 app daily aggregate, 2026-11-11",
         "checked_at": "2026-11-11T13:59:02.832Z",
         "replacedAt": "2026-11-11T14:22:27.644Z"
+      },
+      {
+        "date": "2026-11-11",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 233,
+        "reviewsDone": 1310,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 334,
+          "sessions": 27,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T15: Society 1: Incidents & Accidents",
+            "T16: Society 2: Politics and Economy",
+            "T17: Events and Religion",
+            "T18: Nature 1: Seasons/Weather, Geography"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-11",
+        "checked_at": "2026-11-11T14:22:27.645Z",
+        "replacedAt": "2026-11-11T14:28:41.325Z"
       }
     ]
   }
