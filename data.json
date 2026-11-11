@@ -7954,18 +7954,22 @@
       {
         "date": "2026-11-11",
         "track": "japanese",
-        "status": "partial",
-        "minutes": 8,
-        "reviewsDone": 0,
+        "status": "done",
+        "minutes": 14,
+        "reviewsDone": 56,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 0,
-          "sessions": 1,
-          "chapters": [],
-          "units": []
+          "uniqueItems": 40,
+          "sessions": 2,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T15: Society 1: Incidents & Accidents"
+          ]
         },
         "source": "N3 app daily aggregate, 2026-11-11",
-        "checked_at": "2026-11-11T06:44:12.021Z"
+        "checked_at": "2026-11-11T06:50:55.414Z"
       }
     ],
     "contests": [
@@ -12559,6 +12563,23 @@
         "source": "N3 app daily aggregate, 2026-11-10",
         "checked_at": "2026-11-10T10:07:10.799Z",
         "replacedAt": "2026-11-10T10:07:19.924Z"
+      },
+      {
+        "date": "2026-11-11",
+        "track": "japanese",
+        "status": "partial",
+        "minutes": 8,
+        "reviewsDone": 0,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 0,
+          "sessions": 1,
+          "chapters": [],
+          "units": []
+        },
+        "source": "N3 app daily aggregate, 2026-11-11",
+        "checked_at": "2026-11-11T06:44:12.021Z",
+        "replacedAt": "2026-11-11T06:50:55.414Z"
       }
     ]
   }
