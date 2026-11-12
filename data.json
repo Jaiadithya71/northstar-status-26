@@ -8006,12 +8006,12 @@
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 2,
-          "sessions": 6,
+          "sessions": 7,
           "chapters": [],
           "units": []
         },
         "source": "N3 app daily aggregate, 2026-11-12",
-        "checked_at": "2026-11-12T02:49:22.546Z"
+        "checked_at": "2026-11-12T02:49:30.869Z"
       }
     ],
     "contests": [
@@ -13607,6 +13607,23 @@
         "source": "N3 app daily aggregate, 2026-11-12",
         "checked_at": "2026-11-12T02:48:37.062Z",
         "replacedAt": "2026-11-12T02:49:22.546Z"
+      },
+      {
+        "date": "2026-11-12",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 28,
+        "reviewsDone": 2,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 2,
+          "sessions": 6,
+          "chapters": [],
+          "units": []
+        },
+        "source": "N3 app daily aggregate, 2026-11-12",
+        "checked_at": "2026-11-12T02:49:22.546Z",
+        "replacedAt": "2026-11-12T02:49:30.869Z"
       }
     ]
   }
