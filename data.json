@@ -8046,11 +8046,11 @@
         "track": "japanese",
         "status": "done",
         "minutes": 380,
-        "reviewsDone": 1419,
+        "reviewsDone": 1420,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 563,
-          "sessions": 11,
+          "sessions": 12,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8066,7 +8066,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-13",
-        "checked_at": "2026-11-13T13:33:53.145Z"
+        "checked_at": "2026-11-13T13:34:49.157Z"
       }
     ],
     "contests": [
@@ -14098,6 +14098,34 @@
         "source": "N3 app daily aggregate, 2026-11-13",
         "checked_at": "2026-11-13T13:30:43.019Z",
         "replacedAt": "2026-11-13T13:33:53.145Z"
+      },
+      {
+        "date": "2026-11-13",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 380,
+        "reviewsDone": 1419,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 563,
+          "sessions": 11,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T05: Daily Life 3: Housing and Town",
+            "T06: Beauty and Health",
+            "T07: Hospital",
+            "T08: Hobbies and Travel 1: Sports and Arts",
+            "T09: Hobbies and Travel 2: Fashion",
+            "T10: Hobbies and Travel 3: Travel",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-13",
+        "checked_at": "2026-11-13T13:33:53.145Z",
+        "replacedAt": "2026-11-13T13:34:49.157Z"
       }
     ]
   }
