@@ -8040,6 +8040,29 @@
         },
         "source": "N3 app daily aggregate, 2026-11-12",
         "checked_at": "2026-11-13T03:23:11.214Z"
+      },
+      {
+        "date": "2026-11-13",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 23,
+        "reviewsDone": 219,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 174,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T05: Daily Life 3: Housing and Town",
+            "T06: Beauty and Health",
+            "T07: Hospital",
+            "T08: Hobbies and Travel 1: Sports and Arts"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-13",
+        "checked_at": "2026-11-13T03:47:00.249Z"
       }
     ],
     "contests": [
