@@ -8112,6 +8112,27 @@
         },
         "source": "N3 app daily aggregate, 2026-11-14",
         "checked_at": "2026-11-14T18:32:40.127Z"
+      },
+      {
+        "date": "2026-11-15",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 0,
+        "reviewsDone": 3,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 3,
+          "sessions": 1,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T36: Kanji Forming Many Words: Onyomi & Kunyomi"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-15",
+        "checked_at": "2026-11-14T18:38:13.222Z"
       }
     ],
     "contests": [
