@@ -8093,12 +8093,12 @@
         "date": "2026-11-14",
         "track": "japanese",
         "status": "done",
-        "minutes": 68,
+        "minutes": 71,
         "reviewsDone": 148,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 114,
-          "sessions": 19,
+          "sessions": 20,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8109,7 +8109,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-14",
-        "checked_at": "2026-11-14T18:05:41.455Z"
+        "checked_at": "2026-11-14T18:08:44.176Z"
       }
     ],
     "contests": [
@@ -14613,6 +14613,29 @@
         "source": "N3 app daily aggregate, 2026-11-14",
         "checked_at": "2026-11-14T18:00:10.750Z",
         "replacedAt": "2026-11-14T18:05:41.455Z"
+      },
+      {
+        "date": "2026-11-14",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 68,
+        "reviewsDone": 148,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 114,
+          "sessions": 19,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T31: Kunyomi: Nouns",
+            "T32: Kunyomi: Verbs (1)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-14",
+        "checked_at": "2026-11-14T18:05:41.455Z",
+        "replacedAt": "2026-11-14T18:08:44.176Z"
       }
     ]
   }
