@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-15T13:30:46+05:30",
-  "updatedLabel": "15 Nov 2026, 01:30 PM IST",
+  "updatedAt": "2026-11-16T04:41:41+05:30",
+  "updatedLabel": "16 Nov 2026, 04:41 AM IST",
   "focus": {
-    "title": "N3 first through the Nov 15 exam",
-    "date": "2026-11-15T00:00:00+05:30",
+    "title": "N3 first through the Dec 13 retry",
+    "date": "2026-11-16T00:00:00+05:30",
     "dateLabel": "Updated 04:41 IST",
-    "status": "9 Nov status sync",
-    "next": "NOW: Japanese N3 first - NAT-TEST 3Q exam Sun Nov 15 (Dec 13 retry if needed); certificate before planned Japan landing. | PAUSED BY JAI THROUGH NOV 15: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29: exam prep comes first. | HANDLED BY INSTINCT: Boutique NILA reels - KV14 published Nov 8, KV15/16 queued Nov 9/10 16:00, KV17 production next; Japanese app - N3 Reading enhancements live Nov 5 (furigana toggle, clock-question fix), no quiz-stats writes; Astro - crow reel live Nov 9, next peepal script prepared but NOT approved, per-video approval gate unchanged, three old renders stay retired/parked. ReelSaga: The Soldier's Journey Home 3/26 public on IG + YT (YT verified Nov 9 03:21, ordered playlist, claims clean); replacement Social Champ queue 0 scheduled public - cover persistence technical gate and E2P2 wording unresolved (E2P2 private, held for wording); Buffer quota check Nov 22; technical recovery is ours, no supplier clearance claimed. Mind, Gently: new-quality queue approved through Nov 24, daily 18:00; the birth-order original stays Private, corrected replacement in review; the old 11 stay Private under Jai's Nov 5 pause; 001 + 002 public. | STOPPED: patent outreach, replies only. | The Oct 10 six-thread focus map stays recorded in the Journal; dated history lives in each card's log."
+    "status": "16 Nov status sync",
+    "next": "NOW: Japanese N3 - Nov 15 NAT-TEST 3Q written (Jai's estimate ~70 marks, result pending); daily targets toward the Dec 13 retry: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 15 22:00 agent summary): ReelSaga posting on schedule, 3 new series started Nov 15; Mind, Gently 010 posts Nov 16 18:00, 035/036 due for Jai's review Nov 16; saree YouTube restarts Nov 16 15:30; Astro DM pilot paused (0 real DMs), review Nov 16-20."
   },
   "groups": [
     {
@@ -3311,9 +3311,14 @@
           "name": "Japanese N3 · before landing",
           "state": "active",
           "focusProject": true,
-          "status": "Target: NAT-TEST 3Q pass before planned Japan landing (exam Sun Nov 15; Dec 13 retry if needed). Jai's syllabus first-pass completion target is Sunday, November 1, 2026 (moved Oct 27 from the same-day portion target). Goal, not a reported pass. Earlier card wording said JLPT N3; the registered Nov 15 exam is NAT-TEST 3Q.",
-          "next": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
+          "status": "Target: NAT-TEST 3Q pass before planned Japan landing. Nov 15 exam written; Jai's estimate ~70 marks, result pending - Dec 13 retry planned. Daily targets from Nov 16: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. Goal, not a reported pass. Earlier card wording said JLPT N3; the Nov 15 exam was NAT-TEST 3Q.",
+          "next": "Run the daily N3 targets and record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
+            {
+              "at": "2026-11-16T04:41:41+05:30",
+              "source": "Agent · post-exam status reconciliation (Nov 16 rollover)",
+              "text": "Superseded pre-exam status text, preserved: Target: NAT-TEST 3Q pass before planned Japan landing (exam Sun Nov 15; Dec 13 retry if needed). Jai's syllabus first-pass completion target is Sunday, November 1, 2026 (moved Oct 27 from the same-day portion target). Goal, not a reported pass. Earlier card wording said JLPT N3; the registered Nov 15 exam is NAT-TEST 3Q. Next was: Continue N3 study and timed reading/listening work; record practice and actual exam results. Nov 15 22:33, Jai: exam written, \"not sure.. I think I will score around 70 marks - anyway fail is fail - so let's proceed with the daily targets you step up. Make sure that you prompt me and force me to clear those every day\". Superseded focus-header text, preserved: NOW: Japanese N3 first - NAT-TEST 3Q exam Sun Nov 15 (Dec 13 retry if needed); certificate before planned Japan landing. | PAUSED BY JAI THROUGH NOV 15: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29: exam prep comes first. | HANDLED BY INSTINCT: Boutique NILA reels - KV14 published Nov 8, KV15/16 queued Nov 9/10 16:00, KV17 production next; Japanese app - N3 Reading enhancements live Nov 5 (furigana toggle, clock-question fix), no quiz-stats writes; Astro - crow reel live Nov 9, next peepal script prepared but NOT approved, per-video approval gate unchanged, three old renders stay retired/parked. ReelSaga: The Soldier's Journey Home 3/26 public on IG + YT (YT verified Nov 9 03:21, ordered playlist, claims clean); replacement Social Champ queue 0 scheduled public - cover persistence technical gate and E2P2 wording unresolved (E2P2 private, held for wording); Buffer quota check Nov 22; technical recovery is ours, no supplier clearance claimed. Mind, Gently: new-quality queue approved through Nov 24, daily 18:00; the birth-order original stays Private, corrected replacement in review; the old 11 stay Private under Jai's Nov 5 pause; 001 + 002 public. | STOPPED: patent outreach, replies only. | The Oct 10 six-thread focus map stays recorded in the Journal; dated history lives in each card's log."
+            },
             {
               "at": "2026-11-09T04:45:29+05:30",
               "source": "Agent · history preservation (Nov 9 current-status rewrite)",
@@ -4403,21 +4408,21 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-15",
-    "label": "Sunday, 15 Nov",
+    "date": "2026-11-16",
+    "label": "Monday, 16 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov15-focus-n3",
+        "id": "nov16-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
-        "label": "Japanese N3 · before landing",
-        "window": "Daily focus check-in · 15 Nov",
-        "target": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
+        "label": "Japanese N3 · Dec 13 retry",
+        "window": "Daily focus check-in · 16 Nov",
+        "target": "Weekday target: 75 new words plus 900-1,200 review taps today (his Nov 15 22:33 go-ahead on the stepped daily targets; weekends 90 new words).",
         "status": "pending",
-        "progress_text": "Target: NAT-TEST 3Q pass before planned Japan landing. Goal, not a reported pass.",
+        "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
         "impact_skipped": ""
       }
@@ -7050,6 +7055,27 @@
           "target": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
           "status": "pending",
           "progress_text": "Target: NAT-TEST 3Q pass before planned Japan landing. Goal, not a reported pass.",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "label": "Sunday, 15 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov15-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · before landing",
+          "window": "Daily focus check-in · 15 Nov",
+          "target": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
+          "status": "done",
+          "progress_text": "Exam written Nov 15. Jai, 22:33: \"not sure.. I think I will score around 70 marks - anyway fail is fail - so let's proceed with the daily targets.\" Result pending. App-reported Nov 15 aggregate: 35 min, 230 reviews (app's own record, not verified).",
           "impact_done": "",
           "impact_skipped": ""
         }
