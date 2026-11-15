@@ -8149,12 +8149,12 @@
         "date": "2026-11-15",
         "track": "japanese",
         "status": "done",
-        "minutes": 27,
-        "reviewsDone": 168,
+        "minutes": 35,
+        "reviewsDone": 230,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 73,
-          "sessions": 6,
+          "uniqueItems": 112,
+          "sessions": 7,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8165,7 +8165,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-15",
-        "checked_at": "2026-11-15T17:27:16.494Z"
+        "checked_at": "2026-11-15T17:35:12.178Z"
       }
     ],
     "contests": [
@@ -14879,6 +14879,29 @@
         "source": "N3 app daily aggregate, 2026-11-15",
         "checked_at": "2026-11-15T17:11:01.046Z",
         "replacedAt": "2026-11-15T17:27:16.494Z"
+      },
+      {
+        "date": "2026-11-15",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 27,
+        "reviewsDone": 168,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 73,
+          "sessions": 6,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T35: Multi-Word Building Kanji: Onyomi",
+            "T36: Kanji Forming Many Words: Onyomi & Kunyomi"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-15",
+        "checked_at": "2026-11-15T17:27:16.494Z",
+        "replacedAt": "2026-11-15T17:35:12.178Z"
       }
     ]
   }
