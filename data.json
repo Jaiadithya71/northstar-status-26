@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-16T04:41:41+05:30",
-  "updatedLabel": "16 Nov 2026, 04:41 AM IST",
+  "updatedAt": "2026-11-17T04:41:06+05:30",
+  "updatedLabel": "17 Nov 2026, 04:41 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-16T00:00:00+05:30",
+    "date": "2026-11-17T00:00:00+05:30",
     "dateLabel": "Updated 04:41 IST",
-    "status": "16 Nov status sync",
-    "next": "NOW: Japanese N3 - Nov 15 NAT-TEST 3Q written (Jai's estimate ~70 marks, result pending); daily targets toward the Dec 13 retry: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 15 22:00 agent summary): ReelSaga posting on schedule, 3 new series started Nov 15; Mind, Gently 010 posts Nov 16 18:00, 035/036 due for Jai's review Nov 16; saree YouTube restarts Nov 16 15:30; Astro DM pilot paused (0 real DMs), review Nov 16-20."
+    "status": "17 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 2 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B from Day 1, reviews oldest-first at home; Day 1 cleared 94/75 (Gist-verified 23:42). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 16 22:00-00:24 agent reports): ReelSaga YouTube resumed on his \"Go\" (23:21), Charge E4P1 public 23:41 with an audio claim he approved; Lion Child held after a child-safety removal (channel warning, no strike); all 45 playlists verified current 00:23; saree reel 2 Nov 17 15:30; Mind, Gently 011 posts Nov 17 18:00, 035/036 on hold per him; Astro DM pilot paused, review this week."
   },
   "groups": [
     {
@@ -3312,8 +3312,13 @@
           "state": "active",
           "focusProject": true,
           "status": "Target: NAT-TEST 3Q pass before planned Japan landing. Nov 15 exam written; Jai's estimate ~70 marks, result pending - Dec 13 retry planned. Daily targets from Nov 16: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. Goal, not a reported pass. Earlier card wording said JLPT N3; the Nov 15 exam was NAT-TEST 3Q.",
-          "next": "Run the daily N3 targets and record practice and review taps; confirm the Nov 15 result when published.",
+          "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
+            {
+              "at": "2026-11-17T04:41:06+05:30",
+              "source": "Agent · sprint day-1 reconciliation (Nov 17 rollover)",
+              "text": "Day 1 (Nov 16) cleared, Gist-verified by the coach 23:42: 94 of 75 new words, 616 reviews. Plan change agreed with Jai 00:07-00:14 Nov 17: new words now pair A and B on the same words the same day (15 at a time, 75 pairs weekdays / 90 weekends); Day 1's 94 words get B carryover at 19 a day this week; reviews (backlog ~2,015 due by Nov 17 evening) go oldest-first at home in the evening, 200 a day proposed and not yet confirmed by him. Superseded card next, preserved: Run the daily N3 targets and record practice and review taps; confirm the Nov 15 result when published. Superseded focus-header text, preserved: NOW: Japanese N3 - Nov 15 NAT-TEST 3Q written (Jai's estimate ~70 marks, result pending); daily targets toward the Dec 13 retry: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 15 22:00 agent summary): ReelSaga posting on schedule, 3 new series started Nov 15; Mind, Gently 010 posts Nov 16 18:00, 035/036 due for Jai's review Nov 16; saree YouTube restarts Nov 16 15:30; Astro DM pilot paused (0 real DMs), review Nov 16-20."
+            },
             {
               "at": "2026-11-16T04:41:41+05:30",
               "source": "Agent · post-exam status reconciliation (Nov 16 rollover)",
@@ -4408,19 +4413,19 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-16",
-    "label": "Monday, 16 Nov",
+    "date": "2026-11-17",
+    "label": "Tuesday, 17 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov16-focus-n3",
+        "id": "nov17-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 16 Nov",
-        "target": "Weekday target: 75 new words plus 900-1,200 review taps today (his Nov 15 22:33 go-ahead on the stepped daily targets; weekends 90 new words).",
+        "window": "Daily focus check-in · 17 Nov",
+        "target": "Day 2 (his 00:07-00:14 plan): 75 new words in A with the same 75 in B, same day (15 at a time), plus 19 carryover B from Day 1's 94; reviews oldest-first at home in the evening.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
@@ -7076,6 +7081,27 @@
           "target": "Continue N3 study and timed reading/listening work; record practice and actual exam results.",
           "status": "done",
           "progress_text": "Exam written Nov 15. Jai, 22:33: \"not sure.. I think I will score around 70 marks - anyway fail is fail - so let's proceed with the daily targets.\" Result pending. App-reported Nov 15 aggregate: 35 min, 230 reviews (app's own record, not verified).",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "label": "Monday, 16 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov16-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 16 Nov",
+          "target": "Weekday target: 75 new words plus 900-1,200 review taps today (his Nov 15 22:33 go-ahead on the stepped daily targets; weekends 90 new words).",
+          "status": "done",
+          "progress_text": "Day 1 cleared, Gist-verified by the coach at 23:42: 94 of 75 new words (19 over), 616 reviews. App-reported Nov 16 aggregate: 307 min, 616 reviews (app's own record, not verified).",
           "impact_done": "",
           "impact_skipped": ""
         }
