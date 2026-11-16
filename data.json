@@ -8197,23 +8197,26 @@
         "date": "2026-11-16",
         "track": "japanese",
         "status": "done",
-        "minutes": 51,
-        "reviewsDone": 241,
+        "minutes": 65,
+        "reviewsDone": 326,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 137,
-          "sessions": 7,
+          "uniqueItems": 188,
+          "sessions": 8,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
             "T01: Human Relations 1: Family, Friends, Personality",
             "T02: Human Relations 2: Relationships and Feelings",
-            "T03: Daily Life 1: Daily Routine & Housework"
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T37: Politics, Economy & Society (1)",
+            "T38: Politics, Economy & Society (2)",
+            "T39: Politics, Economy & Society (3)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-16",
-        "checked_at": "2026-11-16T13:48:08.291Z"
+        "checked_at": "2026-11-16T14:01:48.831Z"
       }
     ],
     "contests": [
@@ -15111,6 +15114,29 @@
         "source": "N3 app daily aggregate, 2026-11-16",
         "checked_at": "2026-11-16T13:16:21.968Z",
         "replacedAt": "2026-11-16T13:48:08.291Z"
+      },
+      {
+        "date": "2026-11-16",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 51,
+        "reviewsDone": 241,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 137,
+          "sessions": 7,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-16",
+        "checked_at": "2026-11-16T13:48:08.291Z",
+        "replacedAt": "2026-11-16T14:01:48.831Z"
       }
     ]
   }
