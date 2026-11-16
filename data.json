@@ -8197,12 +8197,12 @@
         "date": "2026-11-16",
         "track": "japanese",
         "status": "done",
-        "minutes": 87,
-        "reviewsDone": 447,
+        "minutes": 307,
+        "reviewsDone": 616,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 188,
-          "sessions": 12,
+          "uniqueItems": 231,
+          "sessions": 15,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8212,11 +8212,13 @@
             "T03: Daily Life 1: Daily Routine & Housework",
             "T37: Politics, Economy & Society (1)",
             "T38: Politics, Economy & Society (2)",
-            "T39: Politics, Economy & Society (3)"
+            "T39: Politics, Economy & Society (3)",
+            "T40: Education, Culture & Daily Life (1)",
+            "T41: Education, Culture & Daily Life (2)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-16",
-        "checked_at": "2026-11-16T14:26:45.688Z"
+        "checked_at": "2026-11-16T18:35:04.989Z"
       }
     ],
     "contests": [
@@ -15241,6 +15243,32 @@
         "source": "N3 app daily aggregate, 2026-11-16",
         "checked_at": "2026-11-16T14:26:10.004Z",
         "replacedAt": "2026-11-16T14:26:45.688Z"
+      },
+      {
+        "date": "2026-11-16",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 87,
+        "reviewsDone": 447,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 188,
+          "sessions": 12,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T37: Politics, Economy & Society (1)",
+            "T38: Politics, Economy & Society (2)",
+            "T39: Politics, Economy & Society (3)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-16",
+        "checked_at": "2026-11-16T14:26:45.688Z",
+        "replacedAt": "2026-11-16T18:35:04.989Z"
       }
     ]
   }
