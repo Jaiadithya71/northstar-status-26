@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-17T04:41:06+05:30",
-  "updatedLabel": "17 Nov 2026, 04:41 AM IST",
+  "updatedAt": "2026-11-18T04:40:48+05:30",
+  "updatedLabel": "18 Nov 2026, 04:40 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-17T00:00:00+05:30",
-    "dateLabel": "Updated 04:41 IST",
-    "status": "17 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 2 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B from Day 1, reviews oldest-first at home; Day 1 cleared 94/75 (Gist-verified 23:42). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 16 22:00-00:24 agent reports): ReelSaga YouTube resumed on his \"Go\" (23:21), Charge E4P1 public 23:41 with an audio claim he approved; Lion Child held after a child-safety removal (channel warning, no strike); all 45 playlists verified current 00:23; saree reel 2 Nov 17 15:30; Mind, Gently 011 posts Nov 17 18:00, 035/036 on hold per him; Astro DM pilot paused, review this week."
+    "date": "2026-11-18T00:00:00+05:30",
+    "dateLabel": "Updated 04:40 IST",
+    "status": "18 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 3 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B, reviews oldest-first at home; Day 1 cleared 94/75, Day 2 partial (97/75 new A, matched B open). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 17 22:00-04:15 agent reports): ReelSaga YouTube - Gold Digger E2P1 public 22:51, E1P1 then claim-blocked (not a strike), E2P2 held; CDRAMABOSS licensing enquiry sent 23:03 on his S, awaiting reply; sample review format didn't land with him (04:13), editing blocked videos to dodge claims declined, music-only claim fixes proposed for 07:30; saree reel #3 Nov 18 15:30; Mind, Gently 012 Nov 18 18:00, 035-038 on hold per him; Astro DM pilot paused."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-18T04:40:48+05:30",
+              "source": "Agent · sprint day-2 reconciliation (Nov 18 rollover)",
+              "text": "Day 2 (Nov 17) partial, sync-verified: new A 97/75 cleared (coach 19:35, sync 18:52); matched B for those 97 not done (0 at 23:10 sync); carryover B 16/94; 144+ older reviews by 22:00. App-reported aggregate: 94 min, 521 reviews. Day 3 keeps the locked pattern and carries Day 2's matched-B leftover. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 2 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B from Day 1, reviews oldest-first at home; Day 1 cleared 94/75 (Gist-verified 23:42). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 16 22:00-00:24 agent reports): ReelSaga YouTube resumed on his \"Go\" (23:21), Charge E4P1 public 23:41 with an audio claim he approved; Lion Child held after a child-safety removal (channel warning, no strike); all 45 playlists verified current 00:23; saree reel 2 Nov 17 15:30; Mind, Gently 011 posts Nov 17 18:00, 035/036 on hold per him; Astro DM pilot paused, review this week."
+            },
+            {
               "at": "2026-11-17T04:41:06+05:30",
               "source": "Agent · sprint day-1 reconciliation (Nov 17 rollover)",
               "text": "Day 1 (Nov 16) cleared, Gist-verified by the coach 23:42: 94 of 75 new words, 616 reviews. Plan change agreed with Jai 00:07-00:14 Nov 17: new words now pair A and B on the same words the same day (15 at a time, 75 pairs weekdays / 90 weekends); Day 1's 94 words get B carryover at 19 a day this week; reviews (backlog ~2,015 due by Nov 17 evening) go oldest-first at home in the evening, 200 a day proposed and not yet confirmed by him. Superseded card next, preserved: Run the daily N3 targets and record practice and review taps; confirm the Nov 15 result when published. Superseded focus-header text, preserved: NOW: Japanese N3 - Nov 15 NAT-TEST 3Q written (Jai's estimate ~70 marks, result pending); daily targets toward the Dec 13 retry: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 15 22:00 agent summary): ReelSaga posting on schedule, 3 new series started Nov 15; Mind, Gently 010 posts Nov 16 18:00, 035/036 due for Jai's review Nov 16; saree YouTube restarts Nov 16 15:30; Astro DM pilot paused (0 real DMs), review Nov 16-20."
@@ -4413,19 +4418,19 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-17",
-    "label": "Tuesday, 17 Nov",
+    "date": "2026-11-18",
+    "label": "Wednesday, 18 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov17-focus-n3",
+        "id": "nov18-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 17 Nov",
-        "target": "Day 2 (his 00:07-00:14 plan): 75 new words in A with the same 75 in B, same day (15 at a time), plus 19 carryover B from Day 1's 94; reviews oldest-first at home in the evening.",
+        "window": "Daily focus check-in · 18 Nov",
+        "target": "Day 3 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Leftover from Day 2: matched B for Nov 17's 97 words.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
@@ -7102,6 +7107,27 @@
           "target": "Weekday target: 75 new words plus 900-1,200 review taps today (his Nov 15 22:33 go-ahead on the stepped daily targets; weekends 90 new words).",
           "status": "done",
           "progress_text": "Day 1 cleared, Gist-verified by the coach at 23:42: 94 of 75 new words (19 over), 616 reviews. App-reported Nov 16 aggregate: 307 min, 616 reviews (app's own record, not verified).",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "label": "Tuesday, 17 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov17-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 17 Nov",
+          "target": "Day 2 (his 00:07-00:14 plan): 75 new words in A with the same 75 in B, same day (15 at a time), plus 19 carryover B from Day 1's 94; reviews oldest-first at home in the evening.",
+          "status": "partial",
+          "progress_text": "Day 2, sync-verified: new A words cleared 97 of 75 (coach 19:35, sync 18:52). Not done: matched B for those 97 (0 at 23:10 sync); carryover B 16 of 94 (coach 23:10). 144+ older reviews done by 22:00. App-reported Nov 17 aggregate: 94 min, 521 reviews (app's own record). Work after the 23:10 sync is uncounted.",
           "impact_done": "",
           "impact_skipped": ""
         }
