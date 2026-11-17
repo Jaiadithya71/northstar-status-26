@@ -8250,12 +8250,12 @@
         "date": "2026-11-17",
         "track": "japanese",
         "status": "done",
-        "minutes": 50,
-        "reviewsDone": 255,
+        "minutes": 61,
+        "reviewsDone": 330,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 136,
-          "sessions": 5,
+          "uniqueItems": 193,
+          "sessions": 6,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8264,13 +8264,15 @@
             "T02: Human Relations 2: Relationships and Feelings",
             "T03: Daily Life 1: Daily Routine & Housework",
             "T04: Daily Life 2: Food and Dining",
+            "T05: Daily Life 3: Housing and Town",
+            "T06: Beauty and Health",
             "T42: Education, Culture & Daily Life (3)",
             "T43: Education, Culture & Daily Life (4)",
             "T44: Education, Culture & Daily Life (5)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-17",
-        "checked_at": "2026-11-17T02:50:55.536Z"
+        "checked_at": "2026-11-17T03:01:37.507Z"
       }
     ],
     "contests": [
@@ -15419,6 +15421,33 @@
         "source": "N3 app daily aggregate, 2026-11-17",
         "checked_at": "2026-11-17T02:45:13.357Z",
         "replacedAt": "2026-11-17T02:50:55.536Z"
+      },
+      {
+        "date": "2026-11-17",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 50,
+        "reviewsDone": 255,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 136,
+          "sessions": 5,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T04: Daily Life 2: Food and Dining",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-17",
+        "checked_at": "2026-11-17T02:50:55.536Z",
+        "replacedAt": "2026-11-17T03:01:37.507Z"
       }
     ]
   }
