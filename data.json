@@ -8251,11 +8251,11 @@
         "track": "japanese",
         "status": "done",
         "minutes": 63,
-        "reviewsDone": 348,
+        "reviewsDone": 349,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 209,
-          "sessions": 12,
+          "uniqueItems": 210,
+          "sessions": 13,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8268,11 +8268,12 @@
             "T06: Beauty and Health",
             "T42: Education, Culture & Daily Life (3)",
             "T43: Education, Culture & Daily Life (4)",
-            "T44: Education, Culture & Daily Life (5)"
+            "T44: Education, Culture & Daily Life (5)",
+            "T45: Transportation & Travel (1)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-17",
-        "checked_at": "2026-11-17T10:25:20.476Z"
+        "checked_at": "2026-11-17T10:26:05.423Z"
       }
     ],
     "contests": [
@@ -15622,6 +15623,35 @@
         "source": "N3 app daily aggregate, 2026-11-17",
         "checked_at": "2026-11-17T10:23:26.838Z",
         "replacedAt": "2026-11-17T10:25:20.476Z"
+      },
+      {
+        "date": "2026-11-17",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 63,
+        "reviewsDone": 348,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 209,
+          "sessions": 12,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T04: Daily Life 2: Food and Dining",
+            "T05: Daily Life 3: Housing and Town",
+            "T06: Beauty and Health",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-17",
+        "checked_at": "2026-11-17T10:25:20.476Z",
+        "replacedAt": "2026-11-17T10:26:05.423Z"
       }
     ]
   }
