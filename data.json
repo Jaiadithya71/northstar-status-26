@@ -8250,12 +8250,12 @@
         "date": "2026-11-17",
         "track": "japanese",
         "status": "done",
-        "minutes": 32,
-        "reviewsDone": 86,
+        "minutes": 45,
+        "reviewsDone": 183,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 65,
-          "sessions": 3,
+          "uniqueItems": 136,
+          "sessions": 4,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8263,11 +8263,14 @@
             "T01: Human Relations 1: Family, Friends, Personality",
             "T02: Human Relations 2: Relationships and Feelings",
             "T03: Daily Life 1: Daily Routine & Housework",
-            "T04: Daily Life 2: Food and Dining"
+            "T04: Daily Life 2: Food and Dining",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-17",
-        "checked_at": "2026-11-17T02:31:54.234Z"
+        "checked_at": "2026-11-17T02:45:13.357Z"
       }
     ],
     "contests": [
@@ -15365,6 +15368,30 @@
         "source": "N3 app daily aggregate, 2026-11-17",
         "checked_at": "2026-11-16T18:51:44.743Z",
         "replacedAt": "2026-11-17T02:31:54.234Z"
+      },
+      {
+        "date": "2026-11-17",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 32,
+        "reviewsDone": 86,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 65,
+          "sessions": 3,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T01: Human Relations 1: Family, Friends, Personality",
+            "T02: Human Relations 2: Relationships and Feelings",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T04: Daily Life 2: Food and Dining"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-17",
+        "checked_at": "2026-11-17T02:31:54.234Z",
+        "replacedAt": "2026-11-17T02:45:13.357Z"
       }
     ]
   }
