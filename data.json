@@ -8313,12 +8313,12 @@
         "date": "2026-11-18",
         "track": "japanese",
         "status": "done",
-        "minutes": 214,
+        "minutes": 215,
         "reviewsDone": 262,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 81,
-          "sessions": 12,
+          "sessions": 13,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8327,7 +8327,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-18",
-        "checked_at": "2026-11-18T02:52:42.599Z"
+        "checked_at": "2026-11-18T10:24:44.009Z"
       }
     ],
     "contests": [
@@ -16117,6 +16117,27 @@
         "source": "N3 app daily aggregate, 2026-11-18",
         "checked_at": "2026-11-18T02:52:33.851Z",
         "replacedAt": "2026-11-18T02:52:42.599Z"
+      },
+      {
+        "date": "2026-11-18",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 214,
+        "reviewsDone": 262,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 81,
+          "sessions": 12,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T41: Education, Culture & Daily Life (2)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-18",
+        "checked_at": "2026-11-18T02:52:42.599Z",
+        "replacedAt": "2026-11-18T10:24:44.009Z"
       }
     ]
   }
