@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-18T04:40:48+05:30",
-  "updatedLabel": "18 Nov 2026, 04:40 AM IST",
+  "updatedAt": "2026-11-19T04:40:47+05:30",
+  "updatedLabel": "19 Nov 2026, 04:40 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-18T00:00:00+05:30",
+    "date": "2026-11-19T00:00:00+05:30",
     "dateLabel": "Updated 04:40 IST",
-    "status": "18 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 3 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B, reviews oldest-first at home; Day 1 cleared 94/75, Day 2 partial (97/75 new A, matched B open). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 17 22:00-04:15 agent reports): ReelSaga YouTube - Gold Digger E2P1 public 22:51, E1P1 then claim-blocked (not a strike), E2P2 held; CDRAMABOSS licensing enquiry sent 23:03 on his S, awaiting reply; sample review format didn't land with him (04:13), editing blocked videos to dodge claims declined, music-only claim fixes proposed for 07:30; saree reel #3 Nov 18 15:30; Mind, Gently 012 Nov 18 18:00, 035-038 on hold per him; Astro DM pilot paused."
+    "status": "19 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 4 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B, reviews oldest-first at home; Day 1 cleared 94/75, Day 2 partial (97/75 new A), Day 3 unverified (last sync 15:58). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 18 21:00-00:44 agent reports): ReelSaga YouTube held - Gold Digger E2P1 claim-blocked (not a strike), 3 music-only claim fixes and next-series choice awaiting his yes, CDRAMABOSS licence enquiry unanswered; Mind, Gently 012 published, 035-038 on hold per him; boutique saree reel #3 public, #4 Nov 19 15:30; Astro DM pilot paused. Built on his go-ahead: horoscope app mobile-first redesign live with Kili the parrot (00:44), beginner-Japanese sprout mascot live, QuestFit v0.6 sent and his 3-day gym plan being loaded, VibeStream redesign APKs delivered."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-19T04:40:47+05:30",
+              "source": "Agent · sprint day-3 reconciliation (Nov 19 rollover)",
+              "text": "Day 3 (Nov 18) unverified: last app sync 15:58; coach 21:00 summary - old B words left 155, matched B for Nov 17's 97 words and the pairing-order question still open, no self-report of clearing the target. App-reported aggregate: 215 min, 262 reviews. Archived pending per the tap rule. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 3 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B, reviews oldest-first at home; Day 1 cleared 94/75, Day 2 partial (97/75 new A, matched B open). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 17 22:00-04:15 agent reports): ReelSaga YouTube - Gold Digger E2P1 public 22:51, E1P1 then claim-blocked (not a strike), E2P2 held; CDRAMABOSS licensing enquiry sent 23:03 on his S, awaiting reply; sample review format didn't land with him (04:13), editing blocked videos to dodge claims declined, music-only claim fixes proposed for 07:30; saree reel #3 Nov 18 15:30; Mind, Gently 012 Nov 18 18:00, 035-038 on hold per him; Astro DM pilot paused."
+            },
+            {
               "at": "2026-11-18T04:40:48+05:30",
               "source": "Agent · sprint day-2 reconciliation (Nov 18 rollover)",
               "text": "Day 2 (Nov 17) partial, sync-verified: new A 97/75 cleared (coach 19:35, sync 18:52); matched B for those 97 not done (0 at 23:10 sync); carryover B 16/94; 144+ older reviews by 22:00. App-reported aggregate: 94 min, 521 reviews. Day 3 keeps the locked pattern and carries Day 2's matched-B leftover. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 2 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B from Day 1, reviews oldest-first at home; Day 1 cleared 94/75 (Gist-verified 23:42). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 16 22:00-00:24 agent reports): ReelSaga YouTube resumed on his \"Go\" (23:21), Charge E4P1 public 23:41 with an audio claim he approved; Lion Child held after a child-safety removal (channel warning, no strike); all 45 playlists verified current 00:23; saree reel 2 Nov 17 15:30; Mind, Gently 011 posts Nov 17 18:00, 035/036 on hold per him; Astro DM pilot paused, review this week."
@@ -4418,19 +4423,19 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-18",
-    "label": "Wednesday, 18 Nov",
+    "date": "2026-11-19",
+    "label": "Thursday, 19 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov18-focus-n3",
+        "id": "nov19-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 18 Nov",
-        "target": "Day 3 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Leftover from Day 2: matched B for Nov 17's 97 words.",
+        "window": "Daily focus check-in · 19 Nov",
+        "target": "Day 4 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Open from earlier days: matched B for Nov 17's 97 words and the carryover balance (155 old B words at the Nov 18 21:00 summary).",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
@@ -7128,6 +7133,27 @@
           "target": "Day 2 (his 00:07-00:14 plan): 75 new words in A with the same 75 in B, same day (15 at a time), plus 19 carryover B from Day 1's 94; reviews oldest-first at home in the evening.",
           "status": "partial",
           "progress_text": "Day 2, sync-verified: new A words cleared 97 of 75 (coach 19:35, sync 18:52). Not done: matched B for those 97 (0 at 23:10 sync); carryover B 16 of 94 (coach 23:10). 144+ older reviews done by 22:00. App-reported Nov 17 aggregate: 94 min, 521 reviews (app's own record). Work after the 23:10 sync is uncounted.",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "label": "Wednesday, 18 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov18-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 18 Nov",
+          "target": "Day 3 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Leftover from Day 2: matched B for Nov 17's 97 words.",
+          "status": "pending",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 3 clearance unverified: last sync 15:58 (coach 21:00 summary: old B words left 155, the 97-pairing question still open, no self-report of clearing). App-reported Nov 18 aggregate: 215 min, 262 reviews (app's own record, not verified).",
           "impact_done": "",
           "impact_skipped": ""
         }
