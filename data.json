@@ -8361,12 +8361,12 @@
         "date": "2026-11-19",
         "track": "japanese",
         "status": "done",
-        "minutes": 99,
-        "reviewsDone": 698,
+        "minutes": 105,
+        "reviewsDone": 736,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 407,
-          "sessions": 13,
+          "uniqueItems": 427,
+          "sessions": 14,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8390,7 +8390,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-19",
-        "checked_at": "2026-11-19T18:19:59.164Z"
+        "checked_at": "2026-11-19T18:26:27.154Z"
       }
     ],
     "contests": [
@@ -16601,6 +16601,42 @@
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T18:17:31.439Z",
         "replacedAt": "2026-11-19T18:19:59.164Z"
+      },
+      {
+        "date": "2026-11-19",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 99,
+        "reviewsDone": 698,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 407,
+          "sessions": 13,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C02: Part 2 Chapter 2: Sino-Japanese Verbs (Kango)",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T18: Nature 1: Seasons/Weather, Geography",
+            "T20: Numbers and Quantities",
+            "T21: Time",
+            "T31: Kunyomi: Nouns",
+            "T32: Kunyomi: Verbs (1)",
+            "T45: Transportation & Travel (1)",
+            "T46: Transportation & Travel (2)",
+            "T47: New Onyomi to Learn: Verbs",
+            "T48: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-19",
+        "checked_at": "2026-11-19T18:19:59.164Z",
+        "replacedAt": "2026-11-19T18:26:27.154Z"
       }
     ]
   }
