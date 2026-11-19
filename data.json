@@ -8361,12 +8361,12 @@
         "date": "2026-11-19",
         "track": "japanese",
         "status": "done",
-        "minutes": 30,
-        "reviewsDone": 337,
+        "minutes": 32,
+        "reviewsDone": 366,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 228,
-          "sessions": 3,
+          "uniqueItems": 252,
+          "sessions": 4,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8375,11 +8375,12 @@
             "T12: Education 2: School Life (University)",
             "T13: Work 1: Jobs & Work",
             "T14: Work 2: Computers, Mail, Phone, etc.",
-            "T18: Nature 1: Seasons/Weather, Geography"
+            "T18: Nature 1: Seasons/Weather, Geography",
+            "T45: Transportation & Travel (1)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-19",
-        "checked_at": "2026-11-19T05:17:16.059Z"
+        "checked_at": "2026-11-19T12:49:59.173Z"
       }
     ],
     "contests": [
@@ -16281,6 +16282,31 @@
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T05:14:46.979Z",
         "replacedAt": "2026-11-19T05:17:16.059Z"
+      },
+      {
+        "date": "2026-11-19",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 30,
+        "reviewsDone": 337,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 228,
+          "sessions": 3,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T18: Nature 1: Seasons/Weather, Geography"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-19",
+        "checked_at": "2026-11-19T05:17:16.059Z",
+        "replacedAt": "2026-11-19T12:49:59.173Z"
       }
     ]
   }
