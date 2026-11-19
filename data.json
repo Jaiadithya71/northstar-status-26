@@ -8339,21 +8339,23 @@
         "date": "2026-11-18",
         "track": "japanese",
         "status": "done",
-        "minutes": 215,
-        "reviewsDone": 262,
+        "minutes": 600,
+        "reviewsDone": 277,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 81,
-          "sessions": 13,
+          "uniqueItems": 187,
+          "sessions": 14,
           "chapters": [
             "Part 1: Topics"
           ],
           "units": [
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
             "T41: Education, Culture & Daily Life (2)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-18",
-        "checked_at": "2026-11-18T10:24:44.009Z"
+        "checked_at": "2026-11-19T01:32:34.173Z"
       }
     ],
     "contests": [
@@ -16164,6 +16166,27 @@
         "source": "N3 app daily aggregate, 2026-11-18",
         "checked_at": "2026-11-18T02:52:42.599Z",
         "replacedAt": "2026-11-18T10:24:44.009Z"
+      },
+      {
+        "date": "2026-11-18",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 215,
+        "reviewsDone": 262,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 81,
+          "sessions": 13,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T41: Education, Culture & Daily Life (2)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-18",
+        "checked_at": "2026-11-18T10:24:44.009Z",
+        "replacedAt": "2026-11-19T01:32:34.173Z"
       }
     ]
   }
