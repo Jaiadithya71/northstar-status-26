@@ -8361,12 +8361,12 @@
         "date": "2026-11-19",
         "track": "japanese",
         "status": "done",
-        "minutes": 93,
-        "reviewsDone": 624,
+        "minutes": 96,
+        "reviewsDone": 666,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 356,
-          "sessions": 9,
+          "uniqueItems": 387,
+          "sessions": 10,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8380,6 +8380,7 @@
             "T14: Work 2: Computers, Mail, Phone, etc.",
             "T18: Nature 1: Seasons/Weather, Geography",
             "T20: Numbers and Quantities",
+            "T31: Kunyomi: Nouns",
             "T45: Transportation & Travel (1)",
             "T46: Transportation & Travel (2)",
             "T47: New Onyomi to Learn: Verbs",
@@ -8387,7 +8388,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-19",
-        "checked_at": "2026-11-19T18:04:32.909Z"
+        "checked_at": "2026-11-19T18:13:38.933Z"
       }
     ],
     "contests": [
@@ -16461,6 +16462,39 @@
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T17:47:02.310Z",
         "replacedAt": "2026-11-19T18:04:32.909Z"
+      },
+      {
+        "date": "2026-11-19",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 93,
+        "reviewsDone": 624,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 356,
+          "sessions": 9,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C02: Part 2 Chapter 2: Sino-Japanese Verbs (Kango)",
+            "T03: Daily Life 1: Daily Routine & Housework",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T18: Nature 1: Seasons/Weather, Geography",
+            "T20: Numbers and Quantities",
+            "T45: Transportation & Travel (1)",
+            "T46: Transportation & Travel (2)",
+            "T47: New Onyomi to Learn: Verbs",
+            "T48: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-19",
+        "checked_at": "2026-11-19T18:04:32.909Z",
+        "replacedAt": "2026-11-19T18:13:38.933Z"
       }
     ]
   }
