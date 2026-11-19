@@ -8361,12 +8361,12 @@
         "date": "2026-11-19",
         "track": "japanese",
         "status": "done",
-        "minutes": 25,
-        "reviewsDone": 307,
+        "minutes": 30,
+        "reviewsDone": 337,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 210,
-          "sessions": 2,
+          "uniqueItems": 228,
+          "sessions": 3,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8374,11 +8374,12 @@
             "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
             "T12: Education 2: School Life (University)",
             "T13: Work 1: Jobs & Work",
-            "T14: Work 2: Computers, Mail, Phone, etc."
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T18: Nature 1: Seasons/Weather, Geography"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-19",
-        "checked_at": "2026-11-19T05:14:46.979Z"
+        "checked_at": "2026-11-19T05:17:16.059Z"
       }
     ],
     "contests": [
@@ -16256,6 +16257,30 @@
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T05:09:45.161Z",
         "replacedAt": "2026-11-19T05:14:46.979Z"
+      },
+      {
+        "date": "2026-11-19",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 25,
+        "reviewsDone": 307,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 210,
+          "sessions": 2,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc."
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-19",
+        "checked_at": "2026-11-19T05:14:46.979Z",
+        "replacedAt": "2026-11-19T05:17:16.059Z"
       }
     ]
   }
