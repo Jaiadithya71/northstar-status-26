@@ -8361,12 +8361,12 @@
         "date": "2026-11-19",
         "track": "japanese",
         "status": "done",
-        "minutes": 32,
-        "reviewsDone": 366,
+        "minutes": 42,
+        "reviewsDone": 468,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 252,
-          "sessions": 4,
+          "uniqueItems": 294,
+          "sessions": 5,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8376,11 +8376,12 @@
             "T13: Work 1: Jobs & Work",
             "T14: Work 2: Computers, Mail, Phone, etc.",
             "T18: Nature 1: Seasons/Weather, Geography",
-            "T45: Transportation & Travel (1)"
+            "T45: Transportation & Travel (1)",
+            "T46: Transportation & Travel (2)"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-19",
-        "checked_at": "2026-11-19T12:49:59.173Z"
+        "checked_at": "2026-11-19T12:59:46.591Z"
       }
     ],
     "contests": [
@@ -16307,6 +16308,32 @@
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T05:17:16.059Z",
         "replacedAt": "2026-11-19T12:49:59.173Z"
+      },
+      {
+        "date": "2026-11-19",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 32,
+        "reviewsDone": 366,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 252,
+          "sessions": 4,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T18: Nature 1: Seasons/Weather, Geography",
+            "T45: Transportation & Travel (1)"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-19",
+        "checked_at": "2026-11-19T12:49:59.173Z",
+        "replacedAt": "2026-11-19T12:59:46.591Z"
       }
     ]
   }
