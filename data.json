@@ -8443,7 +8443,7 @@
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 213,
-          "sessions": 14,
+          "sessions": 15,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8474,7 +8474,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-20",
-        "checked_at": "2026-11-20T07:58:26.801Z"
+        "checked_at": "2026-11-20T07:58:40.063Z"
       }
     ],
     "contests": [
@@ -17021,6 +17021,49 @@
         "source": "N3 app daily aggregate, 2026-11-20",
         "checked_at": "2026-11-20T05:31:40.655Z",
         "replacedAt": "2026-11-20T07:58:26.801Z"
+      },
+      {
+        "date": "2026-11-20",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 50,
+        "reviewsDone": 371,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 213,
+          "sessions": 14,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C02: Part 2 Chapter 2: Sino-Japanese Verbs (Kango)",
+            "C08: Part 2 Chapter 8: Word Formation (Compounds & Affixes)",
+            "T04: Daily Life 2: Food and Dining",
+            "T06: Beauty and Health",
+            "T07: Hospital",
+            "T09: Hobbies and Travel 2: Fashion",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T14: Work 2: Computers, Mail, Phone, etc.",
+            "T15: Society 1: Incidents & Accidents",
+            "T16: Society 2: Politics and Economy",
+            "T19: Nature 2: Plants and Animals",
+            "T20: Numbers and Quantities",
+            "T22: Reading Words 1",
+            "T23: Reading Words 2",
+            "T29: Reading Words 8",
+            "T30: Reading Words 9",
+            "T41: Education, Culture & Daily Life (2)",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)",
+            "T49: New Kanji to Learn Onyomi & Kunyomi: Verbs"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-20",
+        "checked_at": "2026-11-20T07:58:26.801Z",
+        "replacedAt": "2026-11-20T07:58:40.063Z"
       }
     ]
   }
