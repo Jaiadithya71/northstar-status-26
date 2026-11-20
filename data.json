@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-20T12:47:09+05:30",
-  "updatedLabel": "20 Nov 2026, 12:47 PM IST",
+  "updatedAt": "2026-11-21T04:40:35+05:30",
+  "updatedLabel": "21 Nov 2026, 04:40 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-20T00:00:00+05:30",
-    "dateLabel": "Updated 04:41 IST",
-    "status": "20 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 5 of 14 (Nov 15 exam written, result pending): day 4 cleared, sync-verified (85/75 new A, final Gist sync 23:57); B side 240 new words deep with zero B grades in three days - B first this morning, then 75 new A with same-day matched B. Gym Workout B 20:00 (his Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 19 reports): ReelSaga YouTube held - Kuaikan claims now block 6 Don's Bride parts and Bank E1P3 worldwide (not strikes), music-only fixes, next-series pick and the DramaCPS support email all awaiting his yes; Mind 018 at 18:00, boutique saree reel #5 at 15:30; Astro DM pilot paused. Built Nov 19 on his approvals: QuestFit v0.9.1 (gym plan guided mode, polished), his mother's meal checklist site live (Tamil/English), horoscope timeline tab live, N3 test card layout B live and retry-by-lesson in mockup, 3 class tests added to the N3 app."
+    "date": "2026-11-21T00:00:00+05:30",
+    "dateLabel": "Updated 04:40 IST",
+    "status": "21 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 6 of 14 (Nov 15 exam written, result pending): day 5 partial (44/75 new A, first 11 matched B in three days). B side first today - 1,095 reviews due, 240+ new words without B grades; then 75 new A with same-day matched B. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 20 reports): ReelSaga restart decisions (3 music fixes, next series, DramaCPS email) still awaiting his yes; Astro review window ended Nov 20 - resume or stay paused is his call; N3 plan 200 reviews/day + 19 carryover awaiting his confirm-or-drop; Mind 018 and saree reel #5 posted. Built Nov 20 on his approvals: N3 Listening tab live (2,183 clips, Voice B) plus Review Again, result counts and kanji fixes; VibeStream 7 builds (YT Music device-code sign-in, live queue, Home shelves fix); QuestFit machine photos live."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-21T04:40:35+05:30",
+              "source": "Agent · sprint day-5 reconciliation (Nov 21 rollover)",
+              "text": "Day 5 (Nov 20) partial: 44/75 new A at the 23:08 check with no later sync, 11 matched B (first B grades in three days), 31 short. B reviews (1,095 due) unreported; he was on VibeStream builds until 03:52. App-reported aggregate: 50 min, 371 reviews. Friday gym check-in archived pending (no self-report or app record). Open asks from the 21:00 summary: N3 plan 200 reviews/day + 19 carryover confirm-or-drop, ReelSaga restart decisions, Astro resume-or-paused. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 5 of 14 (Nov 15 exam written, result pending): day 4 cleared, sync-verified (85/75 new A, final Gist sync 23:57); B side 240 new words deep with zero B grades in three days - B first this morning, then 75 new A with same-day matched B. Gym Workout B 20:00 (his Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 19 reports): ReelSaga YouTube held - Kuaikan claims now block 6 Don's Bride parts and Bank E1P3 worldwide (not strikes), music-only fixes, next-series pick and the DramaCPS support email all awaiting his yes; Mind 018 at 18:00, boutique saree reel #5 at 15:30; Astro DM pilot paused. Built Nov 19 on his approvals: QuestFit v0.9.1 (gym plan guided mode, polished), his mother's meal checklist site live (Tamil/English), horoscope timeline tab live, N3 test card layout B live and retry-by-lesson in mockup, 3 class tests added to the N3 app."
+            },
+            {
               "at": "2026-11-20T12:47:09+05:30",
               "source": "Agent · day-4 correction (coach Gist 23:57)",
               "text": "Correction to the 04:41 reconciliation: Day 4 (Nov 19) CLEARED, sync-verified - 85/75 new A per the final Gist sync 23:57 IST; the 66/9-left figure was the earlier sync, before his 23:05-23:11 batch. B still untouched (0 B grades, matched B 0/85; 240 new words deep over three days). Reviews: 441 A grade events across 307 distinct cards. Archive status updated partial to done. Also done Nov 19: 3 class tests submitted and a 111-item morning review."
@@ -4433,32 +4438,21 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-20",
-    "label": "Friday, 20 Nov",
+    "date": "2026-11-21",
+    "label": "Saturday, 21 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov20-focus-n3",
+        "id": "nov21-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 20 Nov",
-        "target": "Day 5: B reviews first this morning (1,088 B due at the Nov 19 21:47 check). 75 new A with same-day matched B (15 at a time); B side now 240 new words deep with zero B grades in three days. Reviews oldest-first at home.",
+        "window": "Daily focus check-in · 21 Nov",
+        "target": "Day 6: B side first (1,095 reviews due at the Nov 20 21:03 coach note; 240+ new words still without B grades). 75 new A with same-day matched B (15 at a time). 31 new words left over from Nov 20 close the gap if the morning allows. Reviews oldest-first at home.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
-        "impact_done": "",
-        "impact_skipped": ""
-      },
-      {
-        "id": "nov20-gym-workout-b",
-        "source": "agent",
-        "label": "Gym · Workout B",
-        "window": "8:00-9:00 PM · Mon/Wed/Fri",
-        "target": "Workout B at the gym, 20:00-21:00, guided one-movement-per-screen mode in the QuestFit web app. His own schedule (meal-prep briefs, Nov 19): gym Mon/Wed/Fri 8-9 PM alternating A and B; the app shows Workout B for Friday. Pre-gym snack 18:30 (2 bananas + 45 g peanuts/chana), dinner 21:15.",
-        "status": "pending",
-        "progress_text": "Confirmed Nov 19 08:48: 'I am doing the gym plan.' Schedule from his own meal-prep documents.",
         "impact_done": "",
         "impact_skipped": ""
       }
@@ -7196,6 +7190,38 @@
           "target": "Day 4 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Open from earlier days: matched B for Nov 17's 97 words and the carryover balance (155 old B words at the Nov 18 21:00 summary).",
           "status": "done",
           "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 4 cleared, sync-verified: 85/75 new A words (final Gist sync 23:57 IST; the 66/9-left figure was the earlier sync, before his 23:05-23:11 batch). B untouched: 0 B grades, matched B 0/85. Reviews: 441 A grade events across 307 distinct cards. App aggregate Nov19: 105 min, 736 reviews (app's own record, not verified).",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Friday, 20 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov20-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 20 Nov",
+          "target": "Day 5: B reviews first this morning (1,088 B due at the Nov 19 21:47 check). 75 new A with same-day matched B (15 at a time); B side now 240 new words deep with zero B grades in three days. Reviews oldest-first at home.",
+          "status": "partial",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 5 partial: 44/75 new A banked at the 23:08 check with no later sync; first matched B in three days (11 paired). 31 new words short of quota. B reviews (1,095 due per the 21:03 coach note) unreported. App-reported Nov 20 aggregate: 50 min, 371 reviews (app's own record, not verified).",
+          "impact_done": "",
+          "impact_skipped": ""
+        },
+        {
+          "id": "nov20-gym-workout-b",
+          "source": "agent",
+          "label": "Gym · Workout B",
+          "window": "8:00-9:00 PM · Mon/Wed/Fri",
+          "target": "Workout B at the gym, 20:00-21:00, guided one-movement-per-screen mode in the QuestFit web app. His own schedule (meal-prep briefs, Nov 19): gym Mon/Wed/Fri 8-9 PM alternating A and B; the app shows Workout B for Friday. Pre-gym snack 18:30 (2 bananas + 45 g peanuts/chana), dinner 21:15.",
+          "status": "pending",
+          "progress_text": "Confirmed Nov 19 08:48: 'I am doing the gym plan.' Schedule from his own meal-prep documents. No workout self-report or app record for Friday 20:00-21:00; he was working through VibeStream builds past midnight. Unreported stays unverified.",
           "impact_done": "",
           "impact_skipped": ""
         }
