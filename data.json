@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-20T04:41:16+05:30",
-  "updatedLabel": "20 Nov 2026, 04:41 AM IST",
+  "updatedAt": "2026-11-20T12:47:09+05:30",
+  "updatedLabel": "20 Nov 2026, 12:47 PM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
     "date": "2026-11-20T00:00:00+05:30",
     "dateLabel": "Updated 04:41 IST",
     "status": "20 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 5 of 14 (Nov 15 exam written, result pending): day 4 partial (66/75 new A, B untouched two days, 1,088 B due) - B first this morning, finish the 9 leftover new words, then 75 new A + same-day matched B + 19 carryover B. Gym Workout B 20:00 (his Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 19 reports): ReelSaga YouTube held - Kuaikan claims now block 6 Don's Bride parts and Bank E1P3 worldwide (not strikes), music-only fixes, next-series pick and the DramaCPS support email all awaiting his yes; Mind 018 at 18:00, boutique saree reel #5 at 15:30; Astro DM pilot paused. Built Nov 19 on his approvals: QuestFit v0.9.1 (gym plan guided mode, polished), his mother's meal checklist site live (Tamil/English), horoscope timeline tab live, N3 test card layout B live and retry-by-lesson in mockup, 3 class tests added to the N3 app."
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 5 of 14 (Nov 15 exam written, result pending): day 4 cleared, sync-verified (85/75 new A, final Gist sync 23:57); B side 240 new words deep with zero B grades in three days - B first this morning, then 75 new A with same-day matched B. Gym Workout B 20:00 (his Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 19 reports): ReelSaga YouTube held - Kuaikan claims now block 6 Don's Bride parts and Bank E1P3 worldwide (not strikes), music-only fixes, next-series pick and the DramaCPS support email all awaiting his yes; Mind 018 at 18:00, boutique saree reel #5 at 15:30; Astro DM pilot paused. Built Nov 19 on his approvals: QuestFit v0.9.1 (gym plan guided mode, polished), his mother's meal checklist site live (Tamil/English), horoscope timeline tab live, N3 test card layout B live and retry-by-lesson in mockup, 3 class tests added to the N3 app."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-20T12:47:09+05:30",
+              "source": "Agent · day-4 correction (coach Gist 23:57)",
+              "text": "Correction to the 04:41 reconciliation: Day 4 (Nov 19) CLEARED, sync-verified - 85/75 new A per the final Gist sync 23:57 IST; the 66/9-left figure was the earlier sync, before his 23:05-23:11 batch. B still untouched (0 B grades, matched B 0/85; 240 new words deep over three days). Reviews: 441 A grade events across 307 distinct cards. Archive status updated partial to done. Also done Nov 19: 3 class tests submitted and a 111-item morning review."
+            },
+            {
               "at": "2026-11-20T04:41:16+05:30",
               "source": "Agent · sprint day-4 reconciliation (Nov 20 rollover)",
               "text": "Day 4 (Nov 19) partial: 66/75 new A at the 23:11 check with no later sync; B untouched (0 B grades in two days, 1,088 B due, 197 behind per Gist 18:29). His 23:11 plan: B reviews first next morning. Extra study: 3 class tests submitted and a 111-item morning review. App-reported aggregate: 105 min, 736 reviews. Archived partial. New: gym added to My Day on gym days (his own Mon/Wed/Fri 20:00 schedule, 'I am doing the gym plan'). Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 4 of 14 (Nov 15 exam written, result pending): 75 new A words with same-day matched B, 19 carryover B, reviews oldest-first at home; Day 1 cleared 94/75, Day 2 partial (97/75 new A), Day 3 unverified (last sync 15:58). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 18 21:00-00:44 agent reports): ReelSaga YouTube held - Gold Digger E2P1 claim-blocked (not a strike), 3 music-only claim fixes and next-series choice awaiting his yes, CDRAMABOSS licence enquiry unanswered; Mind, Gently 012 published, 035-038 on hold per him; boutique saree reel #3 public, #4 Nov 19 15:30; Astro DM pilot paused. Built on his go-ahead: horoscope app mobile-first redesign live with Kili the parrot (00:44), beginner-Japanese sprout mascot live, QuestFit v0.6 sent and his 3-day gym plan being loaded, VibeStream redesign APKs delivered."
@@ -4440,7 +4445,7 @@
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
         "window": "Daily focus check-in · 20 Nov",
-        "target": "Day 5: B reviews first in the morning (his 23:11 Nov 19 plan: 1,088 B due, backlog grew two days). Finish the 9 new words left from Nov 19, then 75 new A with same-day matched B (15 at a time) and 19 carryover B. Reviews oldest-first at home in the evening.",
+        "target": "Day 5: B reviews first this morning (1,088 B due at the Nov 19 21:47 check). 75 new A with same-day matched B (15 at a time); B side now 240 new words deep with zero B grades in three days. Reviews oldest-first at home.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
@@ -7189,8 +7194,8 @@
           "label": "Japanese N3 · Dec 13 retry",
           "window": "Daily focus check-in · 19 Nov",
           "target": "Day 4 (his 00:07-00:14 Nov 17 plan): 75 new words in A with the same 75 in B, same day (15 at a time), 19 carryover B, reviews oldest-first at home in the evening. Open from earlier days: matched B for Nov 17's 97 words and the carryover balance (155 old B words at the Nov 18 21:00 summary).",
-          "status": "partial",
-          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 4 partial: 66/75 new words at the 23:11 check (9 left, no later sync seen). B untouched: 0 B grades in two days, 1,088 B due, backlog 197 words behind (Gist 18:29). Also done: 3 class tests submitted (vocab 22/25, kanji 18/20, grammar 17/20) and a morning review round of 111 items. App-reported Nov 19 aggregate: 105 min, 736 reviews (app's own record, not verified).",
+          "status": "done",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 4 cleared, sync-verified: 85/75 new A words (final Gist sync 23:57 IST; the 66/9-left figure was the earlier sync, before his 23:05-23:11 batch). B untouched: 0 B grades, matched B 0/85. Reviews: 441 A grade events across 307 distinct cards. App aggregate Nov19: 105 min, 736 reviews (app's own record, not verified).",
           "impact_done": "",
           "impact_skipped": ""
         }
