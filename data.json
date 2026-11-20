@@ -8428,6 +8428,22 @@
         },
         "source": "N3 app daily aggregate, 2026-11-19",
         "checked_at": "2026-11-19T18:26:27.154Z"
+      },
+      {
+        "date": "2026-11-20",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 4,
+        "reviewsDone": 50,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 23,
+          "sessions": 1,
+          "chapters": [],
+          "units": []
+        },
+        "source": "N3 app daily aggregate, 2026-11-20",
+        "checked_at": "2026-11-20T01:29:58.878Z"
       }
     ],
     "contests": [
