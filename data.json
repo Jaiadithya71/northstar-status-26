@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-23T04:40:36+05:30",
-  "updatedLabel": "23 Nov 2026, 04:40 AM IST",
+  "updatedAt": "2026-11-23T04:48:47+05:30",
+  "updatedLabel": "23 Nov 2026, 04:48 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
     "date": "2026-11-23T00:00:00+05:30",
     "dateLabel": "Updated 04:40 IST",
     "status": "23 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 8 of 14 (Nov 15 exam written, result pending): nothing synced since Friday 13:28 (63+ hours), 235 words behind the plan line. Sync first, B side first, then 75 new A with same-day matched B. Gym returns tonight 20:00 (Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 22 reports): QuestFit clips stop-or-hunt, VibeStream phone test, ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers - he sent no messages on Sunday. Bangalore 2-day family trip plan drafted, group composition question open."
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 8 of 14 (Nov 15 exam written, result pending): last verified sync Nov 22 09:07 (20 B grade events, 7 B cards, 0 new A; none later as of 22:17); well behind the plan line. B side first, then 75 new A with same-day matched B. Gym returns tonight 20:00 (Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 22 reports): QuestFit clips stop-or-hunt, VibeStream phone test, ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers - he sent no messages on Sunday. Bangalore 2-day family trip plan drafted, group composition question open."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-23T04:48:47+05:30",
+              "source": "Agent · stale-sync correction (coach-verified)",
+              "text": "Correction: a Gist sync DID land Nov 22 09:07 - 20 B grade events across 7 distinct B cards, 0 new A, none later as of 22:17. Removed the 'nothing synced since Nov 20 13:28' claims from the Nov 23 target, the header and Sunday's archive. Plan-line gap figure dropped (235 was Sunday's and no newer figure is available yet). Monday quota 75 and pending statuses unchanged."
+            },
+            {
               "at": "2026-11-23T04:40:36+05:30",
               "source": "Agent · sprint day-7 reconciliation (Nov 23 rollover)",
               "text": "Day 7 (Nov 22) unverified: no sync since Friday 13:28, 235 behind the plan line at last sync, no messages from him all day. Archived pending. Day 8 quota 75 new A (standing weekday pattern; weekend days were 90 per the coach). Gym check-in returns today (Mon/Wed/Fri schedule). Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 7 of 14 (Nov 15 exam written, result pending): nothing synced since Nov 20 13:28, 145 words behind the plan line. Sync first, then B side (2,576 reviews due, 273 unmatched), then 90 new A with same-day matched B. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 21 reports): ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers; QuestFit clip tool now charges - stop or hunt is his call; old private Mind video's real title and description restored after an upload mix-up (still private). VibeStream download-progress build awaiting his phone test. New thread: 2-day Bangalore family trip being planned."
@@ -4465,7 +4470,7 @@
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
         "window": "Daily focus check-in · 23 Nov",
-        "target": "Day 8: sync first (nothing has reached the tracker since Nov 20 13:28). B side first - reviews oldest-first at home. 75 new A with same-day matched B (15 at a time), the standing weekday quota (weekend days were 90 per the coach). 235 words behind the plan line at last sync.",
+        "target": "Day 8: B side first - reviews oldest-first at home. 75 new A with same-day matched B (15 at a time), the standing weekday quota (weekend days were 90 per the coach). Last verified Gist sync Nov 22 09:07: 20 B grade events across 7 B cards, 0 new A; no later sync as of 22:17.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
         "impact_done": "",
@@ -7289,7 +7294,7 @@
           "window": "Daily focus check-in · 22 Nov",
           "target": "Day 7: sync first (nothing has reached the tracker since Nov 20 13:28), then B side first - 2,576 reviews due, 273 new words without B grades. 90 new A with same-day matched B (15 at a time), per the coach's 22:13 Nov 21 note. 145 words behind the plan line. Reviews oldest-first at home.",
           "status": "pending",
-          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 7 unverified against target: app-reported aggregate 8 min, 82 reviews, 27 unique items across 2 sessions (synced 09:06; app's own record, not verified) - far short of the 90-new-A target. The coach's detailed Gist still showed nothing new since Nov 20 13:28 (235 words behind the plan line; the line was 551 by Sunday night). He sent no messages all day.",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 7 unverified against target: app-reported aggregate 8 min, 82 reviews, 27 unique items across 2 sessions (synced 09:06; app's own record, not verified) - far short of the 90-new-A target. Coach-verified Gist sync Nov 22 09:07: 20 B grade events across 7 distinct B cards, 0 new A, no later sync as of 22:17. He sent no messages all day.",
           "impact_done": "",
           "impact_skipped": ""
         }
