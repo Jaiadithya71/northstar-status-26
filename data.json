@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-22T04:41:05+05:30",
-  "updatedLabel": "22 Nov 2026, 04:41 AM IST",
+  "updatedAt": "2026-11-23T04:40:36+05:30",
+  "updatedLabel": "23 Nov 2026, 04:40 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-22T00:00:00+05:30",
-    "dateLabel": "Updated 04:41 IST",
-    "status": "22 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 7 of 14 (Nov 15 exam written, result pending): nothing synced since Nov 20 13:28, 145 words behind the plan line. Sync first, then B side (2,576 reviews due, 273 unmatched), then 90 new A with same-day matched B. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 21 reports): ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers; QuestFit clip tool now charges - stop or hunt is his call; old private Mind video's real title and description restored after an upload mix-up (still private). VibeStream download-progress build awaiting his phone test. New thread: 2-day Bangalore family trip being planned."
+    "date": "2026-11-23T00:00:00+05:30",
+    "dateLabel": "Updated 04:40 IST",
+    "status": "23 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 8 of 14 (Nov 15 exam written, result pending): nothing synced since Friday 13:28 (63+ hours), 235 words behind the plan line. Sync first, B side first, then 75 new A with same-day matched B. Gym returns tonight 20:00 (Mon/Wed/Fri schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 22 reports): QuestFit clips stop-or-hunt, VibeStream phone test, ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers - he sent no messages on Sunday. Bangalore 2-day family trip plan drafted, group composition question open."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-23T04:40:36+05:30",
+              "source": "Agent · sprint day-7 reconciliation (Nov 23 rollover)",
+              "text": "Day 7 (Nov 22) unverified: no sync since Friday 13:28, 235 behind the plan line at last sync, no messages from him all day. Archived pending. Day 8 quota 75 new A (standing weekday pattern; weekend days were 90 per the coach). Gym check-in returns today (Mon/Wed/Fri schedule). Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 7 of 14 (Nov 15 exam written, result pending): nothing synced since Nov 20 13:28, 145 words behind the plan line. Sync first, then B side (2,576 reviews due, 273 unmatched), then 90 new A with same-day matched B. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 21 reports): ReelSaga restart decisions, Astro resume-or-paused and the N3 plan change (200 reviews/day + 19 carryover) all still awaiting his answers; QuestFit clip tool now charges - stop or hunt is his call; old private Mind video's real title and description restored after an upload mix-up (still private). VibeStream download-progress build awaiting his phone test. New thread: 2-day Bangalore family trip being planned."
+            },
+            {
               "at": "2026-11-22T04:41:05+05:30",
               "source": "Agent · sprint day-6 reconciliation (Nov 22 rollover)",
               "text": "Day 6 (Nov 21) unverified: no sync in 30+ hours, 0 of 90 new recorded, 145 behind the plan line, 273 B unmatched, 2,576 reviews due. Archived pending. Sunday quota stays 90 new A with matched B per the coach's 22:13 note. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 6 of 14 (Nov 15 exam written, result pending): day 5 partial (44/75 new A, first 11 matched B in three days). B side first today - 1,095 reviews due, 240+ new words without B grades; then 90 new A with same-day matched B (Saturday coach schedule). | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 20 reports): ReelSaga restart decisions (3 music fixes, next series, DramaCPS email) still awaiting his yes; Astro review window ended Nov 20 - resume or stay paused is his call; N3 plan 200 reviews/day + 19 carryover awaiting his confirm-or-drop; Mind 018 and saree reel #5 posted. Built Nov 20 on his approvals: N3 Listening tab live (2,183 clips, Voice B) plus Review Again, result counts and kanji fixes; VibeStream 7 builds (YT Music device-code sign-in, live queue, Home shelves fix); QuestFit machine photos live."
@@ -4448,21 +4453,32 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-22",
-    "label": "Sunday, 22 Nov",
+    "date": "2026-11-23",
+    "label": "Monday, 23 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov22-focus-n3",
+        "id": "nov23-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 22 Nov",
-        "target": "Day 7: sync first (nothing has reached the tracker since Nov 20 13:28), then B side first - 2,576 reviews due, 273 new words without B grades. 90 new A with same-day matched B (15 at a time), per the coach's 22:13 Nov 21 note. 145 words behind the plan line. Reviews oldest-first at home.",
+        "window": "Daily focus check-in · 23 Nov",
+        "target": "Day 8: sync first (nothing has reached the tracker since Nov 20 13:28). B side first - reviews oldest-first at home. 75 new A with same-day matched B (15 at a time), the standing weekday quota (weekend days were 90 per the coach). 235 words behind the plan line at last sync.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "nov23-gym",
+        "source": "agent",
+        "label": "Gym session · QuestFit guided",
+        "window": "8:00-9:00 PM · Mon/Wed/Fri",
+        "target": "Gym 20:00-21:00 per his Mon/Wed/Fri schedule (his own meal-prep briefs, Nov 19). The QuestFit web app guides today's workout - A and B alternate, last shown was B on Friday. Pre-gym snack 18:30 (2 bananas + 45 g peanuts/chana), dinner 21:15.",
+        "status": "pending",
+        "progress_text": "Confirmed Nov 19 08:48: 'I am doing the gym plan.' Friday's session went unreported.",
         "impact_done": "",
         "impact_skipped": ""
       }
@@ -7253,6 +7269,27 @@
           "target": "Day 6 (Saturday coach schedule): B side first (1,095 reviews due at the Nov 20 21:03 coach note; 240+ new words still without B grades). 90 new A with same-day matched B (15 at a time), per the coach's Saturday schedule and the 08:21 report. Reviews oldest-first at home.",
           "status": "pending",
           "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 6 unverified: nothing synced to the tracker in 30+ hours (last sync Nov 20 13:28), so no study can be counted - 0 of 90 new recorded, 145 words behind the plan, 273 B unmatched, 2,576 reviews due (21:00 summary and 22:13 coach note). No app-reported aggregate exists for Nov 21.",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "label": "Sunday, 22 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov22-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 22 Nov",
+          "target": "Day 7: sync first (nothing has reached the tracker since Nov 20 13:28), then B side first - 2,576 reviews due, 273 new words without B grades. 90 new A with same-day matched B (15 at a time), per the coach's 22:13 Nov 21 note. 145 words behind the plan line. Reviews oldest-first at home.",
+          "status": "pending",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 7 unverified against target: app-reported aggregate 8 min, 82 reviews, 27 unique items across 2 sessions (synced 09:06; app's own record, not verified) - far short of the 90-new-A target. The coach's detailed Gist still showed nothing new since Nov 20 13:28 (235 words behind the plan line; the line was 551 by Sunday night). He sent no messages all day.",
           "impact_done": "",
           "impact_skipped": ""
         }
