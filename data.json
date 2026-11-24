@@ -8637,17 +8637,17 @@
         "date": "2026-11-24",
         "track": "japanese",
         "status": "done",
-        "minutes": 68,
-        "reviewsDone": 571,
+        "minutes": 78,
+        "reviewsDone": 658,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 167,
-          "sessions": 9,
+          "sessions": 10,
           "chapters": [],
           "units": []
         },
         "source": "N3 app daily aggregate, 2026-11-24",
-        "checked_at": "2026-11-24T03:57:30.744Z"
+        "checked_at": "2026-11-24T04:07:35.516Z"
       }
     ],
     "contests": [
@@ -17509,6 +17509,23 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T03:46:10.652Z",
         "replacedAt": "2026-11-24T03:57:30.744Z"
+      },
+      {
+        "date": "2026-11-24",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 68,
+        "reviewsDone": 571,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 167,
+          "sessions": 9,
+          "chapters": [],
+          "units": []
+        },
+        "source": "N3 app daily aggregate, 2026-11-24",
+        "checked_at": "2026-11-24T03:57:30.744Z",
+        "replacedAt": "2026-11-24T04:07:35.516Z"
       }
     ]
   }
