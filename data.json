@@ -8637,12 +8637,12 @@
         "date": "2026-11-24",
         "track": "japanese",
         "status": "done",
-        "minutes": 103,
-        "reviewsDone": 873,
+        "minutes": 107,
+        "reviewsDone": 908,
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 194,
-          "sessions": 13,
+          "sessions": 14,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8659,7 +8659,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-24",
-        "checked_at": "2026-11-24T04:33:26.035Z"
+        "checked_at": "2026-11-24T04:38:07.869Z"
       }
     ],
     "contests": [
@@ -17589,6 +17589,35 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T04:24:42.817Z",
         "replacedAt": "2026-11-24T04:33:26.035Z"
+      },
+      {
+        "date": "2026-11-24",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 103,
+        "reviewsDone": 873,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 194,
+          "sessions": 13,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C04: Part 2 Chapter 4: Adverbs",
+            "C06: Part 2 Chapter 6: Easily Confused Words",
+            "T07: Hospital",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T19: Nature 2: Plants and Animals",
+            "T50: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-24",
+        "checked_at": "2026-11-24T04:33:26.035Z",
+        "replacedAt": "2026-11-24T04:38:07.869Z"
       }
     ]
   }
