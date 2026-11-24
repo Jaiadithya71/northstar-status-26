@@ -8637,12 +8637,12 @@
         "date": "2026-11-24",
         "track": "japanese",
         "status": "done",
-        "minutes": 115,
-        "reviewsDone": 1002,
+        "minutes": 119,
+        "reviewsDone": 1040,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 221,
-          "sessions": 17,
+          "uniqueItems": 244,
+          "sessions": 18,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8655,11 +8655,12 @@
             "T12: Education 2: School Life (University)",
             "T13: Work 1: Jobs & Work",
             "T19: Nature 2: Plants and Animals",
+            "T41: Education, Culture & Daily Life (2)",
             "T50: New Onyomi to Learn: Nouns & Adjectives"
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-24",
-        "checked_at": "2026-11-24T04:47:16.405Z"
+        "checked_at": "2026-11-24T04:51:58.619Z"
       }
     ],
     "contests": [
@@ -17705,6 +17706,35 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T04:44:41.780Z",
         "replacedAt": "2026-11-24T04:47:16.405Z"
+      },
+      {
+        "date": "2026-11-24",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 115,
+        "reviewsDone": 1002,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 221,
+          "sessions": 17,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C04: Part 2 Chapter 4: Adverbs",
+            "C06: Part 2 Chapter 6: Easily Confused Words",
+            "T07: Hospital",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T19: Nature 2: Plants and Animals",
+            "T50: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-24",
+        "checked_at": "2026-11-24T04:47:16.405Z",
+        "replacedAt": "2026-11-24T04:51:58.619Z"
       }
     ]
   }
