@@ -8637,12 +8637,12 @@
         "date": "2026-11-24",
         "track": "japanese",
         "status": "done",
-        "minutes": 201,
-        "reviewsDone": 1710,
+        "minutes": 209,
+        "reviewsDone": 1780,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 492,
-          "sessions": 35,
+          "uniqueItems": 533,
+          "sessions": 36,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8668,7 +8668,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-24",
-        "checked_at": "2026-11-24T14:20:46.001Z"
+        "checked_at": "2026-11-24T14:30:03.317Z"
       }
     ],
     "contests": [
@@ -18341,6 +18341,44 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T14:18:04.439Z",
         "replacedAt": "2026-11-24T14:20:46.001Z"
+      },
+      {
+        "date": "2026-11-24",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 201,
+        "reviewsDone": 1710,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 492,
+          "sessions": 35,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C04: Part 2 Chapter 4: Adverbs",
+            "C06: Part 2 Chapter 6: Easily Confused Words",
+            "T07: Hospital",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T19: Nature 2: Plants and Animals",
+            "T41: Education, Culture & Daily Life (2)",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)",
+            "T45: Transportation & Travel (1)",
+            "T46: Transportation & Travel (2)",
+            "T47: New Onyomi to Learn: Verbs",
+            "T48: New Onyomi to Learn: Nouns & Adjectives",
+            "T49: New Kanji to Learn Onyomi & Kunyomi: Verbs",
+            "T50: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-24",
+        "checked_at": "2026-11-24T14:20:46.001Z",
+        "replacedAt": "2026-11-24T14:30:03.317Z"
       }
     ]
   }
