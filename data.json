@@ -8637,12 +8637,12 @@
         "date": "2026-11-24",
         "track": "japanese",
         "status": "done",
-        "minutes": 212,
-        "reviewsDone": 1824,
+        "minutes": 293,
+        "reviewsDone": 1841,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 533,
-          "sessions": 38,
+          "uniqueItems": 542,
+          "sessions": 39,
           "chapters": [
             "Part 1: Topics",
             "Part 2: Characteristics"
@@ -8655,6 +8655,7 @@
             "T12: Education 2: School Life (University)",
             "T13: Work 1: Jobs & Work",
             "T19: Nature 2: Plants and Animals",
+            "T20: Numbers and Quantities",
             "T41: Education, Culture & Daily Life (2)",
             "T42: Education, Culture & Daily Life (3)",
             "T43: Education, Culture & Daily Life (4)",
@@ -8668,7 +8669,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-24",
-        "checked_at": "2026-11-24T14:34:32.584Z"
+        "checked_at": "2026-11-24T15:55:33.532Z"
       }
     ],
     "contests": [
@@ -18455,6 +18456,44 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T14:32:30.849Z",
         "replacedAt": "2026-11-24T14:34:32.584Z"
+      },
+      {
+        "date": "2026-11-24",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 212,
+        "reviewsDone": 1824,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 533,
+          "sessions": 38,
+          "chapters": [
+            "Part 1: Topics",
+            "Part 2: Characteristics"
+          ],
+          "units": [
+            "C04: Part 2 Chapter 4: Adverbs",
+            "C06: Part 2 Chapter 6: Easily Confused Words",
+            "T07: Hospital",
+            "T11: Education 1: School Life (Elementary, Junior & Senior High School)",
+            "T12: Education 2: School Life (University)",
+            "T13: Work 1: Jobs & Work",
+            "T19: Nature 2: Plants and Animals",
+            "T41: Education, Culture & Daily Life (2)",
+            "T42: Education, Culture & Daily Life (3)",
+            "T43: Education, Culture & Daily Life (4)",
+            "T44: Education, Culture & Daily Life (5)",
+            "T45: Transportation & Travel (1)",
+            "T46: Transportation & Travel (2)",
+            "T47: New Onyomi to Learn: Verbs",
+            "T48: New Onyomi to Learn: Nouns & Adjectives",
+            "T49: New Kanji to Learn Onyomi & Kunyomi: Verbs",
+            "T50: New Onyomi to Learn: Nouns & Adjectives"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-24",
+        "checked_at": "2026-11-24T14:34:32.584Z",
+        "replacedAt": "2026-11-24T15:55:33.532Z"
       }
     ]
   }
