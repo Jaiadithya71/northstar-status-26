@@ -8717,7 +8717,7 @@
         "metricVersion": 2,
         "dayStats": {
           "uniqueItems": 94,
-          "sessions": 4,
+          "sessions": 6,
           "chapters": [
             "Part 1: Topics"
           ],
@@ -8727,7 +8727,7 @@
           ]
         },
         "source": "N3 app daily aggregate, 2026-11-25",
-        "checked_at": "2026-11-25T02:45:17.447Z"
+        "checked_at": "2026-11-25T07:27:27.037Z"
       }
     ],
     "contests": [
@@ -18612,6 +18612,28 @@
         "source": "N3 app daily aggregate, 2026-11-25",
         "checked_at": "2026-11-25T02:40:30.828Z",
         "replacedAt": "2026-11-25T02:45:17.447Z"
+      },
+      {
+        "date": "2026-11-25",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 21,
+        "reviewsDone": 177,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 94,
+          "sessions": 4,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T19: Nature 2: Plants and Animals",
+            "T20: Numbers and Quantities"
+          ]
+        },
+        "source": "N3 app daily aggregate, 2026-11-25",
+        "checked_at": "2026-11-25T02:45:17.447Z",
+        "replacedAt": "2026-11-25T07:27:27.037Z"
       }
     ]
   }
