@@ -8712,17 +8712,21 @@
         "date": "2026-11-25",
         "track": "japanese",
         "status": "done",
-        "minutes": 1,
-        "reviewsDone": 8,
+        "minutes": 6,
+        "reviewsDone": 59,
         "metricVersion": 2,
         "dayStats": {
-          "uniqueItems": 6,
-          "sessions": 1,
-          "chapters": [],
-          "units": []
+          "uniqueItems": 46,
+          "sessions": 2,
+          "chapters": [
+            "Part 1: Topics"
+          ],
+          "units": [
+            "T20: Numbers and Quantities"
+          ]
         },
         "source": "N3 app daily aggregate, 2026-11-25",
-        "checked_at": "2026-11-24T18:40:29.420Z"
+        "checked_at": "2026-11-25T02:25:46.120Z"
       }
     ],
     "contests": [
@@ -18547,6 +18551,23 @@
         "source": "N3 app daily aggregate, 2026-11-24",
         "checked_at": "2026-11-24T14:34:32.584Z",
         "replacedAt": "2026-11-24T15:55:33.532Z"
+      },
+      {
+        "date": "2026-11-25",
+        "track": "japanese",
+        "status": "done",
+        "minutes": 1,
+        "reviewsDone": 8,
+        "metricVersion": 2,
+        "dayStats": {
+          "uniqueItems": 6,
+          "sessions": 1,
+          "chapters": [],
+          "units": []
+        },
+        "source": "N3 app daily aggregate, 2026-11-25",
+        "checked_at": "2026-11-24T18:40:29.420Z",
+        "replacedAt": "2026-11-25T02:25:46.120Z"
       }
     ]
   }
