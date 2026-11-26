@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-26T12:55:03+05:30",
-  "updatedLabel": "26 Nov 2026, 12:55 PM IST",
+  "updatedAt": "2026-11-27T04:41:03+05:30",
+  "updatedLabel": "27 Nov 2026, 04:41 AM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
-    "date": "2026-11-26T00:00:00+05:30",
+    "date": "2026-11-27T00:00:00+05:30",
     "dateLabel": "Updated 04:41 IST",
-    "status": "26 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam not passed; his number confirmed absent from the official pass list Nov 26, as he expected; score report due around Dec 6): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED UNTIL HE PASSES N3 (his word Nov 26): daily timed LC (Striver A2Z) + Sunday contest, Astro, Kaggle, ReelSaga restart picks. | HANDLED BY INSTINCT (per Nov 26 reports): 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) on Nov 25 - none a strike, no channel action; the ReelSaga watch keeps running. SASTRA caution-deposit mail sent to Dean SWAS 08:46 Nov 26, awaiting reply (watch in place). Boutique and Mind keep running; QuestFit and VibeStream stay active at his request (Nov 26). Open for him: Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28)."
+    "status": "27 Nov status sync",
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 12 of 14 (Nov 15 exam not passed, as he expected; score report ~Dec 6): day 11 also had 0 new words on record (nothing synced Nov 26), 204 behind the Nov 29 line, 2,828 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED UNTIL HE PASSES N3 (his word Nov 26): daily timed LC + Sunday contest, Astro, Kaggle, ReelSaga restart picks. | HANDLED BY INSTINCT (per Nov 26 reports): VibeStream - all planned items built and APKs sent (auto play log syncing to his own Cloudflare store, first 6 plays received; latest build still untested on his phone); Japan prep - checklist + 8 floor-plan photos saved to private repo Japan-Pre-Departure, to-scale plans PDF with Kanamachi rents in ₹ delivered, suit bought (₹8,800 at 50% off = ~₹4,400, Fashion Factory); SASTRA caution-deposit mail sent 08:46 Nov 26, awaiting Dean SWAS (watch in place); boutique #11 + Mind 024 verified. Open for him: Visa SWE application (deadline Nov 30, agent asks again Nov 28), VibeStream latest-APK phone test, QuestFit clips decision, Japan list owned-items count."
   },
   "groups": [
     {
@@ -3315,6 +3315,11 @@
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
             {
+              "at": "2026-11-27T04:41:03+05:30",
+              "source": "Agent · sprint day-11 reconciliation (Nov 27 rollover)",
+              "text": "Day 11 (Nov 26) also missed on record: nothing synced all day (last sync Nov 25 12:57), 204 behind the Nov 29 line, 1,421 A + 1,407 B reviews due; no reply to three evening checks. Archived pending. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam not passed; his number confirmed absent from the official pass list Nov 26, as he expected; score report due around Dec 6): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED UNTIL HE PASSES N3 (his word Nov 26): daily timed LC (Striver A2Z) + Sunday contest, Astro, Kaggle, ReelSaga restart picks. | HANDLED BY INSTINCT (per Nov 26 reports): 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) on Nov 25 - none a strike, no channel action; the ReelSaga watch keeps running. SASTRA caution-deposit mail sent to Dean SWAS 08:46 Nov 26, awaiting reply (watch in place). Boutique and Mind keep running; QuestFit and VibeStream stay active at his request (Nov 26). Open for him: Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28)."
+            },
+            {
               "at": "2026-11-26T12:55:03+05:30",
               "source": "Agent · scope pause + Nov 15 result (Nov 26)",
               "text": "Nov 15 NAT-TEST result: not passed - his number confirmed absent from the official pass list Nov 26, as he expected; score report due around Dec 6 via the 2020 Gmail, he agreed to forward it. His word Nov 26 08:47: 'Lets pause astro and others till i pass n3' - settled scope: paused until he passes N3: Astro, Kaggle, ReelSaga restart picks; QuestFit and VibeStream stay active at his request; Boutique, Mind and the ReelSaga watch keep running. SASTRA caution-deposit mail sent to Dean SWAS 08:46 Nov 26, watch in place. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam written, result pending): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 25 reports): boutique #10 and Mind 023 verified public; VibeStream mood engine v1 built (APK sent, not phone-tested); 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) - none a strike, no channel action; lanes still empty, restart picks waiting 9 days; QuestFit clips still held. Open for him: Kaggle entry - deadline reported at 05:29 IST today, entry status unknown (agent rechecks 08:30), SASTRA caution-deposit mail draft, Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28), Astro resume-or-paused."
@@ -4478,21 +4483,33 @@
   ],
   "footer": "A snapshot, not a live feed. Updated manually when plans change.",
   "today": {
-    "date": "2026-11-26",
-    "label": "Thursday, 26 Nov",
+    "date": "2026-11-27",
+    "label": "Friday, 27 Nov",
     "dayEnd": "23:30",
     "dayEndLabel": "Sleep 23:30 · wake 06:00",
     "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
     "items": [
       {
-        "id": "nov26-focus-n3",
+        "id": "nov27-focus-n3",
         "projectId": "focus-n3",
         "source": "agent",
         "label": "Japanese N3 · Dec 13 retry",
-        "window": "Daily focus check-in · 26 Nov",
-        "target": "Day 11, redrawn plan: 75 new A with same-day matched B (15 at a time). 129 words behind the Nov 29 line at the Nov 25 21:47 check-out; 2,656 reviews due. Sync first so the work counts, reviews oldest-first at home.",
+        "window": "Daily focus check-in · 27 Nov",
+        "target": "Day 12, redrawn plan: 75 new A with same-day matched B (15 at a time). 204 words behind the Nov 29 line at the Nov 26 21:47 check with 3 days left; 2,828 reviews due at the Nov 26 snapshot. Sync the app first so the work counts, then new words with B paired.",
         "status": "pending",
         "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass.",
+        "impact_done": "",
+        "impact_skipped": ""
+      },
+      {
+        "id": "nov27-gym",
+        "projectId": "gym",
+        "source": "user",
+        "label": "Gym (QuestFit-guided A/B)",
+        "window": "20:00-21:00 · Mon/Wed/Fri (his own schedule)",
+        "target": "Friday session, 20:00-21:00. QuestFit app alternates A/B; report after the session.",
+        "status": "pending",
+        "progress_text": "Confirmed Nov 19 08:48: 'I am doing the gym plan.' Schedule from his own meal-prep documents. Mon, Wed sessions this week went unreported.",
         "impact_done": "",
         "impact_skipped": ""
       }
@@ -7389,6 +7406,27 @@
           "target": "Gym 20:00-21:00 per his Mon/Wed/Fri schedule (his own meal-prep briefs, Nov 19). The QuestFit web app guides today's workout - A and B alternate. Pre-gym snack 18:30 (2 bananas + 45 g peanuts/chana), dinner 21:15.",
           "status": "pending",
           "progress_text": "Confirmed Nov 19 08:48: 'I am doing the gym plan.' Schedule from his own meal-prep documents. No workout self-report or app record for Wednesday 20:00-21:00 (21:00 summary: 'no gym proof for tonight'). Third scheduled session in a row unreported.",
+          "impact_done": "",
+          "impact_skipped": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Thursday, 26 Nov",
+      "dayEnd": "23:30",
+      "dayEndLabel": "Sleep 23:30 · wake 06:00",
+      "note": "Six current focus threads. Agent reports and saved personal check-ins are separate; pending does not prove no work. Project snapshots retain their dates. Career achievement checks survive daily rollover.",
+      "items": [
+        {
+          "id": "nov26-focus-n3",
+          "projectId": "focus-n3",
+          "source": "agent",
+          "label": "Japanese N3 · Dec 13 retry",
+          "window": "Daily focus check-in · 26 Nov",
+          "target": "Day 11, redrawn plan: 75 new A with same-day matched B (15 at a time). 129 words behind the Nov 29 line at the Nov 25 21:47 check-out; 2,656 reviews due. Sync first so the work counts, reviews oldest-first at home.",
+          "status": "pending",
+          "progress_text": "Target: NAT-TEST 3Q pass at the Dec 13 retry before planned Japan landing. Goal, not a reported pass. Day 11 also missed on record: nothing synced on Nov 26 (last sync Nov 25 12:57), so 0 new words visible; 204 behind the Nov 29 line at the 19:35 and 21:47 checks (129 + 75 as the line moved). Due reviews at the snapshot: 1,421 A + 1,407 B. No reply to three evening checks. No app-reported training entry for Nov 26.",
           "impact_done": "",
           "impact_skipped": ""
         }
