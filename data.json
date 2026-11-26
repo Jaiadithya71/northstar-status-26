@@ -1,13 +1,13 @@
 {
   "title": "Current / next",
-  "updatedAt": "2026-11-26T04:41:04+05:30",
-  "updatedLabel": "26 Nov 2026, 04:41 AM IST",
+  "updatedAt": "2026-11-26T12:55:03+05:30",
+  "updatedLabel": "26 Nov 2026, 12:55 PM IST",
   "focus": {
     "title": "N3 first through the Dec 13 retry",
     "date": "2026-11-26T00:00:00+05:30",
     "dateLabel": "Updated 04:41 IST",
     "status": "26 Nov status sync",
-    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam written, result pending): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 25 reports): boutique #10 and Mind 023 verified public; VibeStream mood engine v1 built (APK sent, not phone-tested); 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) - none a strike, no channel action; lanes still empty, restart picks waiting 9 days; QuestFit clips still held. Open for him: Kaggle entry - deadline reported at 05:29 IST today, entry status unknown (agent rechecks 08:30), SASTRA caution-deposit mail draft, Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28), Astro resume-or-paused."
+    "next": "NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam not passed; his number confirmed absent from the official pass list Nov 26, as he expected; score report due around Dec 6): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED UNTIL HE PASSES N3 (his word Nov 26): daily timed LC (Striver A2Z) + Sunday contest, Astro, Kaggle, ReelSaga restart picks. | HANDLED BY INSTINCT (per Nov 26 reports): 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) on Nov 25 - none a strike, no channel action; the ReelSaga watch keeps running. SASTRA caution-deposit mail sent to Dean SWAS 08:46 Nov 26, awaiting reply (watch in place). Boutique and Mind keep running; QuestFit and VibeStream stay active at his request (Nov 26). Open for him: Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28)."
   },
   "groups": [
     {
@@ -3314,6 +3314,11 @@
           "status": "Target: NAT-TEST 3Q pass before planned Japan landing. Nov 15 exam written; Jai's estimate ~70 marks, result pending - Dec 13 retry planned. Daily targets from Nov 16: 75 new words on weekdays, 90 on weekends, 900-1,200 review taps a day. Goal, not a reported pass. Earlier card wording said JLPT N3; the Nov 15 exam was NAT-TEST 3Q.",
           "next": "Run the daily sprint target: 75 new A words with same-day matched B plus 19 carryover B, reviews oldest-first at home; record practice and review taps; confirm the Nov 15 result when published.",
           "dailyLog": [
+            {
+              "at": "2026-11-26T12:55:03+05:30",
+              "source": "Agent · scope pause + Nov 15 result (Nov 26)",
+              "text": "Nov 15 NAT-TEST result: not passed - his number confirmed absent from the official pass list Nov 26, as he expected; score report due around Dec 6 via the 2020 Gmail, he agreed to forward it. His word Nov 26 08:47: 'Lets pause astro and others till i pass n3' - settled scope: paused until he passes N3: Astro, Kaggle, ReelSaga restart picks; QuestFit and VibeStream stay active at his request; Boutique, Mind and the ReelSaga watch keep running. SASTRA caution-deposit mail sent to Dean SWAS 08:46 Nov 26, watch in place. Superseded focus-header text, preserved: NOW: Japanese N3 - Dec 13 retry sprint day 11 of 14 (Nov 15 exam written, result pending): day 10 had 0 new words on record (last sync 12:57), 129 behind the Nov 29 line, 2,656 reviews due. Today: 75 new A with same-day matched B, sync first. | PAUSED: daily timed LC (Striver A2Z) + Sunday contest - his word Oct 29; resumes only when he says he is good with the syllabus. | HANDLED BY INSTINCT (per Nov 25 reports): boutique #10 and Mind 023 verified public; VibeStream mood engine v1 built (APK sent, not phone-tested); 27 Kuaikan blocks on ReelSaga (13 Cast Me Out, 11 Mute Heiress, 3 Don's Bride) + 3 DramaBox (Golden Dragon Rider) - none a strike, no channel action; lanes still empty, restart picks waiting 9 days; QuestFit clips still held. Open for him: Kaggle entry - deadline reported at 05:29 IST today, entry status unknown (agent rechecks 08:30), SASTRA caution-deposit mail draft, Visa SWE application (deadline Nov 30, account on hold, agent asks again Nov 28), Astro resume-or-paused."
+            },
             {
               "at": "2026-11-26T04:41:04+05:30",
               "source": "Agent · sprint day-10 reconciliation (Nov 26 rollover)",
